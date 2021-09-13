@@ -1,11 +1,11 @@
 ---
 title: 查看列表设置
-description: '使用列表设置定义 [!DNL Commerce] 目录产品在 [!DNL Amazon Marketplace]上的列表方式。'
-redirect_from: /sales-channels/asc/ob-listing-settings.html: 
+description: 使用列表设置定义 [!DNL Commerce] 目录产品在 [!DNL Amazon Marketplace]上的列表方式。
+redirect_from: /sales-channels/asc/ob-listing-settings.html
 exl-id: 939babd0-8e6d-40b8-a42a-fc5c7dc3f98b
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: 632157839130461869345724bdfc03b306a4f613
 workflow-type: tm+mt
-source-wordcount: 246
+source-wordcount: '246'
 ht-degree: 0%
 
 ---

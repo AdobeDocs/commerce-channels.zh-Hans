@@ -1,11 +1,11 @@
 ---
 title: 上市规则
 description: 使用上市规则可确定作为Amazon Marketplace列表发布的商务目录产品。
-redirect_from: /sales-channels/asc/ob-listing-rules.html: /sales-channels/asc/ob-listing-preview.html: /sales-channels/asc/listing-rule-preview.html: 
+redirect_from: /sales-channels/asc/ob-listing-rules.html/sales-channels/asc/ob-listing-preview.html/sales-channels/asc/listing-rule-preview.html
 exl-id: b28a625b-64cf-4119-98bb-f1ea33043c8f
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: 632157839130461869345724bdfc03b306a4f613
 workflow-type: tm+mt
-source-wordcount: 953
+source-wordcount: '953'
 ht-degree: 0%
 
 ---

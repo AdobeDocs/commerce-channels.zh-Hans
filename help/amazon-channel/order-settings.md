@@ -1,11 +1,11 @@
 ---
 title: 订单设置
 description: 使用“订单”设置确定如何将Amazon订单导入到您的商店并在其中进行处理。
-redirect_from: /sales-channels/asc/ob-order-settings.html: 
+redirect_from: /sales-channels/asc/ob-order-settings.html
 exl-id: dc8d0ce1-86a8-4949-b49a-73c5cf62db16
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: 632157839130461869345724bdfc03b306a4f613
 workflow-type: tm+mt
-source-wordcount: 1462
+source-wordcount: '1462'
 ht-degree: 0%
 
 ---

@@ -2,9 +2,9 @@
 title: “智能重定价规则：可选最高价格”
 description: 使用可选的最高价格设置，针对可管理Amazon列表的智能定价规则保护您的最高产品价格。
 exl-id: edc40e6b-e71f-41a3-8d5f-8bb73ada42a3
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -23,23 +23,23 @@ ht-degree: 0%
 
 ## 配置可选的最高价格
 
-在&#x200B;_[!UICONTROL Optional Ceiling Price]_部分中定义可选的最高价格设置。
+在 _[!UICONTROL Optional Ceiling Price]_中。
 
-1. 对于&#x200B;**[!UICONTROL Ceiling Price Source]**，选择一个属性。
+1. 对于 **[!UICONTROL Ceiling Price Source]**，请选择一个属性。
 
-   选择[!DNL Commerce] [产品属性](https://docs.magento.com/user-guide/catalog/product-attributes.html){:target=&quot;_blank&quot;}，以指示您的相对上限。 例如，如果您不希望Amazon列表价格高于项目MSRP，则应选择`Manufacturer's Suggested Retail Price`属性。
+   选择 [!DNL Commerce] [产品属性](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;}，表示您的相对上限。 例如，如果您不希望Amazon列表价格高于项目的MSRP，则可以选择 `Manufacturer's Suggested Retail Price` 属性。
 
-1. 对于&#x200B;**[!UICONTROL Ceiling Price Action]**，选择一个选项。
+1. 对于 **[!UICONTROL Ceiling Price Action]**，选择一个选项。
 
-   - `Decrease By`  — 选择您希望何时向下调 _[!UICONTROL Ceiling Price Source]_整定义的值，为规则创建较低的上限价格，然后再将其列入Amazon。
+   - `Decrease By`  — 选择要定义的时间 _[!UICONTROL Ceiling Price Source]_值，为规则创建较低的最高价格，然后再上市到Amazon。
 
-   - `Increase By`  — 选择您希望何时调整定 _[!UICONTROL Ceiling Price Source]_义的值，为规则创建更高的上限价格，然后再将其列入Amazon。
+   - `Increase By`  — 选择要定义的时间 _[!UICONTROL Ceiling Price Source]_值，为规则创建更高的最高价格，然后再上市到Amazon。
 
-   - `Match`  — 选择您不希望上市价格高于定义值的时 _[!UICONTROL Ceiling Price Source]_间。如果设置为`Match`，则_[!UICONTROL Apply]_&#x200B;和&#x200B;_[!UICONTROL Ceiling Adjustment Amount]_字段会被禁用。
+   - `Match`  — 选择不希望上市价格在定义价格以上波动的时间 _[!UICONTROL Ceiling Price Source]_值。 当设置为 `Match`,_[!UICONTROL Apply]_ 和 _[!UICONTROL Ceiling Adjustment Amount]_字段。
 
-1. 将默认的&#x200B;**[!UICONTROL Apply]**&#x200B;保留为`Apply as percentage`。
+1. 离开 **[!UICONTROL Apply]** 默认为 `Apply as percentage`.
 
-1. 对于&#x200B;**[!UICONTROL Ceiling Adjustment Price]**，输入百分比的数值以调整&#x200B;_[!UICONTROL Ceiling Price Source]_值。
+1. 对于 **[!UICONTROL Ceiling Adjustment Price]**，输入百分比的数值以调整 _[!UICONTROL Ceiling Price Source]_值。
 
 在本例中，最高价格被设置为比项目MSRP低2%。
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 | 字段 | 描述 |
 |---|---|
-| [!UICONTROL Ceiling Price Source] | 选择[!DNL Commerce] [产品属性](https://docs.magento.com/user-guide/catalog/product-attributes.html){:target=&quot;_blank&quot;}，以指示您的相对上限。 例如，如果您不希望产品清单价格高于项目MSRP，则应选择`Manufacturer's Suggested Retail Price`属性。 |
-| [!UICONTROL Ceiling Price Action] | 选择定价调整操作。 选项：<ul><li>**[!UICONTROL Decrease By]**  — 选择您希望何时向下调 _[!UICONTROL Ceiling Price Source]_整定义的值，为规则创建较低的上限价格，然后再将其列入Amazon。</li><li>**[!UICONTROL Increase By]**  — 选择您希望何时调整定 _[!UICONTROL Ceiling Price Source]_义的值，为规则创建更高的上限价格，然后再将其列入Amazon。</li><li>**[!UICONTROL Match]**  — 选择您不希望上市价格高于定义值的时 _[!UICONTROL Ceiling Price Source]_间。如果设置为`Match`，则_[!UICONTROL Apply]_&#x200B;和&#x200B;_[!UICONTROL Ceiling Adjustment Amount]_字段会被禁用。</li></ul> |
-| [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]**  — 相对于值的百分比 _[!UICONTROL Ceiling Price Source]_调整。 |
-| [!UICONTROL Ceiling Price Adjustment] | 输入百分比的数值以调整&#x200B;_[!UICONTROL Ceiling Price Source]_值。 |
+| [!UICONTROL Ceiling Price Source] | 选择 [!DNL Commerce] [产品属性](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;}，表示您的相对上限。 例如，如果您不希望产品列表价格高于项目的MSRP，则可以选择 `Manufacturer's Suggested Retail Price` 属性。 |
+| [!UICONTROL Ceiling Price Action] | 选择定价调整操作。 选项：<ul><li>**[!UICONTROL Decrease By]**  — 选择要定义的时间 _[!UICONTROL Ceiling Price Source]_值，为规则创建较低的最高价格，然后再上市到Amazon。</li><li>**[!UICONTROL Increase By]**  — 选择要定义的时间 _[!UICONTROL Ceiling Price Source]_值，为规则创建更高的最高价格，然后再上市到Amazon。</li><li>**[!UICONTROL Match]**  — 选择不希望上市价格在定义价格以上波动的时间 _[!UICONTROL Ceiling Price Source]_值。 当设置为 `Match`,_[!UICONTROL Apply]_ 和 _[!UICONTROL Ceiling Adjustment Amount]_字段。</li></ul> |
+| [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]**  — 相对于 _[!UICONTROL Ceiling Price Source]_值。 |
+| [!UICONTROL Ceiling Price Adjustment] | 输入百分比的数值以调整 _[!UICONTROL Ceiling Price Source]_值。 |

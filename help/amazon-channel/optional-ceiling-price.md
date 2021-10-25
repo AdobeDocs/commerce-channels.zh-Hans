@@ -4,7 +4,7 @@ description: 使用可选的最高价格设置，针对可管理Amazon列表的�
 exl-id: edc40e6b-e71f-41a3-8d5f-8bb73ada42a3
 source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---

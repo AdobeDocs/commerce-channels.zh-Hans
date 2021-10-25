@@ -16,20 +16,20 @@ ht-degree: 0%
 
 ## 标准价格规则
 
-[标准价格规则](./standard-price-rules.md)允许您相对于[!DNL Commerce]目录价格（或价格来源），将Amazon列表价格增加或减少特定百分比或固定美元金额。
+A [标准价格规则](./standard-price-rules.md) 允许您按特定百分比或固定美元金额，增加或减少Amazon的上市价格 [!DNL Commerce] 目录价格（或价格来源）。
 
 | 区域 | 描述 |
 |--- |--- |
-| [[!UICONTROL Select Rule Type]](./standard-price-rules.md) | 将规则类型设置为`Standard price rule`。 |
+| [[!UICONTROL Select Rule Type]](./standard-price-rules.md) | 将规则类型设置为 `Standard price rule`. |
 | [[!UICONTROL Price Adjustment]](./standard-price-rules.md) | 定义应用于价格来源以确定上市价格的调整计算 |
 
 ## 智能重定价规则
 
-[智能重定价规则](./intelligent-repricing-rules.md)使用Amazon竞争者的定价来确定您的上市价格。 竞争对手是列出您在Amazon上列出的相同产品的其他销售商。
+安 [智能重定价规则](./intelligent-repricing-rules.md) 使用Amazon竞争者的定价来确定您的上市价格。 竞争对手是列出您在Amazon上列出的相同产品的其他销售商。
 
 | 区域 | 描述 |
 |--- |--- |
-| [[!UICONTROL Select Rule Type]](./intelligent-repricing-rules.md) | 将规则类型设置为`Intelligent repricing rule`，并同时设置竞争者价格来源和反馈要求。 |
+| [[!UICONTROL Select Rule Type]](./intelligent-repricing-rules.md) | 将规则类型设置为 `Intelligent repricing rule` 以及您的竞争者价格来源和反馈要求。 |
 | [[!UICONTROL Competitor Conditional Variances]](./competitor-conditional-variances.md) | 定义竞争对手销售的相同产品的条件差异。 |
 | [[!UICONTROL Price Adjustment]](./price-adjustment.md) | 定义应用于价格来源以确定上市价格的调整计算 |
 | [[!UICONTROL Floor Price]](./floor-price.md) | 定义产品的最低价格，以防止多个定价规则将上市价格设置得过低。 |

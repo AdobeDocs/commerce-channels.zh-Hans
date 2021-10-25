@@ -19,7 +19,7 @@ ht-degree: 0%
 
 定义这些值会增加进行精确匹配的可能性，从而最大限度地减少以后手动匹配产品清单的需要。 在载入中添加属性 [预设置任务](./amazon-pre-setup-tasks.md)，则Amazon销售渠道在Amazon和 [!DNL Commerce] 入门后。
 
-If you only create the Amazon ASIN attribute (without adding ASIN values per product), your [!DNL Commerce] products might not automatically match to your Amazon listings. 您可以通过 _商店评论_. 但是，手动匹配不会创建共享和同步产品数据所需的数据元素。
+如果仅创建Amazon ASIN属性（不为每个产品添加ASIN值），则您的 [!DNL Commerce] 产品可能不会自动与您的Amazon列表匹配。 您可以通过 _商店评论_. 但是，手动匹配不会创建共享和同步产品数据所需的数据元素。
 
 >[!IMPORTANT]
 >
@@ -35,9 +35,9 @@ If you only create the Amazon ASIN attribute (without adding ASIN values per pr
 
 1. 要打开属性属性，请单击 **[!UICONTROL Add New Attribute]**.
 
-1. For **[!UICONTROL Default Label]**, enter `Amazon ASIN` (the name for your attribute).
+1. 对于 **[!UICONTROL Default Label]**，输入 `Amazon ASIN` （属性的名称）。
 
-1. For **[!UICONTROL Catalog Input Type for Store Owner]**, choose `Text Field`.
+1. 对于 **[!UICONTROL Catalog Input Type for Store Owner]**，选择 `Text Field`.
 
 1. 对于 **[!UICONTROL Values Required]**，选择 `No`.
 
@@ -61,7 +61,7 @@ If you only create the Amazon ASIN attribute (without adding ASIN values per pr
 
 ![Amazon ASIN属性](assets/creating-asin-attribute.png)
 
-## Create the Amazon Condition product attribute
+## 创建Amazon条件产品属性
 
 1. 登录 [!DNL Commerce] 管理员。
 
@@ -79,7 +79,7 @@ If you only create the Amazon ASIN attribute (without adding ASIN values per pr
 
 1. 对于 **[!UICONTROL Values Required]**，选择 `No`.
 
-1. For **[!UICONTROL Manage Options (Values for your Attribute)]**, add each of your condition options.
+1. 对于 **[!UICONTROL Manage Options (Values for your Attribute)]**，添加每个条件选项。
 
    标准Amazon条件包括：
 
@@ -98,7 +98,7 @@ If you only create the Amazon ASIN attribute (without adding ASIN values per pr
 
 1. 在 _[!UICONTROL Admin]_列中，输入所添加条件的标签的文本(例如 `New`, `Used`和 `Used-Like New`)
 
-1. Click **[!UICONTROL Add Option]** to add more options, as needed.
+1. 单击 **[!UICONTROL Add Option]** 以根据需要添加更多选项。
 
 1. 展开 _[!UICONTROL Advanced Attribute Properties]_，并设置选项。
 

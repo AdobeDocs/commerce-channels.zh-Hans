@@ -15,9 +15,9 @@ ht-degree: 2%
 
 ### 放弃后续规则
 
-放弃后续规则是定价规则中的一项强大功能，可阻止多个定价规则堆叠并提供意外的额外折扣。 要放弃后续规则，定价规则必须使用在[定价规则常规设置](./pricing-rule-general-settings.md)的&#x200B;_[!UICONTROL Priority]_部分中设置的优先级。
+放弃后续规则是定价规则中的一项强大功能，可阻止多个定价规则堆叠并提供意外的额外折扣。 要放弃后续规则，定价规则必须使用 _[!UICONTROL Priority]_部分 [定价规则常规设置](./pricing-rule-general-settings.md).
 
-如果将&#x200B;**[!UICONTROL Discard Subsequent Rules]**&#x200B;设置为`Yes`，则优先级较低（数字较高）的规则不适用于符合条件的产品。
+如果 **[!UICONTROL Discard Subsequent Rules]** 设置为 `Yes`，则优先级较低（数字较高）的规则不适用于符合条件的产品。
 
 例如，假设有三个定价规则：
 
@@ -25,9 +25,9 @@ ht-degree: 2%
 |----------|----|----|----|
 | 1 | 销售产品优惠10% | 1 | 否 |
 | 2 | $2的销售产品 | 2 | 是 |
-| 1 | 占所有产品的5% | 1 | 否 |
+| 3 | 占所有产品的5% | 3 | 否 |
 
-在此方案中，规#1和#2适用于符合条件的产品。 规则#3仅适用于规则#2中未包含的符合条件的产品，因为它的优先级低于示例#2，并且&#x200B;**[!UICONTROL Discard Subsequent Rules]**&#x200B;设置为`Yes`。 因此，属于销售类别的合格产品将享受10%的折扣，并享受Amazon上市价格的2美元优惠。
+在此方案中，规#1和#2适用于符合条件的产品。 规则#3仅适用于规则中未包含的符合条#2的产品，因为它的优先级低于示例#2和 **[!UICONTROL Discard Subsequent Rules]** 设置为 `Yes`. 因此，属于销售类别的合格产品将享受10%的折扣，并享受Amazon上市价格的2美元优惠。
 
 ### 应用两个标准价格规则
 
@@ -78,9 +78,9 @@ ht-degree: 2%
 
 价格：15美元
 
-[从Amazon](./buy-box-competitor-pricing.md) 购买Boxprice:10美元
+[Buy Box](./buy-box-competitor-pricing.md) Amazon价格：10美元
 
-由于[Buy Box](./buy-box-competitor-pricing.md)价格低于原价，因此产品将按原价列出。
+因为 [Buy Box](./buy-box-competitor-pricing.md) 价格低于原价，产品按原价上市。
 
 应用规则后的最终价格：15美元
 
@@ -88,9 +88,9 @@ ht-degree: 2%
 
 价格：$5
 
-[从Amazon](./buy-box-competitor-pricing.md) 购买Boxprice:10美元
+[Buy Box](./buy-box-competitor-pricing.md) Amazon价格：10美元
 
-由于[Buy Box](./buy-box-competitor-pricing.md)价格大于原始价格，因此产品将以[Buy Box](./buy-box-competitor-pricing.md)价格列出。
+因为 [Buy Box](./buy-box-competitor-pricing.md) 价格高于原价，则产品按 [Buy Box](./buy-box-competitor-pricing.md) 价格。
 
 应用规则后的最终价格：10美元
 
@@ -114,9 +114,9 @@ ht-degree: 2%
 
 计算底价：16美元
 
-[从Amazon](./buy-box-competitor-pricing.md) 购买Boxprice:15美元
+[Buy Box](./buy-box-competitor-pricing.md) Amazon价格：15美元
 
-由于[Buy Box](./buy-box-competitor-pricing.md)的价格低于计算的[楼价](./floor-price.md)，因此产品将列在计算的[楼价](./floor-price.md)中。
+因为 [Buy Box](./buy-box-competitor-pricing.md) 价格小于计算价格 [最低价格](./floor-price.md)，则产品将列在 [最低价格](./floor-price.md).
 
 应用规则后的最终价格：16美元
 
@@ -124,11 +124,11 @@ ht-degree: 2%
 
 价格：15美元
 
-计算的[楼价](./floor-price.md):12美元
+已计算 [最低价格](./floor-price.md):12美元
 
-[从Amazon](./buy-box-competitor-pricing.md) 购买Boxprice:15美元
+[Buy Box](./buy-box-competitor-pricing.md) Amazon价格：15美元
 
-由于[Buy Box](./buy-box-competitor-pricing.md)的价格大于计算的[楼价](./floor-price.md)，因此产品以[Buy Box](./buy-box-competitor-pricing.md)的价格列出。
+因为 [Buy Box](./buy-box-competitor-pricing.md) 价格大于已计算 [最低价格](./floor-price.md)，则产品将列在 [Buy Box](./buy-box-competitor-pricing.md) 价格。
 
 应用规则后的最终价格：15美元
 
@@ -138,9 +138,9 @@ ht-degree: 2%
 
 计算底价：US$13.60
 
-[从Amazon](./buy-box-competitor-pricing.md) 购买Boxprice:15美元
+[Buy Box](./buy-box-competitor-pricing.md) Amazon价格：15美元
 
-由于[Buy Box](./buy-box-competitor-pricing.md)的价格大于计算的[楼价](./floor-price.md)，因此产品以[Buy Box](./buy-box-competitor-pricing.md)的价格列出。
+因为 [Buy Box](./buy-box-competitor-pricing.md) 价格大于已计算 [最低价格](./floor-price.md)，则产品将列在 [Buy Box](./buy-box-competitor-pricing.md) 价格。
 
 应用规则后的最终价格：15美元
 
@@ -181,7 +181,7 @@ ht-degree: 2%
 
 条件：已使用；可接受
 
-由于“已使用”条件的[最低竞争者价格](./lowest-competitor-pricing.md)为$13，因此产品的标价为$13。
+因为 [最低竞争者价格](./lowest-competitor-pricing.md) 对于“已用”条件为$13，则产品将列为$13。
 
 应用规则后的最终价格：13美元
 
@@ -193,9 +193,9 @@ ht-degree: 2%
 | [!UICONTROL Ceiling price source] | 10美元 |
 | [!UICONTROL Currency conversion] | 1.25欧元：1美元 |
 
-[欧](./optional-ceiling-price.md) 洲(VAT)市场最高价格：10美元x 1.25 = 12.50美元
+[最高价格](./optional-ceiling-price.md) 在欧洲(VAT)市场中：10美元x 1.25 = 12.50美元
 
-当欧洲(VAT)市场的[最高价格](./optional-ceiling-price.md)达到时，将计算并添加VAT。
+当 [最高价格](./optional-ceiling-price.md) 在欧洲(VAT)市场中，计算并添加VAT。
 
 增值税后最终价格：$12.50 x(1.1)= $13.75
 
@@ -210,7 +210,7 @@ ht-degree: 2%
 | 最高价格来源 | 10美元 |
 | 货币兑换 | 1.25欧元：1美元 |
 
-[欧](./optional-ceiling-price.md) 洲(VAT)市场最高价格：10美元x 1.25 = 12.50美元
+[最高价格](./optional-ceiling-price.md) 在欧洲(VAT)市场中：10美元x 1.25 = 12.50美元
 
 增值税后最终价格：$12.50 x(1.1)= $13.75
 
@@ -223,23 +223,23 @@ ht-degree: 2%
 | [!UICONTROL Apply] | 作为固定金额应用 |
 | [!UICONTROL Adjustment Amount] | $5.00 |
 
-达到[最高价格](./optional-ceiling-price.md)后，将在智能定价规则的顶部应用标准定价规则。
+当 [最高价格](./optional-ceiling-price.md) 命中，则会在智能定价规则的顶部应用标准定价规则。
 
 应用标准定价规则后的最终价格：13.75美元+ 5.00美元= 18.75美元
 
 ### 价格调整
 
-在本例中，最具竞争力的价格是通过查看Amazon [竞争者的最低价格](./lowest-competitor-pricing.md)来定义的，该价格具有95%的正反馈和1,000个商家评论的最低反馈计数。
+在本例中，最具竞争力的价格是通过查看Amazon [竞争对手的最低价格](./lowest-competitor-pricing.md) 有95%的正面反馈，最少有1,000个商家评论。
 
 ![价格调整示例](assets/amazon-price-adjustment-example.png)
 
 根据这些参数运行此搜索后，竞争价格可返回25美元。
 
-从此处，有三个基于此最低价格的不同[价格规则操作](./pricing-rule-actions.md)选项。
+这里有三种不同 [价格规则操作](./pricing-rule-actions.md) 基于最低价格的选择。
 
 | 字段 | 描述 |
 |--- |--- |
-| [!UICONTROL Price Action] | 选项：<ul><li>**[!UICONTROL Decrease By]**  — 此选项会降低您的上市价格，相对于最低竞 [争者价格](./lowest-competitor-pricing.md)。</li><li>**[!UICONTROL Increase By]**  — 此选项会将您的上市价格相对于最低 [竞争者价格提高](./lowest-competitor-pricing.md)。</li><li>**[!UICONTROL Match Competitor Price]**  — 此选项会更改您的Amazon上市价格，以根据参数匹配最低价格。在本例中，Amazon的上市价格为$25。</li></ul> |
+| [!UICONTROL Price Action] | 选项：<ul><li>**[!UICONTROL Decrease By]**  — 此选项可降低贵公司与 [最低竞争者价格](./lowest-competitor-pricing.md).</li><li>**[!UICONTROL Increase By]**  — 此选项可提高贵公司相对于 [最低竞争者价格](./lowest-competitor-pricing.md).</li><li>**[!UICONTROL Match Competitor Price]**  — 此选项会更改您的Amazon上市价格，以根据参数匹配最低价格。 在本例中，Amazon的上市价格为$25。</li></ul> |
 | [!UICONTROL Apply] | 选项：以百分比形式应用/以固定金额应用 |
 | [!UICONTROL Adjustment Amount] | 用于定义要应用的折扣的百分比或固定金额的数值。 <br>这些选择会导致获得最低价格，并将其设置为较低$0.01。 |
 
@@ -252,6 +252,6 @@ ht-degree: 2%
 | [!UICONTROL Apply] | 按百分比应用 |
 | [!UICONTROL Floor Adjustment Amount] | 5 |
 
-[底](./floor-price.md) 价计算=底价来源 `$5` x底价调整额 `5%` = $5.25
+[最低价格](./floor-price.md) 计算=最低价格来源 `$5` x底调整金额 `5%` = $5.25
 
 应用智能定价规则时，它确实允许此特定产品的上市价格低于$5.25（当成本为$5时）。

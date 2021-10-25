@@ -11,14 +11,14 @@ ht-degree: 0%
 
 # 查看列表详细信息
 
-_[!UICONTROL Product Listing Details]_页面显示有关活动产品清单的其他信息，包括列表活动日志，该日志显示单个SKU/产品中的更改。 此信息可帮助您了解有关您的产品以及有关SKU/产品个别更改的竞争量度。 此页面上的其他信息包括：
+的 _[!UICONTROL Product Listing Details]_页面会显示有关活动产品清单的其他信息，包括列表活动日志，该日志显示单个SKU/产品中的更改。 此信息可帮助您了解有关您的产品以及有关SKU/产品个别更改的竞争量度。 此页面上的其他信息包括：
 
 - **[!UICONTROL Listing Details]**  — 产品详细信息，包括名称和Amazon销售商SKU
-- **[!UICONTROL Listing Activity Log]**  — 此上市发生的所有更改的历史记录，如定价和数量/股票的更改。无需进一步操作。 提供此日志供查看，以了解更改历史记录。
-- **[!UICONTROL Buy Box Competitor Pricing]** -Amazon状态和竞争 [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 者定价数据
+- **[!UICONTROL Listing Activity Log]**  — 此上市发生的所有更改的历史记录，如定价和数量/股票的更改。 无需进一步操作。 提供此日志供查看，以了解更改历史记录。
+- **[!UICONTROL Buy Box Competitor Pricing]** -Amazon的数据 [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 状态和竞争者定价
 - **[!UICONTROL Lowest Competitor Pricing]**  — 有关Amazon竞争对手最低的定价和反馈信息的信息
 
-Amazon销售渠道主页共享一些常用的[工作区控件](./workspace-controls.md)，这些控件允许您自定义显示的数据。
+Amazon销售渠道主页共享一些常见内容 [工作区控件](./workspace-controls.md) 允许您自定义显示的数据。
 
 ## 列出详细信息
 
@@ -45,10 +45,10 @@ __
 
 ## Buy Box竞争者定价 {#buy-box-competitor-pricing}
 
-此选项卡显示有关持有[[!DNL Buy Box]](./buy-box-competitor-pricing.md)列表职位的Amazon商家的信息。 此信息可用于了解您的竞争对手在Amazon上的价格定位。 显示的信息包括：
+此选项卡显示有关持有 [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 列表的位置。 此信息可用于了解您的竞争对手在Amazon上的价格定位。 显示的信息包括：
 
 - 亚洲：10位的Amazon产品标识符。
-- 卖家：标识您是否是[!DNL Buy Box]卖家。 选项是/否。
+- 卖家：标识您是否 [!DNL Buy Box] 卖家。 选项是/否。
 - 条件：标识为列表定义的条件。
 - 上市价格：确定上市发布的价格。
 - 装运价格：确定添加到列表的装运价格。
@@ -59,7 +59,7 @@ __
 
 ## 竞争者定价最低 {#lowest-competitor-pricing}
 
-此选项卡显示有关同一列表的Amazon竞争者的信息。 此信息可用于了解价格定位和[最低竞争者定价](./lowest-competitor-pricing.md)。 显示的信息包括：
+此选项卡显示有关同一列表的Amazon竞争者的信息。 此信息可用于了解价格定位和 [最低竞争对手定价](./lowest-competitor-pricing.md). 显示的信息包括：
 
 - 亚洲：10位的Amazon产品标识符。
 - 条件：标识为列表定义的条件。

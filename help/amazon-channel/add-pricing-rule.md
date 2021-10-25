@@ -11,25 +11,25 @@ ht-degree: 0%
 
 # 添加定价规则
 
-在集成您的商店后，可以随时配置或修改定价规则。 定价规则是[列表设置](./listing-settings.md)的一部分，可在[存储功能板](./amazon-store-dashboard.md)中访问。
+在集成您的商店后，可以随时配置或修改定价规则。 定价规则是 [列表设置](./listing-settings.md) 和可在 [存储仪表板](./amazon-store-dashboard.md).
 
 ## 标准价格规则
 
-通过标准价格规则操作，您可以相对于[Listing Price](./listing-price.md)中定义的**[!UICONTROL Magento Price Source*]*，按特定百分比或固定美元金额增加或减少Amazon列表价格。
+通过标准价格规则操作，您可以按特定百分比或固定美元金额，增加或减少Amazon上市价格。*[!UICONTROL Magento Price Source*]* 在 [上市价格](./listing-price.md).
 
 ### 添加标准定价规则
 
-1. 单击存储仪表板上的&#x200B;**[!UICONTROL Pricing rules]**。
+1. 单击 **[!UICONTROL Pricing rules]** 在商店仪表板上。
 
-1. 单击&#x200B;**[!UICONTROL Add new pricing rule]**。
+1. 单击 **[!UICONTROL Add new pricing rule]**.
 
-1. 完成规则的&#x200B;**[[!UICONTROL General Settings]](./pricing-rule-general-settings.md)**。
+1. 完成 **[[!UICONTROL General Settings]](./pricing-rule-general-settings.md)** 规则。
 
-1. 完成规则的&#x200B;**[[!UICONTROL Price Rule Conditions]](./pricing-rule-conditions.md)**。
+1. 完成 **[[!UICONTROL Price Rule Conditions]](./pricing-rule-conditions.md)** 规则。
 
-1. 完成规则的&#x200B;**[[!UICONTROL Price Rule Actions]](./standard-price-rules.md)**。
+1. 完成 **[[!UICONTROL Price Rule Actions]](./standard-price-rules.md)** 规则。
 
-1. 完成后，单击&#x200B;**[!UICONTROL Save pricing rule]**。
+1. 完成后，单击 **[!UICONTROL Save pricing rule]**.
 
 ## 智能重定价规则
 
@@ -37,15 +37,15 @@ ht-degree: 0%
 
 ### 添加智能重定价规则
 
-1. 单击存储仪表板上的&#x200B;**[!UICONTROL Pricing rules]**。
+1. 单击 **[!UICONTROL Pricing rules]** 在商店仪表板上。
 
-1. 单击&#x200B;**[!UICONTROL Add new pricing rule]**。
+1. 单击 **[!UICONTROL Add new pricing rule]**.
 
-1. 完成规则的&#x200B;**[[!UICONTROL General Settings]](./pricing-rule-general-settings.md)**。
+1. 完成 **[[!UICONTROL General Settings]](./pricing-rule-general-settings.md)** 规则。
 
-1. 完成规则的&#x200B;**[[!UICONTROL Price Rule Conditions]](./pricing-rule-conditions.md)**。
+1. 完成 **[[!UICONTROL Price Rule Conditions]](./pricing-rule-conditions.md)** 规则。
 
-1. 完成规则的&#x200B;**[!UICONTROL Price Rule Actions]**。
+1. 完成 **[!UICONTROL Price Rule Actions]** 规则。
 
    - [[!UICONTROL Select Rule Typ]e](./intelligent-repricing-rules.md)
 
@@ -57,4 +57,4 @@ ht-degree: 0%
 
    - [[!UICONTROL Optional Ceiling Price]](./optional-ceiling-price.md)
 
-1. 完成后，单击&#x200B;**[!UICONTROL Save pricing rule]**。
+1. 完成后，单击 **[!UICONTROL Save pricing rule]**.

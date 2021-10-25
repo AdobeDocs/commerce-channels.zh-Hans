@@ -11,9 +11,9 @@ ht-degree: 0%
 
 # 学习和准备
 
-_[!UICONTROL Learning and Preparation]_视图显示集成Amazon存储区之前建议的预设置任务列表。 它还提供学习材料的链接，例如：
+的 _[!UICONTROL Learning and Preparation]_“视图”显示集成Amazon商店之前建议的预设置任务列表。 它还提供学习材料的链接，例如：
 
-- 本[用户指南](./overview.md)
+- 此 [用户指南](./overview.md)
 - 视频教程
 
 ![学习和准备视图](assets/learning-preparation.png)

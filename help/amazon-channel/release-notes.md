@@ -82,7 +82,7 @@ ht-degree: 0%
 
 此版本的 [!DNL Amazon sales channel] 包含新功能以及改进和修复。
 
-![已知问题](../assets/bug.svg) When [!DNL Amazon sales channel] 4.2.0与版本2.4.0和 [Inventory management](https://docs.magento.com/user-guide/catalog/inventory.html) 启用时，存在一个已知问题，该问题会阻止在您的商务目录中添加产品。 此问题将在未来的Commerce版本中解决。
+![已知问题](../assets/bug.svg) When [!DNL Amazon sales channel] 4.2.0已与版本2.4.0和 [Inventory management](https://docs.magento.com/user-guide/catalog/inventory.html) 启用时，存在一个已知问题，该问题会阻止在您的商务目录中添加产品。 此问题将在未来的Commerce版本中解决。
 
 ![新建](../assets/new.svg) [!DNL Amazon sales channel] 已得到增强，可接受基于文本的地址数据并将其与标准化地址格式（包括城市、州和邮政编码）进行匹配。 此更新使订单和发运数据能够与Amazon同步（同步），而不会出现地址错误。<br/>例如，购物者将城市、州/省、邮政编码输入为 `Escondido, californiA 92025-1501`. AmazonSales Channel会导入数据，并将数据与标准格式匹配，如 `Escondido, CA 92025`，然后以此标准化格式将其同步回Amazon。
 

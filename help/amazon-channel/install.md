@@ -1,10 +1,10 @@
 ---
 title: 安装扩展
-description: 集成 [!DNL Commerce] catalog with [!DNL Amazon Seller Accounts] 通过 [!DNL Amazon Marketplace]，下载并安装AmazonSales Channel扩展。
+description: 集成 [!DNL Commerce] 目录 [!DNL Amazon Seller Accounts] 通过 [!DNL Amazon Marketplace]，下载并安装AmazonSales Channel扩展。
 exl-id: ebf22e28-b6a2-420b-80ca-2d750839286c
-source-git-commit: 8d12a839bbdf77f27c732507b5b776729e252a9f
+source-git-commit: e20e377fdef565ca526e6f67cca126c36b450e75
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >仅 [!DNL Amazon Sales Channel] Adobe Commerce和Magento Open Source2.4.x版本支持扩展4.0及更高版本。 如果您运行的是2.3.x版本，请参阅 [兼容的Amazon销售渠道版本](https://docs.magento.com/user-guide/v2.3/sales-channels/amazon/amazon-sales-channel.html){target=&quot;_blank&quot;}。 有关版本兼容性的更多信息，请参阅 [可用性](https://devdocs.magento.com/release/availability.html)开发人员文档中的{target=&quot;_blank&quot;}页面。
 
-的 [!UICONTROL Amazon Sales Channel] 扩展会安装并添加一些功能，以将您的商务目录与 [!DNL Amazon Seller Accounts] 通过 [!DNL Amazon Marketplace]. 要查看其他信息，请参阅 [AmazonSales Channel](https://marketplace.magento.com/magento-module-amazon.html) 页面 [!DNL Commerce Marketplace] 和 [发行说明](https://devdocs.magento.com/extensions/amazon-sales/release-notes/) （位于开发人员文档中）。
+的 [!UICONTROL Amazon Sales Channel] 扩展会安装并添加一些功能，以将您的商务目录与 [!DNL Amazon Seller Accounts] 通过 [!DNL Amazon Marketplace]. 要查看其他信息，请参阅 [AmazonSales Channel](https://marketplace.magento.com/magento-module-amazon.html) 页面 [!DNL Commerce Marketplace] 和 [发行说明](release-notes.md).
 
 ## 要求
 

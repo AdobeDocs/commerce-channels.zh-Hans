@@ -1,18 +1,20 @@
 ---
-user-guide-title: AmazonSales Channel用户指南
+user-guide-title: Amazon Sales Channel 用户指南
 user-guide-description: 通过将Adobe Commerce或Magento Open Source与您的 [!DNL Amazon Seller Central] 帐户。
-breadcrumb-title: 商务渠道管理器
-source-git-commit: 52f2dd0f5a722af337be72a5d556f3780aad6548
+breadcrumb-title: Amazon Sales Channel
+source-git-commit: e20e377fdef565ca526e6f67cca126c36b450e75
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 0%
+source-wordcount: '317'
+ht-degree: 2%
 
 ---
 
 
 # Amazon销售渠道 —  [!DNL channel manager] 对于Adobe Commerce {#amazon}
 
-- [Amazon销售渠道](overview.md)
+- [指南概述](guide-overview.md)
+- [Amazon销售渠道简介](overview.md)
+- [发行说明](release-notes.md)
 - 入门指南 {#getting-started}
    - [关于Amazon销售渠道](about-amazon-sales-channel.md)
    - [关于Amazon Marketplace](about-amazon-marketplace.md)

@@ -2,9 +2,9 @@
 title: '''[!DNL Amazon Sales Channel] 发行说明'''
 description: 查看发行说明，了解有关 [!DNL Amazon Sales Channel] 版本。
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
-source-git-commit: 19424bf0deebf2b5464f973edad48f63d6042463
+source-git-commit: adf86495e7de53f9ee7bc916b2a7398f04e7cbd4
 workflow-type: tm+mt
-source-wordcount: '2090'
+source-wordcount: '2130'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,17 @@ ht-degree: 0%
 
 请参阅 [即将发行的版本](https://devdocs.magento.com/release/)用于版本控制、支持和兼容性的{target=&quot;_blank&quot;}。
 
+## v4.4.3
+
+[!DNL Amazon sales channel]  4.4.3与Adobe Commerce版本2.3.x和2.4.0兼容，但仅适用于云基础架构上的Magento Open Source、Adobe Commerce和Adobe Commerce版本2.4.1及更高版本。
+
+此版本的 [!DNL Amazon sales channel] 包括以下修复。
+
+![修复](../assets/fix.svg) 添加了对Adobe Commerce 2.4.4的支持。
+
 ## v4.4.2
 
-[!DNL Amazon sales channel]  4.4.2与Adobe Commerce版本2.3.x和2.4.0兼容，但仅受云基础架构上的Magento Open Source、Adobe Commerce和Adobe Commerce版本2.4.1及更高版本支持
+[!DNL Amazon sales channel]  4.4.2与Adobe Commerce版本2.3.x和2.4.0兼容，但仅适用于云基础架构上的Magento Open Source、Adobe Commerce和Adobe Commerce版本2.4.1及更高版本。
 
 此版本的 [!DNL Amazon sales channel] 包括以下修复。
 
@@ -82,7 +90,7 @@ ht-degree: 0%
 
 此版本的 [!DNL Amazon sales channel] 包含新功能以及改进和修复。
 
-![已知问题](../assets/bug.svg) When [!DNL Amazon sales channel] 4.2.0已与版本2.4.0和 [Inventory management](https://docs.magento.com/user-guide/catalog/inventory.html) 启用时，存在一个已知问题，该问题会阻止在您的商务目录中添加产品。 此问题将在未来的Commerce版本中解决。
+![已知问题](../assets/bug.svg) When [!DNL Amazon sales channel] 4.2.0与版本2.4.0和 [Inventory management](https://docs.magento.com/user-guide/catalog/inventory.html) 启用时，存在一个已知问题，该问题会阻止在您的商务目录中添加产品。 此问题将在未来的Commerce版本中解决。
 
 ![新建](../assets/new.svg) [!DNL Amazon sales channel] 已得到增强，可接受基于文本的地址数据并将其与标准化地址格式（包括城市、州和邮政编码）进行匹配。 此更新使订单和发运数据能够与Amazon同步（同步），而不会出现地址错误。<br/>例如，购物者将城市、州/省、邮政编码输入为 `Escondido, californiA 92025-1501`. AmazonSales Channel会导入数据，并将数据与标准格式匹配，如 `Escondido, CA 92025`，然后以此标准化格式将其同步回Amazon。
 

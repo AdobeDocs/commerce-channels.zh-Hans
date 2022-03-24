@@ -1,13 +1,13 @@
 ---
 title: 安装 [!DNL Channel Manager]
 description: 安装Channel Manager扩展。
-source-git-commit: 517cafd3ccf8e3cfb38ec9a279efa2218e84694f
+exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
+source-git-commit: 8f07b215c20cc28aa9a6862bcb2b00da30a1ed84
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
-
 
 # 安装渠道管理器
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ## 更新最小稳定性设置
 
-在安装该扩展之前，必须先更新 `minimum-stability` 您的 `composer.json` 文件，以便您可以使用编辑器安装早期版本的渠道管理器。
+在安装扩展之前，请更新 `minimum-stability` 您的 `composer.json` 文件，以便您可以使用编辑器安装早期版本的渠道管理器。
 
 要更新配置，请将以下行添加到 `composer.json` 文件。
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## 安装扩展
 
-安装说明取决于您是在本地实例还是云商务实例上安装Channel Manager:
+Channel Manager的安装说明取决于Adobe Commerce或Magento Open Source是部署在本地还是云基础架构上。
 
 - 在 [本地实例](#install-on-an-on-premises-instance).
 
@@ -126,12 +126,13 @@ ht-degree: 0%
 
 有关使用分支的帮助，请参阅 [开始创建分支](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted)Adobe Commerce开发人员文档中的{target=&quot;_blank&quot;}。
 
-安装扩展时，扩展名称(&lt;vendorname>\_&lt;componentname>)会自动插入到 [app/etc/config.php](https://devdocs-beta.magento.com/guides/v2.3/config-guide/config/config-php.html){target=&quot;_blank&quot;}文件。 您无需直接编辑文件。
+在安装过程中，扩展名称(`&lt;VendorName>\_&lt;ComponentName>`)会自动插入到 [app/etc/config.php](https://devdocs-beta.magento.com/guides/v2.3/config-guide/config/config-php.html){target=&quot;_blank&quot;}文件。 您无需直接编辑文件。
 
 1. 在您的本地工作站上，更改为云项目根目录。
 
-1. 创建或签出开发分支。 请参阅 [分支](https://devdocs-beta.magento.com/cloud/env/environments-start.html#getstarted){target=&quot;_blank&quot;}。
-1. 使用编辑器名称，将扩展添加到 `require` composer.json文件的部分。
+1. 创建或签出开发 [分支](https://devdocs-beta.magento.com/cloud/env/environments-start.html#getstarted){target=&quot;_blank&quot;}。
+
+1. 使用编辑器名称，将扩展添加到 `require` 部分 `composer.json` 文件。
 
    ```bash
    $ composer require magento/channel-manager --no-update
@@ -148,7 +149,7 @@ ht-degree: 0%
    ```
 
    ```bash
-   $ git push origin &lt;branch-name>
+   $ git push origin <branch-name>
    ```
 
 1. 构建和部署完成后，使用SSH登录到远程环境，并验证扩展是否正确安装。
@@ -197,7 +198,7 @@ Could not find a matching version of package magento/channel-manager. Check the 
    $ cat /path/to/auth.json
    ```
 
-1. 验证auth.json中的凭据是否与[ 与图像ID关联的键](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target=&quot;_blank&quot;}用于注册Channel Manager服务。
+1. 验证auth.json中的凭据是否与 [与图像ID关联的键](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target=&quot;_blank&quot;}用于注册Channel Manager服务。
 
 ### 内存不足，PHP
 
@@ -223,6 +224,14 @@ Fatal error: Allowed memory size of 2146435072 bytes exhausted (tried to allocat
    $ php-d memory_limit=-1 vendor/bin/composer require magento/channel-manager
    ```
 
+### 缺少视图
+
+如果您收到有关缺失的错误 `process_catalog_exporter_view` 在“Channel Manager（渠道管理器）”安装过程中，尝试 [刷新索引器](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-index.html#config-cli-subcommands-index-reindex){target=&quot;_blank&quot;}。
+
+```bash
+php bin/magento indexer:refresh
+```
+
 ### 云部署错误
 
-有关将扩展部署到云的问题，请参阅[扩展部署失败](https://devdocs.magento.com/cloud/trouble/trouble_comp-deploy-fail.html){target=&quot;_blank&quot;}。
+有关将扩展部署到云的问题，请参阅 [扩展部署失败](https://devdocs.magento.com/cloud/trouble/trouble_comp-deploy-fail.html){target=&quot;_blank&quot;}。

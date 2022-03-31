@@ -4,7 +4,7 @@ description: 了解如何安装和使用 [!DNL Channel Manager] 将Adobe Commerc
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: 7412a3d5b78e206521a048fb56edacd8f11ddb58
+source-git-commit: ac084bf968a262dd4e7f6b6040aea2e6dc6197c2
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 0%
@@ -75,8 +75,21 @@ Adobe Commerce和Magento Open Source的渠道管理器在管理员中提供了�
 
    * 如下表所示，设置权限。 有关详细信息，请参阅 [API凭据](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) 在 *沃尔玛销售商帮助*.
 
-&#x200B;|    **AdobeWalmart的API密钥配置**
-&#x200B;| **权限** | **设置** | |—|—| |内容 |完全访问 | |获取信息源 |仅查看 | |清单 |完全访问 | |项目 |完全访问 | |滞后时间 |完全访问 | |顺序 |完全访问 | |价格 |完全访问 | |报表 |仅查看 | |返回 |完全访问 | |规则 |完全访问 | |装运 |完全访问 |
+   **AdobeWalmart的API密钥配置**
+
+   | **权限** | **设置** |
+   |----------------|-------------|
+   | 内容 | 完全访问 |
+   | 获取信息源 | 仅查看 |
+   | 库存 | 完全访问 |
+   | 项目 | 完全访问 |
+   | 滞后时间 | 完全访问 |
+   | 订购 | 完全访问 |
+   | 价格 | 完全访问 |
+   | 报告 | 仅查看 |
+   | 返回结果 | 完全访问 |
+   | 规则 | 完全访问 |
+   | 装运 | 完全访问 |
 
 ## 沃尔玛商店状态
 

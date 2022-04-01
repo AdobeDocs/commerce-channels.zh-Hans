@@ -2,9 +2,9 @@
 title: 将Sales Channel连接到 [!DNL Walmart Marketplace]
 description: 配置销售渠道并连接到Walmart Marketplace。
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: 8f07b215c20cc28aa9a6862bcb2b00da30a1ed84
+source-git-commit: a10ab3f7fa7049e48d83a942f6c5441d8147b12c
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,6 @@ ht-degree: 0%
    - 添加 **[!UICONTROL email address]** 接收与 [!DNL Channel Manager].
 
       ![配置商务与 [!DNL Walmart Marketplace] 从 [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png)
-
 
 ## 将渠道连接到Walmart Marketplace
 
@@ -80,3 +79,25 @@ ht-degree: 0%
 - 验证WalmartAdobeAPI密钥的访问配置是否具有正确的权限。 请参阅 [沃尔玛先决条件](walmart-prerequisites.md##generate-a-walmart-marketplace-api-key).
 
 - 确认Walmart API服务可从 [Walmart API状态页面](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target=&quot;_blank&quot;}。
+
+## 完成商店设置
+
+将Commerce商店连接到 [!DNL Walmart Marketplace]，则可以通过 [!DNL Channel Manager Stores] 中。
+
+要完成存储设置，请执行以下操作：
+
+1. 从管理员中，选择**[!UICONTROL Marketing** > **渠道管理器**].
+
+   ![[!DNL Walmart Marketplace API key] 配置页面](assets/connect-commerce-store-config.png)
+
+1. 通过选择商店登入行中的铅笔图标，打开连接的销售渠道。
+
+1. 开始销售渠道操作。
+
+   - [将商务目录中的产品添加到渠道管理器](add-products-to-connected-channel.md)
+
+   - [使用产品匹配将产品发布到沃尔玛](publish-listings-to-marketplace.md)
+
+   - [查看和管理库存和定价](inventory-and-price-updates.md)
+
+   - 从商务管理员查看和管理Walmart订单

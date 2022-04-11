@@ -3,9 +3,9 @@ user-guide-title: '"[!DNL Channel Manager] 指南”'
 user-guide-description: 通过将Adobe Commerce或Magento Open Source与 [!DNL Walmart Marketplace Seller Central] 帐户。
 breadcrumb-title: '"[!DNL Channel Manager Guide]"'
 hide: true
-source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
+source-git-commit: fa98401f4920ba437855b667614c763413a7b8cd
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '73'
 ht-degree: 0%
 
 ---
@@ -30,4 +30,4 @@ ht-degree: 0%
    - [向沃尔玛发布产品清单](publish-listings-to-marketplace.md)
 - 库存和定价 {#inventory-pricing}
    - [更新库存和定价](inventory-and-price-updates.md)
-
+- [管理市场订单](manage-orders.md)

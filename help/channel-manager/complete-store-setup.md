@@ -1,17 +1,17 @@
 ---
 title: 完成渠道设置
 description: 导航到连接的销售渠道以管理查看和管理产品清单、库存和价格更新，以及跟踪订单
-source-git-commit: 193eadda9b93d656bf799f9fb66a4cc3d6a40405
+exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
 
+# 完成渠道设置
 
-# 完成商店设置
-
-将Commerce商店连接到 [!DNL Walmart Marketplace]，则可以通过 [!DNL Channel Manager Stores] 中。
+将Commerce商店连接到 [!DNL Walmart Marketplace]，从完成商店设置 [!DNL Channel Manager Stores] 中。
 
 1. 从管理员中，选择**[!UICONTROL Marketing** > **渠道管理器**].
 
@@ -28,4 +28,3 @@ ht-degree: 0%
    - [了解渠道管理器如何在商务和沃尔玛之间同步库存和价格更新](inventory-and-price-updates.md)
 
    - 从商务管理员查看和管理Walmart订单
-

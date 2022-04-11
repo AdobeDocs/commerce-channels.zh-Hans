@@ -2,14 +2,15 @@
 title: 安装 [!DNL Channel Manager]
 description: 安装Channel Manager扩展。
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 50c5a3b5987f0e5227d9c4f4999caab8bf6b3fd8
+source-git-commit: 1b018a23fdeebc52539b67adb8f2cd3bb00904ff
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
 
-# 安装渠道管理器
+
+# 安装 [!DNL Channel Manager]
 
 查看 [先决条件](onboard.md#prerequisites) 并在安装“渠道管理器”之前收集所需信息。
 
@@ -42,7 +43,7 @@ Channel Manager的安装说明取决于Adobe Commerce或Magento Open Source是�
 
 ### 在本地实例上安装
 
-请按照以下说明在Adobe Commerce和Magento Open Source平台上安装。
+按照这些说明进行安装 [!DNL Channel Manager] 和Magento Open Source到内部实例。
 
 1. 登录到 [!DNL Commerce] 服务器as a [具有权限的用户](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/file-system-perms.html){target=&quot;_blank&quot;}写入 [!DNL Commerce] 文件系统。
 
@@ -126,7 +127,7 @@ Channel Manager的安装说明取决于Adobe Commerce或Magento Open Source是�
 
 有关使用分支的帮助，请参阅 [开始创建分支](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted)Adobe Commerce开发人员文档中的{target=&quot;_blank&quot;}。
 
-在安装过程中，扩展名称(`&lt;VendorName>\_&lt;ComponentName>`)会自动插入到 [app/etc/config.php](https://devdocs-beta.magento.com/guides/v2.3/config-guide/config/config-php.html){target=&quot;_blank&quot;}文件。 您无需直接编辑文件。
+在安装过程中，扩展名称(`magento\channel-manager`)会自动插入到 [app/etc/config.php](https://devdocs.magento.com/cloud/live/sens-data-over.html#configuration-data){target=&quot;_blank&quot;}文件。 您无需直接编辑文件。
 
 1. 在您的本地工作站上，更改为云项目根目录。
 
@@ -158,7 +159,7 @@ Channel Manager的安装说明取决于Adobe Commerce或Magento Open Source是�
    $ git push origin <branch-name>
    ```
 
-1. 构建和部署完成后，使用SSH登录到远程环境，并验证扩展是否正确安装。
+1. 构建和部署过程完成后，使用SSH登录到远程环境，并验证扩展是否已正确安装。
 
    ```bash
    $ bin/magento module:status channel-manager
@@ -170,7 +171,7 @@ Channel Manager的安装说明取决于Adobe Commerce或Magento Open Source是�
    Module is enabled
    ```
 
-1. 安装成功后，登录到 [!UICONTROL Admin] to [配置Commerce Services Connector](connect.md).
+1. 成功安装扩展后，请登录到 [!UICONTROL Admin] to [配置Commerce Services Connector](connect.md).
 
    >[!NOTE]
    >

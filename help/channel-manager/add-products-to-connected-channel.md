@@ -1,37 +1,34 @@
 ---
-title: 将产品添加到渠道商店
+title: 将产品添加到连接的渠道
 description: 通过将产品从目录添加到销售渠道，为Marketplace销售创建产品分类
-source-git-commit: 905bedaf1eacdc45b2b7f222e7703e1f7b3dfd9c
+exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
 
 
-# 将产品添加到渠道商店
+# 将产品添加到连接的渠道
 
-在渠道管理器中，从 [!DNL Commerce] 沃尔玛市场销售目录。
-
-要将产品同步到销售渠道，所选产品必须具有以下属性配置：
+要将产品同步到Walmart Marketplace销售渠道，请从 [!DNL Commerce] 产品目录，并将其导入渠道管理器。 所选产品必须具有以下属性配置：
 
 - **[!UICONTROL Publish to Channel Manager]** 属性已启用
 
 - 必须至少有一个产品属性与 [必需的Walmart Marketplace属性](map-product-attributes-for-matching.md)-GTIN、ISBN、ISSN、UPC、EAN
 
-保存选择后，渠道管理器会将产品数据导入渠道。 此过程最多可能需要30分钟。
+从导入产品的流程 [!DNL Commerce] 渠道管理器最多可能需要30分钟或更长时间，具体取决于您选择的产品数量。
 
 ## 将产品添加到销售渠道
 
-1. 打开与渠道管理器商店关联的产品目录。
-
-   从连接的销售渠道商店中，选择 **添加产品**.
+1. 从连接的销售渠道商店中，选择 **添加产品** 打开产品目录。
 
    ![将产品添加到连接的渠道](assets/add-initial-products-to-connected-channel.png)
 
    目录将在新选项卡中打开。
 
-1. 从目录产品网格中，选择要在Walmart Marketplace上销售的产品。
+1. 从目录产品网格中，选择要销售的产品 [!DNL Walmart Marketplace].
 
    ![将产品发送到连接的渠道](assets/select-products-from-catalog.png)
 
@@ -57,6 +54,9 @@ ht-degree: 0%
 
 1. 返回至 [!DNL Channel Manager].
 
-   导入操作完成后，从 **[!UICONTROL Listings]**. 最初，产品位于 *草稿* 状态。 选择 [!UICONTROL Refresh products]**更新表。
+1. 导入操作完成后，从 **[!UICONTROL Listings]**.
 
    ![导入连接销售渠道的产品](assets/products-in-marketplace-sales-channel.png)
+
+   最初，产品位于 *草稿* 状态。 选择 **[!UICONTROL Refresh products]** 以更新表。
+

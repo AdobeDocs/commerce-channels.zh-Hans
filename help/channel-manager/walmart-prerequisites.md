@@ -2,9 +2,9 @@
 title: 沃尔玛先决条件
 description: 确认您拥有与渠道管理器集成所需的Walmart Marketplace信息和资源。
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: 1f493dd40e23d459645704e5a52f9cc5edf4629f
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,10 @@ ht-degree: 0%
 
 ## 设置Marketplace卖家帐户
 
-1. [提交您的Walmart销售商申请](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI)
+1. [提交您的Walmart销售商申请](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI).
 1. 在获得沃尔玛的批准后， [设置沃尔玛卖家账户](https://sellerhelp.walmart.com/seller/s/guide?article=000008219).
 
-## 生成Walmart Marketplace API密钥
+## 生成Walmart Marketplace生产API密钥
 
 1. 转到Walmart Marketplace以生成 [解决方案提供商生产API密钥，用于Adobe](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
 

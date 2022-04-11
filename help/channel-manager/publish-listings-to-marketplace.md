@@ -2,25 +2,25 @@
 title: 向沃尔玛发布产品清单
 description: 将商务产品的清单发布到Walmart Marketplace以开始销售。
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: a10ab3f7fa7049e48d83a942f6c5441d8147b12c
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1113'
 ht-degree: 0%
 
 ---
 
 # 向沃尔玛发布产品清单
 
-与其他市场一样，沃尔玛允许第三方销售商列出其他销售商销售的商品。
+和其他市场一样， [!DNL Walmart] 允许第三方销售者列出他人销售的项目。
 
-该平台使用UPC和GTIN等产品标识符来匹配已在销售的项目。
-对于匹配的产品，现有的沃尔玛市场会列出更新内容，以包括商务产品选件。
+该平台使用UPC和GTIN等产品标识符来匹配现有 [!DNL Walmart Marketplace] 列表。
+对于匹配的产品， Walmart Marketplace会列出更新，以在您从 [!DNL Channel Manager].
 
-通常，价格最低的产品会首先在结果中显示，但审阅等其他因素也会影响投放。
+通常，价格最低的产品选件会首先显示在 [!DNL Walmart Marketplace] 列表，但其他因素（如评论）也会影响投放。
 
 ## 匹配产品
 
-当您匹配产品时，渠道管理器会将产品数据发送到Walmart Marketplace，以搜索具有与映射的商务产品属性匹配的属性值的现有列表。 匹配条件由 [属性映射配置](map-product-attributes-for-matching.md) 的渠道。
+当您匹配产品时，渠道管理器会将产品数据发送到 [!DNL Walmart Marketplace] 以搜索具有与映射的商务产品属性匹配属性值的现有列表。 匹配条件由 [属性映射配置](map-product-attributes-for-matching.md) 的渠道。
 
 如果找到匹配项，则会更新现有产品列表以添加您的选件。
 

@@ -4,16 +4,17 @@ description: 将您的实例连接到 [!DNL Channel Manager] 服务，方法是�
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: f57c6db4c0314272d10bb5483d2c8a0ae396a9fc
+source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
 
+
 # 板载 [!DNL Channel Manager]
 
-通过在您的 [!DNL Commerce] 实例和配置API连接。 这些连接支持您的商务实例与Walmart Marketplace之间的通信和数据同步。
+通过在您的 [!DNL Commerce] 实例和配置API连接。 这些连接可在您的Commerce实例和 [!DNL Walmart Marketplace].
 
 完成入门后，请通过 [!UICONTROL Channel Manager] 选项 [!UICONTROL Commerce Admin Marketing] 菜单。
 
@@ -45,19 +46,18 @@ ht-degree: 0%
 
       在Adobe Commerce和Magento Open Source项目中，所有者可以设置 [共享访问](https://docs.magento.com/user-guide/magento/magento-account-share.html) 允许受信任的员工和服务提供商使用所有者或许可证持有者帐户的凭据下载扩展。
 
-      开 [!DNL Adobe Commerce] 在云基础架构项目上，软件安装程序必须具有以下访问权限 [!DNL Commerce] 实例：
+      对于 [!DNL Adobe Commerce] 在云基础架构项目上，软件安装程序必须具有以下访问 [!DNL Commerce] 实例：
 
       - 超级用户对云项目的访问权限
       - 对特定环境的管理员访问权限
-      - an [!DNL Adobe Commerce] 或 [!DNL Magento Open Source] 具有访问编辑器存储库权限的帐户。
+      - an [!DNL Adobe Commerce] 或 [!DNL Magento Open Source] 具有访问编辑器存储库权限的帐户
 
       请参阅 [管理用户访问权限](https://devdocs.magento.com/cloud/project/user-admin.html).
 
 
-- **授权下载渠道管理器编辑器包** — 将用于管理服务的商务帐户中的MAGE ID提供给Adobe代表，该代表负责协调贵组织的测试版计划。
+- **授权下载渠道管理器编辑器包** — 为Adobe渠道提供测试版协调器，其ID为 [!DNL Commerce] 用于管理贵组织服务的帐户。
 - **使用编辑器和[!DNL Commerce CLI]**  — 请参阅 [常规CLI安装](https://devdocs.magento.com/extensions/install/){target=&quot;_blank&quot;}以了解有关使用这些工具在上安装和配置扩展的信息 [!DNL Adobe Commerce] 或 [!DNL Magento Open Source] 平台。
-- **[AmazonSales Channel版本4.4.2或更高版本](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html) — 如果已为商务网站激活AmazonSales Channel，请在安装渠道管理器之前，验证您的商务平台是否安装了版本4.42。
-
+- [[!DNL Amazon Sales Channel] 版本4.4.2或更高版本](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html) — 如果您已激活 [!DNL Amazon Sales Channel] , [!DNL Commerce] 站点，验证 [!DNL Commerce] 安装之前，平台已安装版本4.42 [!DNL Channel Manager].
 
 ### 要求
 

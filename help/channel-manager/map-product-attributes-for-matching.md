@@ -1,9 +1,10 @@
 ---
 title: 配置产品匹配
 description: 将用于将商务产品与现有Walmart Marketplace列表匹配的属性映射到
-source-git-commit: 2a9bd2f8f91e672786c36f5e132f99bcab59dd00
+exl-id: 98c8d3f6-f129-43c6-920c-d9c36b0e4a40
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ ht-degree: 0%
 
 ## 配置产品属性设置
 
-1. 在连接的销售渠道的产品列表页面上，选择 *草稿* 状态。
+1. 在 [!UICONTROL Listings] 页面，在 *草稿* 状态。
 
 1. 选择 **[!UICONTROL Settings]**.
 

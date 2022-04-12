@@ -2,9 +2,9 @@
 title: 将销售渠道连接到 [!DNL Walmart Marketplace]
 description: 配置销售渠道并连接到Walmart Marketplace。
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
+source-git-commit: e0b7f971f8eb4bc0827a7792ef94d88766adf82e
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -100,4 +100,4 @@ ht-degree: 0%
 
    - [查看和管理库存和定价](inventory-and-price-updates.md)
 
-   - 从商务管理员查看和管理Walmart订单
+   - [从商务管理员查看和管理Walmart订单](manage-orders.md)

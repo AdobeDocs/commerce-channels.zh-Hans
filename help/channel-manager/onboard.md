@@ -4,9 +4,9 @@ description: 将您的实例连接到 [!DNL Channel Manager] 服务，方法是�
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: 41a6afec60edbb23492627bd8e80632d3c952caf
+source-git-commit: e0b7f971f8eb4bc0827a7792ef94d88766adf82e
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,9 @@ ht-degree: 0%
 - **授权下载渠道管理器编辑器包** — 为Adobe渠道提供测试版协调器，其ID为 [!DNL Commerce] 用于管理贵组织服务的帐户。
 - **使用编辑器和[!DNL Commerce CLI]**  — 请参阅 [常规CLI安装](https://devdocs.magento.com/extensions/install/){target=&quot;_blank&quot;}以了解有关使用这些工具在上安装和配置扩展的信息 [!DNL Adobe Commerce] 或 [!DNL Magento Open Source] 平台。
 - [[!DNL Amazon Sales Channel] 版本4.4.2或更高版本](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html) — 如果您已激活 [!DNL Amazon Sales Channel] , [!DNL Commerce] 站点，验证 [!DNL Commerce] 安装之前，平台已安装版本4.42 [!DNL Channel Manager].
+- [!DNL Inventory Management] Adobe Commerce和Magento Open Source的扩展
+
+   如果您计划使用渠道管理器进行库存和订单管理，则必须在Adobe Commerce和Magento Open Source实例上安装并启用Inventory management扩展。 通常，此扩展默认安装并在Adobe Commerce和Magento Open Source2.3.x及更高版本上启用。 有关更多信息，请参阅 [安装Inventory management](https://devdocs.magento.com/extensions/inventory-management/) ，位于Adobe Commerce开发人员文档中。
 
 ### 要求
 
@@ -66,7 +69,6 @@ ht-degree: 0%
 - [编辑器1.x或更高版本](https://devdocs.magento.com/cloud/reference/cloud-composer.html)
 - [[!DNL Amazon Sales Channel] 版本4.4.2或更高版本](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html) — 如果您已激活 [!DNL Amazon Sales Channel] , [!DNL Commerce] 站点，验证 [!DNL Commerce] 安装之前，平台已安装版本4.42 [!DNL Channel Manager].
 - [!DNL Inventory Management]
-
 
 ### 支持的平台
 

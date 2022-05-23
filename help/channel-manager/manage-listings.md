@@ -2,9 +2,9 @@
 title: 管理列表
 description: 管理 [!DNL Commerce] 与Channel Manager一起存储，用于Adobe Commerce和Magento Open Source。
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
+source-git-commit: ee103895e1035e04a4601857032caa172d493a31
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -43,15 +43,15 @@ ht-degree: 0%
 
 通过完成以下任务，为Walmart Marketplace渠道创建产品分类：
 
-* [将产品从您的商务产品目录添加到渠道管理器](add-products-to-connected-channel.md)
+* [将产品从您的商务产品目录添加到渠道管理器](add-products-to-channel-store.md)
 
-* [配置产品匹配](map-product-attributes-for-matching.md#configure-product-attribute-settings)
+* [映射目录属性](map-catalog-attributes.md#configure-product-attribute-settings)
 
 ## 将产品发布到沃尔玛
 
 您可以使用产品匹配或通过手动上传新产品的产品列表，在Walmart Marketplace上创建产品选件。 有关说明，请参阅 [向Walmart Marketplace发布列表](publish-listings-to-marketplace.md) 如以下主题中所述：
 
-* **[在沃尔玛匹配产品](publish-listings-to-marketplace.md)** — 将渠道中的产品清单发布到 [!DNL Walmart Marketplace] 通过更新销售同一产品的现有列表。 匹配条件由 [属性映射配置](map-product-attributes-for-matching.md) 频道。
+* **[在沃尔玛匹配产品](publish-listings-to-marketplace.md)** — 将渠道中的产品清单发布到 [!DNL Walmart Marketplace] 通过更新销售同一产品的现有列表。 匹配条件由 [属性映射配置](map-catalog-attributes.md) 频道。
 
 * **[手动上传新列表](publish-listings-to-marketplace.md#upload-new-product-listings)-** — 对于与Walmart Marketplace上现有列表不匹配的产品，请使用Walmart产品类别Excel模板批量上传产品列表。
 
@@ -97,6 +97,8 @@ ht-degree: 0%
 
 * **[!UICONTROL Match - Match in Stage]** — 标识与 [!DNL Walmart] 在 [!DNL Walmart Marketplace] 存储处于实时状态。 当 [!DNL Walmart Marketplace] 商店上线。
 
-* **[!UICONTROL Error]** — 标识与现有产品不匹配的产品 [!DNL Walmart Marketplace] 列表。 通过将鼠标悬停在 *错误* 状态标签。
+* **[!UICONTROL Error]** — 标识与现有产品不匹配的产品 [!DNL Walmart Marketplace] 列表。
+
+* **[!UICONTROL Error description]** — 提供有关列表错误的详细信息。
 
    解决错误后，请重新提交产品以进行匹配。 请参阅 [产品匹配错误疑难解答](publish-listings-to-marketplace.md#troubleshoot-product-match-errors).

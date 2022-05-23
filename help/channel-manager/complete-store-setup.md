@@ -2,7 +2,7 @@
 title: 完成销售渠道设置
 description: 导航到连接的销售渠道以管理查看和管理产品清单、库存和价格更新，以及跟踪订单
 exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
-source-git-commit: 76aa7451c9df83fbb7ea808fc14ef2d306235da2
+source-git-commit: ee103895e1035e04a4601857032caa172d493a31
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 1. 开始销售渠道操作。
 
-   - [从 [!DNL Commerce Catalog] 到渠道管理器](add-products-to-connected-channel.md)
+   - [从 [!DNL Commerce Catalog] 到渠道管理器](add-products-to-channel-store.md)
 
    - [将产品清单发布到 [!DNL Walmart] 使用产品匹配](publish-listings-to-marketplace.md)
 

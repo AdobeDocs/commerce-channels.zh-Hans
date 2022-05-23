@@ -2,9 +2,9 @@
 title: 向沃尔玛发布产品清单
 description: 将商务产品的清单发布到Walmart Marketplace以开始销售。
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
+source-git-commit: dfe56db25bb569ad70fb1036d539797bbb126dd5
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1138'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 ## 匹配产品
 
-当您匹配产品时，渠道管理器会将产品数据发送到 [!DNL Walmart Marketplace] 以搜索具有与映射的商务产品属性匹配属性值的现有列表。 匹配条件由 [属性映射配置](map-product-attributes-for-matching.md) 的渠道。
+当您匹配产品时，渠道管理器会将产品数据发送到 [!DNL Walmart Marketplace] 以搜索具有与映射的商务产品属性匹配属性值的现有列表。 匹配条件由 [属性映射配置](map-catalog-attributes.md) 的渠道。
 
 如果找到匹配项，则会更新现有产品列表以添加您的选件。
 
 ### 先决条件
 
-在匹配产品之前，请确认您的产品目录属性值是否满足Walmart要求并配置属性设置。 请参阅 [配置产品匹配](map-product-attributes-for-matching.md).
+在匹配产品之前，请确认您的产品目录属性值是否满足Walmart要求并配置属性设置。 请参阅 [映射目录属性](map-catalog-attributes.md).
 
 #### 选择并匹配产品
 
@@ -54,15 +54,15 @@ ht-degree: 0%
 
 * **[!UICONTROL Match]** 表示产品已成功匹配。 您的产品选件已发布到沃尔玛的现有列表。 如果 [市场商店不活动](walmart-prerequisites.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* 显示在 *[!UICONTROL Status detail]* 列。
 
-如果 [[!DNL Walmart Marketplace] 存储未激活](walmart-prerequisites.md#walmart-marketplace-store-status), *状态详细信息* 列表示产品为 *已暂存进行匹配*. 一旦发布 [!DNL Walmart Marketplace] 存储区已激活。
+如果 [[!DNL Walmart Marketplace] 存储未激活](walmart-prerequisites.md#walmart-marketplace-store-status), *状态详细信息* 列表示产品为 *已暂存进行匹配*. 在 [!DNL Walmart Marketplace] 存储区已激活。
 
-* **[!UICONTROL Error]** 指示以下任一情况：
+* **[!UICONTROL Error]** 表示由于以下问题之一，匹配操作失败：
 
-   * 出现错误，匹配操作失败。
+   * [!DNL Channel Manager] 由于连接问题，无法发送以进行匹配。
 
    * 未找到匹配项。
 
-   * 找到匹配项，但由于从沃尔玛商城返回错误，无法发布该列表。  缺少属性，或发布为暂存属性，因为 [市场商店不活动](walmart-prerequisites.md#walmart-marketplace-store-status).
+   * 找到匹配项，但无法发布该列表，因为 [!DNL Walmart Marketplace] 返回了错误代码。 请参阅 *状态详细信息**以获取错误描述。
 
 ### 在沃尔玛上市
 
@@ -116,7 +116,7 @@ ht-degree: 0%
 
 ### 先决条件
 
-* 确认您满足 [沃尔玛先决条件](https://docs.google.com/document/d/1bEbCyVLXJQQsbZvEwetJvZKWQJOKoiw5Ia1uB4Bs4uo/edit#heading=h.k2lo9voad1gx).
+* 确认您满足 [沃尔玛先决条件](walmart-prerequisites.md).
 
 * 在您的商务产品目录中，验证要在Walmart Marketplace上列出的产品的目录配置是否具有所有必需属性并符合Walmart Marketplace内容准则。
 

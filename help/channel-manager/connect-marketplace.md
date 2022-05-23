@@ -2,9 +2,9 @@
 title: 将销售渠道连接到 [!DNL Walmart Marketplace]
 description: 配置销售渠道并连接到Walmart Marketplace。
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: 7a400bf0b09e65d5375dc15c6a1e004d0fef0592
+source-git-commit: 7349dd92c2166ff6ae83b705416993e48aa5f954
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,7 @@ ht-degree: 0%
 
 ## 创建销售渠道
 
-1. 打开 [!DNL Channel Manager].
-
-   - 在管理员中，选择 **[!UICONTROL Marketing** > _渠道&#x200B;_> **渠道管理器]**.
+1. 在管理员中，打开 [!DNL Channel Manager] 选择 **[!UICONTROL Marketing** > _渠道&#x200B;_> **渠道管理器]**.
 
 1. 在 **[!UICONTROL Marketplaces available to connect]** 选择 **[!UICONTROL Get Started]**.
 
@@ -35,7 +33,7 @@ ht-degree: 0%
 
    - 选择 **[!UICONTROL Add Credentials]**.
 
-   - 在 [!UICONTROL Connect New Walmart Store] 表单中，选择要连接到市场的Commerce商店视图。
+   - 选择 [!DNL Commerce] 存储视图以连接到商城。
 
       ![配置商务与 [!DNL Walmart Marketplace] 从 [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png)
 
@@ -49,9 +47,9 @@ ht-degree: 0%
 
    - 添加的凭据 [[!DNL Walmart Marketplace Adobe Production API key]](walmart-prerequisites.md#generate-a-walmart-marketplace-production-api-key) 从 [!DNL Walmart Marketplace Seller] 帐户。
 
-   - 如果您没有凭据，请选择 **[!UICONTROL Get API credentials]** 从 [!DNL Walmart Marketplace Developer Portal].
+   - 如果您没有凭据，请从 [!DNL Walmart Marketplace Developer Portal] 选择 **[!UICONTROL Get API credentials]**.
 
-      如果出现提示，请选择您所在的地区（美国和加拿大），然后登录。
+      在开发人员门户上，选择您所在的地区（美国和加拿大），然后登录。
 
       ![[!DNL Walmart Marketplace] 帐户登录](assets/walmart-marketplace-login-page.png)
 
@@ -65,11 +63,11 @@ ht-degree: 0%
 
    - 返回 [!DNL Channel Manager] 将凭据添加到 **[!UICONTROL Walmart Connection]** 信息。
 
-      将凭据添加到时 [!DNL Channel Manager]，则Adobe会隐藏客户端密钥并将值存储在安全电子仓库中。
+      添加凭据时，Adobe会隐藏客户端密钥并将值存储在安全电子仓库中。
 
 1. 选择 **[!UICONTROL Save Store]** 应用配置并连接到 [!DNL Walmart marketplace].
 
-1. 成功连接后， [完整商店设置](complete-store-setup.md) 从 **[!UICONTROL Channel Manager]** 存储列表页面。
+1. 成功连接后， [完整商店设置](complete-store-setup.md) 从 **[!UICONTROL Channel Manager]** 存储页面。
 
 ![设置第一个商店](assets/channel-manager-setup-first-store.png)
 

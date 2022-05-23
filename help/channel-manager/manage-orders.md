@@ -2,9 +2,9 @@
 title: 管理沃尔玛市场订单
 description: 查看和管理 [!DNL Walmart Marketplace] 订购 [!DNL Channel Manager] Adobe Commerce和Magento Open Source。
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
+source-git-commit: ec85dc2496c22cd8173c550ca35f2bd207501c19
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->最长可能需要35分钟 [!DNL Walmart Marketplace] 显示顺序 [!DNL Channel Manager] 订单列表。 [!DNL Walmart] 需要大约30分钟才能处理传入的订单并将它们发送到 [!DNL Channel Manager].  在渠道管理器收到订单后，需要再花5分钟时间在Adobe Commerce或Magento Open Source中创建和显示订单。
+>最长可能需要35分钟 [!DNL Walmart Marketplace] 显示顺序 [!DNL Channel Manager] 订单列表。 [!DNL Walmart] 需要大约30分钟才能处理传入的订单并将它们发送到 [!DNL Channel Manager]. 在渠道管理器收到订单后，大约需要再多五分钟来创建并显示订单，在Adobe Commerce或Magento Open Source中。
 
 ## 审核订单
 
@@ -26,6 +26,8 @@ ht-degree: 0%
 1. 在商店登入行中选择铅笔图标以打开商店视图。
 
 1. 要查看订单信息，请选择*[!UICONTROL *Orders]**。
+
+1. 通过检查 **[状态](#about-order-status)** 列以获取有关订单的信息。
 
 ## 查看订单详细信息
 
@@ -54,6 +56,8 @@ ht-degree: 0%
 | [!UICONTROL Ship By Date] | 订单必须发运的日期才能满足 [!DNL Walmart Marketplace] 要求。 |
 | [!UICONTROL Order Status] | 指示 [!DNL Commerce] 订单工作流。 成功将产品添加到 [!DNL Channel Manager] 当您在 [!DNL Walmart Marketplace]. 如果操作失败，则列表会显示错误状态。 修正错误后， [!DNL Channel Manager] 重试操作并更新状态。 |
 
+| [!UICONTROL Error description]    |通过 *错误* status.|
+
 ### 关于订单状态
 
 [!UICONTROL Order Status] 提供有关 [!DNL Walmart Marketplace] 从Adobe Commerce或Magento Open Source管理的订单。 订单状态更新发生在 [!DNL Channel Manager] 从以下任一位置接收更新的订单信息 [!DNL Walmart Marketplace] 或 [!DNL Commerce] 订单系统。 订单可以具有以下状态：
@@ -74,6 +78,6 @@ ht-degree: 0%
 
    退款完成后， [!DNL Commerce] 更新库存数量以反映已退回的项目。 然后， [!DNL Channel Manager] 同步更新到 [!DNL Walmart Marketplace].
 
-* **[!UICONTROL Error]** — 由于缺少信息或其他问题而尚未导入到订单存储库的订单。
+* **[!UICONTROL Error]** — 有错误的订单。 订单更新操作失败时，可能会发生错误。 例如，如果 [!DNL Channel Manager] 无法从沃尔玛收到新订单。 如果 [!DNL Channel Manager] 无法将订单发运或取消更新发送至 [!DNL Walmart Marketplace].
 
-   要查看错误消息详细信息，请将鼠标悬停在 *[!UICONTROL Error]* 状态指示器。 解决错误后，订单会自动更新以显示当前信息和状态。
+* **[!UICONTROL Error description]** — 提供有关因缺少信息或值无效、发运详细信息不正确或订单取消失败等问题而发生订单错误的详细信息。 描述可帮助确定 [!DNL Commerce] 实例或 [!DNL Walmart Marketplace].

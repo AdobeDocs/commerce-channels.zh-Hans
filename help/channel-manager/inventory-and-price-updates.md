@@ -2,14 +2,14 @@
 title: 库存和价格更新
 description: '''[!DNL Channel Manager] 同步商务商店和 [!DNL Walmart Marketplace] 以便您可以通过商务管理员管理您的销售渠道操作'
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
-source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
+source-git-commit: 7a400bf0b09e65d5375dc15c6a1e004d0fef0592
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 0%
 
 ---
 
-# 库存和价格更新
+# 更新库存和定价
 
 [!DNL Channel Manager] 跟踪 [!DNL Commerce] 产品目录和同步到连接的销售渠道和 [!DNL Walmart Marketplace]. 同步可确保产品清单反映当前库存数量和定价。
 

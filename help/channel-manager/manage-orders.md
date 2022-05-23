@@ -2,9 +2,9 @@
 title: 管理沃尔玛市场订单
 description: 查看和管理 [!DNL Walmart Marketplace] 订购 [!DNL Channel Manager] Adobe Commerce和Magento Open Source。
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: 70f8b5487cf1c6507ce8e3cbaec91f4fc883d683
+source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 从市场收到订单并将其导入Adobe Commerce或Magento Open Source后，请使用 [!DNL Commerce] 订单ID，用于在Adobe Commerce中查看订单。
 
-从 **[!UICONTROL Orders]**，选择 [!UICONTROL Commerce Order Number] 打开 [!DNL Commerce]  订单详细信息。
+从 **[!UICONTROL Orders]**，选择 **[!UICONTROL Commerce Order Number]** 打开 [!DNL Commerce] 订单详细信息。
 
 ![Walmart Marketplace订单的商务订单详细信息视图](assets/order-detail-with-external-order-id.png)
 

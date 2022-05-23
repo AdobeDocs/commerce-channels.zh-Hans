@@ -2,9 +2,9 @@
 title: 向沃尔玛发布产品清单
 description: 将商务产品的清单发布到Walmart Marketplace以开始销售。
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
+source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1156'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ### 先决条件
 
-在匹配产品之前，请确认您的产品目录属性值是否满足Walmart要求并配置属性设置。 请参阅 [配置产品匹配](map-product-attributes-for-matching.md)
+在匹配产品之前，请确认您的产品目录属性值是否满足Walmart要求并配置属性设置。 请参阅 [配置产品匹配](map-product-attributes-for-matching.md).
 
 #### 选择并匹配产品
 
@@ -40,27 +40,29 @@ ht-degree: 0%
 
    消息指示为匹配而发送的产品数量。
 
-   ![将产品发送到连接的销售渠道](assets/products-submit-for-matching.png)
+   ![将产品发送到连接的销售渠道](assets/products-submitted-for-matching.png)
 
    选定产品的状态将更改为 [!UICONTROL *处理*] 直到匹配操作完成。 沃尔玛商城可能需要30分钟才能完成比赛操作。
 
 ### 检查匹配状态
 
-1. 选择 **刷新产品** 更新最新产品状态。
+1. 选择 **刷新产品** 查看当前产品状态。
 
 1. 检查产品状态。
 
-   匹配完成后，状态可以是 *匹配* 或 *错误*.
+匹配完成后，状态可以是 *匹配* 或 *错误*.
 
-   * **[!UICONTROL Match]** 表示产品已成功匹配。 您的产品选件已发布到沃尔玛的现有列表。
+* **[!UICONTROL Match]** 表示产品已成功匹配。 您的产品选件已发布到沃尔玛的现有列表。 如果 [市场商店不活动](walmart-prerequisites.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* 显示在 *[!UICONTROL Status detail]* 列。
 
-   * **[!UICONTROL Error]** 指示以下任一情况：
+如果 [[!DNL Walmart Marketplace] 存储未激活](walmart-prerequisites.md#walmart-marketplace-store-status), *状态详细信息* 列表示产品为 *已暂存进行匹配*. 一旦发布 [!DNL Walmart Marketplace] 存储区已激活。
 
-      * 出现错误，匹配操作失败。
+* **[!UICONTROL Error]** 指示以下任一情况：
 
-      * 未找到匹配项。
+   * 出现错误，匹配操作失败。
 
-      * 已找到匹配项，但产品已按暂存方式发布，因为 [市场商店不活动](walmart-prerequisites.md#walmart-marketplace-store-status).
+   * 未找到匹配项。
+
+   * 找到匹配项，但由于从沃尔玛商城返回错误，无法发布该列表。  缺少属性，或发布为暂存属性，因为 [市场商店不活动](walmart-prerequisites.md#walmart-marketplace-store-status).
 
 ### 在沃尔玛上市
 
@@ -68,9 +70,9 @@ ht-degree: 0%
 
 ### 产品匹配错误疑难解答
 
-如果产品匹配操作失败，则Walmart Marketplace会返回错误代码，渠道管理器会在产品列表信息中显示错误状态。
+如果产品匹配操作失败并出现错误，则会在 *[!UICONTROL Status detail]* 列 [!UICONTROL Channel Manager] 产品列表。
 
-通过将鼠标悬停在 **错误** 状态标签。 返回的常见错误格式不正确，产品ID值或缺少必需的属性。
+返回的常见错误格式不正确，产品ID值或缺少必需的属性。
 
 #### 修复产品ID值
 

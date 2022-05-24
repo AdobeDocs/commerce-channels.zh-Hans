@@ -2,9 +2,9 @@
 title: 管理列表
 description: 管理 [!DNL Commerce] 与Channel Manager一起存储，用于Adobe Commerce和Magento Open Source。
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: ee103895e1035e04a4601857032caa172d493a31
+source-git-commit: 71ad5e3bc9ff6b909943a161472e4db7d375683f
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '801'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,11 @@ ht-degree: 0%
 
 ## 将产品发布到沃尔玛
 
-您可以使用产品匹配或通过手动上传新产品的产品列表，在Walmart Marketplace上创建产品选件。 有关说明，请参阅 [向Walmart Marketplace发布列表](publish-listings-to-marketplace.md) 如以下主题中所述：
+您可以使用产品匹配或通过手动上传新产品的产品列表，在Walmart Marketplace上创建产品选件。
 
-* **[在沃尔玛匹配产品](publish-listings-to-marketplace.md)** — 将渠道中的产品清单发布到 [!DNL Walmart Marketplace] 通过更新销售同一产品的现有列表。 匹配条件由 [属性映射配置](map-catalog-attributes.md) 频道。
+* **[在沃尔玛匹配产品](publish-listings-to-marketplace.md)** — 将产品清单从渠道发布到 [!DNL Walmart Marketplace] 通过更新销售同一产品的现有列表。 匹配条件由 [属性映射配置](map-catalog-attributes.md) 频道。
 
-* **[手动上传新列表](publish-listings-to-marketplace.md#upload-new-product-listings)-** — 对于与Walmart Marketplace上现有列表不匹配的产品，请使用Walmart产品类别Excel模板批量上传产品列表。
+* **[手动上传新列表](publish-listings-to-marketplace.md#upload-new-product-listings)** — 对于与Walmart Marketplace上的现有列表不匹配的产品，请使用Walmart产品类别Excel模板批量上传产品列表。
 
 ## 列出控件和列描述
 
@@ -87,11 +87,11 @@ ht-degree: 0%
 
 * **[!UICONTROL Draft]** — 标识尚未 [已提交 [!DNL Walmart] 匹配](publish-listings-to-marketplace.md#match-products).
 
-* **[!UICONTROL Processing]** — 标识在 [!DNL Walmart Marketplace]. 产品仍保留在 *处理* 状态，直到 [!DNL Walmart] 返回指示匹配是否成功或是否出错的HTTP状态消息。 在 [!DNL Walmart Marketplace].
+* **[!UICONTROL Processing]** — 标识为在 [!DNL Walmart Marketplace]. 产品仍保留在 *处理* 状态，直到 [!DNL Walmart] 返回指示匹配是否成功或是否出错的HTTP状态消息。 在 [!DNL Walmart Marketplace].
 
 * **[!UICONTROL Match]** — 标识成功匹配的产品 [!DNL Walmart].
 
-   例如，当产品属性值 — UPC代码与现有[!DNL Walmart Marketplace] 列表。 当产品匹配时，商务产品选件会添加到沃尔玛的现有列表中。
+   当产品属性值（例如UPC代码）与现有[!DNL Walmart Marketplace] 列表。 当产品匹配时，商务产品选件会添加到沃尔玛的现有列表中。
 
    检查 [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) 功能板，以审核更新的产品列表并验证产品详细信息、价格和库存数量。
 

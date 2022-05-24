@@ -2,9 +2,9 @@
 title: 处理订单
 description: 发运和取消说明 [!DNL Walmart Marketplace] Adobe Commerce和Magento Open Source的订单。
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: fac4bbd3985e07b919f986c877b8584da797e6fe
+source-git-commit: 6ad7a116e931408192144e4bd446fcc0055364e1
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,9 @@ ht-degree: 0%
    ![Walmart Marketplace订单的商务订单详细信息视图](assets/order-detail-with-external-order-id.png)
 
    * 选择运输承运人，并通过选择 **[!UICONTROL Add tracking number]**.
+
+      ![Walmart Marketplace订单的商务订单详细信息视图](assets/order-shipment-add-tracking-number.png)
+
 
    * 根据需要填写其余的送货单。 请参阅 [[!DNL Shipping an Order]](https://docs.magento.com/user-guide/sales/order-ship.html) 以了解详细说明。
 

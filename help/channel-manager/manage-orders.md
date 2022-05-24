@@ -2,9 +2,9 @@
 title: 管理沃尔玛市场订单
 description: 查看和管理 [!DNL Walmart Marketplace] 订购 [!DNL Channel Manager] Adobe Commerce和Magento Open Source。
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: ec85dc2496c22cd8173c550ca35f2bd207501c19
+source-git-commit: d5bb7d6cc43620a33a705c085918e80a1cfa1593
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '704'
 ht-degree: 0%
 
 ---
@@ -54,9 +54,10 @@ ht-degree: 0%
 | [!UICONTROL Order Value] | 订购物料的总成本。 |
 | [!UICONTROL Date Created] | 在 [!DNL Walmart Marketplace]. |
 | [!UICONTROL Ship By Date] | 订单必须发运的日期才能满足 [!DNL Walmart Marketplace] 要求。 |
-| [!UICONTROL Order Status] | 指示 [!DNL Commerce] 订单工作流。 成功将产品添加到 [!DNL Channel Manager] 当您在 [!DNL Walmart Marketplace]. 如果操作失败，则列表会显示错误状态。 修正错误后， [!DNL Channel Manager] 重试操作并更新状态。 |
-
-| [!UICONTROL Error description]    |通过 *错误* status.|
+| [!UICONTROL Deliver By Date] | 必须将订单交付给客户以满足要求的日期 [!DNL Walmart Marketplace] 要求。 |
+| [!UICONTROL Last Update At] | 指示上次更新订单数据的时间戳(在 [!DNL Channel Manager] |
+| [!UICONTROL Status] | 指示 [!DNL Commerce] 订单工作流。 成功将产品添加到 [!DNL Channel Manager] 当您在 [!DNL Walmart Marketplace]. 如果操作失败，则列表会显示错误状态。 修正错误后， [!DNL Channel Manager] 重试操作并更新状态。 |
+| [!UICONTROL Error Description] | 通过 *错误* 状态。 |
 
 ### 关于订单状态
 

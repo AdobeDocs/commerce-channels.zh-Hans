@@ -1,17 +1,17 @@
 ---
 title: 设置概述
 description: 了解 [!DNL Channel Manager settings] 配置身份验证并映射产品目录属性和协调之间销售操作所需的运输承运人 [!DNL Commerce] 和 [!DNL Walmart Marketplace].
-source-git-commit: 7349dd92c2166ff6ae83b705416993e48aa5f954
+exl-id: 305b3580-bfe2-4fc2-9dc8-fb41f5eaf959
+source-git-commit: fac4bbd3985e07b919f986c877b8584da797e6fe
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
 
-
 # 设置概述
 
-销售渠道设置允许在 [!DNL Commerce] 和 [!DNL Walmart Marketplace] 这样，您就可以通过 [!DNL Commerce] 管理员：
+销售渠道设置允许在 [!DNL Commerce] 和 [!DNL Walmart Marketplace] 这样，您就可以通过 [!DNL Commerce] 管理员。
 
 在 [!DNL Channel Manager]，则可以在载入过程中配置一些销售渠道设置。 入门后，您可以从 *设置* 页面。
 

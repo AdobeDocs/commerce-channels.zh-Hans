@@ -2,9 +2,9 @@
 title: 将产品添加到销售渠道商店
 description: 为 [!DNL Walmart Marketplace] 通过将产品从目录添加到销售渠道进行销售
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: ee103895e1035e04a4601857032caa172d493a31
+source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # 将产品添加到销售渠道商店
 
-要将产品同步到Walmart Marketplace销售渠道，请从 [!DNL Commerce] 产品目录，并将其导入渠道管理器。 所选产品必须具有以下属性配置：
+将产品同步到 [!DNL Walmart Marketplace] “销售渠道”中，您可以从 [!DNL Commerce] 产品目录，并将其导入渠道管理器。 所选产品必须具有以下属性配置：
 
 - **[!UICONTROL Publish to Channel Manager]** 属性已启用
 
-- 必须至少有一个产品属性与 [必需的Walmart Marketplace属性](map-catalog-attributes.md)-GTIN、ISBN、ISSN、UPC、EAN
+- 必须至少有一个产品属性与 [必需 [!DNL Walmart Marketplace] 属性](map-catalog-attributes.md)-GTIN、ISBN、ISSN、UPC、EAN
 
 从导入产品的流程 [!DNL Commerce] 渠道管理器最多可能需要30分钟或更长时间，具体取决于您选择的产品数量。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
    - 滚动到 **[!UICONTROL Publish to Channel Manager]** 属性并启用该属性。
 
-   - 验证产品属性是否至少包含一个所需的Walmart产品ID。
+   - 验证产品属性中是否至少包含一个必需的 [!DNL Walmart Product IDs].
 
    - 选择 **[!UICONTROL Save]**.
 

@@ -2,22 +2,22 @@
 title: 将销售渠道连接到 [!DNL Walmart Marketplace]
 description: 配置销售渠道并连接到Walmart Marketplace。
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: 7349dd92c2166ff6ae83b705416993e48aa5f954
+source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
 
 # 将销售渠道连接到 [!DNL Walmart Marketplace]
 
-在上安装Channel Manager后 [!DNL Commerce] 例如，将商务商店连接到Walmart Marketplace。
+在上安装Channel Manager后 [!DNL Commerce] 实例，连接 [!DNL Commerce] 存储到 [!DNL Walmart Marketplace].
 
 1. [创建销售渠道](#create-the-sales-channel) ，方法是为产品清单选择商务商店。
 
-1. [将渠道连接到 [!DNL Walmart Marketplace] 通过添加Walmart API凭据](#connect-the-channel-to-walmart-marketplace).
+1. [将渠道连接到 [!DNL Walmart Marketplace] 通过添加 [!UICONTROL Walmart API credentials]](#connect-the-channel-to-walmart-marketplace).
 
-1. [完成销售渠道设置](#complete-store-setup) 管理您的Walmart Marketplace产品分类的列表、库存、定价和订单。
+1. [完成销售渠道设置](#complete-store-setup) 管理列表、库存、定价和订单 [!DNL Walmart Marketplace] 产品分类。
 
 ## 创建销售渠道
 
@@ -25,9 +25,9 @@ ht-degree: 0%
 
 1. 在 **[!UICONTROL Marketplaces available to connect]** 选择 **[!UICONTROL Get Started]**.
 
-   ![将新沃尔玛商店连接到 [!DNL Channel Manager]](assets/channel-manager-home.png)
+   ![连接新 [!DNL Walmart] 存储到 [!DNL Channel Manager]](assets/channel-manager-home.png)
 
-1. 如果需要，请设置您的Walmart Marketplace销售商帐户。
+1. 如果需要，请设置 [!DNL Walmart Marketplace Seller] 帐户。
 
 1. 配置存储和连接：
 
@@ -73,10 +73,10 @@ ht-degree: 0%
 
 ### 连接问题疑难解答
 
-如果与沃尔玛的连接失败，请查看 [Walmart Marketplace常见问题解答](https://developer.walmart.com/faq/us/faq-auth/){target=&quot;_blank&quot;}以了解疑难解答提示。
+如果与 [!DNL Walmart] 失败，查看 [Walmart Marketplace常见问题解答](https://developer.walmart.com/faq/us/faq-auth/){target=&quot;_blank&quot;}以了解疑难解答提示。
 
 - 从 [!DNL Walmart Developer Portal]，确认您复制了 [!UICONTROL Adobe Inc.]
 
-- 验证WalmartAdobeAPI密钥的访问配置是否具有正确的权限。 请参阅 [沃尔玛先决条件](walmart-prerequisites.md##generate-a-walmart-marketplace-api-key).
+- 验证的访问配置 [!UICONTROL Walmart Adobe API key] 具有正确的权限。 请参阅 [[!DNL Walmart Prerequisites]](walmart-prerequisites.md##generate-a-walmart-marketplace-api-key).
 
 - 确认 [!DNL Walmart API] 服务可从 [Walmart API状态页面](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target=&quot;_blank&quot;}。

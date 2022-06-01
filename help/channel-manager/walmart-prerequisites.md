@@ -1,32 +1,32 @@
 ---
-title: 沃尔玛先决条件
-description: 确认您拥有与渠道管理器集成所需的Walmart Marketplace信息和资源。
+title: '"[!DNL Walmart] 先决条件”'
+description: “确认您拥有 [!DNL Walmart Marketplace] 与渠道管理器集成的信息和资源。”
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
+source-git-commit: ae3d95fd0da6ee5013a19d7ac7ed5ef87e4a1325
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
 
-# 沃尔玛先决条件
+# [!DNL Walmart] 先决条件
 
-渠道管理器需要以下资源和信息来为Walmart Marketplace配置商务销售渠道。
+[!DNL Channel Manager] 需要以下资源和信息才能配置 [!DNL Commerce] 销售渠道 [!DNL Walmart Marketplace.]
 
-* 批准在沃尔玛销售，并凭证登录注册的Marketplace销售商帐户
+* 批准在 [!DNL Walmart] 和凭据登录到注册的Marketplace卖家帐户
 
-* 用于将Adobe Commerce或Magento Open Source连接到Walmart Marketplace的API密钥
+* 用于将Adobe Commerce或Magento Open Source连接到的API密钥 [!DNL Walmart Marketplace]
 
-   Walmart Marketplace API密钥支持Adobe Commerce或Magento Open Source的渠道管理器与Walmart Marketplace之间的集成。 在启动Channel Manager载入过程之前，在Seller Central中设置API密钥。
+   的 [!DNL Walmart Marketplace] API密钥支持在 [!DNL Channel Manager] Adobe Commerce或Magento Open Source以及沃尔玛市场。 在启动Channel Manager载入过程之前，在Seller Central中设置API密钥。
 
 ## 设置Marketplace卖家帐户
 
 1. [提交您的Walmart销售商申请](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI).
-1. 在获得沃尔玛的批准后， [设置沃尔玛卖家账户](https://sellerhelp.walmart.com/seller/s/guide?article=000008219).
+1. 获得 [!DNL Walmart], [设置沃尔玛卖家账户](https://sellerhelp.walmart.com/seller/s/guide?article=000008219).
 
-## 生成Walmart Marketplace生产API密钥
+## 生成 [!DNL Walmart Marketplace] 生产API密钥
 
-1. 转到Walmart Marketplace以生成 [解决方案提供商生产API密钥，用于Adobe](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
+1. 转到 [!DNL Walmart Marketplace] 生成 [解决方案提供商生产API密钥，用于Adobe](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
 
 1. 创建密钥并配置权限：
 
@@ -50,12 +50,12 @@ ht-degree: 0%
    | 规则 | 完全访问 |
    | 装运 | 完全访问 |
 
-## 沃尔玛商店状态
+## [!DNL Walmart Marketplace] 存储状态
 
-当您向Walmart Marketplace发布产品时，上市的可用性取决于您的Walmart Marketplace商店的状态：
+将产品发布到市场时，列出的可用性取决于您的 [!DNL Walmart Marketplace] 商店：
 
 * 对于实时商店，您的产品选件将列出并在匹配操作完成时可供销售。
 
-* 对于不处于实时状态的商店，您的产品选件会进行暂存，且客户不可见。 当商店上线时，暂存列表会自动推送到实时商店。
+* 对于不处于实时状态的商店，您的产品选件会进行暂存，且客户不可见。 当 [!DNL Walmart Marketplace] 存储会上线，暂存列表会自动推送到实时存储。
 
 ![[!DNL Walmart Seller Central] 暂存产品](assets/walmart-seller-central-staged.png)

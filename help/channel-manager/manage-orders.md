@@ -1,19 +1,19 @@
 ---
-title: 管理沃尔玛市场订单
-description: 查看和管理 [!DNL Walmart Marketplace] 订购 [!DNL Channel Manager] Adobe Commerce和Magento Open Source。
+title: '"管理 [!DNL Walmart Marketplace] 订单数”'
+description: “查看和管理 [!DNL Walmart Marketplace] 订购 [!DNL Channel Manager] 为Adobe Commerce和Magento Open Source。”
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: d5bb7d6cc43620a33a705c085918e80a1cfa1593
+source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
 
-# 管理沃尔玛市场订单
+# 管理 [!DNL Walmart Marketplace] 订购
 
-[!DNL Walmart Marketplace] 订单数 [!DNL Commerce] 产品清单自动同步到 [!DNL Channel Manager] 在沃尔玛处理订单后。 同步完成后，您可以通过选择 **[!UICONTROL Orders]** 从连接的渠道存储视图(位于 [!DNL Channel Manager].
+[!DNL Walmart Marketplace] 订单数 [!DNL Commerce] 产品清单自动同步到 [!DNL Channel Manager] after [!DNL Walmart] 处理顺序。 同步完成后，您可以通过选择 **[!UICONTROL Orders]** 从连接的渠道存储视图(位于 [!DNL Channel Manager].
 
-![渠道经理订单视图管理Walmart Marketplace订单](assets/orders-dashboard-view.png)
+![要管理的渠道管理器订单视图 [!DNL Walmart Marketplace] 订购](assets/orders-dashboard-view.png)
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 从 **[!UICONTROL Orders]**，选择 **[!UICONTROL Commerce Order Number]** 打开 [!DNL Commerce] 订单详细信息。
 
-![Walmart Marketplace订单的商务订单详细信息视图](assets/order-detail-with-external-order-id.png)
+![商务订单详细信息视图 [!DNL Walmart Marketplace] 订购](assets/order-detail-with-external-order-id.png)
 
 ### 订单控件和列描述
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 | 字段 | 描述 |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL  Walmart Order Number] | 在 [!DNL Walmart Marketplace]. 首次将订单导入时 [!DNL Channel Manager]，则仅会显示沃尔玛订单号。 当 [!DNL Commerce] 订单，则 [!DNL Walmart] 订单号存储在 [!UICONTROL External ID] 产品属性。 |
+| [!UICONTROL  Walmart Order Number] | 在 [!DNL Walmart Marketplace]. 首次将订单导入时 [!DNL Channel Manager]，仅 [!DNL Walmart] 此时会显示订单编号。 当 [!DNL Commerce] 订单，则 [!DNL Walmart] 订单号存储在 [!UICONTROL External ID] 产品属性。 |
 | [!DNL Commerce]  订单编号 | 分配给 [!DNL Commerce]  从创建的订单 [!DNL Walmart Marketplace] 订单。 |
 | 项目 | 订购的项目数 [!DNL Walmart Marketplace]. |
 | [!UICONTROL Order Value] | 订购物料的总成本。 |
@@ -60,6 +60,7 @@ ht-degree: 0%
 | [!UICONTROL Error Description] | 通过 *错误* 状态。 |
 
 ### 关于订单状态
+
 
 [!UICONTROL Order Status] 提供有关 [!DNL Walmart Marketplace] 从Adobe Commerce或Magento Open Source管理的订单。 订单状态更新发生在 [!DNL Channel Manager] 从以下任一位置接收更新的订单信息 [!DNL Walmart Marketplace] 或 [!DNL Commerce] 订单系统。 订单可以具有以下状态：
 

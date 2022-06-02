@@ -2,9 +2,9 @@
 title: 将产品添加到销售渠道商店
 description: 为 [!DNL Walmart Marketplace] 通过将产品从目录添加到销售渠道进行销售
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
+source-git-commit: 0acf063aeadd464824d1d0fce9eed1532d638c12
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -12,13 +12,30 @@ ht-degree: 0%
 
 # 将产品添加到销售渠道商店
 
-将产品同步到 [!DNL Walmart Marketplace] “销售渠道”中，您可以从 [!DNL Commerce] 产品目录，并将其导入渠道管理器。 所选产品必须具有以下属性配置：
+将产品添加到 [!DNL Walmart Marketplace] 通过从 [!DNL Commerce] 产品目录并将其导入 [!DNL Channel Manager].
+根据您选择的产品数量，导入过程最多可能需要30分钟或更长时间。
+
+## 先决条件
+
+**[映射目录属性](map-catalog-attributes.md)** — 在 [!DNL Channel Settings] 配置，从 [!DNL Commerce] 产品目录，指向所需的Walmart产品标识符之一 — GTIN、ISBN、ISSN、UPC、EAN。
+
+## 列表要求
+
+[!DNL Commerce] 产品清单必须具有以下必需的属性配置：
 
 - **[!UICONTROL Publish to Channel Manager]** 属性已启用
 
-- 必须至少有一个产品属性与 [必需 [!DNL Walmart Marketplace] 属性](map-catalog-attributes.md)-GTIN、ISBN、ISSN、UPC、EAN
+- 为所需的沃尔玛属性提供有效值。
 
-从导入产品的流程 [!DNL Commerce] 渠道管理器最多可能需要30分钟或更长时间，具体取决于您选择的产品数量。
+   - 至少一个与所需属性之一匹配的产品属性 [!DNL Walmart Marketplace] 产品标识符 — GTIN、ISBN、ISSN、UPC、EAN。
+
+   - 指定的产品价格最多为两位小数，例如 `9.99`
+
+   - 例如，指定的产品重量最多为两位小数 `1.25`
+
+>[!TIP]
+>
+>有关为您的销售渠道优化列表的其他信息，请参阅 [Walmart Marketplace Listing Quality Optimization指南](https://marketplace.walmart.com/wp-content/uploads/2020/09/WMP_listing_quality_optimization_guide.pdf).
 
 ## 添加产品
 

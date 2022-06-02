@@ -2,9 +2,9 @@
 title: 设置概述
 description: 了解 [!DNL Channel Manager settings] 配置身份验证并映射产品目录属性和协调之间销售操作所需的运输承运人 [!DNL Commerce] 和 [!DNL Walmart Marketplace].
 exl-id: 305b3580-bfe2-4fc2-9dc8-fb41f5eaf959
-source-git-commit: f1c37111df2f566b9673946bb9b2b282506f990c
+source-git-commit: aaab7aa7feb05264c24386e62193564dc5ae8fe3
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
@@ -19,4 +19,4 @@ ht-degree: 0%
 
 * **[地图运输承运人](map-shipping-carriers.md)** — 处理之前 [!DNL Walmart Marketplace] 订单来源 [!DNL Commerce]，请确保从 [!DNL Commerce] 实例到上的相应运营商 [!DNL Walmart Marketplace].
 
-* **Walmart API凭据** — 在 [!DNL Channel Manager] 载入过程中，您提供 [Walmart API凭据](walmart-prerequisites.md#generate-a-walmart-marketplace-production-api-key) 从[!DNL Walmart Marketplace] 要连接的卖家帐户 [!DNL Commerce] to [!DNL Walmart Marketplace] 用于通信和数据同步。 如果需要，您可以从 *设置* 页面。
+* **Walmart API凭据** — 在 [!DNL Channel Manager] 入门流程，您提供 [API凭据](walmart-requirements.md#generate-a-walmart-marketplace-production-api-key) 从 [!DNL Walmart Marketplace] 要连接的卖家帐户 [!DNL Commerce] to [!DNL Walmart Marketplace] 用于通信和数据同步。 如果需要，您可以从 *设置* 页面。

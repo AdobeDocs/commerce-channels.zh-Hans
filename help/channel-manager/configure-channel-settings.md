@@ -1,9 +1,9 @@
 ---
 title: 配置渠道设置
 description: 配置渠道管理器和销售渠道设置以进行身份验证，映射协调之间销售操作所需的目录属性和运输承运人 [!DNL Commerce] 和 [!DNL Walmart Marketplace].
-source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
+source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -19,4 +19,4 @@ ht-degree: 0%
 
 * **[地图运输承运人](map-shipping-carriers.md)** — 处理之前 [!DNL Walmart Marketplace] 订单来源 [!DNL Commerce]，请确保从 [!DNL Commerce] 实例到上的相应运营商 [!DNL Walmart Marketplace].
 
-* **Walmart API凭据** — 在 [!DNL Channel Manager] 载入过程中，您提供 [Walmart API凭据](walmart-prerequisites.md#generate-a-walmart-marketplace-production-api-key) 从 [!DNL Walmart Marketplace Seller] 连接帐户 [!DNL Commerce] to [!DNL Walmart Marketplace] 用于通信和数据同步。 如果需要，您可以从 *设置* 页面。
+* **Walmart API凭据** — 在 [!DNL Channel Manager] 载入过程中，您提供 [Walmart API凭据](walmart-requirements.md#generate-a-walmart-marketplace-production-api-key) 从 [!DNL Walmart Marketplace Seller] 连接帐户 [!DNL Commerce] to [!DNL Walmart Marketplace] 用于通信和数据同步。 如果需要，您可以从 *设置* 页面。

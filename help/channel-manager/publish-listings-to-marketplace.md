@@ -2,9 +2,9 @@
 title: 向沃尔玛发布产品清单
 description: 将商务产品的列表发布到 [!DNL Walmart Marketplace]开始卖。
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: ae3d95fd0da6ee5013a19d7ac7ed5ef87e4a1325
+source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ### 先决条件
 
-在匹配产品之前，请确认您的产品目录属性值是否满足Walmart要求并配置属性设置。 请参阅 [映射目录属性](map-catalog-attributes.md).
+在匹配产品之前，请确认您的产品目录属性值是否满足Walmart要求，并配置产品属性设置。 请参阅 [映射目录属性](map-catalog-attributes.md).
 
 #### 选择并匹配产品
 
@@ -52,9 +52,7 @@ ht-degree: 0%
 
 匹配完成后，状态可以是 *匹配* 或 *错误*.
 
-* **[!UICONTROL Match]** 表示产品已成功匹配。 您的产品选件已发布到沃尔玛的现有列表。 如果 [市场商店不活动](walmart-prerequisites.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* 显示在 *[!UICONTROL Status detail]* 列。
-
-如果 [[!DNL Walmart Marketplace] 存储未激活](walmart-prerequisites.md#walmart-marketplace-store-status), *状态详细信息* 列表示产品为 *已暂存进行匹配*. 在 [!DNL Walmart Marketplace] 存储区已激活。
+* **[!UICONTROL Match]** 表示产品已成功匹配。 您的产品选件已发布到沃尔玛的现有列表。 如果 [市场商店不活动](walmart-requirements.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* 显示在 *[!UICONTROL Status detail]* 列。 在 [!DNL Walmart Marketplace] 存储区已激活。
 
 * **[!UICONTROL Error]** 表示由于以下问题之一，匹配操作失败：
 
@@ -116,7 +114,7 @@ ht-degree: 0%
 
 ### 先决条件
 
-* 确认您满足 [沃尔玛先决条件](walmart-prerequisites.md).
+* 确认您满足 [沃尔玛要求](walmart-requirements.md).
 
 * 在您的商务产品目录中，验证要在Walmart Marketplace上列出的产品的目录配置是否具有所有必需属性并符合Walmart Marketplace内容准则。
 

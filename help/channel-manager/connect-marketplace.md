@@ -2,7 +2,7 @@
 title: 将销售渠道连接到 [!DNL Walmart Marketplace]
 description: 配置销售渠道并连接到Walmart Marketplace。
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
+source-git-commit: aaab7aa7feb05264c24386e62193564dc5ae8fe3
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 1. 将渠道连接到 [!DNL Walmart Marketplace].
 
-   - 添加的凭据 [[!DNL Walmart Marketplace Adobe Production API key]](walmart-prerequisites.md#generate-a-walmart-marketplace-production-api-key) 从 [!DNL Walmart Marketplace Seller] 帐户。
+   - 添加的凭据 [[!DNL Walmart Marketplace Adobe Production API key]](walmart-requirements.md#generate-a-walmart-marketplace-production-api-key) 从 [!DNL Walmart Marketplace Seller] 帐户。
 
    - 如果您没有凭据，请从 [!DNL Walmart Marketplace Developer Portal] 选择 **[!UICONTROL Get API credentials]**.
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
       >[!NOTE]
       >
-      >如果 [!DNL Adobe Inc] 键未在开发人员门户中列出，请选择 **[!UICONTROL Add New Key for a Solution Provider]** 以配置权限并生成密钥。 有关配置详细信息，请参阅 [生成 [!DNL Walmart Marketplace API Key]](walmart-prerequisites.md#generate-a-walmart-marketplace-api-key).
+      >如果 [!DNL Adobe Inc] 键未在开发人员门户中列出，请选择 **[!UICONTROL Add New Key for a Solution Provider]** 以配置权限并生成密钥。 有关配置详细信息，请参阅 [生成 [!DNL Walmart Marketplace API Key]](walmart-requirements.md#generate-a-walmart-marketplace-api-key).
 
    - 返回 [!DNL Channel Manager] 将凭据添加到 **[!UICONTROL Walmart Connection]** 信息。
 
@@ -77,6 +77,6 @@ ht-degree: 0%
 
 - 从 [!DNL Walmart Developer Portal]，确认您复制了 [!UICONTROL Adobe Inc.]
 
-- 验证的访问配置 [!UICONTROL Walmart Adobe API key] 具有正确的权限。 请参阅 [[!DNL Walmart Prerequisites]](walmart-prerequisites.md##generate-a-walmart-marketplace-api-key).
+- 验证的访问配置 [!UICONTROL Walmart Adobe API key] 具有正确的权限。 请参阅 [[!DNL Walmart Requirements]](walmart-requirements.md##generate-a-walmart-marketplace-api-key).
 
 - 确认 [!DNL Walmart API] 服务可从 [Walmart API状态页面](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target=&quot;_blank&quot;}。

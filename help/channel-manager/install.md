@@ -2,9 +2,9 @@
 title: 安装 [!DNL Channel Manager]
 description: 安装Channel Manager扩展。
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
+source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 安装 [!DNL Channel Manager]
 
-查看 [先决条件](onboard.md#prerequisites) 并在安装“渠道管理器”之前收集所需信息。
+查看 [要求](onboard.md#requirements) 并在安装“渠道管理器”之前收集所需信息。
 
 ## 更新最小稳定性设置
 
@@ -56,7 +56,7 @@ Channel Manager的安装说明取决于Adobe Commerce或Magento Open Source是�
 1. 从 [!DNL Commerce] 项目根目录，将渠道管理器添加到 `composer.json`.
 
    ```bash
-    $ composer require magento/channel-manager --no-update
+    composer require magento/module-sales-channels-extension --no-update
    ```
 
 1. 如果出现提示，请输入 [!DNL Commerce] 帐户。
@@ -66,59 +66,55 @@ Channel Manager的安装说明取决于Adobe Commerce或Magento Open Source是�
 1. 更新依赖项并安装扩展。
 
    ```bash
-   $ composer update
+   composer update magento/module-sales-channels-extension
    ```
 
-   的 `composer update` 命令会更新所有依赖项。 要仅更新与“渠道管理器”相关的依赖项，请改用以下命令： `composer update magento/channel-manager`.
+   的 `composer update` 命令仅更新 [!DNL Channel Manager]. 要更新所有依赖项，请改用以下命令： `composer update`.
 
 1. 等待编辑器完成更新项目依赖项并解决任何错误。
 
-1. 验证安装
+1. 验证模块安装：
+
+   - 检查模块状态。
+
+      ```bash
+      bin/magento module:status Magento_SalesChannels
+      ```
+
+      示例响应：
+
+      ```terminal
+      Module is enabled
+      ```
+
+   - 如果未启用模块，请将其启用。
 
    ```bash
-   $ bin/magento module:status channel-manager
-   ```
-
-   示例响应：
-
-   ```terminal
-   Module is disabled
+   bin/magento module:enable Magento_SalesChannels
    ```
 
 1. 注册扩展。
 
    ```bash
-   $ bin/magento setup:upgrade
+   bin/magento setup:upgrade
    ```
 
 1. 如果出现提示，请重新编译 [!DNL Commerce] 项目。
 
    ```bash
-   $ bin/magento setup:di:compile
-   ```
-
-1. 验证扩展是否已启用：
-
-   ```bash
-   $ bin/magento module:status channel-manager
-   ```
-
-   示例响应：
-
-   ```bash
-   Module is enabled
+   bin/magento setup:di:compile
    ```
 
 1. 清除缓存。
 
    ```bash
-   $ bin/magento cache:clean
+   bin/magento cache:clean
    ```
 
 1. 禁用维护模式。
 
    ```bash
-    $ bin/magento maintenance:disable
+   bin/magento maintenance:disable
    ```
 
 ### 在云基础架构实例上的Adobe Commerce上安装
@@ -136,14 +132,16 @@ Channel Manager的安装说明取决于Adobe Commerce或Magento Open Source是�
 1. 使用编辑器名称，将扩展添加到 `require` 部分 `composer.json` 文件。
 
    ```bash
-   $ composer require magento/channel-manager --no-update
+   composer require require magento/module-sales-channels-extension --no-update
    ```
 
-1. 更新项目依赖项。
+1. 更新依赖项并安装扩展。
 
    ```bash
-   $ composer update
+   composer update magento/module-sales-channels-extension
    ```
+
+   的 `composer update` 命令仅更新 [!DNL Channel Manager]. 要更新所有依赖项，请改用以下命令： `composer update`.
 
 1. 添加、提交和推送代码更改 — 包括对 `composer.lock` 和 `composer.json` 文件。
 
@@ -161,15 +159,18 @@ Channel Manager的安装说明取决于Adobe Commerce或Magento Open Source是�
 
 1. 构建和部署过程完成后，使用SSH登录到远程环境，并验证扩展是否已正确安装。
 
-   ```bash
-   $ bin/magento module:status channel-manager
-   ```
+```bash
+   bin/magento module:status Magento_SalesChannels
+```
 
-   示例响应：
+示例响应：
 
-   ```terminal
-   Module is enabled
-   ```
+```terminal
+Module is enabled
+```
+
+如果模块被禁用， [在本地环境中启用它](https://devdocs.magento.com/cloud/howtos/install-components.html#manage-extensions) 和部署更改。
+
 
 1. 成功安装扩展后，请登录到 [!UICONTROL Admin] to [配置Commerce Services Connector](connect.md).
 

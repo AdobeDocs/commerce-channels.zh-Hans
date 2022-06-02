@@ -4,17 +4,15 @@ description: 将您的实例连接到 [!DNL Channel Manager] 服务，方法是�
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: e0b7f971f8eb4bc0827a7792ef94d88766adf82e
+source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
 
 
 # 板载 [!DNL Channel Manager]
-
-通过在您的 [!DNL Commerce] 实例和配置API连接。 这些连接可在您的Commerce实例和 [!DNL Walmart Marketplace].
 
 完成入门后，请通过 [!UICONTROL Channel Manager] 选项 [!UICONTROL Commerce Admin Marketing] 菜单。
 
@@ -30,9 +28,9 @@ ht-degree: 0%
 
 1. [完成商店设置](complete-store-setup.md).
 
-## 先决条件
+## 要求
 
-- 确认您具有 [Walmart Marketplace先决条件](walmart-prerequisites.md) 与渠道管理器集成。
+- 确认您满足 [Walmart Marketplace要求](walmart-requirements.md) 与渠道管理器集成。
 
 - **商务帐户信息** — 下载和安装 [!DNL Channel Manager] 需要 [商务帐户](https://docs.magento.com/user-guide/magento/magento-account.html){target=&quot;_blank&quot;}。 您需要具有以下权限的帐户ID和凭据：拥有 [!DNL Adobe Commerce] 或 [!DNL Magento Open Source] 实例。
 
@@ -62,7 +60,7 @@ ht-degree: 0%
 
    如果您计划使用渠道管理器进行库存和订单管理，则必须在Adobe Commerce和Magento Open Source实例上安装并启用Inventory management扩展。 通常，此扩展默认安装并在Adobe Commerce和Magento Open Source2.3.x及更高版本上启用。 有关更多信息，请参阅 [安装Inventory management](https://devdocs.magento.com/extensions/inventory-management/) ，位于Adobe Commerce开发人员文档中。
 
-### 要求
+### 系统要求
 
 - [Adobe Commerce 2.4.x](https://devdocs.magento.com/release/released-versions.html)
 - [7.3菲律宾比索/7.4](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/php-settings.html)

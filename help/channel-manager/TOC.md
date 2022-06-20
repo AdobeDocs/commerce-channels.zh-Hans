@@ -2,10 +2,9 @@
 user-guide-title: '"[!DNL Channel Manager] 指南”'
 user-guide-description: 通过将Adobe Commerce或Magento Open Source与 [!DNL Walmart Marketplace]Seller Central] 帐户。
 breadcrumb-title: '"[!DNL Channel Manager Guide]"'
-hide: true
-source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
+source-git-commit: 97128dcf45d7672e958c771f88389aba40c6e39e
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
@@ -24,13 +23,14 @@ ht-degree: 0%
    - [连接到 [!DNL Walmart Marketplace]](connect-marketplace.md)
    - [完成渠道设置](complete-store-setup.md)
 - 配置设置 {#configure-settings}
-   - [设置概述](settings-overview.md)
+   - [渠道设置概述](settings-overview.md)
    - [映射目录属性](map-catalog-attributes.md)
    - [地图运输承运人](map-shipping-carriers.md)
+   - [管理Walmart连接](manage-wmt-connection.md)
 - 列出产品 {#list-products}
    - [管理列表](manage-listings.md)
    - [将产品添加到渠道商店](add-products-to-channel-store.md)
-   - [向沃尔玛发布产品清单](publish-listings-to-marketplace.md)
+   - [将列表与沃尔玛连接](connect-listings-to-marketplace.md)
 - 库存和定价 {#inventory-pricing}
    - [更新库存和定价](inventory-and-price-updates.md)
 - 管理订单 {#manage-orders}

@@ -2,9 +2,9 @@
 title: '"[!DNL Walmart] 要求”'
 description: “确认您拥有[!DNL Walmart Marketplace]与渠道管理器集成的信息和资源。”
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
+source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -19,14 +19,14 @@ ht-degree: 0%
 
    的 [!DNL Walmart Marketplace] API密钥支持在 [!DNL Channel Manager] Adobe Commerce或Magento Open Source以及沃尔玛市场。 在启动Channel Manager载入过程之前，在Seller Central中设置API密钥。
 
-## 设置Marketplace卖家帐户
+## 设置 [!DNL Walmart Seller] 帐户
 
 1. [提交您的Walmart销售商申请](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI).
 1. 获得 [!DNL Walmart], [设置沃尔玛卖家账户](https://sellerhelp.walmart.com/seller/s/guide?article=000008219).
 
 ## 生成 [!DNL Walmart Marketplace] 生产API密钥
 
-1. 转到 [!DNL Walmart Marketplace]生成 [解决方案提供商生产API密钥，用于Adobe](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
+1. 转到 [!DNL Walmart Marketplace] 生成 [解决方案提供商生产API密钥，用于Adobe](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
 
 1. 创建密钥并配置权限：
 
@@ -52,10 +52,15 @@ ht-degree: 0%
 
 ## [!DNL Walmart Marketplace] 存储状态
 
-将产品发布到市场时，列出的可用性取决于您的 [!DNL Walmart Marketplace] 商店：
+将产品连接到市场时，列出的可用性取决于 [!DNL Walmart Marketplace] 商店：
 
 * 对于实时商店，您的产品选件将列出并在匹配操作完成时可供销售。
 
 * 对于不处于实时状态的商店，您的产品选件会进行暂存，且客户不可见。 当 [!DNL Walmart Marketplace] 存储会上线，暂存列表会自动推送到实时存储。
 
 ![[!DNL Walmart Seller Central] 暂存产品](assets/walmart-seller-central-staged.png)
+
+>[!IMPORTANT]
+>
+>之后 [!DNL Channel Manager] 已安装并配置，则所有库存、价格和订单更新都会自动同步。 在您禁用了更新产品和订单数据的任何其他集成，并且准备好将商务更新同步到之前，请勿将渠道管理器连接到实时的Walmart Marketplace商店 [!DNL Walmart Marketplace].
+

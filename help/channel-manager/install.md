@@ -2,9 +2,9 @@
 title: 安装 [!DNL Channel Manager]
 description: 安装Channel Manager扩展。
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 4242115d178a4e4a21a271f2ea47fcd8ad9250ed
+source-git-commit: f3b4392824e5682cec2f7071445111373188808e
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -13,19 +13,6 @@ ht-degree: 0%
 # 安装 [!DNL Channel Manager]
 
 查看 [要求](onboard.md#requirements) 并在安装“渠道管理器”之前收集所需信息。
-
-## 更新最小稳定性设置
-
-在安装扩展之前，请更新 `minimum-stability` 您的 `composer.json` 文件，以便您可以使用编辑器安装早期版本的渠道管理器。
-
-要更新配置，请将以下行添加到 `composer.json` 文件。
-
-```json
-{
-   "minimum-stability": "alpha",
-   "prefer-stable": true
-}
-```
 
 ## 安装扩展
 

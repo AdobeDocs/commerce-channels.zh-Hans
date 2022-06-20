@@ -2,19 +2,18 @@
 title: 映射目录属性
 description: 映射用于匹配的属性[DNL! 商务]产品到现有 [!DNL Walmart Marketplace] 列表和同步数据 [!DNL Channel Manager] 和 [!DNL Walmart].
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: f1c37111df2f566b9673946bb9b2b282506f990c
+source-git-commit: 97128dcf45d7672e958c771f88389aba40c6e39e
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '217'
 ht-degree: 0%
 
 ---
 
 # 映射目录属性
 
-在从发布列表之前 [!DNL Commerce] to [!DNL Walmart Marketplace]，则必须从 [!DNL Commerce] Walmart中相应标识符的目录。
-需要此步骤才能匹配 [!DNL Commerce] 现有产品 [!DNL Walmart] 列表和同步产品数据 [!DNL Commerce] 和 [!DNL Walmart].
+在从 [!DNL Commerce] to [!DNL Walmart Marketplace]，则必须从 [!DNL Commerce] Walmart中相应标识符的目录。
 
-对于产品匹配， [!DNL Commerce] 产品必须至少具有一个与 [!DNL Walmart].
+需要此步骤才能匹配 [!DNL Commerce] 现有产品 [!DNL Walmart] 列表和同步产品数据 [!DNL Commerce] 和 [!DNL Walmart]. 的 [!DNL Commerce] 产品必须至少具有一个与 [!DNL Walmart].
 
 **必需 [!DNL Walmart] 产品ID**
 
@@ -29,7 +28,9 @@ ht-degree: 0%
 
 ## 映射唯一标识符
 
-1. 在 [!UICONTROL Listings] 页面，选择 **[!UICONTROL Settings]**.
+1. 从 **[!UICONTROL Listings]** 或 **[!UICONTROL Orders]** 页面，选择 **[!UICONTROL Channel Settings]**.
+
+1. 开 **[!UICONTROL Channel Settings]**，选择 **[!UICONTROL Shipping Carriers]**.
 
    - 查找 [!DNL Walmart Marketplace] 属性。
 
@@ -37,17 +38,7 @@ ht-degree: 0%
 
       以下示例映射 [!UICONTROL Walmart Marketplace UPC] 属性。
    ![映射产品匹配条件的属性](assets/products-map-attributes-for-match.png)
-   - （可选）您可以映射多个属性以增加匹配。 如果映射多个属性，请选择一个作为 **主要标识符**. 此
 
    - 选择 **[!UICONTROL Save]**.
 
 
-## 更新映射的属性配置
-
-通过更新映射的属性设置，更改匹配产品的商务产品标识符。
-
-例如，您可以根据SKU进行匹配，而不是根据Commerce UPC产品属性代码来匹配产品。 或者，映射其他属性以改进匹配。
-
-1. 从 **[!UICONTROL Listings]**，选择 **[!UICONTROL Settings]**.
-
-1. 在映射属性窗体中，根据需要更改映射的属性配置。

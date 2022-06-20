@@ -2,9 +2,9 @@
 title: 处理订单
 description: 发运和取消说明 [!DNL Walmart Marketplace] Adobe Commerce和Magento Open Source的订单。
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: f1c37111df2f566b9673946bb9b2b282506f990c
+source-git-commit: aeb3e4883a92f8dbd1725a70102401ad733ee391
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,15 @@ Channel Manager将更新同步到 [!DNL Walmart Marketplace] 以确保来自商�
 
 * **订单发运**- Walmart要求所有发货的跟踪编号。 如果某些物料无现货，您可以创建部分发运以发送当前可用的物料。 在您提交发运后，订单更新将同步到 [!DNL Walmart Marketplace]. 然后，沃尔玛会通知客户订单状态和送货详细信息。
 
-* **订单取消** — 当您取消 [!DNL Walmart Marketplace] 沃尔玛要求在发送给客户的订单取消通知中包含取消原因。 取消原因也显示在 [!DNL Commerce] 订单付款信息。
+* **订单取消** — 当您取消 [!DNL Walmart Marketplace] 沃尔玛要求在发送给客户的订单取消通知中包含取消原因。 取消原因也显示在 [!DNL Commerce] 订单付款信息。 提交取消后，库存更新将同步到 [!DNL Walmart Marketplace]. 然后，沃尔玛会通知客户订单状态和送货详细信息。
+
+   在店面，您必须取消整个订单。 商务不允许部分取消。
+
+处理商务订单并 [!DNL Channel Manager] 成功将装运、部分装运和取消更新同步到 [!DNL Walmart Marketplace]，则订单处理完成。
 
 >[!NOTE]
 >
-> 订单更新最多可以在五分钟内同步到 [!DNL Walmart Marketplace]. 要检查订单状态，请返回到 [!DNL Channel Manager] 订单页面。
+> 订单更新可能最多需要五分钟才能同步到 [!DNL Walmart Marketplace]. 要检查订单状态，请返回到 [!DNL Channel Manager] 订单页面。
 
 ## 发运订单
 
@@ -69,3 +73,11 @@ Channel Manager将更新同步到 [!DNL Walmart Marketplace] 以确保来自商�
 
 
 1. 提交取消后，跟踪 [订单状态](manage-orders.md#about-order-status) in [!DNL Channel Manager] 验证更新是否已发送到 [!DNL Walmart Marketplace].
+
+## 修复订单错误
+
+在订单同步过程中，可能会从 [!DNL Walmart Marketplace]，或在更新发运、部分发运和取消的订单流程中。
+
+如果发运、部分发运或取消更新的同步操作失败，则 [!DNL Channel Manager] 订购页面显示 _错误_ 订单的状态。 为确保发运信息和订单取消信息准确反映在Walmart Marketplace帐户中，请在您的 [!DNL Walmart Marketplace] 存储。
+
+

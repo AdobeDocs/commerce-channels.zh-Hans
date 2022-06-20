@@ -2,20 +2,26 @@
 title: 库存和价格更新
 description: '''[!DNL Channel Manager] 同步商务商店和 [!DNL Walmart Marketplace] 以便您可以通过商务管理员管理您的销售渠道操作'
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
-source-git-commit: 71ad5e3bc9ff6b909943a161472e4db7d375683f
+source-git-commit: 97128dcf45d7672e958c771f88389aba40c6e39e
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
 
 # 更新库存和定价
 
-[!DNL Channel Manager] 跟踪 [!DNL Commerce] 产品目录和同步到连接的销售渠道和 [!DNL Walmart Marketplace]. 同步可确保产品清单反映当前库存数量和定价。
+[!DNL Channel Manager] 跟踪 [!DNL Commerce] 产品目录并将更新同步到连接的销售渠道和 [!DNL Walmart Marketplace]. 同步操作可确保产品清单反映当前库存数量和定价。
+
+
+>[!IMPORTANT]
+>
+>之后 [!DNL Channel Manager] 已安装并配置，则所有库存、价格和订单更新都会自动同步。 如果您已经直接或通过其他集成在Walmart Marketplace上销售，请确保禁用之前的集成，并验证商务店面的库存水平和价格是否准确，并与 [!DNL Walmart Marketplace] 在连接之前 [!DNL Channel Manager] 到现场商城商店。
+
 
 ## 库存更新
 
-当产品库存级别在 [!DNL Commerce], [!DNL Channel Manager] 同步到销售渠道和 [!DNL Walmart Marketplace]. 库存更新可能最多需要10分钟才能跨销售渠道同步到 [!DNL Walmart marketplace].
+当产品库存级别在 [!DNL Commerce], [!DNL Channel Manager] 同步更新至 [!DNL Walmart Marketplace]. 库存更新可能最多需要10分钟才能跨销售渠道同步到 [!DNL Walmart marketplace].
 
 * **更新产品目录中的库存数量** — 当 [!DNL Commerce] 库存数量因 [手动库存数量更改](https://docs.magento.com/user-guide/catalog/inventory-product-quantity.html)退款或取消， [!DNL Channel Manager] 将更改同步到连接的渠道，并 [!DNL Walmart Marketplace].
 
@@ -29,7 +35,7 @@ ht-degree: 0%
 
 当产品价格在 [!DNL Commerce], [!DNL Channel Manager] 同步更新到 [!DNL Walmart Marketplace]. 价格变化最多可能需要五分钟才能显示在 [!DNL Walmart Marketplace] 列表。
 
-### 管理已发布产品的定价
+### 管理连接产品的定价
 
 1. 从 [!UICONTROL Admin]，选择 **[!UICONTROL Catalog > Products]**.
 1. 在产品网格中，找到要更新的产品并选择 **[!UICONTROL Edit]**.

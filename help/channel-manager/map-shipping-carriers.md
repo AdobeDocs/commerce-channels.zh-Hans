@@ -2,9 +2,9 @@
 title: 映射运输承运人
 description: 映射用于匹配的属性[DNL! 商务]产品到现有 [!DNL Walmart Marketplace] 列表和同步数据 [!DNL Channel Manager] 和 [!DNL Walmart].
 exl-id: 98c8d3f6-f129-43c6-920c-d9c36b0e4a40
-source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
+source-git-commit: 97128dcf45d7672e958c771f88389aba40c6e39e
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 0%
 
 ## 映射运输承运人
 
-1. 在 [!UICONTROL Listings] 页面，选择 **[!UICONTROL Settings]**.
+1. 从 **[!UICONTROL Listings]** 或 **[!UICONTROL Orders]** 页面，选择 **[!UICONTROL Channel Settings]**.
 
-1. 从 **[!UICONTROL Map Attributes]**，选择 **[!UICONTROL Shipping Carriers]**.
+1. 开 **[!UICONTROL Channel Settings]**，选择 **[!UICONTROL Shipping Carriers]**.
 
    ![映射运输承运人](assets/map-shipping-carriers.png)
 

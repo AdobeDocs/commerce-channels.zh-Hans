@@ -2,17 +2,17 @@
 title: 将产品添加到销售渠道商店
 description: 为 [!DNL Walmart Marketplace] 通过将产品从目录添加到销售渠道进行销售
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: 0acf063aeadd464824d1d0fce9eed1532d638c12
+source-git-commit: d9b39984fc7401c42fc431f35cf5649f86f4f2f9
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
 
 
-# 将产品添加到销售渠道商店
+# 将产品添加到 [!DNL Channel Manager]
 
-将产品添加到 [!DNL Walmart Marketplace] 通过从 [!DNL Commerce] 产品目录并将其导入 [!DNL Channel Manager].
+将产品添加到 [!DNL Walmart Marketplace] 销售渠道，从 [!DNL Commerce] 产品目录，并将其导入 [!DNL Channel Manager].
 根据您选择的产品数量，导入过程最多可能需要30分钟或更长时间。
 
 ## 先决条件
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 [!DNL Commerce] 产品清单必须具有以下必需的属性配置：
 
-- **[!UICONTROL Publish to Channel Manager]** 属性已启用
+- **[!UICONTROL Connect to Channel Manager]** 属性已启用
 
 - 为所需的沃尔玛属性提供有效值。
 
@@ -49,11 +49,11 @@ ht-degree: 0%
 
    ![将产品发送到销售渠道商店](assets/select-products-from-catalog.png)
 
-1. 启用 **[!UICONTROL Publish to Channel Manager]** 属性。
+1. 启用 **[!UICONTROL Connect to Channel Manager]** 属性。
 
    - 从 **[!UICONTROL Actions]**，选择 **[!UICONTROL Update attributes]**.
 
-   - 滚动到 **[!UICONTROL Publish to Channel Manager]** 属性并启用该属性。
+   - 滚动到 **[!UICONTROL Connect to Channel Manager]** 属性并启用该属性。
 
    - 验证产品属性中是否至少包含一个必需的 [!DNL Walmart Product IDs].
 

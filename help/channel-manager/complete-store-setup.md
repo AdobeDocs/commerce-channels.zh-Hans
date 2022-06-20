@@ -2,9 +2,9 @@
 title: 完成销售渠道设置
 description: 导航到连接的销售渠道以管理查看和管理产品清单、库存和价格更新，以及跟踪订单
 exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
-source-git-commit: c2d5961526e6c5ff7f1efa86dc7e831fa096f924
+source-git-commit: 174c4fa6da5f2b907a8dd1f96d9ca379770f848d
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 1. 开始销售渠道操作。
 
-   - [为产品标识符和运输承运人配置渠道设置](configure-channel-settings.md)
+   - [为产品标识符和运输承运人配置渠道设置](settings-overview.md)
 
    - [从 [!DNL Commerce Catalog] 到渠道管理器](add-products-to-channel-store.md)
 

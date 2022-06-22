@@ -1,10 +1,10 @@
 ---
 title: 管理列表
-description: 管理 [!DNL Commerce] 与Channel Manager一起存储，用于Adobe Commerce和Magento Open Source。
+description: '''管理 [!DNL Commerce] 与Channel Manager一起存储，用于Adobe Commerce和Magento Open Source。'
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 690eeb5d03b23cac11f3c14b04601c514c76e0bd
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 * 添加产品
 * 匹配产品
 * 跟踪列表状态
-* 任何产品清单的错误描述，其状态为错误
+* 查看列表的错误描述，其中显示错误状态
 
 ## 查看产品列表
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 1. 通过选择 **刷新产品**.
 
-## 将商务产品添加到渠道管理器
+## 添加 [!DNL Commerce] 产品到渠道管理器
 
 为 [!DNL Walmart Marketplace] 渠道（完成以下任务）：
 
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Match]** — 标识成功匹配的产品 [!DNL Walmart].
 
-   当产品属性值（例如UPC代码）与现有 [!DNL Walmart Marketplace] 列表。 当产品匹配时，会将商务产品选件添加到现有 [!DNL Walmart] 列表。
+   当产品属性值（例如UPC代码）与现有 [!DNL Walmart Marketplace] 列表。 当产品匹配时，商务产品选件会添加到现有列表。
 
    检查 [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) 功能板，以审核更新的产品列表并验证产品详细信息、价格和库存数量。
 

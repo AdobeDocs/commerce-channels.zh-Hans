@@ -1,10 +1,10 @@
 ---
 title: 将上市信息与沃尔玛连接
-description: 将商务产品的列表连接到 [!DNL Walmart Marketplace]开始卖。
+description: '''连接列表 [!DNL Commerce] 产品 [!DNL Walmart Marketplace]开始卖。'
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: 418bb6a91817f49f3c3ae39a8d26370bfeb39099
+source-git-commit: bc2e14714e9b532263c480395da28b31b4c3797c
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 - [!DNL Walmart Marketplace] 使用产品标识符（如UPC和GTIN）将产品与现有产品进行匹配 [!DNL Walmart Marketplace] 列表。
 
-- 对于匹配的产品， Walmart Marketplace会列出更新，以在您从 [!DNL Channel Manager].
+- 对于匹配的产品， Walmart Marketplace会列出更新，以包括 [!DNL Commerce] 产品选件 [!DNL Channel Manager].
 
 - 通常，价格最低的产品选件会首先显示在 [!DNL Walmart Marketplace] 列表，但其他因素（如评论）也会影响投放。
 
 ## 匹配产品
 
-当您匹配产品时，渠道管理器会将产品数据发送到 [!DNL Walmart Marketplace] 以搜索具有与映射的商务产品属性匹配属性值的现有列表。 匹配条件由 [属性映射配置](map-catalog-attributes.md) 的渠道。
+当您匹配产品时，渠道管理器会将产品数据发送到 [!DNL Walmart Marketplace] 搜索具有与映射的 [!DNL Commerce] 产品属性。 匹配条件由 [属性映射配置](map-catalog-attributes.md) 的渠道。
 
 如果找到匹配项，则会更新现有产品列表以添加您的选件。
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 ## 上传新产品列表
 
-对于在Walmart Marketplace上没有匹配项的产品，请使用Walmart产品类别Excel模板批量上传产品列表。 使用从商务实例导出的产品目录数据填充Walmart模板。
+对于在Walmart Marketplace上没有匹配项的产品，请使用Walmart产品类别Excel模板批量上传产品列表。 使用从 [!DNL Commerce] 实例。
 
 对于新产品清单，请检查您的产品目录，以确保您计划在沃尔玛市场销售的产品具有沃尔玛市场产品清单所需的属性。
 
@@ -113,7 +113,7 @@ ht-degree: 0%
 
 - 确认您满足 [沃尔玛要求](walmart-requirements.md).
 
-- 在您的商务产品目录中，验证要在Walmart Marketplace上列出的产品的目录配置是否具有所有必需属性并符合Walmart Marketplace内容准则。
+- 在 [!DNL Commerce] 产品目录，验证要在Walmart Marketplace上列出的产品的目录配置是否具有所有必需属性并符合Walmart Marketplace内容准则。
 
 - 验证cron作业是否正在运行以完成导出操作。
 
@@ -135,16 +135,16 @@ ht-degree: 0%
 
    - 验证模板是否包含产品清单的必需属性和推荐属性。
 
-1. 从 [!DNL Commerce] 管理员，选择要从您的Adobe Commerce网站导出的产品数据。
+1. 从 [!DNL Commerce] 管理员，选择要从您的Adobe导出的产品数据 [!DNL Commerce] 网站。
 
    - 在管理员中，选择 [!UICONTROL **系统** >数据传输> **导出**].
 
    - 在 [!UICONTROL Export] 页面 [!UICONTROL Entity Type] 字段，选择 [!UICONTROL **产品**].
 
    - 在 [!UICONTROL Entity Attributes] 表中，为产品数据导出配置选择条件。
-   ![导出 [!UICONTROL Commerce Admin]](assets/walmart-seller-account-full-setup-download.png)
+   ![导出 [!UICONTROL [!DNL Commerce] Admin]](assets/walmart-seller-account-full-setup-download.png)
 
-   使用过滤器选择并配置适用于您所销售产品类别的属性值。 确保包括沃尔玛的必需属性和推荐属性(请参阅 [导出数据](https://docs.magento.com/user-guide/system/data-export.html) (详细说明请参阅Adobe Commerce用户指南)。
+   使用过滤器选择并配置适用于您所销售产品类别的属性值。 确保包括沃尔玛的必需属性和推荐属性(请参阅 [导出数据](https://docs.magento.com/user-guide/system/data-export.html) Adobe [!DNL Commerce] 用户指南以了解详细说明。)
 
    要在导出中忽略属性，请选择 [!UICONTROL **排除**] 复选框。
 

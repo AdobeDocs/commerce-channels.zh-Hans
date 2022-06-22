@@ -1,8 +1,8 @@
 ---
 title: 映射目录属性
-description: 映射用于匹配的属性[DNL! 商务]产品到现有 [!DNL Walmart Marketplace] 列表和同步数据 [!DNL Channel Manager] 和 [!DNL Walmart].
+description: '''映射匹配的属性[DNL! 商务]产品到现有 [!DNL Walmart Marketplace] 列表和同步数据 [!DNL Channel Manager] 和 [!DNL Walmart].'''
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: 97128dcf45d7672e958c771f88389aba40c6e39e
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 0%

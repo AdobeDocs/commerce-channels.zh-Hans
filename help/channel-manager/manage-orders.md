@@ -1,23 +1,23 @@
 ---
-title: '"管理 [!DNL Walmart Marketplace] 订单数”'
-description: “查看和管理 [!DNL Walmart Marketplace] 订购 [!DNL Channel Manager] 为Adobe Commerce和Magento Open Source。”
+title: “查看和跟踪订单 [!DNL Channel Manager]'
+description: '''查看和管理 [!DNL Walmart Marketplace] 订购 [!DNL Channel Manager] 为Adobe Commerce和Magento Open Source。'
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: eb57189ed866fffa064867d1de5ae9db5b32e283
+source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
 
-# 管理 [!DNL Walmart Marketplace] 订购
+# 查看和跟踪订单来源 [!DNL Channel Manager]
 
 [!DNL Walmart Marketplace] 订单数据 [!DNL Commerce] 产品自动同步到 [!DNL Channel Manager] after [!DNL Walmart] 处理顺序。
 
-在商务端，成功的同步会触发以下操作：
+在 [!DNL Commerce] 另外，成功的同步会触发以下操作：
 
 - [!DNL Channel Manager] 向沃尔玛发出订单确认。
 
-- 根据沃尔玛订单创建相应的商务订单。
+- 对应 [!DNL Commerce] 订单是根据沃尔玛订单创建的。
 
 - 更新的订单信息显示在 [!DNL Channel Manager] 订单仪表板。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 **列描述**
 
 | 字段 | 描述 |
-|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Walmart Order Number] | 在 [!DNL Walmart Marketplace]. 首次将订单导入时 [!DNL Channel Manager]，仅 [!DNL Walmart] 此时会显示订单编号。 当 [!DNL Commerce] 订单，则 [!DNL Walmart] 订单号存储在 [!UICONTROL External ID] 产品属性。 |
 | [!DNL Commerce] 订单编号 | 分配给 [!DNL Commerce] 从创建的订单 [!DNL Walmart Marketplace] 订单。 |
 | 项目 | 订购的项目数 [!DNL Walmart Marketplace]. |
@@ -50,7 +50,7 @@ ht-degree: 0%
 | [!UICONTROL Deliver By Date] | 必须将订单交付给客户以满足要求的日期 [!DNL Walmart Marketplace] UTC格式的要求。 |
 | [!UICONTROL Ship Method] | 的 [[!DNL Walmart Marketplace] 装运方法](https://sellerhelp.walmart.com/s/guide?article=000007893) 已选择。 |
 | [!UICONTROL Last Update At] | 指示上次更新订单数据的时间戳(在 [!DNL Channel Manager] UTC格式。 |
-| [!UICONTROL Status] | 指示 [!DNL Commerce] 订单工作流。 从导入的订单的初始状态 [!DNL Walmart Marketplace] is _打开_. 在处理商务订单并 [!DNL Channel Manager] 成功将装运、部分装运和取消更新同步到 [!DNL Walmart Marketplace]. |
+| [!UICONTROL Status] | 指示 [!DNL Commerce] 订单工作流。 从导入的订单的初始状态 [!DNL Walmart Marketplace] is _打开_. 当 [!DNL Commerce] 订单已处理并 [!DNL Channel Manager] 成功将装运、部分装运和取消更新同步到 [!DNL Walmart Marketplace]. |
 | [!UICONTROL Error Description] | 通过 _[!UICONTROL Error]_状态。 |
 
 ## 订单状态
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 - **[!UICONTROL Shipped]** — 从 [!DNL Commerce] 存储。 当命令发出时， [!DNL Channel Manager] 向发送更新 [!DNL Walmart Marketplace] 要更新Walmart上的发运状态，并提供装运的订单跟踪编号。
 
-- **[!UICONTROL Partially Shipped]** — 某些物料标记为已发运，而其他物料等待发运的订单。 当订单中的物料发运时， [!DNL Channel Manager] 向发送更新 [!DNL Walmart Marketplace] 要将发运状态更新为在沃尔玛上单独发运，并提供发运的订单跟踪编号。
+- **[!UICONTROL Partially Shipped]** — 某些物料标记为已发运，而其他物料等待发运的订单。 当订单中的物料发运时， [!DNL Channel Manager] 向发送更新 [!DNL Walmart Marketplace] 将发运状态更新为 _[!DNL Partially Shipped]_并提供装运的订单跟踪编号。
 
 - **[!UICONTROL Canceled]** — 已从 [!DNL Commerce] 存储。
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果订单物料以多批发运发送，则 [!DNL Channel Manager] 反映最后一个可用订单状态。 例如，如果第一个项目发运，并且在将订单更新同步到时未返回任何错误 [!DNL Channel Manager] 和 [!DNL Walmart Marketplace], [!DNL Channel Manager] 订单状态为 _[!UICONTROL Partially Shipped]_.  如果第二件物料已发运并 [!C渠道管理器] 返回错误，顺序状态将更新为_[!UICONTROL Error]_.
+>如果订单物料以多批发运发送，则 [!DNL Channel Manager] 反映最后一个可用订单状态。 例如，如果第一个项目发运，并且在将订单更新同步到时未返回任何错误 [!DNL Channel Manager] 和 [!DNL Walmart Marketplace], [!DNL Channel Manager] 订单状态为 _[!UICONTROL Partially Shipped]_. 如果第二件物料已发运并 [!DNL Channel Manager] 返回错误，顺序状态将更新为_[!UICONTROL Error]_.
 
 ## 审核订单
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 1. 要查看订单信息，请选择*[!UICONTROL *Orders]**。
 
-1. 通过检查 **[状态](#about-order-status)** 列以获取有关订单的信息。
+1. 通过检查 **[状态](#about-order-status)** 列。
 
 ## 查看订单详细信息
 

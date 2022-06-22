@@ -1,13 +1,13 @@
 ---
 title: 管理Walmart Marketplace连接
-description: 更新API凭据以授权[DNL! 商务]商店视图和 [!DNL Walmart Marketplace]. 需要连接才能连接商务产品清单并同步商务和沃尔玛之间的库存、价格、订单和运输数据。
-source-git-commit: 97128dcf45d7672e958c771f88389aba40c6e39e
+description: '''更新API凭据，以授权[DNL! 商务]商店视图和 [!DNL Walmart Marketplace]. The connection is required to connect [!DNL Commerce] 产品清单，并同步库存、价格、订单和发运数据 [!DNL Commerce] 还有沃尔玛。'
+exl-id: 817b1b58-a57e-4c8d-b08f-1ce3bec15bc3
+source-git-commit: 2e55243dd920471b32e534563a39cc7be85375f8
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
-
 
 # 映射运输承运人
 

@@ -1,12 +1,12 @@
 ---
 title: 板载 [!DNL Channel Manager]
-description: 将您的实例连接到 [!DNL Channel Manager] 服务，方法是完成一些入门步骤。
+description: 将您的实例连接到 [!DNL Channel Manager] 服务，只需完成几个入门步骤。
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,11 @@ ht-degree: 0%
 
 - **商务帐户信息** — 下载和安装 [!DNL Channel Manager] 需要 [商务帐户](https://docs.magento.com/user-guide/magento/magento-account.html){target=&quot;_blank&quot;}。 您需要具有以下权限的帐户ID和凭据：拥有 [!DNL Adobe Commerce] 或 [!DNL Magento Open Source] 实例。
 
-   - **图像ID**-[登录](https://account.magento.com/customer/account/login/) 到商务帐户，以从 **[!UICONTROL My Account - Magento settings]**.
+   - **图像ID**-[登录](https://account.magento.com/customer/account/login/) 到 [!DNL Commerce] 从获取ID的帐户 **[!UICONTROL My Account - Magento settings]**.
 
-      ![[!DNL MAGEID] 商务帐户设置](assets/mageid-my-commerce-account.png)
+      ![[!DNL MAGEID] on [!DNL Commerce] 帐户设置](assets/mageid-my-commerce-account.png)
 
-   - **访问密钥 —** 获取身份验证密钥，以从商务编辑器存储库下载商务扩展 `([!DNL repo.magento.com]`)。
+   - **访问密钥 —** 获取要下载的身份验证密钥 [!DNL Commerce] 扩展 [!DNL Commerce] 编辑器存储库 `([!DNL repo.magento.com]`)。
 
       ![[!UICONTROL Commerce Marketplace access keys]](assets/commerce-marketplace-access-keys.png)
 

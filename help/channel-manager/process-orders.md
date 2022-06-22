@@ -1,10 +1,10 @@
 ---
 title: 处理订单
-description: 发运和取消说明 [!DNL Walmart Marketplace] Adobe Commerce和Magento Open Source的订单。
+description: “发运和取消说明” [!DNL Walmart Marketplace] Adobe Commerce和Magento Open Source的订单。
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: aeb3e4883a92f8dbd1725a70102401ad733ee391
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 之后 [!DNL Walmart Marketplace] 已确认订单，并已成功将订单发送到 [!DNL Channel Manager]，您使用 [商务订单管理](https://docs.magento.com/user-guide/sales/orders-workspace.html) 来处理订单。
 
-Channel Manager将更新同步到 [!DNL Walmart Marketplace] 以确保来自商务的订单状态和发运信息与 [!DNL Walmart Marketplace].
+Channel Manager将更新同步到 [!DNL Walmart Marketplace] 以确保订单状态和发运信息 [!DNL Commerce] 与 [!DNL Walmart Marketplace].
 
 * **订单发运**- Walmart要求所有发货的跟踪编号。 如果某些物料无现货，您可以创建部分发运以发送当前可用的物料。 在您提交发运后，订单更新将同步到 [!DNL Walmart Marketplace]. 然后，沃尔玛会通知客户订单状态和送货详细信息。
 
 * **订单取消** — 当您取消 [!DNL Walmart Marketplace] 沃尔玛要求在发送给客户的订单取消通知中包含取消原因。 取消原因也显示在 [!DNL Commerce] 订单付款信息。 提交取消后，库存更新将同步到 [!DNL Walmart Marketplace]. 然后，沃尔玛会通知客户订单状态和送货详细信息。
 
-   在店面，您必须取消整个订单。 商务不允许部分取消。
+   在店面，您必须取消整个订单。 [!DNL Commerce] 不允许部分取消。
 
 处理商务订单并 [!DNL Channel Manager] 成功将装运、部分装运和取消更新同步到 [!DNL Walmart Marketplace]，则订单处理完成。
 
@@ -58,7 +58,7 @@ Channel Manager将更新同步到 [!DNL Walmart Marketplace] 以确保来自商�
 
 1. 要查看 [!DNL Walmart Marketplace] 订购，选择*[!UICONTROL *Orders]**。
 
-1. 在“订单”表中，通过选择 **商务订单编号** 来取消。
+1. 在“订单”(Orders)表格中，打开 [订购详细信息页面](manage-orders.md#view-order-detail) 选择 **商务订单编号** 来取消。
 
    ![商务订单详细信息视图[!DNL Walmart Marketplace]订购](assets/order-detail-with-external-order-id.png)
 

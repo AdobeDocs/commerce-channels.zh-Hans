@@ -1,10 +1,10 @@
 ---
 title: 库存和价格更新
-description: '''[!DNL Channel Manager] 同步商务商店和 [!DNL Walmart Marketplace] 以便您可以通过商务管理员管理您的销售渠道操作'
+description: '''[!DNL Channel Manager] 同步库存和价格更新 [!DNL Commerce] 存储和 [!DNL Walmart Marketplace] 以便您能够从 [!DNL Commerce] 管理员'''
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
-source-git-commit: 97128dcf45d7672e958c771f88389aba40c6e39e
+source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->之后 [!DNL Channel Manager] 已安装并配置，则所有库存、价格和订单更新都会自动同步。 如果您已经直接或通过其他集成在Walmart Marketplace上销售，请确保禁用之前的集成，并验证商务店面的库存水平和价格是否准确，并与 [!DNL Walmart Marketplace] 在连接之前 [!DNL Channel Manager] 到现场商城商店。
+>之后 [!DNL Channel Manager] 已安装并配置，则所有库存、价格和订单更新都会自动同步。 如果您已在Walmart Marketplace上销售产品，请确保禁用更新产品和订单数据的任何其他集成。 然后，验证 [!DNL Commerce] storefront是准确的，且与 [!DNL Walmart Marketplace] 在连接之前 [!DNL Channel Manager] 到现场商城商店。
 
 
 ## 库存更新

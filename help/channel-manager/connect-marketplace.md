@@ -1,27 +1,27 @@
 ---
-title: 将销售渠道连接到 [!DNL Walmart Marketplace]
-description: 配置销售渠道并连接到Walmart Marketplace。
+title: '''连接 [!DNL Channel Manager] to [!DNL Walmart Marketplace]'''
+description: “将商务商店视图连接到 [!DNL Walmart Marketplace] 创建销售渠道以管理Walmart Marketplace销售的商务产品清单、库存、价格和订单。”
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
+source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
 
-# 将销售渠道连接到 [!DNL Walmart Marketplace]
+# 连接 [!DNL Channel Manager] to [!DNL Walmart Marketplace]
 
-在上安装Channel Manager后 [!DNL Commerce] 实例，连接 [!DNL Commerce] 存储到 [!DNL Walmart Marketplace].
+在上安装Channel Manager后 [!DNL Commerce] 实例中，在渠道管理器中创建销售渠道并配置要连接的凭据 [!DNL Channel Manager] to [!DNL Walmart Marketplace].
 
->[!NOTE]
->
->“渠道管理器”要求在沃尔玛帐户与商店视图之间建立一对一的连接。 您无法将同一商店视图连接到多个沃尔玛帐户。
-
-1. [创建销售渠道](#create-the-sales-channel) ，方法是为产品清单选择商务商店。
+1. [创建销售渠道](#create-the-sales-channel) 选择 [!DNL Commerce] 存储以获取产品清单。
 
 1. [将渠道连接到 [!DNL Walmart Marketplace] 通过添加 [!UICONTROL Walmart API credentials]](#connect-the-channel-to-walmart-marketplace).
 
 1. [完成销售渠道设置](#complete-store-setup) 管理列表、库存、定价和订单 [!DNL Walmart Marketplace] 产品分类。
+
+>[!NOTE]
+>
+>渠道经理要求在沃尔玛帐户和 [!DNL Commerce] 存储视图。 您无法将同一商店视图连接到多个沃尔玛帐户。
 
 ## 创建销售渠道
 
@@ -37,15 +37,15 @@ ht-degree: 0%
 
    - 选择 **[!UICONTROL Add Credentials]**.
 
-   - 选择 [!DNL Commerce] 存储视图以连接到商城。
+   - 选择 [!DNL Commerce] 提供要在市场上销售的产品的商店视图。
 
-      ![配置商务与 [!DNL Walmart Marketplace] 从 [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png)
+      ![配置之间的连接 [!DNL Commerce] 和 [!DNL Walmart Marketplace] 从 [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png)
 
    - 输入唯一 **[!UICONTROL store name]**.
 
-   - 选择 **[!UICONTROL Adobe Commerce site]** （对于产品列表）。
+   - 选择 **[!UICONTROL Adobe [!DNL Commerce] site]** 用于产品清单和订单处理。
 
-   - 添加 **[!UICONTROL email address]** 接收与 [!DNL Channel Manager].
+   - 接收与 [!DNL Channel Manager]，添加 **[!UICONTROL email address]**.
 
 1. 将渠道连接到 [!DNL Walmart Marketplace].
 

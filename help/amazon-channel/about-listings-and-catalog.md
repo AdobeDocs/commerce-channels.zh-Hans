@@ -2,9 +2,9 @@
 title: 关于Amazon和商务目录
 description: Amazon销售渠道会将您的Amazon列表导入Commerce后端，并会持续与产品和销售同步。
 exl-id: 659c9830-0a1d-4a0d-bb9c-afb609c0fbba
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: 5d30a5282ede2db0d9619eb2263b733328d26426
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Adobe Commerce和Magento Open Source使用产品管理目录同步 [属性](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;}以定义产品设置和数据。 Amazon还使用属性，以通过载入进行映射。 期间 [预设置任务](./amazon-pre-setup-tasks.md) 对于Amazon销售渠道，您可以定义其他Amazon属性（如果需要），以确保在将Amazon列表导入到 [!DNL Commerce] 目录。 这些属性包括UPC、EAN、ISBN和ASIN([!DNL Amazon Standard Identification Number])。 通过载入，产品可在Amazon和 [!DNL Commerce] 目录。 正确映射 [!DNL Commerce] 和Amazon产品可确保产品信息、订单和库存的持续同步。
 
-如果尚未为目录创建或配置这些属性，则应添加 [!DNL Commerce] [产品属性](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;}和值载入之前输入到您的产品。 导入Amazon属性后，该属性可用于搜索、导航、价格规则等。 有关这些属性的更多信息，请参阅 [Amazon:什么是UPC、EAN、ISBN和ASIN?](https://www.amazon.com/gp/seller/asin-upc-isbn-info.html){target=&quot;_blank&quot;}
+如果尚未为目录创建或配置这些属性，则应添加 [!DNL Commerce] [产品属性](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;}和值载入之前输入到您的产品。 导入Amazon属性后，该属性可用于搜索、导航、价格规则等。 请参阅 [ASIN、UPC、EAN、ISBN、SKU和其他条形码意味着什么？](https://sellerskills.com/multi-channel-operations/what-asin-upc-ean-isbn-sku-and-other-barcodes-mean/#what-is-isbn-number){target=&quot;_blank&quot;}
 
 入门后，您可以随时管理和更新产品属性和Amazon映射。
 

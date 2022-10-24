@@ -1,18 +1,18 @@
 ---
-title: 关于 [!DNL Channel Manager]'
-description: “了解如何安装和使用 [!DNL Channel Manager] 将Adobe Commerce和Magento Open Source商店与第三方市场集成，并创建销售渠道，以便从您的商务管理员中无缝地管理Marketplace列表、定价、库存和销售。
+title: '简介 [!DNL Channel Manager]'
+description: “了解如何安装和使用 [!DNL Channel Manager] 将Adobe Commerce和Magento Open Source店与Walmart Marketplace集成，并创建销售渠道，从您的商务管理员处无缝地管理市场列表、定价、库存和销售。
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
+source-git-commit: 2e3f8e51b765cda0559d8624d61e1ae9dc1c9667
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '707'
 ht-degree: 0%
 
 ---
 
 
-# 关于 [!DNL Channel Manager]
+# 简介 [!DNL Channel Manager]
 
 [!DNL Channel Manager] 通过将Adobe Commerce或Magento Open Source产品目录与 [!DNL Walmart Marketplace].
 
@@ -32,9 +32,11 @@ ht-degree: 0%
 
 * **订单管理** — 在市场中创建新订单时， [!DNL Channel Manager] 与Adobe Commerce同步订单，并向市场发送订单确认。 此确认可确保为每笔订单保留库存。 最后一步是在 [!DNL Commerce] 订单管理系统。
 
-* **装运管理** — 当订单在Adobe Commerce中标记为已发运时，发运更新将发送至 [!DNL Walmart Marketplace]. 此通知可确保销售商满足其履行SLA要求，并确保客户收到其当前订单的送货更新通知。
+* **装运管理** — 在Adobe Commerce中将订单标记为已发运时，发运更新将发送至 [!DNL Walmart Marketplace]. 此通知可确保销售商满足其履行SLA要求，并确保客户收到其当前订单的送货更新通知。
 
 * **取消** — 在Adobe Commerce取消订单时， [!DNL Channel Manager] 向市场发送更新的订单信息，以复制相应市场订单的操作。 订单取消完成后， [!DNL Commerce] 库存数量更新以反映返回的物料和库存更新，自动同步到 [!DNL Walmart Marketplace].
+
+* **退货和退款** — 当Walmart Marketplace请求退回通过Adobe Commerce或Magento Open Source销售渠道订购的商品时， [!DNL Channel Manager] 将回访请求信息发送到Commerce sales channel存储区以复制回访请求。 然后，可以使用 [!DNL Commerce] [退款工作流](https://docs.magento.com/user-guide/sales/credit-memos.html#refund-workflow)，脱机方法。 退款完成后， [!DNL Channel Manager] 将更新同步到沃尔玛，以便能够更新市场卖家帐户中的退货状态，以反映退款。
 
 ## 的预期滞后 [!DNL Channel Manager] 操作
 

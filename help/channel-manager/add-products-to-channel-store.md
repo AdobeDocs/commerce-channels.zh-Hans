@@ -1,10 +1,10 @@
 ---
 title: 将产品添加到渠道管理器
-description: '‘为 [!DNL Walmart Marketplace] 通过将产品从目录添加到渠道管理器中配置的销售渠道来进行销售。 '
+description: ‘为 [!DNL Walmart Marketplace] 通过将产品从目录添加到渠道管理器中配置的销售渠道来进行销售。
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: bc9badeed0f8b5dd6a4fad2633c06c917f7d9d90
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,10 @@ ht-degree: 0%
 
 1. 完成导入操作后，请通过返回 [!DNL Channel Manager] 选择 **[!UICONTROL Listings]**.
 
+   最初，产品位于 *草稿* 状态。 选择 **[!UICONTROL Refresh products]** 以更新表。
+
+1. 通过选择 **[!UICONTROL Draft]** 状态卡。
+
    ![导入连接销售渠道的产品](assets/products-in-marketplace-sales-channel.png)
 
-   最初，产品位于 *草稿* 状态。 选择 **[!UICONTROL Refresh products]** 以更新表。
 

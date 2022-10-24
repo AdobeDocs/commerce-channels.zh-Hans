@@ -1,8 +1,8 @@
 ---
 title: 映射运输承运人
-description: '''映射匹配的属性[DNL! 商务]产品到现有 [!DNL Walmart Marketplace] 列表和同步数据 [!DNL Channel Manager] 和 [!DNL Walmart].'''
+description: '映射匹配的属性[DNL! 商务]产品到现有 [!DNL Walmart Marketplace] 列表和同步数据 [!DNL Channel Manager] 和 [!DNL Walmart].'
 exl-id: 98c8d3f6-f129-43c6-920c-d9c36b0e4a40
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%
@@ -35,3 +35,4 @@ ht-degree: 0%
 1. 对于 [!DNL Walmart] 列出首选运营商，选择 [!DNL Commerce] 承运人名称（如果承运人可用）。
 
 1. 选择 **[!UICONTROL Save]** 以应用配置。
+

@@ -1,8 +1,8 @@
 ---
 title: 映射目录属性
-description: '''映射匹配的属性[DNL! 商务]产品到现有 [!DNL Walmart Marketplace] 列表和同步数据 [!DNL Channel Manager] 和 [!DNL Walmart].'''
+description: '映射匹配的属性[DNL! 商务]产品到现有 [!DNL Walmart Marketplace] 列表和同步数据 [!DNL Channel Manager] 和 [!DNL Walmart].'
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 0%
@@ -30,14 +30,15 @@ ht-degree: 0%
 
 1. 从 **[!UICONTROL Listings]** 或 **[!UICONTROL Orders]** 页面，选择 **[!UICONTROL Channel Settings]**.
 
-1. 开 **[!UICONTROL Channel Settings]**，选择 **[!UICONTROL Shipping Carriers]**.
+1. 开 **[!UICONTROL Channel Settings]**，选择 **[!UICONTROL Map Attributes]**.
 
    - 查找 [!DNL Walmart Marketplace] 属性。
 
    - 从 [!DNL Commerce] 存储目录。
 
       以下示例映射 [!UICONTROL Walmart Marketplace UPC] 属性。
-   ![映射产品匹配条件的属性](assets/products-map-attributes-for-match.png)
+
+      ![映射产品匹配条件的属性](assets/products-map-attributes-for-match.png)
 
    - 选择 **[!UICONTROL Save]**.
 

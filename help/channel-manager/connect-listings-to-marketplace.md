@@ -2,9 +2,9 @@
 title: 将上市信息与沃尔玛连接
 description: '''连接列表 [!DNL Commerce] 产品 [!DNL Walmart Marketplace]开始卖。'
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: bc2e14714e9b532263c480395da28b31b4c3797c
+source-git-commit: 6f87dc808096fbba12f8e657fff7d005df1ebe92
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1096'
 ht-degree: 0%
 
 ---
@@ -40,8 +40,6 @@ ht-degree: 0%
 1. 选择 **[!UICONTROL Match Products]**.
 
    消息指示为匹配而发送的产品数量。
-
-   ![将产品发送到连接的销售渠道](assets/products-submitted-for-matching.png)
 
    选定产品的状态将更改为 [!UICONTROL *处理*] 直到匹配操作完成。 沃尔玛商城可能需要30分钟才能完成比赛操作。
 
@@ -144,7 +142,7 @@ ht-degree: 0%
    - 在 [!UICONTROL Entity Attributes] 表中，为产品数据导出配置选择条件。
    ![导出 [!UICONTROL [!DNL Commerce] Admin]](assets/walmart-seller-account-full-setup-download.png)
 
-   使用过滤器选择并配置适用于您所销售产品类别的属性值。 确保包括沃尔玛的必需属性和推荐属性(请参阅 [导出数据](https://docs.magento.com/user-guide/system/data-export.html) Adobe [!DNL Commerce] 用户指南以了解详细说明。)
+   使用过滤器选择并配置适用于您所销售产品类别的属性值。 确保包括沃尔玛的必需属性和推荐属性。 (请参阅 [导出数据](https://docs.magento.com/user-guide/system/data-export.html) Adobe [!DNL Commerce] 用户指南以了解详细说明。)
 
    要在导出中忽略属性，请选择 [!UICONTROL **排除**] 复选框。
 

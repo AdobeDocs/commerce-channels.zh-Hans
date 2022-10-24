@@ -2,9 +2,9 @@
 title: 处理订单
 description: “发运和取消说明” [!DNL Walmart Marketplace] Adobe Commerce和Magento Open Source的订单。
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: 958f91f0303b823f164e60e56d8dbe4e8c2380f6
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,9 @@ Channel Manager将更新同步到 [!DNL Walmart Marketplace] 以确保订单状�
 
    在店面，您必须取消整个订单。 [!DNL Commerce] 不允许部分取消。
 
-处理商务订单并 [!DNL Channel Manager] 成功将装运、部分装运和取消更新同步到 [!DNL Walmart Marketplace]，则订单处理完成。
+* **退款请求** — 如果要求Walmart Marketplace退货，则 [!UICONTROL Status details] 包括指向返回的链接。 退货和退款均从 [返回结果](return-refund-orders.md) 功能板。
+
+处理商务订单并 [!DNL Channel Manager] 成功将装运、部分装运和取消更新同步到 [!DNL Walmart Marketplace]，则订单处理完成。 已发运订单的退货请求和退货均从 [返回结果](return-refund-orders.md) 功能板。
 
 >[!NOTE]
 >
@@ -33,7 +35,7 @@ Channel Manager将更新同步到 [!DNL Walmart Marketplace] 以确保订单状�
 
 1. 通过选择销售渠道商店的眼睛图标打开商店视图。
 
-1. 要查看 [!DNL Walmart Marketplace] 订购，选择*[!UICONTROL *Orders]**。
+1. 要查看 [!DNL Walmart Marketplace] 订单，选择 **[!UICONTROL Orders]**.
 
 1. 在“订单”表中，通过选择 **商务订单编号**.
 
@@ -49,6 +51,8 @@ Channel Manager将更新同步到 [!DNL Walmart Marketplace] 以确保订单状�
    * 根据需要填写其余的送货单。 请参阅 [[!DNL Shipping an Order]](https://docs.magento.com/user-guide/sales/order-ship.html) 以了解详细说明。
 
 1. 提交装运后，跟踪 [订单状态](manage-orders.md#about-order-status) in [!DNL Channel Manager] 验证更新是否已发送到 [!DNL Walmart Marketplace].
+
+在发运订单后，您可以处理来自 [!DNL Channel Manager] 根据从 [!DNL Walmart Marketplace]. 请参阅 [退货订单](return-refund-orders.md).
 
 ## 取消订单
 

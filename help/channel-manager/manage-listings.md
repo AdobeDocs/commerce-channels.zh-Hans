@@ -2,9 +2,9 @@
 title: 管理列表
 description: '''管理 [!DNL Commerce] 与Channel Manager一起存储，用于Adobe Commerce和Magento Open Source。'
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -63,11 +63,11 @@ ht-degree: 0%
 **控件[!UICONTROL Listings]**
 
 | **控制** | **描述** |
-|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Add Products] | 打开 [!UICONTROL Admin Product Catalog] 页面选择要添加到 [!DNL Walmart Marketplace] 分类，或更新产品属性以满足Walmart Marketplace的列表要求。 |
-| [!UICONTROL Match products on Walmart] | 在选择一个或多个处于“草稿”状态的产品后，选择“匹配” [!DNL Walmart] 来检查是否可以添加到现有 [!DNL Walmart Marketplace] 列表。 |
+| [!UICONTROL Match products on Walmart] | 在 [!UICONTROL Draft] 状态，选择 [!UICONTROL Match products on Walmart] 来检查是否可以添加到现有 [!DNL Walmart Marketplace] 列表。 |
 | [!UICONTROL Refresh products] | 使用最新列表和状态更新显示内容。 此控件还会将列表视图重置为默认排序顺序，并删除任何过滤器。 |
-| [!UICONTROL Filter by *状态*] | 通过选择列表表上方的状态计数卡之一，只显示具有特定状态的列表。 使用 *刷新产品* 来删除过滤器。 |
+| [!UICONTROL Filter by *状态*] | 通过选择列表表格上方的状态卡之一，只显示具有特定状态的列表。 通过选择 **[!UICONTROL Refresh products]**. |
 | [!UICONTROL Sort products] | 通过选择任何列标题更改列表的排序顺序。 |
 
 
@@ -81,7 +81,6 @@ ht-degree: 0%
 | [!UICONTROL Price] | 产品价格 [!DNL Commerce] 存储目录。 目录价格更新将同步到渠道管理器，然后发送到 [!DNL Walmart Marketplace]  让所列项目显示当前价格。 |
 | [!UICONTROL Status] | 指示 [!DNL Commerce] 订单工作流。 成功将产品添加到 [!DNL Channel Manager] 以及当您匹配市场上的产品时。 如果操作失败，则列表会显示错误状态。 修正错误后， [!DNL Channel Manager] 重试操作并更新状态。 |
 | [!UICONTROL Error Description] | 为具有 `[!DNL Error]` 状态。 |
-| [!UICONTROL Status Detail] | 提供有关 *错误* 或 *匹配* 状态。 |
 
 ### 关于列表状态
 

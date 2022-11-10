@@ -1,10 +1,10 @@
 ---
-title: '''[!DNL Walmart] 要求'''
+title: '[!DNL Walmart] 要求'
 description: '''验证您是否具有 [!DNL Walmart Marketplace]与渠道管理器集成的信息和资源。'
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: 4f0c40d7bcd05f7c8708d0d339cc29d920d646d5
+source-git-commit: fd60c8917e4b4e155fb2897ade6e1d96aff2de9d
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 ## 设置 [!DNL Walmart Seller] 帐户
 
 1. [提交您的Walmart销售商申请](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI).
-1. 获得 [!DNL Walmart], [设置沃尔玛卖家账户](https://sellerhelp.walmart.com/seller/s/guide?article=000008219).
+1. 获得 [!DNL Walmart], [设置沃尔玛卖家账户](https://seller.walmart.com/signup?q=&amp;origin=solution_provider&amp;src=0014M00001zivMp).
 
 ## 生成 [!DNL Walmart Marketplace] 生产API密钥
 

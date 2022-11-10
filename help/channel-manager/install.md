@@ -2,7 +2,7 @@
 title: 安装 [!DNL Channel Manager]'
 description: '''安装[!DNL Channel Manager] 扩展。'
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: 31af7107c0b27a236b94f7725b7a107d1027789c
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 0%
@@ -67,7 +67,6 @@ Channel Manager的安装说明取决于Adobe Commerce或Magento Open Source是�
       ```bash
       bin/magento module:status Magento_SalesChannels
       ```
-
       示例响应：
 
       ```terminal
@@ -119,7 +118,7 @@ Channel Manager的安装说明取决于Adobe Commerce或Magento Open Source是�
 1. 使用编辑器名称，将扩展添加到 `require` 部分 `composer.json` 文件。
 
    ```bash
-   composer require require magento/module-sales-channels-extension --no-update
+   composer require magento/module-sales-channels-extension --no-update
    ```
 
 1. 更新依赖项并安装扩展。

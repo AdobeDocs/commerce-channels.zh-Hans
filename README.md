@@ -1,27 +1,27 @@
 ---
-source-git-commit: 0a1505a47bfd7912c559cefb972e54cbd0bfd72e
+source-git-commit: 139bfba8155461ddf4471793c13e0b87f4a0b263
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 0%
+source-wordcount: '426'
+ht-degree: 6%
 
 ---
-# Adobe商务用户文档
+# Adobe Commerce用户文档
 
 我们欢迎社区成员以及文档团队外的Adobe员工踊跃参与。
 
 ## Adobe开源行为准则
 
-本项目已采用[Adobe开源行为准则](code-of-conduct.md)或[.NET Foundation行为准则](https://dotnetfoundation.org/code-of-conduct)。 有关更多信息，请参阅[参与](contributing.md)文章。
+本项目已采用 [Adobe 开源行为准则](code-of-conduct.md)或 [.NET Foundation 行为准则](https://dotnetfoundation.org/code-of-conduct)。有关更多信息，请参阅[贡献](contributing.md)文章。
 
 ## 关于您对Adobe内容的贡献
 
-请参阅[Adobe文档参与者指南](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)。
+请参阅 [Adobe文档参与者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
 
 您的参与方式取决于您的身份以及您希望参与的更改类型：
 
 ### 次要更改
 
-如果您出于善意提供了一些小更新，请访问文章，然后单击文章中的&#x200B;**编辑**&#x200B;链接，该链接将转到文章的GitHub源。 然后，只需使用GitHub UI进行更新。 有关更多信息，请参阅常规的[Adobe文档参与者指南](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) 。
+如果您出于善意而提供了一些小更新，请访问文章，然后单击 **编辑** 链接，转到文章的GitHub源。 然后，只需使用GitHub UI进行更新。 请参阅常规 [Adobe文档参与者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) 以了解更多信息。
 
 您为此存储库中的文档和代码示例提交的细微更正或说明均受Adobe使用条款的约束。
 
@@ -35,7 +35,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### 来自Adobe员工的主要更改
 
-如果您是来自Adobe Experience Cloud解决方案产品团队的技术文档撰稿人、项目经理或开发人员，并且您的工作是撰写或创作技术文章，则应使用位于`https://git.corp.adobe.com/AdobeDocs`的专用存储库。
+如果您是来自Adobe Experience Cloud解决方案产品团队的技术文档撰稿人、项目经理或开发人员，并且您的工作是撰写或创作技术文章，则应使用位于 `https://git.corp.adobe.com/AdobeDocs`.
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
@@ -43,7 +43,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 社区参与者可以使用GitHub UI进行基本编辑，或创建存储库分支以做出重大贡献。
 
-有关详细信息，请参阅[Adobe文档参与者指南](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)。
+请参阅 [Adobe文档参与者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) 以了解详细信息。
 
 ## 如何使用Markdown设置主题格式
 

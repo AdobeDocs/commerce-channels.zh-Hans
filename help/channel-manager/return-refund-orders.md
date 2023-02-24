@@ -1,7 +1,8 @@
 ---
 title: 退货和退款订单
-description: '"关于对收到的回访请求发出全额或部分退款的说明 [!DNL Walmart Marketplace] 从 [!DNL Channel Manager] 为Adobe Commerce和Magento Open Source。”'
-source-git-commit: e9d2f53a955956a2b5086649d9ac18cc982ef4e3
+description: 对收到的回访请求发出全额或部分退款的说明 [!DNL Walmart Marketplace] 从 [!DNL Channel Manager] Adobe Commerce和Magento Open Source。
+exl-id: 45617011-4add-444c-819b-6bb4164d03e4
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 0%
@@ -189,5 +190,3 @@ ht-degree: 0%
 从收到返回信息时，可能会出错 [!DNL Walmart Marketplace]，或 [!DNL Channel Manager] 从同步状态更新 [!DNL Commerce] to [!DNL Walmart Marketplace].
 
 如果返回更新的同步操作失败，则 [!DNL Channel Manager] 返回功能板显示 *[!UICONTROL Error]* 返回条目的状态。 为确保退货和退款信息准确反映在Walmart Marketplace帐户中，请在 [!DNL Walmart Marketplace] 存储。
-
-

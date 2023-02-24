@@ -2,9 +2,9 @@
 title: '连接 [!DNL Channel Manager] to [!DNL Walmart Marketplace]'
 description: “将商务商店视图连接到 [!DNL Walmart Marketplace] 创建销售渠道以管理Walmart Marketplace销售的商务产品清单、库存、价格和订单。”
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -77,10 +77,10 @@ ht-degree: 0%
 
 ### 连接问题疑难解答
 
-如果与 [!DNL Walmart] 失败，查看 [Walmart Marketplace常见问题解答](https://developer.walmart.com/faq/us/faq-auth/){target=&quot;_blank&quot;}以了解疑难解答提示。
+如果与 [!DNL Walmart] 失败，查看 [Walmart Marketplace常见问题解答](https://developer.walmart.com/faq/us/faq-auth/){target="_blank"} ，以获取疑难解答提示。
 
 - 从 [!DNL Walmart Developer Portal]，确认您复制了 [!UICONTROL Adobe Inc.]
 
 - 验证的访问配置 [!UICONTROL Walmart Adobe API key] 具有正确的权限。 请参阅 [[!DNL Walmart Requirements]](walmart-requirements.md##generate-a-walmart-marketplace-api-key).
 
-- 确认 [!DNL Walmart API] 服务可从 [Walmart API状态页面](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target=&quot;_blank&quot;}。
+- 确认 [!DNL Walmart API] 服务可从 [Walmart API状态页面](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target="_blank"}.

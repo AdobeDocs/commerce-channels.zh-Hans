@@ -2,14 +2,14 @@
 title: 完成渠道设置
 description: “在创建连接 [!DNL Commerce] 存储视图 [!DNL Walmart Marketplace]，打开渠道并完成渠道配置。 然后，启动添加产品、管理清单、库存、定价和订单的流程 [!DNL Channel Manager].'
 exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
-source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 0%
 
 ---
 
-# 完成销售渠道设置
+# 完成Sales Channel设置
 
 连接 [!DNL Commerce] 存储到 [!DNL Walmart Marketplace]，从完成商店设置 [!DNL Channel Manager] 主页。
 

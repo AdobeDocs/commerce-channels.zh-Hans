@@ -4,9 +4,9 @@ description: 将渠道管理器连接到 [!DNL Commerce] 服务，以实现数�
 role: User
 level: Intermediate
 exl-id: 97da2142-ecef-44dc-91d8-5dc55c713d31
-source-git-commit: 7e7a3e854bbc6062e2d15c1962ddf787451e7275
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 的 [!DNL Commerce Services Connector] 将渠道管理器服务与Adobe Commerce和Magento Open Source实例集成。 该连接器实现数据同步和在 [!DNL Commerce] 实例， [!DNL Channel Manager]，以及其他支持服务。
 
-[!DNL Commerce Services Connector] 设置是使用的一次性流程 [Adobe Commerce SaaS服务](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html){target=&quot;_blank&quot;}，如 [!DNL Channel Manager], [!DNL Live Search]和 [!DNL Product Recommendations]. 如果已为其他服务配置连接器，请跳过此步骤。
+[!DNL Commerce Services Connector] 设置是使用的一次性流程 [Adobe Commerce SaaS服务](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html){target="_blank"} 例如 [!DNL Channel Manager], [!DNL Live Search]和 [!DNL Product Recommendations]. 如果已为其他服务配置连接器，请跳过此步骤。
 
 ## 要求
 
@@ -24,11 +24,11 @@ ht-degree: 0%
 
    帐户所有者和超级用户可以通过 [!DNL Commerce] 实例或从命令行中使用 [!DNL Commerce] CLI命令 `admin:user:create`.
 
-- **Adobe Commerce生产API密钥** — 此 [key](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;}允许API访问渠道管理器所需的服务。 您需要此密钥的公共和私有凭据。
+- **Adobe Commerce生产API密钥** — 此 [key](https://docs.magento.com/user-guide/system/saas.html#apikey){target="_blank"} 启用对渠道管理器所需服务的API访问。 您需要此密钥的公共和私有凭据。
 
 >[!TIP]
 >
->要提供凭据，请 [!DNL Commerce] 许可证持有者或帐户拥有者有权选择 [共享访问](https://docs.magento.com/user-guide/magento/magento-account-share.html){target=&quot;_blank&quot;}，或为 [API密钥](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;}个凭据发送给受信任的开发人员。
+>要提供凭据，请 [!DNL Commerce] 许可证持有者或帐户拥有者有权选择 [共享访问](https://docs.magento.com/user-guide/magento/magento-account-share.html){target="_blank"}, or give the [API Key](https://docs.magento.com/user-guide/system/saas.html#apikey){target="_blank"} 凭据。
 
 ## 配置 [!DNL Commerce Services Connector]
 

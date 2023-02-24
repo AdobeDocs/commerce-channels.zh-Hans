@@ -4,9 +4,9 @@ description: 将您的实例连接到 [!DNL Channel Manager] 服务，只需完�
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: 738c48b8b8075e7c8bbf883c58cc8de39bca355c
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 - **[Walmart Marketplace要求](walmart-requirements.md)** — 验证您是否满足与渠道管理器集成的要求，包括 [设置卖家帐户](https://sellerhelp.walmart.com/seller/s/guide?article=000008219) 和生成API密钥以启用集成。
 
-- **商务帐户信息** — 下载和安装 [!DNL Channel Manager] 需要 [商务帐户](https://docs.magento.com/user-guide/magento/magento-account.html){target=&quot;_blank&quot;}。 您需要具有以下权限的帐户ID和凭据：拥有 [!DNL Adobe Commerce] 或 [!DNL Magento Open Source] 实例。
+- **商务帐户信息** — 下载和安装 [!DNL Channel Manager] 需要 [商务帐户](https://docs.magento.com/user-guide/magento/magento-account.html){target="_blank"}. 您需要具有以下权限的帐户ID和凭据：拥有 [!DNL Adobe Commerce] 或 [!DNL Magento Open Source] 实例。
 
    - **图像ID**-[登录](https://account.magento.com/customer/account/login/) 到 [!DNL Commerce] 从获取ID的帐户 **[!UICONTROL My Account - Magento settings]**.
 
@@ -45,7 +45,7 @@ ht-degree: 0%
       请参阅 [管理用户访问权限](https://devdocs.magento.com/cloud/project/user-admin.html).
 
 
-- **使用编辑器和[!DNL Commerce CLI]** — 请参阅 [常规CLI安装](https://devdocs.magento.com/extensions/install/){target=&quot;_blank&quot;}以了解有关使用这些工具在上安装和配置扩展的信息 [!DNL Adobe Commerce] 或 [!DNL Magento Open Source] 平台。
+- **使用编辑器和[!DNL Commerce CLI]** — 请参阅 [常规CLI安装](https://devdocs.magento.com/extensions/install/){target="_blank"} 有关使用这些工具在 [!DNL Adobe Commerce] 或 [!DNL Magento Open Source] 平台。
 
 - **[[!DNL Amazon Sales Channel] 版本4.4.2或更高版本](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)** — 如果您已激活 [!DNL Amazon Sales Channel] , [!DNL Commerce] 站点，验证 [!DNL Commerce] 在安装之前，平台已安装版本4.4.2或更高版本 [!DNL Channel Manager].
 

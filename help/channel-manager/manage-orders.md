@@ -1,8 +1,8 @@
 ---
-title: “查看和管理订单 [!DNL Channel Manager]'
+title: “查看和管理订单自 [!DNL Channel Manager]'
 description: '''查看和管理 [!DNL Walmart Marketplace] 订购 [!DNL Channel Manager] 为Adobe Commerce和Magento Open Source。'
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: 1180c86ee8f087a2fef84d84171d77fd5b33164b
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 0%
@@ -170,11 +170,8 @@ ht-degree: 0%
       - [!UICONTROL Unavailable carrier or shipping information.]
       - [!UICONTROL Additional information is required by our Credit or Fraud Avoidance department.]
 
-- **已订购项目** — 此部分列出所有商务订单上的订单项目。 的 [!UICONTROL Qty] 列提供订单项目的状态历史记录。 例如，如果订单已开具发票、已发运和已退还，您可以看到状态过渡。
+- **已订购项目** — 此部分列出所有商务订单上的订单项目。 的 [!UICONTROL Qty] 列提供订单项目的状态历史记录。 例如，如果订单已开票、发运和退还，您可以看到状态过渡。
 
    ![订单详细信息订购物料状态历史记录 [!DNL Walmart Marketplace] 订购](assets/order-detail-status-history.png)
 
 通过选择 [!UICONTROL Invoice] 和 [!UICONTROL Credit Memo] 选项。 您还可以直接从 [[!UICONTROL Returns]](return-refund-orders.md) 功能板。
-
-
-

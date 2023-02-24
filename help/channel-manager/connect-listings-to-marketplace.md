@@ -1,15 +1,15 @@
 ---
-title: 将上市信息与沃尔玛连接
+title: 将列表与沃尔玛连接
 description: '''连接列表 [!DNL Commerce] 产品 [!DNL Walmart Marketplace]开始卖。'
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: 6f87dc808096fbba12f8e657fff7d005df1ebe92
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '1096'
 ht-degree: 0%
 
 ---
 
-# 将上市信息与沃尔玛连接
+# 将列表与沃尔玛连接
 
 和其他市场一样， [!DNL Walmart] 允许第三方销售者列出他人销售的项目。
 

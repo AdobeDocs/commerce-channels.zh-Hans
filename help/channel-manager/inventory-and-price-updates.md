@@ -1,10 +1,10 @@
 ---
 title: 库存和价格更新
-description: '''[!DNL Channel Manager] 同步库存和价格更新 [!DNL Commerce] 存储和 [!DNL Walmart Marketplace] 以便您能够从 [!DNL Commerce] 管理员'''
+description: '[!DNL Channel Manager] 同步库存和价格更新 [!DNL Commerce] 存储和 [!DNL Walmart Marketplace] 以便您能够从 [!DNL Commerce] 管理员'
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
-source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -42,4 +42,4 @@ ht-degree: 0%
 1. 根据需要查看并更新价格。
 1. **[!UICONTROL Save]** 改变。
 
-有关管理中产品价格配置的帮助，请参阅 [!DNL Commerce]，请参阅 [管理定价](https://docs.magento.com/user-guide/catalog/pricing.html){target=&quot;_blank&quot;}。
+有关管理中产品价格配置的帮助，请参阅 [!DNL Commerce]，请参阅 [管理定价](https://docs.magento.com/user-guide/catalog/pricing.html){target="_blank"}.

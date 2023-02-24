@@ -1,8 +1,8 @@
 ---
-title: 映射运输承运人
+title: 地图运输承运人
 description: '映射匹配的属性[DNL! 商务]产品到现有 [!DNL Walmart Marketplace] 列表和同步数据 [!DNL Channel Manager] 和 [!DNL Walmart].'
 exl-id: 98c8d3f6-f129-43c6-920c-d9c36b0e4a40
-source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%
@@ -10,7 +10,7 @@ ht-degree: 0%
 ---
 
 
-# 映射运输承运人
+# 地图运输承运人
 
 在您之前 [处理订单发运](process-orders.md#ship-an-order) 表示 [!DNL Walmart Marketplace] 订购，将沃尔玛首选的运输公司映射到 [!DNL Commerce] 以便在 [!DNL Walmart] 和 [!DNL Commerce].
 

@@ -2,7 +2,7 @@
 title: '[!DNL Walmart] 要求'
 description: '''验证您是否具有 [!DNL Walmart Marketplace]与渠道管理器集成的信息和资源。'
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: 618bbd6d6c889d555f0ff74ade3dd84b412e1e59
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -44,7 +44,7 @@ ht-degree: 0%
    | 滞后时间 | 完全访问 |
    | 订购 | 完全访问 |
    | 价格 | 完全访问 |
-   | 报告 | 仅查看 |
+   | 报表 | 仅查看 |
    | 返回结果 | 完全访问 |
    | 规则 | 完全访问 |
    | 装运 | 完全访问 |

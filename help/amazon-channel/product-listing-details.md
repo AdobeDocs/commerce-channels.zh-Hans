@@ -1,26 +1,26 @@
 ---
 title: 查看列表详细信息
-description: 要了解有关您的Amazon列表以及各个SKU/产品更改的竞争量度，请查看产品列表详细信息页面。
+description: 要了解有关Amazon列表和单个SKU/产品更改的竞争性指标，请查看产品列表详细信息页面。
 exl-id: faece1b1-b4fb-4506-bf77-576ae445ed28
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # 查看列表详细信息
 
-的 _[!UICONTROL Product Listing Details]_页面会显示有关活动产品清单的其他信息，包括列表活动日志，该日志显示单个SKU/产品中的更改。 此信息可帮助您了解有关您的产品以及有关SKU/产品个别更改的竞争量度。 此页面上的其他信息包括：
+此 _[!UICONTROL Product Listing Details]_页面显示有关活动产品清单的其他信息，包括清单活动日志，该日志显示对单个SKU/产品所做的更改。 此信息可帮助您了解关于您的产品和单个SKU/产品更改的竞争性指标。 此页面上的其他信息包括：
 
-- **[!UICONTROL Listing Details]**  — 产品详细信息，包括名称和Amazon销售商SKU
-- **[!UICONTROL Listing Activity Log]**  — 此上市发生的所有更改的历史记录，如定价和数量/股票的更改。 无需进一步操作。 提供此日志供查看，以了解更改历史记录。
-- **[!UICONTROL Buy Box Competitor Pricing]** -Amazon的数据 [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 状态和竞争者定价
-- **[!UICONTROL Lowest Competitor Pricing]**  — 有关Amazon竞争对手最低的定价和反馈信息的信息
+- **[!UICONTROL Listing Details]**  — 产品详细信息，包括名称和Amazon卖家SKU
+- **[!UICONTROL Listing Activity Log]**  — 此列表发生的所有更改的历史记录，如定价和数量/库存更改。 无需执行其他操作。 提供此日志以供查看以了解更改历史记录。
+- **[!UICONTROL Buy Box Competitor Pricing]**  — 用于Amazon的数据 [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 状态和竞争对手定价
+- **[!UICONTROL Lowest Competitor Pricing]**  — 有关最低Amazon竞争对手的定价和反馈信息
 
-Amazon销售渠道主页共享一些常见内容 [工作区控件](./workspace-controls.md) 允许您自定义显示的数据。
+Amazon sales channel home pages有一些共同之处 [工作区控件](./workspace-controls.md) 允许您自定义显示的数据。
 
-## 列出详细信息
+## 列表详细信息
 
 显示的产品信息包括：
 
@@ -28,47 +28,47 @@ Amazon销售渠道主页共享一些常见内容 [工作区控件](./workspace-c
 - _[!UICONTROL Catalog (Magento) SKU]_
 - _[!UICONTROL Amazon Seller SKU]_
 
-![列出详细信息](assets/amazon-product-listing-details.png)
+![列表详细信息](assets/amazon-product-listing-details.png)
 
 ## 列出活动日志 {#listing-activity-log}
 
 显示Amazon列表的所有最近活动。 显示的信息包括：
 
-- Amazon卖家SKU:标识为列表定义的库存单位(SKU)。
-- 亚洲：标识10位的Amazon产品标识符。
-- 列出操作：标识为列表发生的操作类型。
-- 评论：提供与所发生的列表操作类型相关的更多详细信息。
-- 执行时间：标识操作发生的日期和时间。
+- Amazon卖方SKU：标识为上市定义的库存单位(SKU)。
+- ASIN：标识10位数的Amazon产品标识符。
+- 列表活动：标识为列表发生的活动类型。
+- 备注：提供与所发生的列表操作类型相关的附加详细信息。
+- 执行时间：标识执行操作的日期和时间。
 
-![产品列表详细信息 — 列出活动日志](assets/amazon-listing-activity-log.png)
+![产品列表详细信息 — 列表活动日志](assets/amazon-listing-activity-log.png)
 __
 
-## Buy Box竞争者定价 {#buy-box-competitor-pricing}
+## Buy Box竞争对手的定价 {#buy-box-competitor-pricing}
 
-此选项卡显示有关持有 [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 列表的位置。 此信息可用于了解您的竞争对手在Amazon上的价格定位。 显示的信息包括：
+此选项卡显示有关持有以下资产的Amazon商家的信息： [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 个职位。 此信息可用于了解您的竞争对手在Amazon上的价格定位。 显示的信息包括：
 
-- 亚洲：10位的Amazon产品标识符。
-- 卖家：标识您是否 [!DNL Buy Box] 卖家。 选项是/否。
+- ASIN： 10位数的Amazon产品标识符。
+- 是卖家：标识您是否是 [!DNL Buy Box] 卖家。 选项是/否。
 - 条件：标识为列表定义的条件。
-- 上市价格：确定上市发布的价格。
-- 装运价格：确定添加到列表的装运价格。
-- 地价：确定上市价格和上市的运价。
-- 上次更新时间：确定从Amazon更新定价信息的日期和时间。
+- 挂牌价：确定刊登挂牌时的价格。
+- 发运价格：标识添加至列表的发运价格。
+- 到岸价格：标识列出的价格加上发运价格。
+- 上次更新：标识从Amazon更新定价信息的日期和时间。
 
-![产品列表详细信息：Buy Box竞争者定价](assets/amazon-listing-details-buy-box-2.png)
+![产品列表详细信息：Buy Box竞争对手定价](assets/amazon-listing-details-buy-box-2.png)
 
-## 竞争者定价最低 {#lowest-competitor-pricing}
+## 最低竞争对手价格 {#lowest-competitor-pricing}
 
-此选项卡显示有关同一列表的Amazon竞争者的信息。 此信息可用于了解价格定位和 [最低竞争对手定价](./lowest-competitor-pricing.md). 显示的信息包括：
+此选项卡显示有关同一列表的Amazon竞争对手的信息。 此信息可用于了解价格定位和 [最低竞争对手价格](./lowest-competitor-pricing.md). 显示的信息包括：
 
-- 亚洲：10位的Amazon产品标识符。
+- ASIN： 10位数的Amazon产品标识符。
 - 条件：标识为列表定义的条件。
-- 履行渠道：确定负责履行义务的一方。 选项：商人/Amazon。
-- 上市价格：确定上市发布的价格。
-- 装运价格：确定添加到列表的装运价格。
-- 地价：确定上市价格和上市的运价。
-- 反馈评级：确定最低价商户的Amazon反馈评级。
-- 反馈计数：确定最低价商户的Amazon反馈计数。
-- 上次更新时间：确定从Amazon更新定价信息的日期和时间。
+- 履行渠道：确定履行责任方。 选项：商家/Amazon。
+- 挂牌价：确定刊登挂牌时的价格。
+- 发运价格：标识添加至列表的发运价格。
+- 到岸价格：标识列出的价格加上发运价格。
+- 反馈评级：标识最低价格商家的Amazon反馈评级。
+- 反馈计数：标识最低价格商家的Amazon反馈计数。
+- 上次更新：标识从Amazon更新定价信息的日期和时间。
 
-![产品列表详细信息 — 最低竞争者定价](assets/amazon-listing-details-lowest-comp.png)
+![产品列表详细信息 — 最低竞争对手定价](assets/amazon-listing-details-lowest-comp.png)

@@ -2,9 +2,9 @@
 title: '[!DNL Channel Manager] 发行说明'
 description: 的最新发行信息 [!DNL Channel Manager] 从Adobe Commerce。
 exl-id: 8f40ace1-6587-4185-955a-91bc16dee8ce
-source-git-commit: 9cc1b79089771ef9a58d22379197b210d31e1670
+source-git-commit: d3acde7aa297ba33dffa7854aa7578985ad12c9b
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '161'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,19 @@ ht-degree: 1%
 ![已知问题](../assets/bug.svg) 已知问题
 
 
+## v2.0.0
+
+*2023年3月20日*
+
+[!BADGE 兼容性]{type=Informative tooltip="兼容性"}
+
+![新建](../assets/new.svg)<!--CHAN-5893--> “渠道管理器”现在与Adobe Commerce版本2.4.6兼容。
+
 ## v1.1.0
+
+*2022年11月23日*
+
+[!BADGE 兼容性]{type=Informative tooltip="兼容性"}
 
 ![新建](../assets/new.svg)<!--CHAN-5204--> **退货和退款** — 您现在可以处理通过Adobe Commerce和Varmalt Channel Manger商店发送的订单的Walmart Marketplace退货和退款流程。 有关退货和退款的信息和更新将在沃尔玛和Adobe Commerce之间同步，以便在 [!DNL Commerce] 店面和店面 [!DNL Walmart Marketplace]. 请参阅 [退货和退款订单](return-refund-orders.md).
 
@@ -26,9 +38,9 @@ ht-degree: 1%
 
 ## v1.0.0
 
-初始版本，与以下商务版本兼容：
+*2022年1月14日*
 
-* 开源(CE):2.4.x
-* Adobe Commerce(EE):2.4.x
-* Adobe Commerce for Cloud(ECE):2.4.x
-* 稳定性：稳定
+[!BADGE 兼容性]{type=Informative tooltip="兼容性"}
+
+![新建](../assets/new.svg) Channel Manager的初始版本正式发布
+

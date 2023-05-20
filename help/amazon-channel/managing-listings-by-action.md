@@ -1,6 +1,6 @@
 ---
-title: 按操作管理产品列表
-description: 在管理Amazon列表时，您可以将操作应用于单个或多个列表。
+title: 依動作管理產品清單
+description: 當您管理Amazon清單時，可以將動作套用至個別或多個清單。
 exl-id: 1cbf16fb-15eb-484b-bea7-28017a0d0c60
 source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
@@ -9,40 +9,40 @@ ht-degree: 0%
 
 ---
 
-# 按操作管理产品列表
+# 依動作管理產品清單
 
-此 _[!UICONTROL Product Listings]_页面包含多个选项卡，您可以从中查看所有列表的状态，并将产品与Amazon列表进行匹配。
+此 _[!UICONTROL Product Listings]_頁面包含數個索引標籤，您可在其中檢視所有清單的狀態，並將產品與Amazon清單比對。
 
-每个选项卡上的可用列表任务略有不同，但 [工作区控件](./workspace-controls.md) 相同，并允许您自定义为列表显示的数据。
+每個標籤上的可用清單任務略有不同，但 [工作區控制項](./workspace-controls.md) 相同，並可讓您自訂針對清單顯示的資料。
 
-下的选项 **[!UICONTROL Actions]** 可以将操作应用于多个列表，而下面的选项可以 **[!UICONTROL Select]** 在 _[!UICONTROL Action]_列仅将该操作应用于单个列表。
+下的選項 **[!UICONTROL Actions]** 可將動作套用至多個清單，而選項位於 **[!UICONTROL Select]** 在 _[!UICONTROL Action]_欄只會將該動作套用至個別清單。
 
-另请参阅 [按状态管理列表/选项卡](./managing-listings-by-tab.md).
+另請參閱 [按狀態/標籤管理清單](./managing-listings-by-tab.md).
 
-| 操作 | 描述 | 选项卡 |
+| 動作 | 說明 | 索引標籤 |
 |--- |--- |--- |
-| [[!UICONTROL Re-attempt auto match to Amazon Listing]](./amazon-manually-update-incomplete-listing.md#update-required-info-unable-to-assign-to-amazon-listing) | 用于通过匹配过程将不完整产品移回。 要尝试重新匹配，您必须修改 [列表](./listing-settings.md) 和 [目录搜索](./catalog-search.md) 设置，以增加自动匹配的可能性。 | [[!UICONTROL Incomplete]](./incomplete-listings.md) |
-| [[!UICONTROL Update Required Info]](./amazon-manually-update-incomplete-listing.md) | 通过选择要匹配的列表、输入要匹配的ASIN或分配缺少的条件，手动将目录产品与Amazon列表匹配。 | [[!UICONTROL Incomplete]](./incomplete-listings.md) |
-| [[!UICONTROL View Details]](./product-listing-details.md) | 查看有关活动产品的其他信息，包括列表活动日志，该日志显示了对单个SKU/产品所做的更改。 | [[!UICONTROL Incomplete]](./incomplete-listings.md)<br>[[!UICONTROL New Third Party]](./new-third-party-listings.md)<br>[[!UICONTROL Ready to List]](./ready-to-list.md)<br>[[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Overrides]](./overrides.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md)<br>[[!UICONTROL Ended]](./ended-listings.md) |
-| [[!UICONTROL Create New Catalog Product(s)]](./creating-assigning-catalog-products.md) | 创建 [!DNL Commerce] 使用随Amazon列表导入的信息对产品进行编目。 | [[!UICONTROL New Third Party]](./new-third-party-listings.md) |
-| 尝试自动匹配 | 尝试自动匹配 [!DNL Commerce] 目录和您的Amazon列表。 要尝试重新匹配，您必须修改 [列表](./listing-settings.md) 和 [目录搜索](./catalog-search.md) 设置，以增加自动匹配的可能性。 | [[!UICONTROL New Third Party]](./new-third-party-listings.md) |
-| [[!UICONTROL Assign Catalog Product]](./creating-assigning-catalog-products.md) | 手动选择中的现有产品 [!DNL Commerce] 并将其分配给Amazon列表。 | [[!UICONTROL New Third Party]](./new-third-party-listings.md) |
-| [[!UICONTROL Create New Catalog Product]](./creating-assigning-catalog-products.md) | 创建 [!DNL Commerce] 使用随Amazon列表导入的信息对产品进行编目。 | [[!UICONTROL New Third Party]](./new-third-party-listings.md) |
-| [[!UICONTROL Publish Product to Amazon]](./publish-listings-manually.md) | （成批活动）用于重新列出已结束的列表，或人工列出符合列表规则资格但符合您的列表规则资格的产品 _[!UICONTROL Product Listing Actions]_未设置为 `Automatically list new products`. | [[!UICONTROL Ready to List]](./ready-to-list.md)<br>[[!UICONTROL Ended]](./ended-listings.md) |
-| [[!UICONTROL Publish On Amazon]](./publish-listings-manually.md) | （单个列表操作）用于重新列出已结束的列表。 在以下情况下，此操作还用于手动列出符合列表规则资格的产品 _[!UICONTROL Product Listing Actions]_未设置为 `Automatically list new products`. | [[!UICONTROL Ready to List]](./ready-to-list.md)<br>[[!UICONTROL Ended]](./ended-listings.md) |
-| [[!UICONTROL End Listing(s) on Amazon]](./end-listings-manually.md) | （成批活动）用于手动结束和删除Amazon上存在的产品的列表。 只要结束的列表符合您的上市规则资格，就可以将其重新列出。 | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |
-| [[!UICONTROL Edit Listing Overrides]](./creating-editing-overrides.md) | （成批活动）人工编辑现有的“改写”，以便为单个列表设置价格、处理时间、条件和卖方附注文本，而忽略其它列表默认值、设置和规则。 | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Overrides]](./overrides.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |
-| [[!UICONTROL Create Override]](./creating-editing-overrides.md) | 手动创建“覆盖”，为单个列表设置价格、处理时间、条件和卖方备注文本，而忽略其他列表默认值、设置和规则。 | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |
-| [[!UICONTROL Edit Assigned ASIN]](./edit-assigned-asin.md) | 如果与目录产品匹配的ASIN必须修改（例如：如果产品与错误列出的ASIN匹配），则使用。 | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |
-| [[!UICONTROL Create Alias Seller SKU]](./create-alias-seller-sku.md) | 可以提供两个功能：<br><br>可用于在您的目录产品与两个Amazon列表之间创建1对2关系。 示例： Amazon的产品以不同的ASIN值列出。 您可以将一个目录产品与产品的两个ASIN列表进行匹配。<br><br>可用于控制不同Amazon地区的列表。 示例：您有一个目录产品，该产品具有根据Amazon地区（美国地区为FBA，加拿大地区为FBM）定义的不同发运方法。 要控制库存/数量，您可以创建一个别名卖方SKU，然后使用不同的卖方SKU重新列出该区域中的相同产品。 | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md)<br>[[!UICONTROL Ended]](./ended-listings.md) |
-| [[!UICONTROL Switch to Fulfilled by Amazon/Merchant]](./fulfilled-by.md#configure-fulfilled-by-settings) | 用于修改与产品关联的履行方法(由Amazon履行：FBA或由商家履行：FBM)。 | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |
-| [[!UICONTROL End Listing]](./end-listings-manually.md) | （单个列表操作）用于手动结束和删除Amazon上存在的产品的列表。 只要结束的列表符合您的上市规则资格，就可以将其重新列出。 | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |
-| [[!UICONTROL Edit Override]](./creating-editing-overrides.md) | （单个列表操作）手动编辑现有的“覆盖”，该操作可为单个列表设置价格、处理时间、条件和卖方备注文本，而忽略其他列表默认值、设置和规则。 | [[!UICONTROL Overrides]](./overrides.md) |
+| [[!UICONTROL Re-attempt auto match to Amazon Listing]](./amazon-manually-update-incomplete-listing.md#update-required-info-unable-to-assign-to-amazon-listing) | 用於透過比對程式將未完成的產品移回。 若要嘗試重新比對，您必須修改 [清單](./listing-settings.md) 和 [目錄搜尋](./catalog-search.md) 增加自動比對可能性的設定。 | [[!UICONTROL Incomplete]](./incomplete-listings.md) |
+| [[!UICONTROL Update Required Info]](./amazon-manually-update-incomplete-listing.md) | 選取要比對的清單、輸入要比對的ASIN或指派缺少的條件，以手動比對目錄產品與Amazon清單。 | [[!UICONTROL Incomplete]](./incomplete-listings.md) |
+| [[!UICONTROL View Details]](./product-listing-details.md) | 檢視使用中產品的其他資訊，包括清單活動記錄，其中顯示個別SKU /產品的變更。 | [[!UICONTROL Incomplete]](./incomplete-listings.md)<br>[[!UICONTROL New Third Party]](./new-third-party-listings.md)<br>[[!UICONTROL Ready to List]](./ready-to-list.md)<br>[[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Overrides]](./overrides.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md)<br>[[!UICONTROL Ended]](./ended-listings.md) |
+| [[!UICONTROL Create New Catalog Product(s)]](./creating-assigning-catalog-products.md) | 建立 [!DNL Commerce] 使用隨Amazon清單匯入的資訊建立產品目錄。 | [[!UICONTROL New Third Party]](./new-third-party-listings.md) |
+| 嘗試自動比對 | 嘗試自動比對 [!DNL Commerce] 根據搜尋條件設定分類與您的Amazon清單。 若要嘗試重新比對，您必須修改 [清單](./listing-settings.md) 和 [目錄搜尋](./catalog-search.md) 增加自動比對可能性的設定。 | [[!UICONTROL New Third Party]](./new-third-party-listings.md) |
+| [[!UICONTROL Assign Catalog Product]](./creating-assigning-catalog-products.md) | 手動選取中的現有產品 [!DNL Commerce] 並將它指派給Amazon清單。 | [[!UICONTROL New Third Party]](./new-third-party-listings.md) |
+| [[!UICONTROL Create New Catalog Product]](./creating-assigning-catalog-products.md) | 建立 [!DNL Commerce] 使用隨Amazon清單匯入的資訊建立產品目錄。 | [[!UICONTROL New Third Party]](./new-third-party-listings.md) |
+| [[!UICONTROL Publish Product to Amazon]](./publish-listings-manually.md) | （整批作業）用於重新列出已結束的清單，或手動列出符合清單規則資格的產品，但您的 _[!UICONTROL Product Listing Actions]_未設定為 `Automatically list new products`. | [[!UICONTROL Ready to List]](./ready-to-list.md)<br>[[!UICONTROL Ended]](./ended-listings.md) |
+| [[!UICONTROL Publish On Amazon]](./publish-listings-manually.md) | （單一清單動作）用於重新列出已結束的清單。 此動作也用於手動列出符合您清單規則資格的產品，當 _[!UICONTROL Product Listing Actions]_未設定為 `Automatically list new products`. | [[!UICONTROL Ready to List]](./ready-to-list.md)<br>[[!UICONTROL Ended]](./ended-listings.md) |
+| [[!UICONTROL End Listing(s) on Amazon]](./end-listings-manually.md) | （整批作業）用於手動結束與移除Amazon上現有產品的清單。 已結束清單只要符合您的清單規則資格，即可重新列出。 | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |
+| [[!UICONTROL Edit Listing Overrides]](./creating-editing-overrides.md) | （整批作業）手動編輯現有的「覆寫」，以設定個別清單的價格、處理時間、條件和賣家備註文字，忽略其他清單預設值、設定及規則。 | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Overrides]](./overrides.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |
+| [[!UICONTROL Create Override]](./creating-editing-overrides.md) | 手動建立「覆寫」，為個別清單設定價格、處理時間、條件和賣家備註文字，忽略其他清單預設值、設定和規則。 | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |
+| [[!UICONTROL Edit Assigned ASIN]](./edit-assigned-asin.md) | 用於符合目錄產品的ASIN必須修改（例如：如果產品符合錯誤列出的ASIN）。 | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |
+| [[!UICONTROL Create Alias Seller SKU]](./create-alias-seller-sku.md) | 可提供兩種功能：<br><br>可用於在您的目錄產品與兩個Amazon清單之間建立一對二的關係。 範例： Amazon的產品以不同的ASIN值列出。 您可以將一個目錄產品與產品的兩個ASIN清單比對。<br><br>可用於控制不同Amazon地區的清單。 範例：您的型錄產品已根據Amazon地區（美國地區為FBA，加拿大地區為FBM）定義不同的出貨方式。 若要控制存貨/數量，您可以建立別名賣方SKU，並使用不同的賣方SKU重新列出該區域的相同產品。 | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md)<br>[[!UICONTROL Ended]](./ended-listings.md) |
+| [[!UICONTROL Switch to Fulfilled by Amazon/Merchant]](./fulfilled-by.md#configure-fulfilled-by-settings) | 用於修改與產品相關的履行方式(由Amazon履行：FBA或由商家履行：FBM)。 | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |
+| [[!UICONTROL End Listing]](./end-listings-manually.md) | （單一清單動作）用於手動結束和移除Amazon上現有產品的清單。 已結束清單只要符合您的清單規則資格，即可重新列出。 | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |
+| [[!UICONTROL Edit Override]](./creating-editing-overrides.md) | （單一清單動作）手動編輯現有的「覆寫」，以設定個別清單的價格、處理時間、條件和賣家備註文字，忽略其他清單預設值、設定和規則。 | [[!UICONTROL Overrides]](./overrides.md) |
 
-## 访问产品列表
+## 存取產品清單
 
-1. 在 _管理员_ 侧栏，转到 **营销** > _渠道_ > **AmazonSales Channel**.
+1. 於 _管理員_ 側欄，前往 **行銷** > _頻道_ > **AmazonSales Channel**.
 
-1. 单击 **查看存储** 在商店卡上。
+1. 按一下 **檢視存放區** 在商店資訊卡上。
 
-1. 在商店功能板上，单击 **管理列表** 在 _商店列表_ 部分。
+1. 在商店控制面板上，按一下 **管理清單** 在 _商店清單_ 區段。

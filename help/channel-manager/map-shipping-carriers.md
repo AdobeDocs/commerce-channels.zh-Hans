@@ -1,6 +1,6 @@
 ---
-title: 地图运输承运人
-description: '映射匹配的属性[DNL! 商务]产品到现有 [!DNL Walmart Marketplace] 列表和同步数据 [!DNL Channel Manager] 和 [!DNL Walmart].'
+title: 對應出貨承運商
+description: '對應屬性以符合[DNL！ Commerce]產品至現有 [!DNL Walmart Marketplace] 清單和同步資料 [!DNL Channel Manager] 和 [!DNL Walmart].'
 exl-id: 98c8d3f6-f129-43c6-920c-d9c36b0e4a40
 source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
@@ -10,29 +10,29 @@ ht-degree: 0%
 ---
 
 
-# 地图运输承运人
+# 對應出貨承運商
 
-在您之前 [处理订单发运](process-orders.md#ship-an-order) 表示 [!DNL Walmart Marketplace] 订购，将沃尔玛首选的运输公司映射到 [!DNL Commerce] 以便在 [!DNL Walmart] 和 [!DNL Commerce].
+在您之前 [處理訂單出貨](process-orders.md#ship-an-order) 的 [!DNL Walmart Marketplace] 訂單，將Walmart偏好的運送公司對應至中的對應承運商 [!DNL Commerce] 以便同步運送資料 [!DNL Walmart] 和 [!DNL Commerce].
 
-未映射到首选运营商的商业运营商将标记为 *[!UICONTROL Other Carrier]* on [!DNL Walmart].
+未對應至偏好電信業者的商業電信業者會標示為 *[!UICONTROL Other Carrier]* 於 [!DNL Walmart].
 
-**先决条件**
+**必要條件**
 
-在映射装运承运人之前，请完成以下任务：
+在對映出貨承運商之前，請完成下列作業：
 
-1. 查看 [实时交货的承运人方法和装运最佳实践](https://sellerhelp.walmart.com/s/guide?article=000009473) 表示 [!DNL Walmart Marketplace].
+1. 檢閱 [準時交貨的承運商方法與運送最佳實務](https://sellerhelp.walmart.com/s/guide?article=000009473) 的 [!DNL Walmart Marketplace].
 
-1. 验证 [[!UICONTROL Shipping Carrier]](https://docs.magento.com/user-guide/shipping/carriers.html) 和 [[!UICONTROL Shipping Settings]](https://docs.magento.com/user-guide/configuration/sales/shipping-settings.html) 配置 [!DNL Commerce] 存储，以确保已优化 [!DNL Walmart Marketplace sales].
+1. 驗證 [[!UICONTROL Shipping Carrier]](https://docs.magento.com/user-guide/shipping/carriers.html) 和 [[!UICONTROL Shipping Settings]](https://docs.magento.com/user-guide/configuration/sales/shipping-settings.html) 設定於 [!DNL Commerce] 存放區以確保您已針對最佳化設定 [!DNL Walmart Marketplace sales].
 
-## 映射运输承运人
+## 對應出貨承運商
 
-1. 从 **[!UICONTROL Listings]** 或 **[!UICONTROL Orders]** 页面，选择 **[!UICONTROL Channel Settings]**.
+1. 從 **[!UICONTROL Listings]** 或 **[!UICONTROL Orders]** 頁面，選取 **[!UICONTROL Channel Settings]**.
 
-1. 开 **[!UICONTROL Channel Settings]**，选择 **[!UICONTROL Shipping Carriers]**.
+1. 開啟 **[!UICONTROL Channel Settings]**，選取 **[!UICONTROL Shipping Carriers]**.
 
-   ![映射运输承运人](assets/map-shipping-carriers.png)
+   ![對應出貨承運商](assets/map-shipping-carriers.png)
 
-1. 对于 [!DNL Walmart] 列出首选运营商，选择 [!DNL Commerce] 承运人名称（如果承运人可用）。
+1. 針對每個 [!DNL Walmart] 列出偏好的電信業者，選取 [!DNL Commerce] 如果電信業者可用，則從下拉式清單中選取電信業者名稱。
 
-1. 选择 **[!UICONTROL Save]** 以应用配置。
+1. 選取 **[!UICONTROL Save]** 以套用組態。
 

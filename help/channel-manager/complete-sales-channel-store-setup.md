@@ -1,6 +1,6 @@
 ---
-title: 完成渠道设置
-description: “在创建连接 [!DNL Commerce] 存储视图 [!DNL Walmart Marketplace]，打开渠道并完成渠道配置。 然后，启动添加产品、管理清单、库存、定价和订单的流程 [!DNL Channel Manager].'
+title: 完成管道設定
+description: '建立連線銷售管道之後 [!DNL Commerce] 將檢視儲存至 [!DNL Walmart Marketplace]，開啟管道並完成管道設定。 然後，開始新增產品、管理清單、存貨、訂價及訂單的處理 [!DNL Channel Manager].'
 exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
 source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
@@ -9,32 +9,32 @@ ht-degree: 0%
 
 ---
 
-# 完成Sales Channel设置
+# 完成Sales Channel設定
 
-连接 [!DNL Commerce] 存储到 [!DNL Walmart Marketplace]，从完成商店设置 [!DNL Channel Manager] 主页。
+連線之後 [!DNL Commerce] 儲存至 [!DNL Walmart Marketplace]，完成商店設定 [!DNL Channel Manager] 首頁。
 
-1. 从管理员中，选择**[!UICONTROL Marketing** > **渠道管理器**].
+1. 從「管理員」中選取「**」[!UICONTROL Marketing** > **頻道管理員**].
 
-   ![管理渠道管理器存储](assets/channel-manager-setup-first-store.png)
+   ![管理管道管理員存放區](assets/channel-manager-setup-first-store.png)
 
-1. 通过选择商店的眼睛图标打开销售渠道商店。
+1. 選取商店的眼睛圖示，以開啟銷售管道商店。
 
-1. 开始销售渠道操作。
+1. 開始銷售管道作業。
 
-   - [为产品标识符和运输承运人配置渠道设置](settings-overview.md)
+   - [設定產品識別碼和出貨承運人的管道設定](settings-overview.md)
 
-   - [从 [!DNL Commerce Catalog] 到渠道管理器](add-products-to-channel-store.md)
+   - [從新增產品 [!DNL Commerce Catalog] 至管道管理員](add-products-to-channel-store.md)
 
-   - [将产品清单连接到 [!DNL Walmart] 使用产品匹配](connect-listings-to-marketplace.md)
+   - [將產品清單連結至 [!DNL Walmart] 使用產品比對](connect-listings-to-marketplace.md)
 
-   - [了解如何 [!DNL Channel Manager] 同步库存和价格更新 [!DNL Commerce] 和 [!DNL Walmart]](inventory-and-price-updates.md)
+   - [瞭解如何 [!DNL Channel Manager] 同步存貨與價格更新於 [!DNL Commerce] 和 [!DNL Walmart]](inventory-and-price-updates.md)
 
-   - [查看和管理 [!DNL Walmart Marketplace] 订单 [!DNL Commerce Admin]](manage-orders.md)
+   - [檢視和管理 [!DNL Walmart Marketplace] 訂單來自 [!DNL Commerce Admin]](manage-orders.md)
 
-   - [管理订单退货和退款](return-refund-orders.md)
+   - [管理訂單退貨與退款](return-refund-orders.md)
 
-在创建销售渠道并将产品与 [!DNL Walmart Marketplace]，则可以管理 [!DNL Commerce]. 列表、库存、定价和订单数据会自动从 [!DNL Commerce] to [!DNL Walmart Marketplace]. 防止冲突或差异 [!DNL Commerce] 和 [!DNL Walmart Marketplace] 更新，不更新产品或订单数据，以便 [!DNL Commerce] 产品 [!DNL Walmart Marketplace] 帐户。
+在您建立銷售管道並將產品與相符之後 [!DNL Walmart Marketplace]，您可以管理所有產品清單、存貨、價格、訂單、出貨、取消、退貨及退款作業，從 [!DNL Commerce]. 清單、存貨、定價和訂單資料會自動從以下來源同步： [!DNL Commerce] 至 [!DNL Walmart Marketplace]. 若要防止兩者之間的衝突或差異 [!DNL Commerce] 和 [!DNL Walmart Marketplace] 更新，不要更新產品或訂單資料 [!DNL Commerce] 產品來自 [!DNL Walmart Marketplace] 帳戶。
 
 >[!IMPORTANT]
 >
->如果 [!DNL Channel Manager] 在订单处理期间返回错误，您可以从以下位置完成订单、发运或取消操作 [!DNL Walmart Marketplace]. 请参阅 [修复订单错误](process-orders.md#fix-order-errors).
+>若 [!DNL Channel Manager] 在訂單處理期間退回錯誤，您可以從下列位置完成訂單、出貨或取消作業： [!DNL Walmart Marketplace]. 另請參閱 [修正訂單錯誤](process-orders.md#fix-order-errors).

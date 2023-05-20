@@ -1,82 +1,82 @@
 ---
-title: 更新必需信息（列表不完整）
-description: Amazon sales channel提供了“不完整”选项卡，用于监视缺少Amazon所需信息的Commerce目录产品。
+title: 更新必要資訊（不完整的清單）
+description: Amazon sales channel提供「不完整」索引標籤，用於監控缺少Amazon所需資訊的Commerce目錄產品。
 exl-id: f278cd50-8f04-452e-b9c2-c87820f9faf2
 source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
 
-# 更新必需信息（列表不完整）
+# 更新必要資訊（不完整的清單）
 
-显示于 _[!UICONTROL Incomplete]_选项卡包括您的 [!DNL Commerce] 目录产品符合您的上市规则中定义的Amazon资格要求，但在上市前缺少Amazon要求的信息。
+顯示於 _[!UICONTROL Incomplete]_標籤包含您的 [!DNL Commerce] 目錄產品符合清單規則中定義的Amazon適用性要求，但缺少清單前Amazon要求的資訊。
 
-## 更新所需信息(无法分配到Amazon列表) {#update-required-info-unable-to-assign-to-amazon-listing}
+## 更新必要資訊(無法指派至Amazon清單) {#update-required-info-unable-to-assign-to-amazon-listing}
 
-1. 查看列表 _[!UICONTROL Incomplete]_按Tab键进入 [管理列表](./managing-product-listings.md).
+1. 檢視清單于 _[!UICONTROL Incomplete]_定位於 [管理清單](./managing-product-listings.md).
 
-1. 在 _[!UICONTROL Action]_列，单击&#x200B;**[!UICONTROL Select]**>**[!UICONTROL Update Required Info]**用于要更新的列表。
+1. 在 _[!UICONTROL Action]_欄，按一下&#x200B;**[!UICONTROL Select]**>**[!UICONTROL Update Required Info]**以取得您要更新的清單。
 
-1. 查看您尝试与Amazon列表匹配的目录产品信息（SKU和产品名称）。
+1. 檢閱您嘗試符合Amazon清單的目錄產品資訊（SKU和產品名稱）。
 
-1. 对象 **[!UICONTROL Assign ASIN]**，为要与目录产品匹配的列表输入Amazon分配的ASIN。
+1. 對象 **[!UICONTROL Assign ASIN]**，輸入Amazon指派的ASIN作為您要比對至目錄產品的清單。
 
-1. 要保存产品匹配项，请单击 **[!UICONTROL Save Listing Update]**.
+1. 若要儲存產品相符專案，請按一下 **[!UICONTROL Save Listing Update]**.
 
-该列表现在与您的目录匹配，然后会根据您的cron和列表设置更新列表并发布到Amazon。 它也会从 _[!UICONTROL Incomplete]_选项卡。
+清單現在與您的目錄相符，然後清單會根據您的cron和清單設定更新並發佈到Amazon。 它也會從 _[!UICONTROL Incomplete]_標籤。
 
-![手动分配ASIN以使列表不匹配](assets/amazon-listing-update-assign-asin.png)
+![手動指定ASIN以排除清單相符專案](assets/amazon-listing-update-assign-asin.png)
 
-## 更新所需信息（找到多个匹配项） {#update-required-info-multiple-matches-found}
+## 更新必要資訊（找到多個相符專案） {#update-required-info-multiple-matches-found}
 
-1. 查看列表 _[!UICONTROL Incomplete]_按Tab键进入 [[!UICONTROL Manage Listings]](./managing-product-listings.md).
+1. 檢視清單于 _[!UICONTROL Incomplete]_定位於 [[!UICONTROL Manage Listings]](./managing-product-listings.md).
 
-1. 在 _操作_ 列，单击 **选择** > **更新必需信息** 用于要更新的列表。
+1. 在 _動作_ 欄，按一下 **選取** > **更新必要資訊** 以取得您要更新的清單。
 
-1. 查看您尝试与Amazon列表匹配的目录产品信息（SKU和产品名称）。
+1. 檢閱您嘗試符合Amazon清單的目錄產品資訊（SKU和產品名稱）。
 
-1. 对象 **[!UICONTROL Select Correct Amazon Listing]**，为要与此产品匹配的列表选择正确的ASIN。
+1. 對象 **[!UICONTROL Select Correct Amazon Listing]**，請針對您要符合此產品的清單，選擇正確的ASIN。
 
-   此处列出的选项包括标识为可能匹配的目录产品。 如果这些选项都不正确，则可以选择 `Manually Enter Correct ASIN` 并手动输入产品的ASIN。
+   此處列出的選項包括識別為可能相符專案的目錄產品。 如果這些選項都不正確，您可以選擇 `Manually Enter Correct ASIN` 並手動輸入產品的ASIN。
 
-1. 如果手动输入ASIN，请为输入正确的ASIN **[!UICONTROL Manually Assign ASIN]**.
+1. 如果手動輸入ASIN，請輸入正確的ASIN **[!UICONTROL Manually Assign ASIN]**.
 
-1. 要保存产品匹配项，请单击 **[!UICONTROL Save Listing Update]**.
+1. 若要儲存產品相符專案，請按一下 **[!UICONTROL Save Listing Update]**.
 
-![从多个可能的匹配项中手动选择ASIN](assets/amazon-listing-update-multiple-matches.png)
+![從多個可能的相符專案手動選取ASIN](assets/amazon-listing-update-multiple-matches.png)
 
-## 更新所需信息（具有变体） {#update-required-info-has-variants}
+## 更新必要資訊（具有變體） {#update-required-info-has-variants}
 
-1. 查看列表 _[!UICONTROL Incomplete]_按Tab键进入 [[!UICONTROL Manage Listings]](./managing-product-listings.md).
+1. 檢視清單于 _[!UICONTROL Incomplete]_定位於 [[!UICONTROL Manage Listings]](./managing-product-listings.md).
 
-1. 在 _[!UICONTROL Action]_列，单击&#x200B;**[!UICONTROL Select]**>**[!UICONTROL Update Required Info]**用于要更新的列表。
+1. 在 _[!UICONTROL Action]_欄，按一下&#x200B;**[!UICONTROL Select]**>**[!UICONTROL Update Required Info]**以取得您要更新的清單。
 
-1. 查看您尝试与Amazon列表匹配的目录产品信息（SKU和产品名称）。
+1. 檢閱您嘗試符合Amazon清單的目錄產品資訊（SKU和產品名稱）。
 
-1. 对象 **[!UICONTROL Select Correct Amazon Listing]**，为要与此产品匹配的列表选择正确的ASIN。
+1. 對象 **[!UICONTROL Select Correct Amazon Listing]**，請針對您要符合此產品的清單，選擇正確的ASIN。
 
-   此处列出的选项包括标识为可能匹配的目录产品。 如果这些选项都不正确，则可以选择 `Manually Enter Correct ASIN` 并手动输入产品的ASIN。
+   此處列出的選項包括識別為可能相符專案的目錄產品。 如果所有選項均不正確，您可以選取 `Manually Enter Correct ASIN` 並手動輸入產品的ASIN。
 
-1. 如果手动输入ASIN，请为输入正确的ASIN **[!UICONTROL Manually Assign ASIN]**.
+1. 如果手動輸入ASIN，請輸入正確的ASIN **[!UICONTROL Manually Assign ASIN]**.
 
-1. 要保存产品匹配项，请单击 **[!UICONTROL Save Listing Update]**.
+1. 若要儲存產品相符專案，請按一下 **[!UICONTROL Save Listing Update]**.
 
-![从可能的变体匹配中手动选择ASIN](assets/amazon-listing-update-multiple-matches.png)
+![從可能的變體比對中手動選取ASIN](assets/amazon-listing-update-multiple-matches.png)
 
-## 更新所需信息（缺少条件） {#update-required-info-missing-condition}
+## 更新必要資訊（缺少條件） {#update-required-info-missing-condition}
 
-1. 查看列表 _[!UICONTROL Incomplete]_按Tab键进入 [管理列表](./managing-product-listings.md).
+1. 檢視清單于 _[!UICONTROL Incomplete]_定位於 [管理清單](./managing-product-listings.md).
 
-1. 在 _[!UICONTROL Action]_列，单击&#x200B;**[!UICONTROL Select]**>**[!UICONTROL Update Required Info]**用于要更新的列表。
+1. 在 _[!UICONTROL Action]_欄，按一下&#x200B;**[!UICONTROL Select]**>**[!UICONTROL Update Required Info]**以取得您要更新的清單。
 
-1. 查看您尝试与Amazon列表匹配的目录产品信息（SKU和产品名称）。
+1. 檢閱您嘗試符合Amazon清單的目錄產品資訊（SKU和產品名稱）。
 
-1. 对象 **[!UICONTROL Condition]**&#x200B;中，选择相应的条件。
+1. 對象 **[!UICONTROL Condition]**，選擇適當的條件。
 
-   可用选项列表取决于您的 [产品列表条件](./product-listing-condition.md) 设置。
+   可用選項清單取決於您的 [產品清單條件](./product-listing-condition.md) 設定。
 
-1. 要保存产品匹配项，请单击 **[!UICONTROL Save Listing Update]** .
+1. 若要儲存產品相符專案，請按一下 **[!UICONTROL Save Listing Update]** .
 
-![手动更新缺少的条件](assets/amazon-update-listing-missing-condition.png)
+![手動更新遺漏的條件](assets/amazon-update-listing-missing-condition.png)

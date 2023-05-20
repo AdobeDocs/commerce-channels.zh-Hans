@@ -1,6 +1,6 @@
 ---
-title: '智能重新定价规则：选择规则类型'
-description: 通过创建智能重新定价规则，根据竞争对手的定价确定您的Amazon上市价格。
+title: 「智慧型重新訂價規則：選取規則型別」
+description: 建立智慧型重新訂價規則，根據競爭者的定價來決定您的Amazon清單價格。
 exl-id: 2690323a-a076-484b-a437-adadb08094f5
 source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
@@ -9,57 +9,57 @@ ht-degree: 0%
 
 ---
 
-# 智能重新定价规则：选择规则类型
+# 智慧型重新訂價規則：選取規則型別
 
 >[!IMPORTANT]
 >
->如果Amazon区域设置为，则智能重新定价规则无法正常运行 `Inactive` 状态，就像在载入过程中一样。 您的定价计算取决于您的运费，并且您的地区必须位于 `Active` 要从Amazon同步的运费状态。<br><br>
+>如果Amazon區域設為，智慧型重新定價規則就無法正常運作 `Inactive` 狀態，就像在上線期間一樣。 您的訂價計算取決於您的運費，而且您的地區必須位於 `Active` 要從Amazon同步的運費狀態。<br><br>
 >
->要更新Amazon帐户中的地区状态，请转到“设置”>“帐户信息”>“假期设置”。 请参阅 [Amazon：休假的列表状态](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620/&quot;target=&quot;_blank)
+>若要更新Amazon帳戶中的地區狀態，請前往「設定>帳戶資訊>假期設定」。 請參閱 [Amazon：休假的清單狀態](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620/&quot;target=&quot;_blank)
 
-智能重新定价规则使用Amazon竞争对手的定价来确定您的上市价格。 竞争对手是在Amazon中列出与您的产品相同的产品的其他销售商。
+智慧型重新定價規則會使用Amazon競爭者的定價來決定您的掛牌價格。 競爭對手是在Amazon上列出與您相同的產品的其他銷售商。
 
-智能重新定价规则的部分包括：
+智慧型重新訂價規則的區段包括：
 
-- 选择规则类型
-- [竞争对手条件差异](./competitor-conditional-variances.md)
-- [价格调整](./price-adjustment.md)
-- [底价](./floor-price.md)
-- [可选最高价](./optional-ceiling-price.md)
+- 選取規則型別
+- [競爭者條件差異](./competitor-conditional-variances.md)
+- [價格調整](./price-adjustment.md)
+- [底價](./floor-price.md)
+- [選擇性最高價格](./optional-ceiling-price.md)
 
-## 配置规则类型
+## 設定規則型別
 
-在中定义规则类型 _[!UICONTROL Select Rule Type]_部分。
+在中定義規則型別 _[!UICONTROL Select Rule Type]_區段。
 
-1. 对象 **[!UICONTROL Rule Type]**，选择 `Intelligent repricing rule`.
+1. 對象 **[!UICONTROL Rule Type]**，選擇 `Intelligent repricing rule`.
 
-   此设置将启用 _[!UICONTROL Competitor Price Source]_字段和 [_[!UICONTROL Competitor Conditional Variances]_](./competitor-conditional-variances.md)， [_[!UICONTROL Floor Price]_](./floor-price.md)、和 [_[!UICONTROL Optional Ceiling Price]_](./optional-ceiling-price.md) 部分。
+   此設定會啟用 _[!UICONTROL Competitor Price Source]_欄位和 [_[!UICONTROL Competitor Conditional Variances]_](./competitor-conditional-variances.md)， [_[!UICONTROL Floor Price]_](./floor-price.md)、和 [_[!UICONTROL Optional Ceiling Price]_](./optional-ceiling-price.md) 區段。
 
-1. 对象 **[!UICONTROL Competitor Price Source]**，选择一个选项：
+1. 對象 **[!UICONTROL Competitor Price Source]**，選擇一個選項：
 
-   - **[!UICONTROL Use "Buy Box" Price]**  — 选择何时根据Amazon调整Amazon定价 [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 卖家价格。 A [!DNL Buy Box] 当Amazon上有多个销售者提供相同的产品时，即存在价格。 Amazon定义 [!DNL Buy Box] 销售商基于性能要求。 商人们寻求赢得 [!DNL Buy Box] 卖家状态并提供其产品列表的最大可见性。
+   - **[!UICONTROL Use "Buy Box" Price]**  — 選擇您想要根據Amazon調整Amazon定價的時間 [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 賣家價格。 A [!DNL Buy Box] 當Amazon上有多個賣家提供相同的產品時，就會出現價格。 Amazon定義 [!DNL Buy Box] 根據效能需求決定賣家。 商戶尋求贏得 [!DNL Buy Box] 賣家狀態並提供其產品清單的最大可見度。
 
-   - **[!UICONTROL Use Lowest Competitor Price]**  — 选择您要比较并调整同一产品的上市价格与竞争对手定价的时间。 选择后， _[!UICONTROL Minimum Positive Feedback]_和_[!UICONTROL Minimum Feedback Count]_ 字段已启用。
+   - **[!UICONTROL Use Lowest Competitor Price]**  — 選擇您要比較並調整相同產品的上市價格與競爭者訂價的時間。 選擇後， _[!UICONTROL Minimum Positive Feedback]_和_[!UICONTROL Minimum Feedback Count]_ 欄位已啟用。
 
-1. 如果启用，请选择选项 **[!UICONTROL Minimum Positive Feedback]**.
+1. 如果已啟用，請選擇選項 **[!UICONTROL Minimum Positive Feedback]**.
 
-   - **[!UICONTROL All Competitor's Prices]**  — 选择何时根据同一产品的所有竞争对手价格来比较和调整您的定价。
+   - **[!UICONTROL All Competitor's Prices]**  — 選擇何時要根據相同產品的所有競爭者價格，比較並調整您的價格。
 
-   - **[!UICONTROL Minimum 80/90/95/98% positive feedback]**  — 选择何时希望限制与同一产品的价格进行比较的竞争对手。 该设置进一步缩小了竞争对手的版面，要求它们在应用最低价格规则之前，必须获得最低选定百分比的正反馈。
+   - **[!UICONTROL Minimum 80/90/95/98% positive feedback]**  — 選擇何時要限制與相同產品價格比較的競爭對手。 此設定可進一步縮小競爭者的範圍，方法是在套用最低價格規則前，要求他們的清單至少要有所選正反饋的百分比。
 
-1. 如果启用，请输入 **[!UICONTROL Minimum Feedback Count]**.
+1. 如果已啟用，請輸入數值 **[!UICONTROL Minimum Feedback Count]**.
 
-   这一可选数值进一步缩小了竞争性定价的范围。 例如，如果商户的正面反馈评级为95%，但反馈次数仅为 `20`，则它可能不是您想要修改定价的竞争对手。 但是，如果输入的值为 `1000`，它将要求商户获得95%的积极反馈以及至少1000个商户评论。
+   此選擇性數值可進一步縮小具競爭力的價格。 例如，如果商家有95%的正面的意見反應評分，但只有意見反應計數 `20`，可能不是您想要修改其定價的競爭對手。 不過，如果您輸入的值為 `1000`，要求商家有95%的正面意見回饋，以及至少1000個商家評論。
 
 >[!NOTE]
 >
->您可以使用这些竞争对手的定价和反馈选项，避免将定价基于反馈差且销售质量较低的竞争对手之上。
+>您可以使用這些競爭者定價和意見回饋選項，避免讓您的定價以意見回饋差且銷售品質較低產品的競爭者為依據。
 
-![智能重新定价规则 — 选择规则类型](assets/ob-intelligent-price-rule-type.png)
+![智慧型重新訂價規則 — 選取規則型別](assets/ob-intelligent-price-rule-type.png)
 
-| 字段 | 描述 |
+| 欄位 | 說明 |
 |--- |--- |
-| [!UICONTROL Rule Type] | 选择规则类型。 选项：<ul><li>**[!UICONTROL Standard price rule]**  — 此规则类型允许您按特定百分比或固定美元金额增加或减少Amazon挂牌价格，具体金额与 _[!UICONTROL Magento Price Source]_. </li><li>**[!UICONTROL Intelligent repricing rule]**  — 此规则类型允许您根据竞争对手的定价调整您的Amazon上市价格。 选择后， _[!UICONTROL Minimum Positive Feedback]_和_[!UICONTROL Minimum Feedback Count]_ 字段已启用。</li></ul> |
-| [!UICONTROL Competitor Price Source] | 选择所需的价格来源。 选项：<ul><li>**[!UICONTROL Use "Buy Box" Price]**  — 当您要根据Amazon调整Amazon定价时，请选择此选项 [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 卖家价格。 A [!DNL Buy Box] 当Amazon上有多个销售者提供相同的产品时，即存在价格。 Amazon定义 [!DNL Buy Box] 销售商基于性能要求。 商人们寻求赢得 [!DNL Buy Box] 卖家状态并提供其产品列表的最大可见性。</li><li>**[!UICONTROL Use Lowest Competitor Price]**  — 当您要比较并调整您的上市价格时，请选择此选项 [最低竞争对手价格](./lowest-competitor-pricing.md) 同一产品的名称。 选择后， _[!UICONTROL Minimum Positive Feedback]_和_[!UICONTROL Minimum Feedback Count]_ 字段已启用。</li></ul> |
-| [!UICONTROL Minimum Positive Feedback] | 仅在以下情况下处于活动状态： `Use Lowest Competitor Price` 已选中。 选项：<ul><li>**[!UICONTROL All Competitor's Prices]**  — 选择何时根据同一产品的所有竞争对手价格来比较和调整您的定价。</li><li>**[!UICONTROL Minimum 80/90/95/98% positive feedback]**  — 选择何时要限制与之比较的竞争对手，并调整定价。 此设置会进一步缩小您的竞争对手的范围，方法是：要求他们的列表必须满足所选正反馈百分比的最低值，然后使用该竞争对手子集的最低价格。</li></ul> |
-| [!UICONTROL Minimum Feedback Count] | 仅在以下情况下处于活动状态： `Use Lowest Competitor Price` 已选中。 此可选数值进一步缩小了竞争性定价比较的范围。 例如，如果商户的正面反馈评级为95%，但反馈计数仅为 `20`，则它可能不是您想要修改定价的竞争对手。 但是，如果输入的值为 `1000`，它将要求商户获得95%的积极反馈以及至少1000个商户评论。 |
+| [!UICONTROL Rule Type] | 選取規則型別。 選項：<ul><li>**[!UICONTROL Standard price rule]**  — 此規則型別可讓您以特定百分比或相對於下列專案的固定金額增加或減少Amazon掛牌價格： _[!UICONTROL Magento Price Source]_. </li><li>**[!UICONTROL Intelligent repricing rule]**  — 此規則型別可讓您根據競爭者的定價調整您的Amazon上市價格。 選擇後， _[!UICONTROL Minimum Positive Feedback]_和_[!UICONTROL Minimum Feedback Count]_ 欄位已啟用。</li></ul> |
+| [!UICONTROL Competitor Price Source] | 選取所需的價格來源。 選項：<ul><li>**[!UICONTROL Use "Buy Box" Price]**  — 當您想要根據Amazon調整Amazon定價時，請選擇此選項 [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 賣家價格。 A [!DNL Buy Box] 當Amazon上有多個賣家提供相同的產品時，就會出現價格。 Amazon定義 [!DNL Buy Box] 根據效能需求決定賣家。 商戶尋求贏得 [!DNL Buy Box] 賣家狀態並提供其產品清單的最大可見度。</li><li>**[!UICONTROL Use Lowest Competitor Price]**  — 當您想要比較並調整您的上市價格時，請選擇此選項 [最低競爭者價格](./lowest-competitor-pricing.md) 相同的產品。 選擇後， _[!UICONTROL Minimum Positive Feedback]_和_[!UICONTROL Minimum Feedback Count]_ 欄位已啟用。</li></ul> |
+| [!UICONTROL Minimum Positive Feedback] | 僅在以下情況下有效： `Use Lowest Competitor Price` 已選取。 選項：<ul><li>**[!UICONTROL All Competitor's Prices]**  — 選擇何時要根據相同產品的所有競爭者價格，比較並調整您的價格。</li><li>**[!UICONTROL Minimum 80/90/95/98% positive feedback]**  — 選擇何時要限制您與之比較的競爭對手，並調整您的定價。 此設定會進一步縮小您的競爭對手，要求他們的清單具有最低選定百分比的正面回饋，然後使用該競爭對手子集的最低價格。</li></ul> |
+| [!UICONTROL Minimum Feedback Count] | 僅在以下情況下有效： `Use Lowest Competitor Price` 已選取。 此選擇性數值可進一步縮小具競爭力的價格比較。 例如，如果商家有95%的正面的意見反應評分，但只有意見反應計數 `20`，可能不是您想要修改其定價的競爭對手。 不過，如果您輸入的值為 `1000`，要求商家有95%的正面意見回饋，以及至少1000個商家評論。 |

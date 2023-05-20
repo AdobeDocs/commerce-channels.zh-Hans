@@ -1,6 +1,6 @@
 ---
-title: 默认存储设置
-description: 修改默认的Commerce设置以自定义商店的AmazonSales Channel。
+title: 預設商店設定
+description: 修改預設Commerce設定以自訂商店的AmazonSales Channel。
 exl-id: 368e5e8e-2bf9-4f9c-86c6-6d375f8a8720
 source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
@@ -9,37 +9,37 @@ ht-degree: 0%
 
 ---
 
-# 默认存储设置
+# 預設商店設定
 
-在商店连接并设置了第一个列表规则后，即表示Amazon与之间的数据同步 [!DNL Commerce] 开始。 有多种类型的商店设置允许您根据自己的需求自定义商店。 可在存储上访问存储设置 [仪表板](./amazon-store-dashboard.md).
+在商店連線並設定好第一個清單規則後，資料在Amazon和之間同步 [!DNL Commerce] 開始。 有數種型別的商店設定可讓您根據需求自訂商店。 可在存放區上存取存放區設定 [儀表板](./amazon-store-dashboard.md).
 
-存储设置包括：
+商店設定包括：
 
-- [**[!UICONTROL Listing settings]**](./listing-settings.md)  — 控制产品目录与 [!DNL Amazon Marketplace].
+- [**[!UICONTROL Listing settings]**](./listing-settings.md)  — 控制產品目錄與 [!DNL Amazon Marketplace].
 
-- [**[!UICONTROL Order settings]**](./order-settings.md)  — 控制Amazon订单的管理方式。
+- [**[!UICONTROL Order settings]**](./order-settings.md)  — 控制Amazon訂單的管理方式。
 
-- [**[!UICONTROL Listing rules]**](./listing-rules.md)  — 定义哪些目录产品有资格在Amazon上列出。
+- [**[!UICONTROL Listing rules]**](./listing-rules.md)  — 定義哪些目錄產品符合在Amazon上列出的資格。
 
-- [**[!UICONTROL Pricing rules]**](./pricing-products.md)  — 定义如何更改符合条件的列表的Amazon标价。
+- [**[!UICONTROL Pricing rules]**](./pricing-products.md)  — 定義合格清單的Amazon定價。
 
-- **[!UICONTROL Store reports]** - [具有竞争力的价格分析](./competitive-price-analysis.md) 和 [列表改进](./listing-improvements.md).
+- **[!UICONTROL Store reports]** - [具競爭力的價格分析](./competitive-price-analysis.md) 和 [清單改善](./listing-improvements.md).
 
-- **[!UICONTROL Logs]** - [列表更改](./listing-changes-log.md) 和 [通信错误](./communication-errors-log.md).
+- **[!UICONTROL Logs]** - [清單變更](./listing-changes-log.md) 和 [通訊錯誤](./communication-errors-log.md).
 
-- [**[!UICONTROL Store integration settings]**](./store-integration-settings.md)  — 在中查看电子邮件和Amazon销售渠道商店名称设置 [!DNL Commerce] 管理员。
+- [**[!UICONTROL Store integration settings]**](./store-integration-settings.md)  — 檢閱中的電子郵件和Amazon銷售管道商店名稱設定 [!DNL Commerce] 管理員。
 
-## 一些重要的默认设置
+## 一些重要的預設設定
 
-| 设置 | 默认 | 描述 | 位置 |
+| 設定 | 預設 | 說明 | 位置 |
 |--- |--- |--- |--- |
-| [!UICONTROL Import Amazon Orders] | `Enabled` | 创建对应的 [!DNL Commerce] 订单在从Amazon收到新订单时，允许在 [[!DNL Commerce] 订单](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"} 工作流。 时间 `Disabled`，Amazon订单导入订单信息以供审阅，但必须在以下位置管理订单： [!DNL Amazon Seller Central] 帐户。 | [订单设置](./order-settings.md) |
-| [!UICONTROL Customer Creation] | `No Customer Creation (guest)` | 来自Amazon订单的客户数据未导入到您的 [!DNL Commerce] 数据库。 导入的Amazon订单将作为访客结帐处理。 如果您想构建 [!DNL Commerce] 客户数据库，应将此设置更改为 `Build New Customer Account`. | [订单设置](./order-settings.md) |
-| [!UICONTROL Automatic List Action] | `Automatically List Eligible Products` | [!DNL Commerce] 目录产品(符合Amazon的资格要求)以自动发布到Amazon并创建Amazon列表。 如果要手动审阅和发布产品，则应将此设置更改为 `Do Not Automatically List Eligible Products`. 等待手动发布的产品将显示在 [_准备列出_](./ready-to-list.md) 选项卡。 | [产品列表操作](./product-listing-actions.md) |
-| [!UICONTROL Magento Price Source] | `Price` | 定义用作您的Amazon清单基础的价格来源属性。 如果您不想使用 [!DNL Commerce] `Price` 属性作为定价规则所依据的基本价格，您应该将此设置更改为其他属性。 | [挂牌价](./listing-price.md) |
-| [!UICONTROL Product Fulfilled By] | `Fulfilled by Merchant` | 商人们履行所有的命令。 如果您使用Amazon提供的履行方式或多种履行方式，则应当更改此设置。 | [履行者](./listing-price.md) |
-| [!UICONTROL Listing Product Condition] | `New` | 如果所有产品条件相同，则可以选择一个Amazon条件选项来表示所有产品。 如果您的目录包含处于不同条件（如新建、已使用和翻新）的产品，则必须将此设置更改为 `Assign Condition Using Product Attribute` 并映射 [!DNL Commerce] 条件属性对应于Amazon列表条件。 | [产品列表条件](./product-listing-condition.md) |
-| [!UICONTROL Listing Rules] | 无 | 定义用于确定哪些产品已发布到AmazonAmazon的销售渠道的规则。 这些规则提供了许多选项，可用于创建简单到复杂的规则，以将产品作为列表进行包含或排除。 | [上市规则](./listing-rules.md) |
-| 定价规则 | 无 | 定义与定义不同的Amazon列表价格属性 _[!UICONTROL Magento Price Source]_在您的 [挂牌价](./listing-price.md). 若要根据您的报价调整您的挂牌价格（涨价或跌价），请执行以下操作：_[!UICONTROL Magento Price Source]_ 设置，创建规则。 | [定价规则](./pricing-products.md) |
+| [!UICONTROL Import Amazon Orders] | `Enabled` | 建立對應的 [!DNL Commerce] 當從Amazon收到新訂單時發出訂單，允許在 [[!DNL Commerce] 訂購](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"} 工作流程。 時間 `Disabled`，Amazon訂單匯入訂單資訊以供檢閱，但必須在以下位置管理訂單： [!DNL Amazon Seller Central] 帳戶。 | [訂單設定](./order-settings.md) |
+| [!UICONTROL Customer Creation] | `No Customer Creation (guest)` | 來自Amazon訂單的客戶資料不會匯入您的 [!DNL Commerce] 資料庫。 匯入的Amazon訂單會作為訪客結帳處理。 如果您想要建置 [!DNL Commerce] 客戶資料庫，您應該將此設定變更為 `Build New Customer Account`. | [訂單設定](./order-settings.md) |
+| [!UICONTROL Automatic List Action] | `Automatically List Eligible Products` | [!DNL Commerce] 目錄產品(符合Amazon的資格要求)以自動發佈至Amazon並建立Amazon清單。 如果您想要手動檢閱和發佈產品，請將此設定變更為 `Do Not Automatically List Eligible Products`. 等待手動發佈的產品會出現在 [_準備列出_](./ready-to-list.md) 標籤。 | [產品清單動作](./product-listing-actions.md) |
+| [!UICONTROL Magento Price Source] | `Price` | 定義作為Amazon清單基礎的價格來源屬性。 如果您不想使用 [!DNL Commerce] `Price` 屬性作為訂價規則所依據的基本價格，您應將此設定變更為其他屬性。 | [清單價格](./listing-price.md) |
+| [!UICONTROL Product Fulfilled By] | `Fulfilled by Merchant` | 商家會履行所有訂單。 如果您使用Amazon的Fulfillment或使用多種履行方法，則應變更此設定。 | [履行者](./listing-price.md) |
+| [!UICONTROL Listing Product Condition] | `New` | 如果您的所有產品條件相同，您可以選取其中一個Amazon條件選項來代表您的所有產品。 如果您的目錄包含不同條件（例如「新增」、「已使用」和「整新」）的產品，您必須將此設定變更為 `Assign Condition Using Product Attribute` 並對應您的 [!DNL Commerce] 將條件屬性新增至您的Amazon清單條件。 | [產品清單條件](./product-listing-condition.md) |
+| [!UICONTROL Listing Rules] | 無 | 定義用來決定Amazon銷售管道會將哪些產品發佈至Amazon的規則。 這些規則提供許多選項，可建立從簡單到複雜的規則，以將產品納入清單或從中排除。 | [清單規則](./listing-rules.md) |
+| 訂價規則 | 無 | 定義與所定義不同的Amazon清單價格屬性 _[!UICONTROL Magento Price Source]_在您的 [清單價格](./listing-price.md). 若要根據您的設定調整您的刊登價格（漲價或跌價），請執行下列步驟：_[!UICONTROL Magento Price Source]_ 設定，建立規則。 | [訂價規則](./pricing-products.md) |
 
-有关更多信息，请参阅 [存储设置](./ob-store-review.md).
+如需詳細資訊，請參閱 [存放區設定](./ob-store-review.md).

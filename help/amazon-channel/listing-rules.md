@@ -1,6 +1,6 @@
 ---
-title: 上市规则
-description: 使用列表规则确定作为Amazon Marketplace列表发布的Commerce目录产品。
+title: 清單規則
+description: 使用清單規則可決定以Amazon Marketplace清單形式發佈的Commerce目錄產品。
 redirect_from: /sales-channels/asc/ob-listing-rules.html/sales-channels/asc/ob-listing-preview.html/sales-channels/asc/listing-rule-preview.html
 exl-id: b28a625b-64cf-4119-98bb-f1ea33043c8f
 source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
@@ -10,99 +10,99 @@ ht-degree: 0%
 
 ---
 
-# 上市规则
+# 清單規則
 
-您可以在中访问商店的列表规则 [存储仪表板](./amazon-store-dashboard.md).
+您可以存取中存放區的清單規則 [存放區儀表板](./amazon-store-dashboard.md).
 
-上市规则定义了用于确定哪些产品将发布到AmazonAmazon的销售渠道的规则。 这些规则提供了许多选项，可用于创建简单到复杂的规则，以将产品作为列表进行包含或排除。 每个规则都包含一些条件，用于设置产品列表资格的要求。
+清單規則定義用來決定Amazon銷售管道會將哪些產品發佈至Amazon的規則。 這些規則提供許多選項，可建立從簡單到複雜的規則，以將產品納入清單或從中排除。 每個規則都包含設定產品清單適用性要求的條件。
 
-您的上市规则会持续与 [!DNL Commerce] 目录。 添加新时 [!DNL Commerce] 对于符合上市规则规定的资格要求的产品，系统会自动处理这些产品以便在Amazon上上市。
+您的清單規則會持續與 [!DNL Commerce] 目錄。 當您新增時 [!DNL Commerce] 產品若符合上市規則所設定的資格要求，系統就會自動處理這些產品，以便在Amazon上上市。
 
-- 如果您希望将所有产品发布到Amazon上市，请不要为上市规则定义任何条件。
+- 如果您希望將所有產品發佈至Amazon清單，請勿為清單規則定義任何條件。
 
-- 如果要限制发布到Amazon的目录产品，您需要定义列出规则条件。 定义Amazon列表规则的条件时，遵循与定义条件相同的逻辑和过程。 [购物车价格规则](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"}.
+- 如果您想要限制發佈至Amazon的目錄產品，請定義清單規則條件。 定義Amazon清單規則的條件，會遵循與定義條件相同的邏輯和程式 [購物車價格規則](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"}.
 
-- 如果您的列表规则不包括产品，则该产品的资格状态将更改为 `Ineligible`. 不符合条件的产品不会发布到Amazon。
+- 如果您的清單規則排除產品，則該產品的資格狀態會變更為 `Ineligible`. 不符合資格的產品不會發佈至Amazon。
 
-- 如果Amazon上已列出不合格产品，并且您将Amazon列表与您的 [!DNL Commerce] 目录产品，Amazon列表的数量更改为 `0` 以防止产品销售。 Amazon列表可以是 [手动删除](./end-listings-manually.md).
+- 如果不符合資格的產品已列於Amazon上，且您將Amazon清單與您的產品比對， [!DNL Commerce] 目錄產品，Amazon清單的數量變更為 `0` 以防止產品銷售。 Amazon清單可以是 [手動移除](./end-listings-manually.md).
 
-数量和资格状态的更改会影响为同一地区内的商店销售而存在的市场内共享Amazon卖家SKU的所有列表(定义见 _[!UICONTROL Amazon Marketplace Country]_期间 [存储集成](./store-integration.md))。 但是，对共享的更改 [!DNL Amazon Seller SKU] 不会影响产品在其他国家/地区的Amazon列表。
+數量和資格狀態的變更會影響市集中針對同一地區商店銷售而共用Amazon賣家SKU的所有清單(定義見 _[!UICONTROL Amazon Marketplace Country]_期間 [存放區整合](./store-integration.md))。 但是，對共用的 [!DNL Amazon Seller SKU] 不會在一個地區影響產品在其他國家/地區的Amazon清單。
 
-![上市规则](assets/ob-listing-rules.png)
+![清單規則](assets/ob-listing-rules.png)
 
-## 配置列表规则设置
+## 設定清單規則設定
 
-1. 单击 **[!UICONTROL Listing Rules]** 在商店仪表板上。
+1. 按一下 **[!UICONTROL Listing Rules]** 在商店控制面板上。
 
-1. 为在Amazon上列出的产品资格定义所需条件。
+1. 定義您想要的條件，讓產品符合在Amazon上列出的資格。
 
-参见 [示例：定义条件](./ob-define-condition-example.md).
+另請參閱 [範例：定義條件](./ob-define-condition-example.md).
 
-| 字段 | 描述 |
+| 欄位 | 說明 |
 |---|---|
-| [!UICONTROL Websites] | 可用选项取决于 [网站](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} 您已在 [!DNL Commerce] 配置。 为Amazon上列出的符合条件的产品选择网站。 只能选择一个网站，因为每个网站都需要在Amazon销售渠道中创建唯一的Amazon商店。 |
-| [!UICONTROL Conditions] | 用于定义 [!DNL Commerce] 适用于您的Amazon地区的产品资格属性。 参见 [示例：定义条件](./ob-define-condition-example.md). |
+| [!UICONTROL Websites] | 可用的選項取決於 [網站](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} 您已設定在 [!DNL Commerce] 設定。 為Amazon上列出的合格產品選取網站。 只能選取一個網站，因為每個網站都需要在Amazon銷售管道中建立唯一的Amazon商店。 |
+| [!UICONTROL Conditions] | 用於定義 [!DNL Commerce] 適用於您Amazon區域內產品資格的屬性。 另請參閱 [範例：定義條件](./ob-define-condition-example.md). |
 
-## 条件工作区
+## 條件工作區
 
-在条件中以粗体显示的任何区域都可以单击来查看各种选项。
+條件中任何粗體區域都可以按一下以檢視各種選項。
 
-- 如果所选网站中的所有产品都符合条件，则不添加条件。
-- 要直接与Amazon的系统通信，需要一组复杂的后端进程。 根据您尝试列出的项目数量以及Amazon系统可能有多忙（例如“黑色星期五”），在Amazon上列出项目可能需要一些时间。
+- 如果所選網站內的所有產品都符合條件，請勿新增條件。
+- 直接與Amazon的系統通訊時，有一組複雜的後端程式。 根據您嘗試列出的專案數量，以及Amazon的系統可能有多忙（例如「黑色星期五」），您的專案可能需要一些時間才會列在Amazon上。
 
-有关条件的更多信息，请参阅 [描述条件](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"}.
+如需條件的詳細資訊，請參閱 [說明條件](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"}.
 
-## 列表规则预览
+## 清單規則預覽
 
-修改列表规则的条件定义时，可以单击 **[!UICONTROL Preview Changes]** 以应用规则更改并查看列表如何受到影响。 在保存列表规则更改之前，请验证此列表预览功能中的列表。
+當您修改清單規則的條件定義時，可以按一下 **[!UICONTROL Preview Changes]** 以套用規則變更，並檢視清單如何受到影響。 儲存清單規則變更之前，請先在此清單預覽功能中驗證您的清單。
 
-Amazon列表会与您的规则和定义的条件进行比较。 然后，您可以查看：
+您的Amazon清單會與規則和定義的條件做比較。 然後您可以檢閱：
 
-- 根据您当前的状态，哪些产品会变为不合格状态 [!DNL Amazon Seller Central] 帐户
-- 哪些产品从不合格状态移回合格状态
-- 哪些产品是新的Amazon列表，并从符合条件添加到您的Amazon列表 [!DNL Commerce] 产品
+- 根據您目前的狀況，哪些產品會移至不合格狀態 [!DNL Amazon Seller Central] 帳戶
+- 哪些產品會從不符合資格的狀態移回符合資格的狀態
+- 哪些產品是新的Amazon清單，並從您的合格清單新增到您的Amazon清單 [!DNL Commerce] 產品
 
-“列表预览”允许您预览潜在的Amazon列表，并对列表规则进行任何必要的调整。
+清單預覽可讓您預覽潛在的Amazon清單，並對清單規則進行任何必要的調整。
 
-您的潜在Amazon列表将填充在 _[!UICONTROL Listing Preview]_页面位于以下三个选项卡之一：
+您潛在的Amazon清單會填入 _[!UICONTROL Listing Preview]_頁面位於下列三個索引標籤之一：
 
-- **[!UICONTROL Ineligible Listings]**  — 根据您当前的上市规则和条件，列出的产品不符合Amazon的上市条件。
+- **[!UICONTROL Ineligible Listings]**  — 根據您目前的清單規則及條件，所列產品不符合Amazon清單資格。
 
-   不符合条件的产品不会发布到Amazon。 如果Amazon上已列出不合格产品，并且您将Amazon列表与您的 [!DNL Commerce] 目录产品，Amazon列表的数量更改为 `0` 以防止产品销售。 要手动删除列表，请参阅 [结束Amazon列表](./end-listings-manually.md). 此处不列出不符合Amazon要求的产品。 这些产品在 [“非活动列表”标签](./inactive-listings.md).
+   不符合資格的產品不會發佈至Amazon。 如果不符合資格的產品已列於Amazon上，且您將Amazon清單與您的產品比對， [!DNL Commerce] 目錄產品，Amazon清單的數量變更為 `0` 以防止產品銷售。 若要手動移除清單，請參閱 [結束Amazon清單](./end-listings-manually.md). 此處不列出不符合Amazon要求的產品。 這些產品會列在 [非使用中清單頁標](./inactive-listings.md).
 
-- **[!UICONTROL Eligible Listings]**  — 根据您当前的上市规则和条件，列出的产品均符合Amazon上市资格并符合Amazon要求。 此列表包括导入的现有Amazon列表(如果您具有 **导入第三方列表** 设置为 `Import Listing` 在 [列表设置](./third-party-listing-settings.md))。
+- **[!UICONTROL Eligible Listings]**  — 根據您目前的上市規則和條件，所列產品符合Amazon上市資格，也符合Amazon要求。 此清單包含您匯入的現有Amazon清單(如果您有 **匯入協力廠商清單** 設定為 `Import Listing` 在 [清單設定](./third-party-listing-settings.md))。
 
-- **[!UICONTROL New Listings]**  — 列出的产品包括您的 [!DNL Commerce] 根据您当前的上市规则和条件对最近符合Amazon上市资格条件的产品进行目录，并创建和发布新的Amazon列表。
+- **[!UICONTROL New Listings]**  — 列出的產品包含您的 [!DNL Commerce] 根據您目前的清單規則與條件，將新符合Amazon清單資格的產品列入目錄，並建立並發佈新的Amazon清單。
 
-### 查看列表预览
+### 檢視您的清單預覽
 
-1. 单击 **[!UICONTROL Listing Rules]** 在商店仪表板上。
+1. 按一下 **[!UICONTROL Listing Rules]** 在商店控制面板上。
 
-1. 查看或添加 [上市规则](./listing-rules.md).
+1. 檢視或新增您的 [清單規則](./listing-rules.md).
 
-1. 修改您的 [列表规则条件](./ob-define-condition-example.md).
+1. 修改您的 [清單規則條件](./ob-define-condition-example.md).
 
-1. 单击 **[!UICONTROL Preview Changes]**.
+1. 按一下 **[!UICONTROL Preview Changes]**.
 
-1. 查看并确认您在 _[!UICONTROL Ineligible Listings]_，_[!UICONTROL Eligible Listings]_、和 _[!UICONTROL New Listings]_选项卡。
+1. 檢閱並確認您在 _[!UICONTROL Ineligible Listings]_，_[!UICONTROL Eligible Listings]_、和 _[!UICONTROL New Listings]_索引標籤。
 
-1. 如果您的列表与预期相符，请单击 **[!UICONTROL Save and close]**.
+1. 如果您的清單符合預期，請按一下 **[!UICONTROL Save and close]**.
 
-   如果您的列表未按预期显示，请单击 **[!UICONTROL Back]** 并修改您的规则和条件，直到您的清单符合您的期望为止。
+   如果您的清單未如預期顯示，請按一下 **[!UICONTROL Back]** 並修改您的規則和條件，直到清單符合您的預期為止。
 
-![列表规则预览](assets/amazon-listing-rule-preview.png)
+![清單規則預覽](assets/amazon-listing-rule-preview.png)
 
-### 列出预览记录
+### 列出預覽記錄
 
-| 字段 | 描述 |
+| 欄位 | 說明 |
 |--- |--- |
-| [!UICONTROL Product ID] | 分配给的唯一序列号 [!DNL Commerce] 添加时显示的目录产品。 |
-| [!UICONTROL Thumbnail] | 显示主要产品图像的缩略图。 |
-| [!UICONTROL Name] | 产品的名称，在 [!DNL Commerce] [产品网格](https://docs.magento.com/user-guide/catalog/products.html){target="_blank"}. |
-| [!UICONTROL Type] | 产品的类型，在 [!DNL Commerce] 产品网格。 |
-| [!UICONTROL Attribute Set] | 用作产品模板的属性集名称，在中管理 [!DNL Commerce] 产品网格。 |
-| [!UICONTROL SKU] | 分配给产品的唯一库存单位，在 [!DNL Commerce] 产品网格。 |
-| [!UICONTROL Visibility] | 指示产品的可见位置，在中进行管理 [!DNL Commerce] 产品网格。 选项：<ul><li>`Not visible individually`</li><li>`Catalog`</li><li>`Search`</li><li>`Catalog, Search`</li></ul> |
-| 状态 | 指示产品的状态，在 [!DNL Commerce] 产品网格。 选项： `Enabled` / `Disabled` |
+| [!UICONTROL Product ID] | 指派給的唯一、連續編號 [!DNL Commerce] 新增目錄產品時。 |
+| [!UICONTROL Thumbnail] | 顯示主要產品影像的縮圖。 |
+| [!UICONTROL Name] | 產品的名稱，受管理於 [!DNL Commerce] [產品格線](https://docs.magento.com/user-guide/catalog/products.html){target="_blank"}. |
+| [!UICONTROL Type] | 產品的型別，管理於 [!DNL Commerce] 產品格線。 |
+| [!UICONTROL Attribute Set] | 作為產品範本使用的屬性集名稱，管理於 [!DNL Commerce] 產品格線。 |
+| [!UICONTROL SKU] | 指派給產品的唯一庫存單位，管理於 [!DNL Commerce] 產品格線。 |
+| [!UICONTROL Visibility] | 指出產品可見的位置，並在下列位置管理： [!DNL Commerce] 產品格線。 選項：<ul><li>`Not visible individually`</li><li>`Catalog`</li><li>`Search`</li><li>`Catalog, Search`</li></ul> |
+| 狀態 | 表示產品的狀態，管理於 [!DNL Commerce] 產品格線。 選項： `Enabled` / `Disabled` |
 
-![列表预览工作流](assets/listing-preview-flowchart.png)
+![清單預覽工作流程](assets/listing-preview-flowchart.png)

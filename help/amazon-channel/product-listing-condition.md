@@ -1,6 +1,6 @@
 ---
-title: 产品列表条件
-description: 使用产品列表条件设置将您的Commerce产品映射到Amazon产品条件，例如“新增”或“翻新”。
+title: 產品清單條件
+description: 使用產品清單條件設定，將您的Commerce產品對應至Amazon產品條件，例如「新增」或「整新」。
 redirect_from: /sales-channels/asc/ob-product-listing-condition.html
 exl-id: f37ce3cf-7bfc-4dee-931e-a603008a71b8
 source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
@@ -10,11 +10,11 @@ ht-degree: 0%
 
 ---
 
-# 产品列表条件
+# 產品清單條件
 
-产品列表条件设置是商店列表设置的一部分。 您可以访问 [存储仪表板](./amazon-store-dashboard.md).
+產品清單條件設定是商店清單設定的一部分。 您可以存取上的清單設定 [存放區儀表板](./amazon-store-dashboard.md).
 
-Amazon需要产品列表具有定义的条件。 如果所有产品条件相同，则可以选择一个Amazon条件选项，以将所有产品表示为全局条件值。 标准Amazon条件包括：
+Amazon需要產品清單才能有定義的條件。 如果您的所有產品具有相同條件，您可以選取其中一個Amazon條件選項，將所有產品表示為您的全域條件值。 標準Amazon條件包括：
 
 - `New`
 - `Refurbished`
@@ -29,43 +29,43 @@ Amazon需要产品列表具有定义的条件。 如果所有产品条件相同�
 
 >[!IMPORTANT]
 >
->如果您销售已续订（翻新）的产品，则必须注册 [!DNL Amazon Renewed Program]. 参见 [续订的产品](./renewed-products.md).
+>如果您銷售更新（翻新）的產品，則必須註冊 [!DNL Amazon Renewed Program]. 另請參閱 [更新的產品](./renewed-products.md).
 
-但是，如果您的目录包含不同条件（例如“新建”、“已使用”和“翻新”）的产品，则必须选择 **[!UICONTROL Assign Condition Using Product Attribute]**. 此设置允许您映射 [!DNL Commerce] Amazon列表条件的条件属性和值。
+不過，如果您的目錄包含不同條件的產品（例如「新增」、「已使用」和「整新」），您必須選擇 **[!UICONTROL Assign Condition Using Product Attribute]**. 此設定可讓您對應 [!DNL Commerce] Amazon清單條件的條件屬性和值。
 
-期间 [预设置任务](./amazon-pre-setup-tasks.md)，建议您创建 [!DNL Commerce] 产品条件的产品属性。 如果您以各种条件提供产品，但尚未创建条件属性，请参阅 [在中创建产品属性 [!DNL Commerce]](./ob-creating-magento-attributes.md). 创建条件属性后，您可以为中的每项产品分配一个条件值。 [!DNL Commerce] 目录。
+期間 [預先設定任務](./amazon-pre-setup-tasks.md)，建議您建立 [!DNL Commerce] 產品條件的產品屬性。 如果您以各種條件提供產品，但尚未建立條件屬性，請參閱 [在中建立產品屬性 [!DNL Commerce]](./ob-creating-magento-attributes.md). 建立條件屬性後，您可以為中的每項產品指派條件值。 [!DNL Commerce] 目錄。
 
-## 配置设置
+## 設定設定
 
-1. 单击 **[!UICONTROL Listing Settings]** 在商店仪表板上。
+1. 按一下 **[!UICONTROL Listing Settings]** 在商店控制面板上。
 
-1. 展开 **[!UICONTROL Product Listing Condition]** 部分。
+1. 展開 **[!UICONTROL Product Listing Condition]** 區段。
 
-1. 对象 **[!UICONTROL Listing Product Condition]**，选择一个选项。
+1. 對象 **[!UICONTROL Listing Product Condition]**，選擇一個選項。
 
-   为所有列表的全局条件值选择一个标准Amazon条件。 默认设置为 `New`.
+   為所有清單的全域條件值選擇其中一個標準Amazon條件。 預設設定為 `New`.
 
-   如果您的产品/列表具有不同的条件，请选择 `Assign Condition Using Product Attribute` 在显示的附加字段中定义产品条件设置。
+   如果您的產品/清單具有不同的條件，請選擇 `Assign Condition Using Product Attribute` 以在出現的其他欄位中定義您的產品條件設定。
 
-1. 对象 **条件属性**，选择 [!DNL Commerce] 属性，用于映射每个标准Amazon条件属性的值。
+1. 對象 **條件屬性**，選擇 [!DNL Commerce] 屬性，以對應每個標準Amazon條件屬性的值。
 
-   如果您在中拥有产品 `Used` 或 `Collectible` 条件，但无法进一步区分，您可以映射到单个 `Used` 或 `Collectible` Amazon条件，并将其他条件留空。 此方法映射您的所有 `Used` 或 `Collectible` “已使用”或“可收集”单一Amazon条件的条件。
+   如果您的產品位於 `Used` 或 `Collectible` 條件，但若您不進一步區分，則可對應至單一 `Used` 或 `Collectible` Amazon條件，並將其他條件保留空白。 此方法會將您的所有 `Used` 或 `Collectible` 單一Amazon使用或可收集條件的條件。
 
-   例如，您有一个 `Used` 产品的条件。 映射时，您可以选择是否要映射到Amazon条件 `Used; Like New`， `Used; Very Good`， `Used; Good`，或 `Used; Acceptable`. 仅填写所需Amazon条件的字段，保留其他 `Used` 选项设置为 `--Select Option--`. 在示例图像中，所有 [!DNL Commerce] 中的产品 `Used` 条件已映射到Amazon `Used; Very Good` 条件。
+   例如，您有一個 `Used` 產品的條件。 對應時，您可以選擇是否要對應至Amazon條件 `Used; Like New`， `Used; Very Good`， `Used; Good`，或 `Used; Acceptable`. 僅為您想要的Amazon條件完成欄位，留下另一個 `Used` 選項設定為 `--Select Option--`. 在範例影像中，所有 [!DNL Commerce] 中的產品 `Used` 條件對應至Amazon `Used; Very Good` 條件。
 
-   您还可以为条件输入说明性文本，但 `New`.
+   您也可以輸入條件的描述性文字，但以下情況除外 `New`.
 
-1. 完成后，单击 **[!UICONTROL Save listing settings]**.
+1. 完成後，按一下 **[!UICONTROL Save listing settings]**.
 
-![产品列表条件](assets/amazon-product-listing-condition.png)
+![產品清單條件](assets/amazon-product-listing-condition.png)
 
-| 字段 | 描述 |
+| 欄位 | 說明 |
 |---|---|
-| [!UICONTROL Listing Product Condition] | 产品清单的条件。 选项： `New` / `Refurbished` / `Used: Like New` / `Used: Very Good` / `Used: Good` / `Used: Acceptable` / `Collectible: Like New` / `Collectible: Very Good` / `Collectible: Good` / `Collectible: Acceptable` / `Assign Condition Using Product Attribute`<br><br>如果您销售单个产品条件，请选择其中一个标准Amazon条件。 如果您的 [!DNL Commerce] 目录包含各种状态下的产品，请选择 `Assign Condition Using Product Attribute`. |
-| [!UICONTROL Condition Attribute] | 此 [!DNL Commerce] 定义产品条件的属性。 选择您创建的要映射到Amazon条件属性的Magneto属性。 在 [预设置任务示例](./ob-creating-magento-attributes.md) 建议将其命名为 `Amazon Condition`. 选中后，将显示用于映射标准Amazon条件的其他字段。 |
-| [!UICONTROL Additional Condition fields] | 对于每个标准Amazon条件，选择相应的条件。 选项是在以下情况下添加的条件标签： [已创建Amazon条件属性](./ob-creating-magento-attributes.md).<br><br>如果您在中拥有产品 `Used` 或 `Collectible` 条件，但无法进一步区分，您可以映射到单个 `Used` 或 `Collectible` Amazon条件，并将其他条件留空。 此方法映射所有 `Used` 或 `Collectible` “已使用”或“可收集”单一Amazon条件的条件。 |
+| [!UICONTROL Listing Product Condition] | 產品清單的條件。 選項： `New` / `Refurbished` / `Used: Like New` / `Used: Very Good` / `Used: Good` / `Used: Acceptable` / `Collectible: Like New` / `Collectible: Very Good` / `Collectible: Good` / `Collectible: Acceptable` / `Assign Condition Using Product Attribute`<br><br>如果您銷售單一產品條件，請選擇其中一個標準Amazon條件。 若您的 [!DNL Commerce] 目錄包含各種狀況的產品，請選擇 `Assign Condition Using Product Attribute`. |
+| [!UICONTROL Condition Attribute] | 此 [!DNL Commerce] 定義產品條件的屬性。 選取您建立的Magneto屬性，以對應至Amazon條件屬性。 在 [預先設定任務範例](./ob-creating-magento-attributes.md) 建議將其命名為 `Amazon Condition`. 選擇後，會出現其他欄位以對映標準Amazon條件。 |
+| [!UICONTROL Additional Condition fields] | 針對每個標準Amazon條件，選擇對應的條件。 選項是您新增的條件標籤 [已建立您的Amazon條件屬性](./ob-creating-magento-attributes.md).<br><br>如果您的產品位於 `Used` 或 `Collectible` 條件，但若您不進一步區分，則可對應至單一 `Used` 或 `Collectible` Amazon條件，並將其他條件保留空白。 此方法會對映所有 `Used` 或 `Collectible` 單一Amazon使用或可收集條件的條件。 |
 
-**快速访问** - [!UICONTROL Listing Settings] 区域
+**快速存取** - [!UICONTROL Listing Settings] 區段
 
 - [[!UICONTROL Product Listing Actions]](./product-listing-actions.md)
 - [[!UICONTROL Third Party Listings]](./third-party-listing-settings.md)

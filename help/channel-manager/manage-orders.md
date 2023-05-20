@@ -1,6 +1,6 @@
 ---
-title: “查看和管理订单自 [!DNL Channel Manager]'
-description: '''查看和管理 [!DNL Walmart Marketplace] 订购 [!DNL Channel Manager] 为Adobe Commerce和Magento Open Source。'
+title: 檢視和管理訂單，從 [!DNL Channel Manager]'
+description: '檢視和管理 [!DNL Walmart Marketplace] 訂單 [!DNL Channel Manager] 適用於Adobe Commerce和Magento Open Source。'
 exl-id: c2779c72-4793-445c-858a-867ea8389662
 source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
@@ -9,169 +9,169 @@ ht-degree: 0%
 
 ---
 
-# 查看和跟踪订单来源 [!DNL Channel Manager]
+# 檢視與追蹤訂單，從 [!DNL Channel Manager]
 
-[!DNL Walmart Marketplace] 订单数据 [!DNL Commerce] 产品自动同步到 [!DNL Channel Manager] after [!DNL Walmart] 处理顺序。
+[!DNL Walmart Marketplace] 訂單資料 [!DNL Commerce] 產品會自動同步至 [!DNL Channel Manager] 晚於 [!DNL Walmart] 處理訂單。
 
-在 [!DNL Commerce] 另外，成功的同步会触发以下操作：
+於 [!DNL Commerce] 成功同步處理會觸發下列動作：
 
-- [!DNL Channel Manager] 向沃尔玛发出订单确认。
+- [!DNL Channel Manager] 傳送訂單確認函給沃爾瑪。
 
-- 对应 [!DNL Commerce] 订单是根据沃尔玛订单创建的。
+- 對應的 [!DNL Commerce] 訂單是從Walmart訂單建立的。
 
-- 更新的订单信息显示在 [!DNL Channel Manager] 订单仪表板。
+- 更新的訂單資訊會顯示在 [!DNL Channel Manager] 訂單儀表板。
 
-在店面管理员中，您可以查看 [!DNL Channel Manager] 打开销售渠道商店并选择 **[!UICONTROL Orders]**.
+在店面管理員中，您可以檢視訂單資料來源 [!DNL Channel Manager] 透過開啟sales channel商店並選取 **[!UICONTROL Orders]**.
 
-![要管理的渠道管理器订单视图 [!DNL Walmart Marketplace] 订购](assets/orders-dashboard-view.png)
+![要管理的管道管理員訂單檢視 [!DNL Walmart Marketplace] 訂購](assets/orders-dashboard-view.png)
 
 >[!NOTE]
 >
->最长可能需要35分钟 [!DNL Walmart Marketplace] 显示顺序 [!DNL Channel Manager] 订单列表。 [!DNL Walmart] 需要大约30分钟才能处理传入的订单并将它们发送到 [!DNL Channel Manager]. 在渠道管理器收到订单后，大约需要再多五分钟来创建并显示订单，在Adobe Commerce或Magento Open Source中。
+>最長可能需要35分鐘 [!DNL Walmart Marketplace] 以便在以下專案顯示： [!DNL Channel Manager] 訂單清單。 [!DNL Walmart] 大約需要30分鐘來處理傳入的訂單並將它們傳送到 [!DNL Channel Manager]. Channel Manager收到訂單後，需要約五分鐘才能在Adobe Commerce或Magento Open Source中建立並顯示訂單。
 
-## 订单控件和列描述
+## 訂單控制項與欄位說明
 
-下表介绍了可用于“订单”的控件和列。
+下清單格說明「訂單」可用的控制項與欄位。
 
-**控件[!UICONTROL Orders]**
+**控制項[!UICONTROL Orders]**
 
 <table>
 <tr>
 <td><strong>控制</strong></td>
-<td><strong>描述</strong></td>
+<td><strong>說明</strong></td>
 </tr>
 <tr>
 <td>[!UICONTROL Filter orders]</td>
-<td>通过选择 [!UICONTROL Order Status] 卡片。</td>
+<td>選取其中一個選項來排序檢視 [!UICONTROL Order Status] 卡片。</td>
 </tr>
 <tr>
-<td>状态详细信息</td>
-<td>提供有关订单错误和返回请求的信息。 要查看订单的退货信息和退款状态，请选择 <strong>[!UICONTROL Return requested]</strong> 用于打开的文本 [!UICONTROL Returns] 功能板。</td>
+<td>狀態詳細資料</td>
+<td>提供有關訂單錯誤和退貨請求的資訊。 若要檢視訂單的退貨資訊與退款狀態，請選取 <strong>[!UICONTROL Return requested]</strong> 文字以開啟 [!UICONTROL Returns] 儀表板。</td>
 </tr>
 <tr>
 <td>[!UICONTROL View order detail]</td>
-<td>要查看订单详细信息，请选择 [!DNL Commerce] 订单编号 [!UICONTROL Order] 表。 然后，使用 [!DNL Commerce] 订单选项来处理订单。</td>
+<td>若要檢視訂單詳細資料，請選取 [!DNL Commerce] 中的訂單編號 [!UICONTROL Order] 表格。 然後，使用 [!DNL Commerce] 訂單選項以處理訂單。</td>
 </tr>
 <tr>
 <td>[!UICONTROL Channel Settings]</td>
-<td>要修改渠道配置，请选择渠道Walmart连接凭据、映射的属性或发运标识符，设置选择 [!DNL Commerce] 订单编号 [!UICONTROL Order] 表。 然后，使用 [!DNL Commerce] 订单选项来处理订单。</td>
+<td>若要修改通道組態，請選取通道Walmart連線認證、對應的屬性或出貨識別碼，設定值請選取 [!DNL Commerce] 中的訂單編號 [!UICONTROL Order] 表格。 然後，使用 [!DNL Commerce] 訂單選項以處理訂單。</td>
 </tr>
 </table>
 
 
-**列描述**
+**欄說明**
 
 <table>
 <tr>
-<td>字段</td>
-<td>描述</td>
+<td>欄位</td>
+<td>說明</td>
 </tr>
 <tr>
 <td>[!UICONTROL Walmart Order #]</td>
-<td>在 [!DNL Walmart Marketplace]. 首次将订单导入时 [!DNL Channel Manager]，仅 [!DNL Walmart] 此时会显示订单编号。 当 [!DNL Commerce] 订单，则 [!DNL Walmart] 订单号存储在 [!UICONTROL External ID] 产品属性。</td>
+<td>在中指派給訂單的採購單編號 [!DNL Walmart Marketplace]. 訂單最初匯入至時 [!DNL Channel Manager]，僅限 [!DNL Walmart] 訂單編號隨即顯示。 當 [!DNL Commerce] 建立訂單後， [!DNL Walmart] 訂單編號儲存在 [!UICONTROL External ID] 產品屬性。</td>
 </tr>
 <tr>
-<td>[!DNL Commerce] 订单编号</td>
-<td>分配给 [!DNL Commerce] 从创建的订单 [!DNL Walmart Marketplace] 订单。</td>
+<td>[!DNL Commerce] 訂單編號</td>
+<td>指派給 [!DNL Commerce] 訂單建立自 [!DNL Walmart Marketplace] 訂購。</td>
 </tr>
 <tr>
-<td>项目</td>
-<td>订购的项目数 [!DNL Walmart Marketplace].</td>
+<td>專案</td>
+<td>訂購的專案數 [!DNL Walmart Marketplace].</td>
 </tr>
 <tr>
 <td>[!UICONTROL Order Value]</td>
-<td>订购物料的总成本。</td>
+<td>訂購料號的總成本。</td>
 </tr>
 <tr>
 <td>[!UICONTROL Ordered]</td>
-<td>将订单提交到 [!DNL Walmart Marketplace] 转换为本地时区。</td>
+<td>將訂單提交至的日期 [!DNL Walmart Marketplace] 轉換為當地時區。</td>
 </tr>
 <tr>
 <td>[!UICONTROL Ship By (timezone)]</td>
-<td>订单必须发运的日期 [!DNL Walmart Marketplace] 转换为本地时区的要求。
+<td>訂單必須由哪個日期出貨才能符合 [!DNL Walmart Marketplace] 需求已轉換為當地時區。
 </td>
 </tr>
 <tr>
 <td>[!UICONTROL Deliver By (timezone)]</td>
-<td>必须将订单交付给客户才能满足的日期 [!DNL Walmart Marketplace] 转换为本地时区的要求。</td>
+<td>訂單必須交貨給客戶才能達到的日期 [!DNL Walmart Marketplace] 需求已轉換為當地時區。</td>
 </tr>
 <tr>
 <td>[!UICONTROL Ship Method]</td>
-<td>[[!DNL Walmart Marketplace] 送货方法](已为订单选择https://sellerhelp.walmart.com/s/guide?language=en_US&amp;article=000007893%29。</td>
+<td>此[[!DNL Walmart Marketplace] 送貨方式](已針對訂單選取https://sellerhelp.walmart.com/s/guide?language=en_US&amp;article=000007893%29。</td>
 </tr>
 <tr>
 <td>[!UICONTROL Last Update]</td>
-<td>指示上次更新订单数据的时间戳(在 [!DNL Channel Manager] 转换为本地时区。</td>
+<td>表示上次更新訂單資料時間的時間戳記 [!DNL Channel Manager] 轉換為當地時區。</td>
 </tr>
 <tr>
 <td>[!UICONTROL Status]</td>
-<td>指示 [!DNL Commerce] 订单工作流。 从导入的订单的初始状态 [!DNL Walmart Marketplace] 为_Open_。 当 [!DNL Commerce] 订单已处理并 [!DNL Channel Manager] 成功将装运、部分装运和取消更新同步到 [!DNL Walmart Marketplace].</td>
+<td>指示中目前的訂單狀態 [!DNL Commerce] 訂單工作流程。 從匯入的訂單的初始狀態 [!DNL Walmart Marketplace] 是_Open_。 其他狀態更新會在以下情況下發生： [!DNL Commerce] 訂單已處理且 [!DNL Channel Manager] 成功將出貨、部份出貨及取消更新同步至 [!DNL Walmart Marketplace].</td>
 </tr>
 <tr>
 <td>[!UICONTROL Status Details]</td>
-<td>提供有错误或退款请求的订单的更多详细信息。</td>
+<td>提供有關有錯誤的訂單或退款請求的更多詳細資訊。</td>
 </tr>
 </table>
 
-## 订单状态
+## 訂單狀態
 
-[!UICONTROL Order Status] 提供有关 [!DNL Walmart Marketplace] 从Adobe Commerce或Magento Open Source管理的订单。 订单状态更新发生在 [!DNL Channel Manager] 从以下任一位置接收更新的订单信息 [!DNL Walmart Marketplace] 或 [!DNL Commerce] 订单系统。 订单可以具有以下状态：
+[!UICONTROL Order Status] 提供目前狀態的相關資訊 [!DNL Walmart Marketplace] 從Adobe Commerce或Magento Open Source管理的訂單。 訂單狀態更新發生於 [!DNL Channel Manager] 會從以下任一位置接收更新的訂單資訊： [!DNL Walmart Marketplace] 或 [!DNL Commerce] 訂購系統。 訂單可以有以下狀態：
 
-- **[!UICONTROL Shipped]** — 从 [!DNL Commerce] 存储。 当命令发出时， [!DNL Channel Manager] 向发送更新 [!DNL Walmart Marketplace] 要更新Walmart上的发运状态，并提供装运的订单跟踪编号。 在订单发运后，如果沃尔玛发出退货授权表，订单项目可以部分或全部退还。 请参阅 [退货和退款](return-refund-orders.md).
+- **[!UICONTROL Shipped]** — 已出貨的訂單 [!DNL Commerce] 商店。 當訂單出貨時， [!DNL Channel Manager] 傳送更新至 [!DNL Walmart Marketplace] 更新「沃爾瑪」的出貨狀態，並提供出貨的訂單追蹤編號。 訂單出貨後，如果沃爾瑪簽發「退貨商品授權」表格，訂單專案可以部份或全部退款。 另請參閱 [退貨與退款](return-refund-orders.md).
 
-- **[!UICONTROL Partially Shipped]** — 某些物料标记为已发运，而其他物料等待发运的订单。 当订单中的物料发运时， [!DNL Channel Manager] 向发送更新 [!DNL Walmart Marketplace] 将发运状态更新为 _[!DNL Partially Shipped]_并提供装运的订单跟踪编号。
+- **[!UICONTROL Partially Shipped]** — 某些料號標示為已出貨，而其他料號則等待出貨的訂單。 當訂單中的料號出貨時， [!DNL Channel Manager] 傳送更新至 [!DNL Walmart Marketplace] 若要將出貨狀態更新為 _[!DNL Partially Shipped]_，並提供出貨的訂單追蹤編號。
 
-- **[!UICONTROL Canceled]** — 已从 [!DNL Commerce] 存储。
+- **[!UICONTROL Canceled]** — 已取消的訂單 [!DNL Commerce] 商店。
 
-   订单取消完成后， [!DNL Commerce] 库存数量更新以反映返回的项目。 然后， [!DNL Channel Manager] 同步更新到 [!DNL Walmart Marketplace].
+   訂單取消完成後， [!DNL Commerce] 庫存數量更新以反映退回的料號。 然後， [!DNL Channel Manager] 將更新同步至 [!DNL Walmart Marketplace].
 
-- **[!UICONTROL Return requested]** — 如果Walmart Marketplace请求退回已发运的订单，则 `Return requested` 链接显示在 [!UICONTROL Status details] 列。 选择链接会打开 [!UICONTROL Returns] 功能板来查看退货并管理退款流程。
+- **[!UICONTROL Return requested]** — 如果Walmart Marketplace要求退回已出貨的訂單專案，則 `Return requested` 連結會顯示在 [!UICONTROL Status details] 欄。 選取連結會開啟 [!UICONTROL Returns] 儀表板，以檢視退貨及管理退款處理。
 
-- **[!UICONTROL Error]** — 有错误的订单。 订单更新操作失败时，可能会发生错误。 例如，如果 [!DNL Channel Manager] 无法从沃尔玛收到新订单。 如果 [!DNL Channel Manager] 无法将订单发运或取消更新发送至 [!DNL Walmart Marketplace]. 如果操作失败，“订单”页将显示 _错误_ 订单的状态。 有关详细信息，请参阅 [修复订单错误](process-orders.md#fix-shipping-and-cancellation- errors)。
+- **[!UICONTROL Error]** — 有錯誤的訂單。 訂單更新作業失敗時可能會發生錯誤。 例如，發生下列情況會發生錯誤： [!DNL Channel Manager] 無法收到沃爾瑪的新訂單。 在以下情況下也可能發生： [!DNL Channel Manager] 無法將訂單出貨或取消更新傳送至 [!DNL Walmart Marketplace]. 如果作業失敗，「訂單」頁面會顯示 _錯誤_ 訂單的狀態。 如需詳細資訊，請參閱 [修正訂單錯誤](process-orders.md#fix-shipping-and-cancellation-errors)。
 
-- **[!UICONTROL Status details]** — 提供有关因缺少信息或值无效、发运详细信息不正确或订单取消失败等问题而发生订单错误的详细信息。 描述可帮助确定 [!DNL Commerce] 实例或 [!DNL Walmart Marketplace].
+- **[!UICONTROL Status details]** — 提供因遺漏資訊或無效值、不正確的出貨明細或訂單取消失敗等問題而發生訂單錯誤的詳細資訊。 說明可協助判斷 [!DNL Commerce] 執行個體或在 [!DNL Walmart Marketplace].
 
 >[!NOTE]
 >
->如果订单物料以多批发运发送，则 [!DNL Channel Manager] 反映最后一个可用订单状态。 例如，如果第一个项目发运，并且在将订单更新同步到时未返回任何错误 [!DNL Channel Manager] 和 [!DNL Walmart Marketplace], [!DNL Channel Manager] 订单状态为 _[!UICONTROL Partially Shipped]_. 如果第二件物料已发运并 [!DNL Channel Manager] 返回错误，顺序状态将更新为_[!UICONTROL Error]_.
+>如果訂單料號是以多重出貨方式傳送，則訂單狀態會位於 [!DNL Channel Manager] 反映最後一個可用的訂單狀態。 例如，如果第一個料號出貨，且同步處理訂單更新時未傳回任何錯誤 [!DNL Channel Manager] 和 [!DNL Walmart Marketplace]，則 [!DNL Channel Manager] 訂單狀態為 _[!UICONTROL Partially Shipped]_. 若第二個料號已出貨，且 [!DNL Channel Manager] 傳回錯誤，訂單狀態會更新為_[!UICONTROL Error]_.
 
-## 审核订单
+## 檢閱訂單
 
-1. 在管理员中，选择 **[!UICONTROL Marketing]** > **[!UICONTROL Channel Manager]** 打开 [!UICONTROL Channel Manager Marketplace Stores] 页面。
+1. 從「管理員」中選取「 」 **[!UICONTROL Marketing]** > **[!UICONTROL Channel Manager]** 以開啟 [!UICONTROL Channel Manager Marketplace Stores] 頁面。
 
-1. 在商店登入行中选择眼睛图标以打开商店视图。
+1. 選取商店專案列中的眼睛圖示，開啟商店檢視。
 
-1. 要查看订单信息，请选择*[!UICONTROL *Orders]**。
+1. 若要檢視訂單資訊，請選取*[!UICONTROL *Orders]**。
 
-1. 通过检查 **[状态](#order-status)** 列。
+1. 取得訂單的相關資訊，並核取 **[狀態](#order-status)** 欄。
 
-## 查看订单详细信息
+## 複查訂單詳細資料
 
-在从市场收到订单并导入您的销售渠道商店后，请使用 [!DNL Commerce] 订单ID，用于在Adobe Commerce中查看订单详细信息。
+從市集收到訂單並匯入您的銷售管道商店後，請使用 [!DNL Commerce] 訂單ID可在Adobe Commerce中檢視訂單詳細資料。
 
-从 **[!UICONTROL Orders]**，选择 **[!UICONTROL Commerce Order Number]** 打开 [!DNL Commerce] 订单详细信息。
+從 **[!UICONTROL Orders]**，選取 **[!UICONTROL Commerce Order Number]** 以開啟 [!DNL Commerce] 訂單詳細資料。
 
-![商务订单详细信息视图 [!DNL Walmart Marketplace] 订购](assets/order-detail-with-external-order-id.png)
+![的商務訂單詳細資料檢視 [!DNL Walmart Marketplace] 訂購](assets/order-detail-with-external-order-id.png)
 
-在商务店面中，从 [!DNL Walmart Marketplace] 在订单数据中包含以下其他信息：
+在Commerce店面，訂單匯入自 [!DNL Walmart Marketplace] 在訂單資料中包含下列額外資訊：
 
-- **支付信息与发货方法** — 从Walmart导入的订单包括以下付款和发运字段值：
+- **付款資訊和送貨方法** — 從Walmart匯入的訂單包含下列付款與出貨欄位的值：
 
-   - **[!UICONTROL Offline Channel Payment]** — 指示订单付款的脱机处理方式 [!DNL Walmart Marketplace].
+   - **[!UICONTROL Offline Channel Payment]** — 指出訂單付款是由以下人員離線處理 [!DNL Walmart Marketplace].
 
-   - **[!UICONTROL External Order Number]** — 显示 [!DNL Walmart Marketplace] 订单编号。
+   - **[!UICONTROL External Order Number]** — 顯示 [!DNL Walmart Marketplace] 訂單編號。
 
-   - **[!UICONTROL Channel Shipping - Value]** — 表示运费通过 [!DNL Walmart Marketplace].
+   - **[!UICONTROL Channel Shipping - Value]** — 表示出貨費用是透過處理 [!DNL Walmart Marketplace].
 
-   - **[!UICONTROL Cancellation Reason]** — 仅当从导入的订单 [!DNL Walmart Marketplace] 取消。 取消原因包括：
+   - **[!UICONTROL Cancellation Reason]** — 此欄位只有在訂單匯入來源時才會顯示 [!DNL Walmart Marketplace] 已取消。 取消原因包括：
 
       - [!UICONTROL Price or other listing errors.]
       - [!UICONTROL The item is out of stock.]
       - [!UICONTROL Unavailable carrier or shipping information.]
       - [!UICONTROL Additional information is required by our Credit or Fraud Avoidance department.]
 
-- **已订购项目** — 此部分列出所有商务订单上的订单项目。 的 [!UICONTROL Qty] 列提供订单项目的状态历史记录。 例如，如果订单已开票、发运和退还，您可以看到状态过渡。
+- **訂購的專案** — 本節列出所有Commerce訂單上的訂單專案。 此 [!UICONTROL Qty] 欄提供訂單料號的狀態歷史記錄。 例如，如果訂單已開立商業發票、出貨及退款，您可以檢視狀態轉換。
 
-   ![订单详细信息订购物料状态历史记录 [!DNL Walmart Marketplace] 订购](assets/order-detail-status-history.png)
+   ![訂單明細訂購料號狀態歷史記錄 [!DNL Walmart Marketplace] 訂購](assets/order-detail-status-history.png)
 
-通过选择 [!UICONTROL Invoice] 和 [!UICONTROL Credit Memo] 选项。 您还可以直接从 [[!UICONTROL Returns]](return-refund-orders.md) 功能板。
+選取「 」，檢視料號商業發票與退款明細 [!UICONTROL Invoice] 和 [!UICONTROL Credit Memo] 導覽功能表中的選項。 您也可以直接從以下存取銷退折讓單： [[!UICONTROL Returns]](return-refund-orders.md) 在您的sales channel store中的儀表板。

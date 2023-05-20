@@ -1,6 +1,6 @@
 ---
-title: 创建和编辑属性
-description: AmazonSales Channel提供了“属性”视图，可帮助您查看当前Amazon属性和链接的Commerce属性。
+title: 建立和編輯屬性
+description: AmazonSales Channel提供「屬性」檢視，協助您檢閱目前的Amazon屬性和連結的Commerce屬性。
 exl-id: 3cd5fb7e-68a3-45fd-8f50-72d3cc0244b5
 source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
@@ -9,110 +9,110 @@ ht-degree: 0%
 
 ---
 
-# 创建和编辑属性
+# 建立和編輯屬性
 
-创建或更新 [!DNL Commerce] 通过Amazon销售并更新商店时的属性。 查看当前的Amazon属性和链接的 [!DNL Commerce] 属性通过 [_[!UICONTROL Attributes]_视图](./attributes-view.md) Amazon sales channel主页的。 此_[!UICONTROL Action]_ 列显示该属性的可用操作。 您可以创建和映射新的 [!DNL Commerce] Amazon属性，或者您可以编辑现有的 [!DNL Commerce] 属性及其到Amazon属性的映射。
+建立或更新 [!DNL Commerce] 透過Amazon銷售並更新商店時的屬性。 檢閱目前的Amazon屬性和連結 [!DNL Commerce] 屬性透過 [_[!UICONTROL Attributes]_檢視](./attributes-view.md) Amazon sales channel首頁的頁首。 此_[!UICONTROL Action]_ 欄會顯示屬性的可用動作。 您可以建立並對應新的 [!DNL Commerce] 已取消連結Amazon屬性的屬性，或者您可以編輯現有的 [!DNL Commerce] 屬性及其與Amazon屬性的對應。
 
-创建和更新属性时，可能需要验证以下项的属性值： [!DNL Commerce] 和Amazon产品。 如果不从Amazon同步和导入值，这些值可能会有所不同。 要检查这些属性的Amazon值，请参阅 [查看Amazon属性映射](./amazon-matching-attributes-values.md). 如果要更改这些值，您可以 [编辑或创建映射](./amazon-manually-update-incomplete-listing.md) 在Amazon和 [!DNL Commerce].
+當您建立和更新屬性時，您可能想要驗證 [!DNL Commerce] 和Amazon產品。 如果您未從Amazon同步和匯入值，這些值可能會有所不同。 若要檢閱這些屬性的Amazon值，請參閱 [檢閱Amazon屬性對應](./amazon-matching-attributes-values.md). 若要變更這些值，您可以 [編輯或建立對應](./amazon-manually-update-incomplete-listing.md) 介於Amazon和 [!DNL Commerce].
 
-## 创建属性 {#create-an-attribute}
+## 建立屬性 {#create-an-attribute}
 
-这些步骤会创建 [!DNL Commerce] 属性并将其映射到Amazon属性。 根据配置，值可能会开始在不同目录之间同步。
+這些步驟會建立 [!DNL Commerce] 屬性並將其對應至Amazon屬性。 視設定而定，值可能會開始在不同目錄之間同步。
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Marketing]** > _[!UICONTROL Channels]_>**[!UICONTROL Amazon Sales Channel]**.
+1. 於 _管理員_ 側欄，前往 **[!UICONTROL Marketing]** > _[!UICONTROL Channels]_>**[!UICONTROL Amazon Sales Channel]**.
 
-1. 单击 **[!UICONTROL Attributes]** 在左侧菜单中，找到Amazon属性，然后单击 **[!UICONTROL Create Attribute]** 在 _[!UICONTROL Action]_列。
+1. 按一下 **[!UICONTROL Attributes]** 在左側功能表中，找出Amazon屬性，然後按一下 **[!UICONTROL Create Attribute]** 在 _[!UICONTROL Action]_欄。
 
-1. 启用将Amazon值与链接的值同步的功能 [!DNL Commerce] 属性，设置 **[!UICONTROL Is Active]** 到 `Yes`.
+1. 若要啟用Amazon值與連結的同步功能 [!DNL Commerce] 屬性，設定 **[!UICONTROL Is Active]** 至 `Yes`.
 
-   当设置为 `Yes`，则值会根据您的配置进行同步。
+   當設定為 `Yes`，會根據您的設定同步值。
 
-1. 选择 `Create New Magento Attribute` 对象 **[!UICONTROL Select Magento Product Attribute]**.
+1. 選擇 `Create New Magento Attribute` 的 **[!UICONTROL Select Magento Product Attribute]**.
 
-   属性映射到为以下项选择的 **[!UICONTROL Amazon Attribute Name]**.
+   屬性對應至所選 **[!UICONTROL Amazon Attribute Name]**.
 
-1. 输入 **[!UICONTROL Magento Product Attribute Name]**.
+1. 輸入 **[!UICONTROL Magento Product Attribute Name]**.
 
-1. 输入 **[!UICONTROL Magento Product Attribute Code]**.
+1. 輸入 **[!UICONTROL Magento Product Attribute Code]**.
 
-   该值必须全部为小写且不含空格。
+   此值必須全部小寫且不加空格。
 
-1. 对象 **[!UICONTROL Attribute Set Ids]**，选择要分配的属性集。
+1. 對象 **[!UICONTROL Attribute Set Ids]**，選擇要指派的屬性集。
 
-   通常，属性是属性集的一部分，例如具有蓝色、绿色、黄色和红色属性的颜色集。
+   通常，屬性是屬性集的一部分，例如具有藍色、綠色、黃色和紅色屬性的顏色集。
 
-1. 对象 **[!UICONTROL Type]**&#x200B;中，选择属性值的类型，如文本和数字。
+1. 對象 **[!UICONTROL Type]**，選擇屬性值的型別，例如文字和數字。
 
-   此选项影响属性的允许值。
+   此選項會影響屬性允許的值。
 
-1. 对象 **[!UICONTROL Use for Promo Rule Conditions]**，设置为 `Yes` 以使属性可用于促销条件中的参数。
+1. 對象 **[!UICONTROL Use for Promo Rule Conditions]**，設定為 `Yes` 讓屬性可用於促銷條件內的引數。
 
-1. 对象 **[!UICONTROL Used in Search]**，设置为 `Yes` 如果属性和值可用于产品搜索，则为。
+1. 對象 **[!UICONTROL Used in Search]**，設定為 `Yes` 屬性和值是否可用於產品搜尋。
 
-1. 对象 **[!UICONTROL Comparable on Storefront]**，设置为 `Yes` 属性值能否在Amazon的“比较依据”功能中使用。
+1. 對象 **[!UICONTROL Comparable on Storefront]**，設定為 `Yes` 屬性值是否可用於Amazon的「比較對象」功能。
 
-1. 选择 [!DNL Commerce] [范围](https://docs.magento.com/user-guide/configuration/scope.html){target="_blank"} ，然后选择一个或多个要将Amazon值导入到的存储视图。
+1. 選擇 [!DNL Commerce] [範圍](https://docs.magento.com/user-guide/configuration/scope.html){target="_blank"} 屬性，然後選取一或多個要將Amazon值匯入的「商店檢視」。
 
-   如果范围设置为 `Global`，则 _[!UICONTROL Store View]_创建属性后无法更改。
+   如果範圍設定為 `Global`，則 _[!UICONTROL Store View]_建立屬性後即無法變更。
 
-   如果您选择 `All Store Views (Global)`，它会同步值并将其保存到您的所有Amazon商店视图。 您可能只想将值同步到特定的存储视图。
+   如果您選擇 `All Store Views (Global)`，即可同步值並儲存至所有Amazon商店檢視。 您可能只想將值同步至特定的存放區檢視。
 
-1. 完成后，单击 **[!UICONTROL Save Attribute Settings]**.
+1. 完成後，按一下 **[!UICONTROL Save Attribute Settings]**.
 
-保存后，您可能需要编辑属性以检查设置并匹配Amazon和 [!DNL Commerce] 属性的值。 您还可以指示Amazon值是否应覆盖 [!DNL Commerce] 值。
+儲存後，您可能會想要編輯屬性以檢閱設定並比對Amazon和 [!DNL Commerce] 屬性的值。 您也可以指出Amazon值是否應該覆寫 [!DNL Commerce] 值。
 
-![创建属性设置](assets/amazon-attribute-settings-create.png)
+![建立屬性設定](assets/amazon-attribute-settings-create.png)
 
-| 字段 | 描述 |
+| 欄位 | 說明 |
 |--- |--- |
-| [!UICONTROL Is Active] | 指示此属性是否在Amazon和之间处于活动同步状态 [!DNL Commerce]. 设置为 `Yes` 确保Amazon中的属性值和 [!DNL Commerce] 保持所选属性的同步。 |
-| 选择Magento产品属性 | 指示要链接到所列Amazon属性名称的选定属性。 创建属性时，选择 `Create New Magento Attribute`. |
-| [!UICONTROL Amazon Attribute Name] | 显示您选择的Amazon属性的名称。 选定的属性链接到此Amazon属性。 不能通过编辑此值 [!DNL Commerce]. |
-| [!UICONTROL Magento Product Attribute Name] | 指示属性名称或“标签”。 |
-| [!UICONTROL Magento Product Attribute Code] | 指示属性代码，全部为小写字符，不含空格。 |
-| [!UICONTROL Attribute Set Ids] | 指示要为其分配属性的属性集。 属性往往是属性集的一部分，例如具有蓝色、绿色、黄色和红色属性的颜色集。 |
-| [!UICONTROL Type] | 指示属性值的值类型，如文本和数字。 该选择会影响属性的允许值。 |
-| [!UICONTROL Use for Promo Rule Conditions] | 切换到 `Yes` 以使属性可用于促销条件中的参数。 |
-| [!UICONTROL Used in Search] | 指示属性和值是否可用于产品搜索。 |
-| [!UICONTROL Comparable on Storefront] | 指示属性值是否可以在Amazon的“比较依据”功能中使用。 |
-| [!UICONTROL Magento Product Attribute Scope] | 指示 [范围](https://docs.magento.com/user-guide/configuration/scope.html){target="_blank"} 属性的。 选项：全局/商店视图<br>当设置为 `Global`，创建属性后无法编辑“商店视图” 。 |
-| [!UICONTROL Store Views (to import values into to)] | 仅在范围设置为时显示 `Store View`. 选择 [商店视图](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} Amazon属性值的同步目标。 选择 `All Store Views (Global)` 更新全部的值 [!DNL Commerce] 商店视图。 |
+| [!UICONTROL Is Active] | 指出此屬性是否為Amazon與之間的即時且主動同步 [!DNL Commerce]. 設定為 `Yes` 確保Amazon的屬性值和 [!DNL Commerce] 保持所選屬性的同步。 |
+| 選取Magento產品屬性 | 表示您要連結至所列「Amazon屬性名稱」的選取屬性。 建立屬性時，請選擇 `Create New Magento Attribute`. |
+| [!UICONTROL Amazon Attribute Name] | 顯示您選擇的Amazon屬性名稱。 選取的屬性會連結至此Amazon屬性。 您無法透過編輯此值 [!DNL Commerce]. |
+| [!UICONTROL Magento Product Attribute Name] | 指出屬性名稱或「標籤」。 |
+| [!UICONTROL Magento Product Attribute Code] | 表示屬性代碼，全部以小寫字元表示，不含空格。 |
+| [!UICONTROL Attribute Set Ids] | 指示要指派屬性的「屬性集」。 屬性往往是屬性集的一部分，例如具有藍色、綠色、黃色和紅色屬性的顏色集。 |
+| [!UICONTROL Type] | 指示屬性值的值型別，例如文字和數字。 選取範圍會影響屬性允許的值。 |
+| [!UICONTROL Use for Promo Rule Conditions] | 切換至 `Yes` 讓屬性可用於促銷條件內的引數。 |
+| [!UICONTROL Used in Search] | 表示屬性和值是否可用於產品搜尋。 |
+| [!UICONTROL Comparable on Storefront] | 指出屬性值是否可用於Amazon的「比較依據」功能。 |
+| [!UICONTROL Magento Product Attribute Scope] | 指示 [範圍](https://docs.magento.com/user-guide/configuration/scope.html){target="_blank"} 屬性的。 選項：全域/商店檢視<br>當設定為 `Global`，建立屬性後即無法編輯存放區檢視。 |
+| [!UICONTROL Store Views (to import values into to)] | 僅在範圍設定為時顯示 `Store View`. 選擇 [存放區檢視](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} Amazon屬性值會同步至該處。 選擇 `All Store Views (Global)` 更新全部的值 [!DNL Commerce] 存放區檢視。 |
 
-## 编辑属性 {#edit-an-attribute}
+## 編輯屬性 {#edit-an-attribute}
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Marketing]** > _[!UICONTROL Channels]_>**[!UICONTROL Amazon Sales Channel]**.
+1. 於 _管理員_ 側欄，前往 **[!UICONTROL Marketing]** > _[!UICONTROL Channels]_>**[!UICONTROL Amazon Sales Channel]**.
 
-1. 单击 **[!UICONTROL Attributes]** 在左侧菜单中，找到Amazon属性，然后单击 **[!UICONTROL Edit]** 在 _[!UICONTROL Action]_列。
+1. 按一下 **[!UICONTROL Attributes]** 在左側功能表中，找出Amazon屬性，然後按一下 **[!UICONTROL Edit]** 在 _[!UICONTROL Action]_欄。
 
-1. 启用或禁用Amazon值与链接的同步 [!DNL Commerce] 属性，设置 **处于活动状态** 到 `Yes` 或 `No`.
+1. 啟用或停用Amazon值與連結的同步功能 [!DNL Commerce] 屬性，設定 **為使用中** 至 `Yes` 或 `No`.
 
-   当设置为 `Yes`，则值会根据您的配置进行同步。
+   當設定為 `Yes`，會根據您的設定同步值。
 
-1. 对象 **[!UICONTROL Select Magento Product Attribute]**，验证或更新属性以映射到所选的 **[!UICONTROL Amazon Attribute Name]**.
+1. 對象 **[!UICONTROL Select Magento Product Attribute]**，驗證或更新屬性以對應至所選的 **[!UICONTROL Amazon Attribute Name]**.
 
-1. 指示是否希望传入的Amazon属性值覆盖现有属性值。
+1. 指出您是否希望傳入的Amazon屬性值覆寫現有的屬性值。
 
-   例如，您可能不希望将Amazon中的价格覆盖到 [!DNL Commerce].
+   例如，您可能不想將Amazon中的價格覆寫為 [!DNL Commerce].
 
-   - **[!UICONTROL Do Not Overwrite Existing Magento Values]**  — 保留值，并为保留不同的值 [!DNL Commerce] 和Amazon商店。
+   - **[!UICONTROL Do Not Overwrite Existing Magento Values]**  — 保留值，並為保留不同的值 [!DNL Commerce] 和Amazon商店。
 
-   - **[!UICONTROL Overwrite Existing Magento Values]**  — 覆盖 [!DNL Commerce] 具有传入Amazon值的产品目录。
+   - **[!UICONTROL Overwrite Existing Magento Values]**  — 覆寫 [!DNL Commerce] 具有傳入Amazon值的產品目錄。
 
-1. 如果可供编辑，请选择一个或多个 **[!UICONTROL Store Views (to import Amazon values into)]**.
+1. 如果可供編輯，請選擇一或多個 **[!UICONTROL Store Views (to import Amazon values into)]**.
 
-   如果属性是使用 `Global` 范围， _商店视图_ 创建属性后无法更改。
+   如果屬性是使用 `Global` 範圍， _存放區檢視_ 建立屬性後即無法變更。
 
-   如果您选择 `All Store Views (Global)`，则会同步值并将其保存到所有存储视图。 您可能只想将值同步到特定的存储视图。
+   如果您選擇 `All Store Views (Global)`，會同步值並儲存至所有存放區檢視。 您可能只想將值同步至特定的存放區檢視。
 
-1. 完成后，单击 **[!UICONTROL Save Attribute Settings]**.
+1. 完成後，按一下 **[!UICONTROL Save Attribute Settings]**.
 
-![编辑属性设置](assets/amazon-attribute-settings-edit.png)
+![編輯屬性設定](assets/amazon-attribute-settings-edit.png)
 
-| 字段 | 描述 |
+| 欄位 | 說明 |
 |--- |--- |
-| [!UICONTROL Is Active] | 指示此属性是否在Amazon和之间处于活动同步状态 [!DNL Commerce]. 设置为 `Yes` 确保Amazon中的属性值和 [!DNL Commerce] 保持所选属性的同步。 |
-| [!UICONTROL Select Magento Product Attribute] | 指示选定项 [!DNL Commerce] 要链接到列出的Amazon属性名称的属性。 如果要更改链接的 [!DNL Commerce] 属性，从下拉列表中选择其他属性。 值根据配置进行同步。 |
-| [!UICONTROL Amazon Attribute Name] | 显示Amazon属性的名称，如中所定义 [!DNL Amazon Seller Central]. 选定的 [!DNL Commerce] 此Amazon属性的属性链接。 不能通过编辑此值 [!DNL Commerce]. |
-| [!UICONTROL Overwrite Existing Value] | 指示Amazon属性值是否覆盖现有 [!DNL Commerce] 值，影响所有具有此功能的产品 [!DNL Commerce] 属性。<ul><li>**不覆盖现有Magento值**  — （默认）保留 [!DNL Commerce] 值，保留不同的值 [!DNL Commerce] 和Amazon商店。</li><li>**覆盖现有Magento值**  — 将Amazon值保存在 [!DNL Commerce] 中的值 [!DNL Commerce] 产品目录。</li></ul> |
-| [!UICONTROL Magento Product Attribute Scope] | 编辑属性时不会显示(如果属性是使用 `Global` 范围。 指示 [!DNL Commerce] [范围](https://docs.magento.com/user-guide/configuration/scope.html){target="_blank"} 创建并设置为 `Store View`. |
-| [!UICONTROL Store Views (to import values into to)] | 选择您的 [!DNL Commerce] [商店视图](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} ，以将Amazon属性值同步到其中。 选择 `All Store Views (Global)` 会更新所有商店视图中的值。 |
+| [!UICONTROL Is Active] | 指出此屬性是否為Amazon與之間的即時且主動同步 [!DNL Commerce]. 設定為 `Yes` 確保Amazon的屬性值和 [!DNL Commerce] 保持所選屬性的同步。 |
+| [!UICONTROL Select Magento Product Attribute] | 指示選取的專案 [!DNL Commerce] 要連結至所列Amazon屬性名稱的屬性。 如果您想要變更連結的 [!DNL Commerce] 屬性，請從下拉式清單中選擇其他屬性。 值會根據設定進行同步。 |
+| [!UICONTROL Amazon Attribute Name] | 顯示Amazon屬性的名稱，如中所定義 [!DNL Amazon Seller Central]. 選取的 [!DNL Commerce] 此Amazon屬性的屬性連結。 您無法透過編輯此值 [!DNL Commerce]. |
+| [!UICONTROL Overwrite Existing Value] | 指出Amazon屬性值是否會覆寫現有的 [!DNL Commerce] 值，影響所有具有此功能的產品 [!DNL Commerce] 屬性。<ul><li>**不要覆寫現有的Magento值** - （預設）保留 [!DNL Commerce] 值，保留不同的值 [!DNL Commerce] 和Amazon商店。</li><li>**覆寫現有Magento值**  — 將Amazon值儲存於 [!DNL Commerce] 中的值 [!DNL Commerce] 產品目錄。</li></ul> |
+| [!UICONTROL Magento Product Attribute Scope] | 編輯屬性時未顯示(如果屬性是使用 `Global` 範圍。 指示 [!DNL Commerce] [範圍](https://docs.magento.com/user-guide/configuration/scope.html){target="_blank"} 已建立並設為 `Store View`. |
+| [!UICONTROL Store Views (to import values into to)] | 選擇您的 [!DNL Commerce] [存放區檢視](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} ，以同步Amazon屬性值。 選擇 `All Store Views (Global)` 會更新所有商店檢視中的值。 |

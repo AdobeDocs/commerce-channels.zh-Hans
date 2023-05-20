@@ -1,6 +1,6 @@
 ---
-title: 日志和存储报告
-description: 使用日志和商店报表可查看Adobe Commerce或Magento Open Source商店中的动态以及Amazon Marketplace列表。
+title: 記錄檔和存放區報告
+description: 使用記錄檔和商店報告來檢視Adobe Commerce或Magento Open Source商店的狀況，以及您的Amazon Marketplace清單。
 exl-id: 4654f718-d15f-4c3b-b984-ac7b9c29e6c4
 source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
@@ -9,24 +9,24 @@ ht-degree: 0%
 
 ---
 
-# 日志和存储报告
+# 記錄檔和存放區報告
 
-Amazon sales channel扩展包括一些有价值的日志和商店报告，利用这些报告，您可以查看影响Amazon清单和订单的更改。 您可以使用这些报表来查看您商店中发生的事件并了解各种列表状态。
+Amazon Sales Channel擴充功能包括一些重要的記錄檔和商店報告，可讓您檢視影響Amazon清單和訂單的變更。 您可以使用這些報表來檢視商店中發生的事，並瞭解各種清單狀態。
 
-日志或存储报告没有可用的操作，因为它们是仅审核功能。
+記錄或存放區報告沒有可用的動作，因為它們是僅限檢閱的功能。
 
-以下日志可从 [存储仪表板](./amazon-store-dashboard.md).
+下列記錄檔可從 [存放區儀表板](./amazon-store-dashboard.md).
 
-- 此 [列出更改日志](./listing-changes-log.md) 显示在您的Amazon卖方帐户中发生的更改，以反映您的Amazon销售渠道设置。
+- 此 [列出變更記錄](./listing-changes-log.md) 顯示您的Amazon賣家帳戶所發生的變更，以反映您的Amazon銷售管道設定。
 
-- 此 [通信错误日志](./communication-errors-log.md) 显示与Amazon之间报告的任何通信错误。
+- 此 [通訊錯誤記錄](./communication-errors-log.md) 顯示與Amazon之間任何回報的通訊錯誤。
 
-以下特定于存储的报告可从 [存储仪表板](./amazon-store-dashboard.md).
+下列商店特定報表可從以下網址存取： [存放區儀表板](./amazon-store-dashboard.md).
 
-- 此 [有竞争力的价格分析](./competitive-price-analysis.md) 报表显示您的Amazon _到岸价格_ （上市价格加运费）与关连公司有关 [Buy Box](./buy-box-competitor-pricing.md) 价格和 [最低竞争对手](./lowest-competitor-pricing.md) 价格。
+- 此 [具競爭力的價格分析](./competitive-price-analysis.md) 報表顯示您的Amazon _到岸價格_ （上市價格加運費）與以下各項之比較： [Buy Box](./buy-box-competitor-pricing.md) 價格與 [最低競爭者](./lowest-competitor-pricing.md) 價格。
 
-- 此 [列表改进](./listing-improvements.md) 报表显示了Amazon为选定商店提供的所有列表改进建议。
+- 此 [清單改善](./listing-improvements.md) 報表會顯示Amazon針對選定商店所提供的所有建議清單改善。
 
 >[!TIP]
 >
->在需要进行故障排除时，您还可以查看日志文件以了解其他信息。 参见 [sales channel管理设置](./sales-channel-settings.md). Amazon sales channel synchronization logging将写入 `{Commerce Root}/var/log/channel_amazon.log` 文件并可在中查看 [开发人员模式](https://docs.magento.com/user-guide/magento/installation-modes.html){target="_blank"}.
+>如需疑難排解的其他資訊，您也可以檢視記錄檔。 另請參閱 [sales channel管理設定](./sales-channel-settings.md). Amazon sales channel synchronization logging會寫入 `{Commerce Root}/var/log/channel_amazon.log` 檔案及檢視位置 [開發人員模式](https://docs.magento.com/user-guide/magento/installation-modes.html){target="_blank"}.

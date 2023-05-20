@@ -1,6 +1,6 @@
 ---
-title: 将产品添加到渠道管理器
-description: ‘为 [!DNL Walmart Marketplace] 通过将产品从目录添加到渠道管理器中配置的销售渠道来进行销售。
+title: 新增產品至管道管理員
+description: '''建立產品分類 [!DNL Walmart Marketplace] 將目錄中的產品新增至在「管道管理員」中設定的銷售管道進行銷售。 '
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
 source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
@@ -10,71 +10,71 @@ ht-degree: 0%
 ---
 
 
-# 将产品添加到 [!DNL Channel Manager]
+# 將產品新增至 [!DNL Channel Manager]
 
-将产品添加到 [!DNL Walmart Marketplace] 销售渠道，从 [!DNL Commerce] 产品目录，并将其导入 [!DNL Channel Manager].
-根据您选择的产品数量，导入过程最多可能需要30分钟或更长时间。
+若要將產品新增至 [!DNL Walmart Marketplace] sales channel，請從 [!DNL Commerce] 產品目錄並將其匯入 [!DNL Channel Manager].
+視您選取的產品數量而定，匯入程式最多可能需要30分鐘或更長時間。
 
-## 先决条件
+## 先決條件
 
-**[映射目录属性](map-catalog-attributes.md)** — 在 [!DNL Channel Settings] 配置，从 [!DNL Commerce] 产品目录，指向所需的Walmart产品标识符之一 — GTIN、ISBN、ISSN、UPC、EAN。
+**[對應目錄屬性](map-catalog-attributes.md)** — 在 [!DNL Channel Settings] 設定，從以下位置至少對應一個屬性： [!DNL Commerce] 產品目錄至其中一個必要的沃爾瑪產品識別碼 — GTIN、ISBN、ISSN、UPC、EAN。
 
-## 列表要求
+## 清單需求
 
-[!DNL Commerce] 产品清单必须具有以下必需的属性配置：
+[!DNL Commerce] 產品清單必須具備下列必要的屬性組態：
 
-- **[!UICONTROL Connect to Channel Manager]** 属性已启用
+- **[!UICONTROL Connect to Channel Manager]** 屬性已啟用
 
-- 为所需的沃尔玛属性提供有效值。
+- 為必要的Walmart屬性提供有效值。
 
-   - 至少一个与所需属性之一匹配的产品属性 [!DNL Walmart Marketplace] 产品标识符 — GTIN、ISBN、ISSN、UPC、EAN。
+   - 至少一個產品屬性符合其中一個必要屬性 [!DNL Walmart Marketplace] 產品識別碼 — GTIN、ISBN、ISSN、UPC、EAN。
 
-   - 指定的产品价格最多为两位小数，例如 `9.99`
+   - 例如，產品價格指定至最多兩位小數 `9.99`
 
-   - 例如，指定的产品重量最多为两位小数 `1.25`
+   - 例如，產品權重指定至最多兩位小數 `1.25`
 
 >[!TIP]
 >
->有关为您的销售渠道优化列表的其他信息，请参阅 [Walmart Marketplace Listing Quality Optimization指南](https://marketplace.walmart.com/wp-content/uploads/2020/09/WMP_listing_quality_optimization_guide.pdf).
+>如需針對您的銷售管道最佳化清單的其他資訊，請參閱 [Walmart Marketplace清單品質最佳化指南](https://marketplace.walmart.com/wp-content/uploads/2020/09/WMP_listing_quality_optimization_guide.pdf).
 
-## 添加产品
+## 新增產品
 
-1. 从连接的销售渠道商店中，选择 **添加产品** 打开产品目录。
+1. 從連線的銷售管道商店中，選取 **新增產品** 以開啟產品目錄。
 
-   ![将产品添加到销售渠道商店](assets/add-initial-products-to-connected-channel.png)
+   ![新增產品至銷售管道商店](assets/add-initial-products-to-connected-channel.png)
 
-   目录将在新选项卡中打开。
+   目錄會在新標籤中開啟。
 
-1. 从目录产品网格中，选择要销售的产品 [!DNL Walmart Marketplace].
+1. 從目錄產品格線中，選取銷售產品 [!DNL Walmart Marketplace].
 
-   ![将产品发送到销售渠道商店](assets/select-products-from-catalog.png)
+   ![將產品傳送至銷售管道商店](assets/select-products-from-catalog.png)
 
-1. 启用 **[!UICONTROL Connect to Channel Manager]** 属性。
+1. 啟用 **[!UICONTROL Connect to Channel Manager]** 所選專案的屬性。
 
-   - 从 **[!UICONTROL Actions]**，选择 **[!UICONTROL Update attributes]**.
+   - 從 **[!UICONTROL Actions]**，選取 **[!UICONTROL Update attributes]**.
 
-   - 滚动到 **[!UICONTROL Connect to Channel Manager]** 属性并启用该属性。
+   - 捲動至 **[!UICONTROL Connect to Channel Manager]** 屬性並啟用它。
 
-   - 验证产品属性中是否至少包含一个必需的 [!DNL Walmart Product IDs].
+   - 確認產品屬性至少包含其中一個必要專案 [!DNL Walmart Product IDs].
 
-   - 选择 **[!UICONTROL Save]**.
+   - 選取 **[!UICONTROL Save]**.
 
-      此时将显示确认消息。
+      確認訊息隨即顯示。
 
-      ![产品从目录导入到销售渠道确认消息](assets/product-import-from-catalog-confirmation.png)
+      ![從目錄匯入產品至銷售管道確認訊息](assets/product-import-from-catalog-confirmation.png)
 
-      如果消息指示已计划更新，则使用 [队列:consumers:开始](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-queue.html) [!DNL CLI] 命令立即处理更新。
+      如果訊息指出已排程更新，請使用 [佇列:consumers:開始](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-queue.html) [!DNL CLI] 立即處理更新的命令。
 
       ```bash
       $ bin/magento queue:consumers:start product_action_attribute.update
       ```
 
-1. 完成导入操作后，请通过返回 [!DNL Channel Manager] 选择 **[!UICONTROL Listings]**.
+1. 匯入作業完成後，請回到以驗證您新增的產品 [!DNL Channel Manager] 並選取 **[!UICONTROL Listings]**.
 
-   最初，产品位于 *草稿* 状态。 选择 **[!UICONTROL Refresh products]** 以更新表。
+   最初，產品位於 *草稿* 狀態。 選取 **[!UICONTROL Refresh products]** 以更新表格。
 
-1. 通过选择 **[!UICONTROL Draft]** 状态卡。
+1. 選取「 」，更新檢視以顯示新增至「管道管理員」的新產品 **[!UICONTROL Draft]** 狀態卡。
 
-   ![导入连接销售渠道的产品](assets/products-in-marketplace-sales-channel.png)
+   ![產品已匯入連線銷售管道](assets/products-in-marketplace-sales-channel.png)
 
 

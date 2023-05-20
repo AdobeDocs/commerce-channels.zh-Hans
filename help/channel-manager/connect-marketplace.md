@@ -1,6 +1,6 @@
 ---
-title: '连接 [!DNL Channel Manager] to [!DNL Walmart Marketplace]'
-description: “将商务商店视图连接到 [!DNL Walmart Marketplace] 创建销售渠道以管理Walmart Marketplace销售的商务产品清单、库存、价格和订单。”
+title: '連線 [!DNL Channel Manager] 至 [!DNL Walmart Marketplace]'
+description: 將Commerce商店檢視連線至 [!DNL Walmart Marketplace] 建立銷售管道，以管理Commerce產品清單、存貨、價格和Walmart Marketplace銷售訂單。」
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
 source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
@@ -9,78 +9,78 @@ ht-degree: 0%
 
 ---
 
-# 连接 [!DNL Channel Manager] to [!DNL Walmart Marketplace]
+# Connect [!DNL Channel Manager] 至 [!DNL Walmart Marketplace]
 
-在上安装Channel Manager后 [!DNL Commerce] 实例中，在渠道管理器中创建销售渠道并配置要连接的凭据 [!DNL Channel Manager] to [!DNL Walmart Marketplace].
+在您的裝置上安裝「頻道管理員」後 [!DNL Commerce] 執行個體，在Channel Manager中建立Sales Channel並設定要連線的認證 [!DNL Channel Manager] 至 [!DNL Walmart Marketplace].
 
-1. [创建销售渠道](#create-the-sales-channel) 选择 [!DNL Commerce] 存储以获取产品清单。
+1. [建立銷售管道](#create-the-sales-channel) 藉由選取 [!DNL Commerce] 用於產品清單的商店。
 
-1. [将渠道连接到 [!DNL Walmart Marketplace] 通过添加 [!UICONTROL Walmart API credentials]](#connect-the-channel-to-walmart-marketplace).
+1. [將頻道連線至 [!DNL Walmart Marketplace] 藉由新增 [!UICONTROL Walmart API credentials]](#connect-the-channel-to-walmart-marketplace).
 
-1. [完成销售渠道设置](#complete-sales-channel-store-setup) 管理列表、库存、定价和订单 [!DNL Walmart Marketplace] 产品分类。
+1. [完成銷售管道設定](#complete-sales-channel-store-setup) 若要管理清單、存貨、訂價及訂單，請執行下列步驟： [!DNL Walmart Marketplace] 產品分類。
 
 >[!NOTE]
 >
->渠道经理要求在沃尔玛帐户和 [!DNL Commerce] 存储视图。 您无法将同一商店视图连接到多个沃尔玛帐户。
+>「通路管理員」需要在Walmart帳戶和 [!DNL Commerce] 存放區檢視。 您無法將相同的商店檢視連線到多個Walmart帳戶。
 
-## 创建销售渠道
+## 建立銷售管道
 
-1. 在管理员中，打开 [!DNL Channel Manager] 选择 **[!UICONTROL Marketing** > _渠道&#x200B;_> **渠道管理器]**.
+1. 從管理員中，開啟 [!DNL Channel Manager] 藉由選取 **[!UICONTROL Marketing** > _頻道&#x200B;_> **頻道管理員]**.
 
-1. 在 **[!UICONTROL Marketplaces available to connect]** 选择 **[!UICONTROL Get Started]**.
+1. 在 **[!UICONTROL Marketplaces available to connect]** 區段，選取 **[!UICONTROL Get Started]**.
 
-   ![连接新 [!DNL Walmart] 存储到 [!DNL Channel Manager]](assets/channel-manager-home.png)
+   ![連線新增 [!DNL Walmart] 儲存至 [!DNL Channel Manager]](assets/channel-manager-home.png)
 
-1. 如果需要，请设置 [!DNL Walmart Marketplace Seller] 帐户。
+1. 如有需要，請設定 [!DNL Walmart Marketplace Seller] 帳戶。
 
-1. 配置存储和连接：
+1. 設定存放區和連線：
 
-   - 选择 **[!UICONTROL Add Credentials]**.
+   - 選取 **[!UICONTROL Add Credentials]**.
 
-   - 选择 [!DNL Commerce] 提供要在市场上销售的产品的商店视图。
+   - 選取 [!DNL Commerce] 提供您要在Marketplace上銷售之產品的商店檢視。
 
-      ![配置之间的连接 [!DNL Commerce] 和 [!DNL Walmart Marketplace] 从 [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png)
+      ![設定之間的連線 [!DNL Commerce] 和 [!DNL Walmart Marketplace] 從 [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png)
 
-   - 输入唯一 **[!UICONTROL store name]**.
+   - 輸入唯一值 **[!UICONTROL store name]**.
 
-   - 选择 **[!UICONTROL Adobe [!DNL Commerce] site]** 用于产品清单和订单处理。
+   - 選取 **[!UICONTROL Adobe [!DNL Commerce] site]** 用於產品清單和訂單處理。
 
-   - 接收与 [!DNL Channel Manager]，添加 **[!UICONTROL email address]**.
+   - 若要接收相關通知，請執行下列動作： [!DNL Channel Manager]，新增 **[!UICONTROL email address]**.
 
-1. 将渠道连接到 [!DNL Walmart Marketplace].
+1. 將頻道連線至 [!DNL Walmart Marketplace].
 
-   - 添加的凭据 [[!DNL Walmart Marketplace Adobe Production API key]](walmart-requirements.md#generate-a-walmart-marketplace-production-api-key) 从 [!DNL Walmart Marketplace Seller] 帐户。
+   - 為新增認證 [[!DNL Walmart Marketplace Adobe Production API key]](walmart-requirements.md#generate-a-walmart-marketplace-production-api-key) 從您的 [!DNL Walmart Marketplace Seller] 帳戶。
 
-   - 如果您没有凭据，请从 [!DNL Walmart Marketplace Developer Portal] 选择 **[!UICONTROL Get API credentials]**.
+   - 如果您沒有認證，請從 [!DNL Walmart Marketplace Developer Portal] 藉由選取 **[!UICONTROL Get API credentials]**.
 
-      在开发人员门户上，选择您所在的地区（美国和加拿大），然后登录。
+      在開發人員入口網站上，選取您所在的地區（美國和加拿大），然後登入。
 
-      ![[!DNL Walmart Marketplace] 帐户登录](assets/walmart-marketplace-login-page.png)
+      ![[!DNL Walmart Marketplace] 帳戶登入](assets/walmart-marketplace-login-page.png)
 
-   - 在API密钥表单中，复制并保存 **[!UICONTROL Client ID]** 和 **[!UICONTROL Client Secret]** 值 [!UICONTROL Adobe Inc Production API key] 到安全位置。
+   - 在API金鑰表單上，複製並儲存 **[!UICONTROL Client ID]** 和 **[!UICONTROL Client Secret]** 的值 [!UICONTROL Adobe Inc Production API key] 至安全位置。
 
-      ![[!DNL Walmart Marketplace API key] 配置页面](assets/walmart-api-key-management-form.png)
+      ![[!DNL Walmart Marketplace API key] 設定頁面](assets/walmart-api-key-management-form.png)
 
       >[!NOTE]
       >
-      >如果 [!DNL Adobe Inc] 键未在开发人员门户中列出，请选择 **[!UICONTROL Add New Key for a Solution Provider]** 以配置权限并生成密钥。 有关配置详细信息，请参阅 [生成 [!DNL Walmart Marketplace API Key]](walmart-requirements.md#generate-a-walmart-marketplace-api-key).
+      >如果 [!DNL Adobe Inc] 金鑰未列在開發人員入口網站中，請選取 **[!UICONTROL Add New Key for a Solution Provider]** 以設定許可權並產生金鑰。 如需設定詳細資訊，請參閱 [產生 [!DNL Walmart Marketplace API Key]](walmart-requirements.md#generate-a-walmart-marketplace-api-key).
 
-   - 返回 [!DNL Channel Manager] 将凭据添加到 **[!UICONTROL Walmart Connection]** 信息。
+   - 返回至 [!DNL Channel Manager] 將認證新增至 **[!UICONTROL Walmart Connection]** 資訊。
 
-      添加凭据时，Adobe会隐藏客户端密钥并将值存储在安全电子仓库中。
+      當您新增認證時，Adobe會隱藏使用者端密碼，並將值儲存在安全的儲存庫中。
 
-1. 选择 **[!UICONTROL Save Store]** 应用配置并连接到 [!DNL Walmart marketplace].
+1. 選取 **[!UICONTROL Save Store]** 以套用設定並連線至 [!DNL Walmart marketplace].
 
-1. 成功连接后， [完整商店设置](complete-sales-channel-store-setup.md) 从 **[!UICONTROL Channel Manager]** 存储页面。
+1. 成功連線後， [完成商店設定](complete-sales-channel-store-setup.md) 從 **[!UICONTROL Channel Manager]** 商店頁面。
 
-![设置第一个商店](assets/channel-manager-setup-first-store.png)
+![設定第一個存放區](assets/channel-manager-setup-first-store.png)
 
-### 连接问题疑难解答
+### 疑難排解連線問題
 
-如果与 [!DNL Walmart] 失败，查看 [Walmart Marketplace常见问题解答](https://developer.walmart.com/faq/us/faq-auth/){target="_blank"} ，以获取疑难解答提示。
+如果連線到 [!DNL Walmart] 失敗，請參閱 [沃爾瑪市集常見問題集](https://developer.walmart.com/faq/us/faq-auth/){target="_blank"} 以取得疑難排解提示。
 
-- 从 [!DNL Walmart Developer Portal]，确认您复制了 [!UICONTROL Adobe Inc.]
+- 從 [!DNL Walmart Developer Portal]，確認您為的生產API金鑰複製了正確的認證 [!UICONTROL Adobe Inc.]
 
-- 验证的访问配置 [!UICONTROL Walmart Adobe API key] 具有正确的权限。 请参阅 [[!DNL Walmart Requirements]](walmart-requirements.md##generate-a-walmart-marketplace-api-key).
+- 驗證「 」的存取設定 [!UICONTROL Walmart Adobe API key] 具有正確的許可權。 另請參閱 [[!DNL Walmart Requirements]](walmart-requirements.md##generate-a-walmart-marketplace-api-key).
 
-- 确认 [!DNL Walmart API] 服务可从 [Walmart API状态页面](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target="_blank"}.
+- 確認 [!DNL Walmart API] 服務可從以下網址取得： [Walmart API狀態頁面](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target="_blank"}.

@@ -1,6 +1,6 @@
 ---
-title: 列出更改日志
-description: AmazonSales Channel提供列表更改日志，以帮助您监控Amazon卖家帐户中受影响的更改。
+title: 列出變更記錄
+description: AmazonSales Channel提供清單變更記錄，協助您監控Amazon賣家帳戶中受影響的變更。
 exl-id: 9c4db5ac-cbfb-4584-b216-4aead2a28189
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -9,22 +9,22 @@ ht-degree: 0%
 
 ---
 
-# 列出更改日志
+# 列出變更記錄
 
-列表更改日志显示您的 [!DNL Amazon Seller Account] 反映您的Amazon销售渠道设置。 此日志指示已在Amazon和Amazon销售渠道之间同步的全局更改。 此日志包含产品SKU的更改列表，例如操作类型（更改）、更改的简要说明和更改日期。
+「清單變更記錄」會顯示您專案中所發生的變更。 [!DNL Amazon Seller Account] 以反映您的Amazon銷售管道設定。 此記錄會指出已在Amazon和Amazon銷售管道之間同步的全域變更。 此記錄包含產品SKU的變更清單，例如動作型別（變更）、變更的簡短說明以及變更日期。
 
-没有可用于日志的操作。 它是仅供审阅的功能。
+記錄檔沒有可用的動作。 這是僅限稽核的功能。
 
-Amazon销售渠道主页共享一些常见内容 [工作区控件](./workspace-controls.md) 允许您自定义显示的数据。
+Amazon銷售管道首頁有一些共同之處 [工作區控制項](./workspace-controls.md) 可讓您自訂顯示的資料。
 
-![列出更改日志](assets/amazon-listing-changes-log.png)
+![列出變更記錄](assets/amazon-listing-changes-log.png)
 
-## 默认列
+## 預設欄
 
-| 列 | 描述 |
+| 欄 | 說明 |
 |--- |--- |
-| [!UICONTROL Amazon Store Name] | 设置Amazon存储时定义的存储的名称。 请参阅 [存储集成](./store-integration.md). |
-| [!UICONTROL Seller SKU] | 由Amazon分配给产品以标识产品、选项、价格和制造商的SKU（库存单位）。 |
-| [!UICONTROL Listing Action] | 对列表所做的更改类型。 |
-| [!UICONTROL Comments] | 有关列表更改的其他信息。 |
-| [!UICONTROL Created On] | 更改的日期和时间。 |
+| [!UICONTROL Amazon Store Name] | 設定Amazon存放區時定義的存放區名稱。 請參閱 [存放區整合](./store-integration.md). |
+| [!UICONTROL Seller SKU] | Amazon指派給產品的SKU （庫存單位），用於識別產品、選項、價格和製造商。 |
+| [!UICONTROL Listing Action] | 對清單所做的變更型別。 |
+| [!UICONTROL Comments] | 有關清單變更的其他資訊。 |
+| [!UICONTROL Created On] | 進行變更的日期和時間。 |

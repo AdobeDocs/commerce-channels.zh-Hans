@@ -1,48 +1,48 @@
 ---
-title: 关于Amazon和Commerce目录
-description: Amazon Sales Channel可将您的Amazon列表导入Commerce后端，并持续与产品和销售同步。
+title: 關於Amazon和Commerce目錄
+description: Amazon銷售管道會將您的Amazon清單匯入您的Commerce後端，並持續與產品和銷售同步。
 exl-id: 659c9830-0a1d-4a0d-bb9c-afb609c0fbba
 source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
 
-# 关于Amazon和 [!DNL Commerce] 目录
+# 關於Amazon和 [!DNL Commerce] 目錄
 
-您的Adobe Commerce或Magento Open Source后端包含一个目录，其中包含所有产品和相关设置及信息（图像、选项、价格等）以及订单和发货配置。 您的 [!DNL Amazon Seller Central] 帐户还具有目录和订单配置，通过 [!DNL Amazon Marketplace].
+您的Adobe Commerce或Magento Open Source後端包含目錄，內含所有產品及相關設定和資訊（影像、選項、價格等），以及訂單和送貨設定。 您的 [!DNL Amazon Seller Central] 帳戶也有目錄和訂單設定，透過 [!DNL Amazon Marketplace].
 
-为了更好地管理和查看产品目录和通过一个位置进行的销售，Amazon sales channel会将您的Amazon列表导入您的 [!DNL Commerce] 后端，持续与产品和销售同步，并报告问题和趋势。 它支持与多个集成 [!DNL Amazon Seller Central] 帐户，通过单个界面跟踪多个店面的所有数据。
+為了更有效管理和檢閱您的產品目錄和透過單一位置的銷售，Amazon銷售管道會將您的Amazon清單匯入您的 [!DNL Commerce] 後端，持續與產品和銷售同步，並報告問題和趨勢。 支援與多個專案整合 [!DNL Amazon Seller Central] 帳戶，透過單一介面追蹤多個店面的所有資料。
 
-## 产品属性
+## 產品屬性
 
-Adobe Commerce和Magento Open Source使用产品管理目录同步 [属性](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"} 以定义产品设置和数据。 Amazon还使用属性，通过载入进行映射。 期间 [预设置任务](./amazon-pre-setup-tasks.md) 对于Amazon sales channel，您可以定义其他Amazon属性（如果需要），以确保在将Amazon列表导入到您的渠道时产品映射正确。 [!DNL Commerce] 目录。 这些属性包括UPC、EAN、ISBN和ASIN ([!DNL Amazon Standard Identification Number])。 通过载入，产品可以在Amazon和之间同步 [!DNL Commerce] 使用您的属性的目录。 正确映射您的 [!DNL Commerce] 和Amazon产品可确保产品信息、订单和库存的持续同步。
+Adobe Commerce和Magento Open Source使用產品來管理目錄同步 [屬性](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"} 以定義產品設定和資料。 Amazon也使用屬性，透過上線進行對應。 期間 [預先設定任務](./amazon-pre-setup-tasks.md) 針對Amazon sales channel，您可以定義其他Amazon屬性（如有需要），以便在將Amazon清單匯入您的時，確保產品對應正確。 [!DNL Commerce] 目錄。 這些屬性包括UPC、EAN、ISBN和ASIN ([!DNL Amazon Standard Identification Number])。 透過上線，產品可在Amazon和之間同步 [!DNL Commerce] 使用您屬性的目錄。 適當的對應 [!DNL Commerce] 和Amazon產品可確保產品資訊、訂單和存貨的持續同步。
 
-如果您没有为目录创建或配置这些属性，则应添加 [!DNL Commerce] [产品属性](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"} and values to your products before onboarding. When an Amazon attribute is imported, it can be used for search, navigation, price rules, and much more. See [What Do ASIN, UPC, EAN, ISBN, SKU and Other Barcodes Mean?](https://sellerskills.com/multi-channel-operations/what-asin-upc-ean-isbn-sku-and-other-barcodes-mean/#what-is-isbn-number){target="_blank"}
+如果您尚未針對目錄建立或設定這些屬性，則應新增 [!DNL Commerce] [產品屬性](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"} and values to your products before onboarding. When an Amazon attribute is imported, it can be used for search, navigation, price rules, and much more. See [What Do ASIN, UPC, EAN, ISBN, SKU and Other Barcodes Mean?](https://sellerskills.com/multi-channel-operations/what-asin-upc-ean-isbn-sku-and-other-barcodes-mean/#what-is-isbn-number){target="_blank"}
 
-新用户引导后，您可以随时管理和更新产品属性和Amazon映射。
+上線後，您可以隨時管理和更新產品屬性和Amazon對應。
 
-## 产品列表
+## 產品清單
 
-Amazon列表是您通过销售的每个产品的产品页 [!DNL Amazon Marketplace]，显示通过属性映射的产品描述、价格、图像等。 在新用户引导期间，您可以配置 [!DNL Commerce] 产品可以自动发布到Amazon列表。 您还可以通过将现有Amazon列表映射到您的 [!DNL Commerce] 产品。
+Amazon清單是您透過銷售的每個產品的產品頁面。 [!DNL Amazon Marketplace]，透過屬性顯示產品說明、價格、影像等更多對應。 在上線期間，您可以設定 [!DNL Commerce] 產品可自動發佈至Amazon清單。 您也可以將現有的Amazon清單對應至您的 [!DNL Commerce] 產品。
 
-创建列表后 [!DNL Commerce] 产品，则会提交到Amazon以供审批。 大多数成功的列表会在几小时内获得批准。 如果您的列表获得批准，它将显示在 [!DNL Amazon Marketplace] 客户立即订购的商品。 此 [!DNL Amazon Sales Channel] 扩展提供了一组用于查看Amazon列表的选项卡。 根据问题或所需数据，您应查看 [!DNL Amazon Seller Central] 说明这些列表的特定详细信息。
+當您建立清單時 [!DNL Commerce] 產品，則會提交至Amazon以供核准。 大多數成功的清單都會在數小時內獲得核准。 如果您的清單獲得核准，它會顯示在 [!DNL Amazon Marketplace] 以取得客戶的即時訂單。 此 [!DNL Amazon Sales Channel] 擴充功能提供一組標籤，供您檢閱Amazon清單。 根據問題或所需的資料，您應檢閱您的 [!DNL Amazon Seller Central] 說明這些清單的特定細節。
 
-- [活动](./active-listings.md)：列出通过市场可用的已批准产品列表。
+- [作用中](./active-listings.md)：列出可透過市集取得的已核准產品清單。
 
-- [准备列出](./ready-to-list.md)：列出符合列表规则要求并准备好发布到Amazon的产品。
+- [準備列出](./ready-to-list.md)：列出符合清單規則要求且可發佈至Amazon的產品。
 
-- [不活动](./inactive-listings.md)：列出由于特定原因（例如品牌策略问题）被阻止、已关闭并需要重新粘贴等原因而在市场中不可用的产品。
+- [非使用中](./inactive-listings.md)：列出由於特定原因（例如品牌問題）遭到封鎖、已關閉且需要重新刊登等而無法在市面上使用的產品。
 
-- [不合格](./ineligible-listings.md)：根据上市规则，列出无法在商城中积极上市的产品(例如 `0` 数量或销售日期)。
+- [不合格](./ineligible-listings.md)：由於清單規則的原因，會列出無法主動在市集上列出的產品(例如 `0` 數量或銷售日期)。
 
-- [未完成](./incomplete-listings.md)：列出缺少必需信息的产品。 更新产品数据以供另一审阅。
+- [未完成](./incomplete-listings.md)：列出遺失必要資訊的產品。 更新產品資料以供其他評論使用。
 
-- [已结束](./ended-listings.md)：列出符合列出条件但手动从Amazon中移除的产品清单。 您可以重新列出这些产品。
+- [已結束](./ended-listings.md)：列出符合清單資格，但手動從Amazon中移除的產品清單。 您可以重新列出這些產品。
 
-## 正在同步数据
+## 正在同步資料
 
-Adobe Commerce和Magento Open Source在您的 [!DNL Amazon Seller Central] 帐户和 [!DNL Commerce] 后端。 持续更新通过以下方式提供单个源 [!DNL Commerce] 管理和维护库存、完成订单、跟踪销售以及减少制造费用和重复工作。 报告会捕获最新数据，以便跟踪趋势并解决在两个系统之间捕获的通信问题。
+Adobe Commerce和Magento Open Source可在您的 [!DNL Amazon Seller Central] 帳戶和 [!DNL Commerce] 後端。 持續更新透過提供單一來源 [!DNL Commerce] 管理及維護您的存貨、完成訂單、追蹤銷售，以及減少製造費用與重複工作。 報告會擷取最新資料，以追蹤趨勢並解決兩個系統之間所發生的通訊問題。
 
-所有同步操作都由管理 [cron作业](https://docs.magento.com/user-guide/system/cron.html){target="_blank"}，设置为每5分钟更新一次 [预设置任务](./amazon-pre-setup-tasks.md).
+所有同步處理都由管理 [cron工作](https://docs.magento.com/user-guide/system/cron.html){target="_blank"}，設定為每5分鐘更新一次 [預先設定任務](./amazon-pre-setup-tasks.md).

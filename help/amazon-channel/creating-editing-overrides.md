@@ -1,6 +1,6 @@
 ---
-title: 创建和编辑覆盖
-description: 使用AmazonSales Channel覆盖可将您的更改应用于单个Amazon列表或多个列表。
+title: 建立和編輯覆寫
+description: 使用AmazonSales Channel覆寫，將您的變更套用至單一Amazon清單或多個清單。
 exl-id: 3a254883-b88c-4c94-b4d5-8d7754b9afd2
 source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
@@ -9,111 +9,111 @@ ht-degree: 0%
 
 ---
 
-# 创建和编辑覆盖
+# 建立和編輯覆寫
 
-您可以创建和覆盖列表，也可以编辑或删除已应用于列表的覆盖。 覆盖为特定列表设置定义的值。
+您可以建立及覆寫清單，或編輯或移除已套用至清單的覆寫。 覆寫為特定清單設定定義的值。
 
-## 为单个列表创建覆盖
+## 為單一清單建立覆寫
 
-此 _[!UICONTROL Create Override]_可在查看列表时执行操作_[!UICONTROL Inactive]_， _[!UICONTROL Active]_、和_[!UICONTROL Ineligible]_ 选项卡。
+此 _[!UICONTROL Create Override]_檢視清單時，動作可供使用_[!UICONTROL Inactive]_， _[!UICONTROL Active]_、和_[!UICONTROL Ineligible]_ 索引標籤。
 
-1. 查看列表 _[!UICONTROL Products Listings]_页面(_[!UICONTROL Inactive]_， _[!UICONTROL Active]_、和_[!UICONTROL Ineligible]_ 选项卡)。
+1. 檢視上的清單 _[!UICONTROL Products Listings]_頁面(_[!UICONTROL Inactive]_， _[!UICONTROL Active]_、和_[!UICONTROL Ineligible]_ 標籤)。
 
-1. 在 _[!UICONTROL Action]_列，单击&#x200B;**[!UICONTROL Select]**>**[!UICONTROL Create Override]**以打开“产品列表改写”页。
+1. 在 _[!UICONTROL Action]_欄，按一下&#x200B;**[!UICONTROL Select]**>**[!UICONTROL Create Override]**以開啟「產品清單修訂」頁面。
 
-   ![创建Amazon列表覆盖](assets/amazon-select-create-override.png)
+   ![建立Amazon清單覆寫](assets/amazon-select-create-override.png)
 
-1. 要确保您查看的是正确的列表，请验证 _[!UICONTROL Listing Details]_.
+1. 為確保您檢視正確的清單，請確認 _[!UICONTROL Listing Details]_.
 
-1. 确定正在创建的覆盖类型。
+1. 決定您正在建立的覆寫型別。
 
-   您可以为清单定义单个改写类型或类型组合（“价格”、“处理时间”、“条件”、“卖方备注”）。
+   您可以定義清單的單一覆寫型態或任何型態組合（價格、處理時間、條件、賣家備註）。
 
-   - **价格**  — 单击 **[!UICONTROL Change Listing Price]** 并输入您定义的价格值 **[!UICONTROL Price Override]**.
-   - **处理时间**  — 单击 **[!UICONTROL Change Handling Time]** 并输入以下项目的定义时间值（以天为单位）： **[!UICONTROL Handling Time Override]**.
-   - **条件**  — 单击 **[!UICONTROL Change Condition]** 并为选择正确的选项 **[!UICONTROL Condition Override]**.
-   - **卖方备注**  — 单击 **[!UICONTROL Change Seller Notes]** 并输入注释文本 **[!UICONTROL Seller Notes Override]**.
+   - **價格**  — 按一下 **[!UICONTROL Change Listing Price]** 並輸入您定義的價格值 **[!UICONTROL Price Override]**.
+   - **處理時間**  — 按一下 **[!UICONTROL Change Handling Time]** 並輸入以下專案的已定義時間值（以天為單位）： **[!UICONTROL Handling Time Override]**.
+   - **條件**  — 按一下 **[!UICONTROL Change Condition]** 並選擇正確的選項 **[!UICONTROL Condition Override]**.
+   - **賣家備註**  — 按一下 **[!UICONTROL Change Seller Notes]** 並輸入您的附註文字 **[!UICONTROL Seller Notes Override]**.
 
-1. 单击 **[!UICONTROL Save Listing Override]**.
+1. 按一下 **[!UICONTROL Save Listing Override]**.
 
-   此 _[!UICONTROL Product Listing Overrides]_页面关闭。 列表的状态更改为 `Relist in Progress`. 更改将使用您的下一个数据同步（在cron设置中配置）发布到Amazon。 该列表还将添加到_[!UICONTROL Overrides]_ 选项卡。
+   此 _[!UICONTROL Product Listing Overrides]_頁面關閉。 清單的狀態變更為 `Relist in Progress`. 變更將會發佈至Amazon，並包含您的下一個資料同步（如您的cron設定中所設定）。 此清單也會新增至_[!UICONTROL Overrides]_ 標籤。
 
-以下示例显示了一个覆盖，该覆盖定义了一个新的价格： `$55`，的新处理时间 `1 day`，的新条件 `Used; Like New`和新的卖家备注文本。
+下列範例顯示定義新價格的覆寫 `$55`，的新處理時間 `1 day`，的新條件 `Used; Like New`和新的賣家備註文字。
 
-![Amazon列表覆盖示例](assets/amazon-overrides-edit.png)
+![Amazon清單覆寫範例](assets/amazon-overrides-edit.png)
 
-## 编辑或移除单个列表的覆盖 {#edit-override-single-listing}
+## 編輯或移除單一清單的覆寫 {#edit-override-single-listing}
 
-此 _[!UICONTROL Edit Overrides]_可在查看列表时执行操作_[!UICONTROL Overrides]_ 选项卡。
+此 _[!UICONTROL Edit Overrides]_檢視清單時，動作可供使用_[!UICONTROL Overrides]_ 標籤。
 
-1. 查看列表 _[!UICONTROL Product Listings]_页面(_[!UICONTROL Overrides]_ 选项卡)。
+1. 檢視清單于 _[!UICONTROL Product Listings]_頁面(_[!UICONTROL Overrides]_ 標籤)。
 
-1. 在 _[!UICONTROL Action]_列，单击&#x200B;**[!UICONTROL Select]**>**[!UICONTROL Edit Overrides]**.
+1. 在 _[!UICONTROL Action]_欄，按一下&#x200B;**[!UICONTROL Select]**>**[!UICONTROL Edit Overrides]**.
 
-   此 _[!UICONTROL Product Listing Overrides]_页面打开。
+   此 _[!UICONTROL Product Listing Overrides]_頁面隨即開啟。
 
-   ![选择Amazon列表覆盖](assets/amazon-select-edit-overrides.png)
+   ![選取Amazon清單覆寫](assets/amazon-select-edit-overrides.png)
 
-1. 要确保覆盖正确的列表，请验证 _[!UICONTROL Listing Details]_.
+1. 為確保您覆寫正確的清單，請確認 _[!UICONTROL Listing Details]_.
 
-1. 要编辑您的 _[!UICONTROL Override]_设置，为要更改的类型（价格、处理时间、条件、卖方备注）定义部分。
+1. 若要編輯您的 _[!UICONTROL Override]_設定，定義您要變更的型別（價格、處理時間、條件、賣家備註）的區段。
 
-   要使覆盖类型保持不变，请选择 `No Change To <override type>` （默认）。 此设置使以前定义的覆盖值保持不变。
+   若要保持覆寫型別相同，請選取 `No Change To <override type>` （預設）。 此設定保留先前定義的覆寫值不變。
 
-   - **价格**  — 单击 **[!UICONTROL Change Listing Price]** 并输入您定义的价格值 **[!UICONTROL Price Override]**.
-   - **处理时间**  — 单击 **[!UICONTROL Change Handling Time]** 并输入以下项目的定义时间值（以天为单位）： **[!UICONTROL Handling Time Override]**.
-   - **条件**  — 单击 **[!UICONTROL Change Condition]** 并选择正确的选项 **[!UICONTROL Condition Override]**.
-   - **卖方备注**  — 单击 **[!UICONTROL Change Seller Notes]** 并输入注释文本 **[!UICONTROL Seller Notes Override]**.
+   - **價格**  — 按一下 **[!UICONTROL Change Listing Price]** 並輸入您定義的價格值 **[!UICONTROL Price Override]**.
+   - **處理時間**  — 按一下 **[!UICONTROL Change Handling Time]** 並輸入以下專案的已定義時間值（以天為單位）： **[!UICONTROL Handling Time Override]**.
+   - **條件**  — 按一下 **[!UICONTROL Change Condition]** 並選擇正確的選項 **[!UICONTROL Condition Override]**.
+   - **賣家備註**  — 按一下 **[!UICONTROL Change Seller Notes]** 並輸入您的附註文字 **[!UICONTROL Seller Notes Override]**.
 
-1. 要删除覆盖类型，请单击 **移除** 用于您要删除的每个类型。 如果未删除，则先前定义的值将保留在覆盖中。
+1. 若要移除覆寫型別，請按一下 **移除** 針對您想要移除的每種型別。 如果未移除，先前定義的值會保留在覆寫中。
 
-1. 单击 **[!UICONTROL Save Listing Override]**.
+1. 按一下 **[!UICONTROL Save Listing Override]**.
 
-   此 _[!UICONTROL Product Listing Overrides]_页面关闭。 列表的状态更改为 `Relist in Progress`. 更改将使用您的下一个数据同步（在cron设置中配置）发布到Amazon。 如果尚未列出，则也会将列表添加到_[!UICONTROL Overrides]_ 选项卡。
+   此 _[!UICONTROL Product Listing Overrides]_頁面關閉。 清單的狀態變更為 `Relist in Progress`. 變更將會發佈至Amazon，並包含您的下一個資料同步（如您的cron設定中所設定）。 如果清單尚未列出，也會新增至_[!UICONTROL Overrides]_ 標籤。
 
-正在附带 _创建覆盖_ 示例。 以下示例显示对之前创建的覆盖的编辑，该编辑定义了以下内容的新价格 `$50`，删除处理时间覆盖，并保留以前的条件和卖方票据覆盖。
+搭配 _建立覆寫_ 範例。 下列範例顯示先前建立之覆寫的編輯，其定義的新價格為 `$50`，移除「處理時間」覆寫，並保留先前的「條件」和「賣家備註」覆寫。
 
-![编辑或删除覆盖](assets/amazon-overrides-edit-2.png)
+![編輯或移除覆寫](assets/amazon-overrides-edit-2.png)
 __
 
-## 编辑或删除多个列表的覆盖 {#edit-override-multiple-listings}
+## 編輯或移除多個清單的覆寫 {#edit-override-multiple-listings}
 
-此 _[!UICONTROL Edit Listing Overrides]_操作可在_[!UICONTROL Inactive]_， _[!UICONTROL Active]_，_[!UICONTROL Overrides]_、和 _[!UICONTROL Ineligible]_选项卡。
+此 _[!UICONTROL Edit Listing Overrides]_動作可在_[!UICONTROL Inactive]_， _[!UICONTROL Active]_，_[!UICONTROL Overrides]_、和 _[!UICONTROL Ineligible]_索引標籤。
 
 >[!NOTE]
 >
->由于您正在修改多个列表的覆盖，因此 _[!UICONTROL Listing Details]_部分不按修改单个列表时的方式显示。
+>由於您正在修改多個清單的覆寫，因此 _[!UICONTROL Listing Details]_區段不會像修改單一清單時一樣顯示。
 
-1. 查看列表 _[!UICONTROL Products Listings]_页面(_[!UICONTROL Inactive]_， _[!UICONTROL Active]_，_[!UICONTROL Overrides]_、和 _[!UICONTROL Ineligible]_选项卡)。
+1. 檢視上的清單 _[!UICONTROL Products Listings]_頁面(_[!UICONTROL Inactive]_， _[!UICONTROL Active]_，_[!UICONTROL Overrides]_、和 _[!UICONTROL Ineligible]_標籤)。
 
-1. 选中左侧列中的复选框，以选中要修改的每个列表。
+1. 選取左側欄中每個要修改清單的核取方塊。
 
-1. 下 _[!UICONTROL Actions]_，单击&#x200B;**[!UICONTROL Edit Listing Overrides]**.
+1. 下 _[!UICONTROL Actions]_，按一下&#x200B;**[!UICONTROL Edit Listing Overrides]**.
 
-   此 _[!UICONTROL Product Listing Overrides]_页面打开。
+   此 _[!UICONTROL Product Listing Overrides]_頁面隨即開啟。
 
-   ![选择Amazon列表覆盖](assets/amazon-actions-edit-listing-overrides.png)
+   ![選取Amazon清單覆寫](assets/amazon-actions-edit-listing-overrides.png)
 
-1. 要编辑您的 _[!UICONTROL Override]_设置，为要更改的类型（价格、处理时间、条件、卖方备注）定义部分。
+1. 若要編輯您的 _[!UICONTROL Override]_設定，定義您要變更的型別（價格、處理時間、條件、賣家備註）的區段。
 
-   要使覆盖保持不变，请选择 `No Change To <override type>` （默认）。 此设置使以前定义的覆盖值保持不变。
+   若要保持覆寫不變，請選取 `No Change To <override type>` （預設）。 此設定保留先前定義的覆寫值不變。
 
-   - **价格**  — 单击 **[!UICONTROL Change Listing Price]** 并输入您定义的价格值 **[!UICONTROL Price Override]**.
-   - **处理时间**  — 单击 **[!UICONTROL Change Handling Time]** 并输入以下项目的定义时间值（以天为单位）： **[!UICONTROL Handling Time Override]**.
-   - **条件**  — 单击 **[!UICONTROL Change Condition]** 并选择正确的选项 **[!UICONTROL Condition Override]**.
-   - **卖方备注**  — 单击 **[!UICONTROL Change Seller Notes]** 并输入注释文本 **[!UICONTROL Seller Notes Override]**.
+   - **價格**  — 按一下 **[!UICONTROL Change Listing Price]** 並輸入您定義的價格值 **[!UICONTROL Price Override]**.
+   - **處理時間**  — 按一下 **[!UICONTROL Change Handling Time]** 並輸入以下專案的已定義時間值（以天為單位）： **[!UICONTROL Handling Time Override]**.
+   - **條件**  — 按一下 **[!UICONTROL Change Condition]** 並選擇正確的選項 **[!UICONTROL Condition Override]**.
+   - **賣家備註**  — 按一下 **[!UICONTROL Change Seller Notes]** 並輸入您的附註文字 **[!UICONTROL Seller Notes Override]**.
 
-1. 要删除覆盖类型，请单击 **[!UICONTROL Remove]** 用于您要删除的每个类型。 如果未删除，则先前定义的值将保留在覆盖中。
+1. 若要移除覆寫型別，請按一下 **[!UICONTROL Remove]** 針對您想要移除的每種型別。 如果未移除，先前定義的值會保留在覆寫中。
 
-1. 单击 **[!UICONTROL Save Listing Override]**.
+1. 按一下 **[!UICONTROL Save Listing Override]**.
 
-   此 _[!UICONTROL Product Listing Overrides]_页面关闭。 列表的状态更改为 `Relist in Progress`. 更改将使用您的下一个数据同步（在cron设置中配置）发布到Amazon。 如果尚未列出，则也会将列表添加到_[!UICONTROL Overrides]_ 选项卡。
+   此 _[!UICONTROL Product Listing Overrides]_頁面關閉。 清單的狀態變更為 `Relist in Progress`. 變更將會發佈至Amazon，並包含您的下一個資料同步（如您的cron設定中所設定）。 如果清單尚未列出，也會新增至_[!UICONTROL Overrides]_ 標籤。
 
-### 覆盖类型
+### 覆寫型別
 
-| 覆盖 | 描述 |
+| 覆寫 | 說明 |
 |--- |--- |
-| [!UICONTROL Price Override] | 价格覆盖定义了列表的价格。 此覆盖优先于所有自动设置，直到覆盖被删除。<br><br>要覆盖产品价格，请选择 **[!UICONTROL Change Listing Price]** 并输入新的价格 **[!UICONTROL Price Override]**. |
-| [!UICONTROL Handling Time Override] | 处理时间覆盖定义处理和发运产品所需的时间（以天为单位）。 处理时间覆盖优先于所有自动和默认处理时间设置，直到覆盖被删除。<br><br>中存在的值 _[!UICONTROL Handling Time Override]_框是在 [列表设置](./listing-settings.md) 或您定义的覆盖处理时间。 如果删除了处理时间覆盖，则列表将默认为列表设置中定义的处理时间。<br><br>要定义处理时间改写，请选择&#x200B;**[!UICONTROL Change Handling Time]**并输入的新处理时间（以天为单位）**[!UICONTROL Handling Time Override]**. |
-| [!UICONTROL Condition Override] | 要覆盖列表条件，请选择 **[!UICONTROL Change Condition]** 并从中选择新条件 **条件覆盖**. |
-| [!UICONTROL Seller Notes Override] | 对于目录中的产品，其定义条件不是 `New`，可添加卖家注释，向潜在买家进一步详细说明您的产品及其条件。 您可以为输入卖方备注覆盖 `New` 条件产品，但Amazon不显示注释。<br><br>要覆盖卖方备注，请选择 **[!UICONTROL Change Seller Notes]** 并输入新注释 **[!UICONTROL Seller Notes Override]**. |
+| [!UICONTROL Price Override] | 價格修訂會定義清單的價格。 此覆寫優先於所有自動設定，直到覆寫被移除為止。<br><br>若要覆寫產品的價格，請選擇 **[!UICONTROL Change Listing Price]** 並輸入新的價格 **[!UICONTROL Price Override]**. |
+| [!UICONTROL Handling Time Override] | 處理時間覆寫會定義處理和出貨產品所需的時間（以天為單位）。 處理時間覆寫優先於所有自動化和預設的處理時間設定，直到覆寫被移除為止。<br><br>存在於中的值 _[!UICONTROL Handling Time Override]_方塊是您在中定義的預設處理時間 [清單設定](./listing-settings.md) 或您定義的覆寫處理時間。 如果您移除處理時間覆寫，清單會預設為您清單設定中定義的處理時間。<br><br>若要定義處理時間覆寫，請選擇&#x200B;**[!UICONTROL Change Handling Time]**並輸入新的處理時間（以天為單位）**[!UICONTROL Handling Time Override]**. |
+| [!UICONTROL Condition Override] | 若要覆寫清單條件，請選擇 **[!UICONTROL Change Condition]** 並從中選擇新條件 **條件覆寫**. |
+| [!UICONTROL Seller Notes Override] | 對於目錄中的產品，其定義條件不是 `New`，您可以新增賣家備註，向潛在買家進一步詳細說明您的產品及其條件。 您可以為輸入賣家備註覆寫 `New` 條件產品，但Amazon未顯示附註。<br><br>若要覆寫賣家備註，請選擇 **[!UICONTROL Change Seller Notes]** 並輸入的新備註 **[!UICONTROL Seller Notes Override]**. |

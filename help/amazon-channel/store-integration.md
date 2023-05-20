@@ -1,6 +1,6 @@
 ---
-title: 存储集成
-description: 在开始载入流程之前，您必须创建（添加）一个AmazonSales Channel商店，并将其连接到您的Amazon卖方帐户。
+title: 存放區整合
+description: 開始入門流程之前，您必須建立（新增） AmazonSales Channel商店，並將其連結至您的Amazon賣家帳戶。
 exl-id: ea79e91d-7d92-4992-a921-7ac7632a0519
 source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
@@ -9,83 +9,83 @@ ht-degree: 0%
 
 ---
 
-# 存储集成
+# 存放區整合
 
-要开始使用Amazon销售渠道，您必须创建（添加）一个Amazon销售渠道商店，并将其连接到您的Amazon卖方帐户。 这两个步骤集成了您的 [!DNL Commerce] 和Amazon帐户共享数据、同步产品等。
+若要開始使用Amazon銷售管道，您必須建立（新增） Amazon銷售管道商店，並將其連結至您的Amazon賣家帳戶。 這兩個步驟會整合 [!DNL Commerce] 和Amazon帳戶共用資料、同步產品等。
 
-_您需要的主要登录凭据用于 [!DNL Amazon Seller Central] 帐户（用于创建卖方帐户的电子邮件或电话）以连接您的商店。_
+_您需要的主要登入認證 [!DNL Amazon Seller Central] 帳戶（用來建立賣家帳戶的電子郵件或電話）以連線您的商店。_
 
 >[!NOTE]
 >
->在首次进行商店集成后，系统每年会提示您通过再次授予访问权限来续订Amazon销售渠道与Amazon的连接。 您可以在以下位置续订或撤消此授权： _当前授权_ 中的表 _Amazon MWS开发人员权限_ 部分 **设置** > **用户权限** “销售中心”帐户的页面。
+>第一次整合商店後，系統會每年提示您重新授予存取權，以續約您與Amazon的Amazon銷售管道連線。 您可以在下列位置更新或撤銷此授權： _目前的授權_ 中的表格 _Amazon MWS開發人員許可權_ 部分 **設定** > **使用者許可權** Seller Central帳戶頁面。
 
-## 添加Amazon商店
+## 新增Amazon存放區
 
-1. 在 _管理员_ 侧栏，转到 **营销** > _渠道_ > **AmazonSales Channel**.
+1. 於 _管理員_ 側欄，前往 **行銷** > _頻道_ > **AmazonSales Channel**.
 
-   添加您的第一个Amazon sales channel商店时， _预设置任务_ 此时将显示模式窗口。 添加第一个商店后，可在 [Amazon sales channel home](./amazon-sales-channel-home.md) 页面位于 _学习和准备_ 左侧菜单中的。
+   新增您的第一個Amazon銷售管道商店時， _預先設定任務_ 強制回應視窗隨即顯示。 新增第一個商店後，您可在以下位置存取預先設定工作： [Amazon銷售管道首頁](./amazon-sales-channel-home.md) 頁面於 _學習與準備_ 在左側功能表中。
 
-1. 单击 **[!UICONTROL Add Amazon Store]**.
+1. 按一下 **[!UICONTROL Add Amazon Store]**.
 
-   此 _[!UICONTROL Add Amazon sales channel]_页面打开。
+   此 _[!UICONTROL Add Amazon sales channel]_頁面隨即開啟。
 
-   ![添加Amazon sales channel store](assets/amazon-store-integration.png)
+   ![新增Amazon sales channel store](assets/amazon-store-integration.png)
 
-1. 对象 **[!UICONTROL Magento Website to use for Amazon Listing]**，选择您的 [!DNL Commerce] 要为此Amazon sales channel商店连接的网站。
+1. 對象 **[!UICONTROL Magento Website to use for Amazon Listing]**，選擇您的 [!DNL Commerce] 為此Amazon sales channel商店連線的網站。
 
-   此设置还定义默认值 [!DNL Commerce] 存储对象 [导入Amazon订单](./order-settings.md).
+   此設定也會定義預設值 [!DNL Commerce] 儲存對象 [匯入Amazon訂單](./order-settings.md).
 
-1. 对象 **[!UICONTROL Email Address]**，输入首选联系人的电子邮件地址。
+1. 對象 **[!UICONTROL Email Address]**，請輸入您偏好的連絡人電子郵件地址。
 
-1. 对象 **[!UICONTROL New Store Name]**，为您的新Amazon sales channel store输入一个描述性名称。
+1. 對象 **[!UICONTROL New Store Name]**，為您新的Amazon銷售管道商店輸入描述性名稱。
 
    >[!NOTE]
    >
-   >此名称用作 [!DNL Commerce] 仅引用并标识上的商店 [Amazon sales channel home](./amazon-sales-channel-home.md) 页面。 您希望让您的团队能够轻松识别它。 例如，您在美国地区销售的Amazon商店可能会被命名为 `Amazon Store USA`.
+   >此名稱會用作 [!DNL Commerce] 僅供參考，並在上識別存放區 [Amazon銷售管道首頁](./amazon-sales-channel-home.md) 頁面。 您希望讓您的團隊能夠輕鬆識別它。 例如，您在美國地區銷售的Amazon商店可能會命名為 `Amazon Store USA`.
 
-1. 对象 **[!UICONTROL Amazon Marketplace Country]**，选择此Amazon销售渠道商店销售产品的区域/国家/地区。 选项：
+1. 對象 **[!UICONTROL Amazon Marketplace Country]**，選擇此Amazon銷售管道商店銷售產品的地區/國家。 選項：
 
-   - 美国
+   - 美國
    - 加拿大
    - 墨西哥
-   - 英国
+   - 英國
 
-1. 在 _[!UICONTROL Map your Magento attributes to Amazon]_部分，请执行以下操作：
+1. 在 _[!UICONTROL Map your Magento attributes to Amazon]_區段，請執行下列動作：
 
-   - 对象 **[!UICONTROL Product ID on the Amazon market]**&#x200B;中，选择要映射到的Amazon属性 [!DNL Commerce] 属性处于选中状态。
+   - 對象 **[!UICONTROL Product ID on the Amazon market]**，選擇要對應至的Amazon屬性 [!DNL Commerce] 屬性已選取如下。
 
-      此ID有助于正确匹配中的相应产品 [!DNL Commerce] 目录。
+      此ID可協助您正確比對產品在 [!DNL Commerce] 目錄。
 
-   - 对象 **[!UICONTROL Map a Magento attribute]**，选择 [!DNL Commerce] 产品属性，以映射到上面选择的Amazon属性。
+   - 對象 **[!UICONTROL Map a Magento attribute]**，選擇 [!DNL Commerce] 對應至上述所選Amazon屬性的產品屬性。
 
-      [映射属性](./ob-creating-magento-attributes.md) 有助于确保列出的Amazon与中的相应产品正确匹配。 [!DNL Commerce] 目录。
+      [對應屬性](./ob-creating-magento-attributes.md) 有助於確保您的Amazon清單正確符合中的對應產品 [!DNL Commerce] 目錄。
 
-1. 单击 **[!UICONTROL Connect]**.
+1. 按一下 **[!UICONTROL Connect]**.
 
-   对话框关闭，新存储出现在 [Amazon sales channel home](./amazon-sales-channel-home.md) 页包含确认消息。
+   對話方塊關閉，新存放區出現在 [Amazon銷售管道首頁](./amazon-sales-channel-home.md) 頁面，其中包含確認訊息。
 
-## 将商店连接到 [!DNL Amazon Seller Central]
+## 將存放區連線至 [!DNL Amazon Seller Central]
 
-1. 在商店功能板上，单击 **[!UICONTROL Connect store]** 在要启动的存储卡上 [!DNL Amazon Seller Central] 在新选项卡中。
+1. 在商店控制面板上，按一下 **[!UICONTROL Connect store]** 在要啟動的商店卡片上 [!DNL Amazon Seller Central] 在新標籤中。
 
-1. 输入您的 [!DNL Amazon Seller Central] 帐户凭据，然后单击 **[!UICONTROL Sign in]**.
+1. 輸入您的 [!DNL Amazon Seller Central] 帳戶認證，然後按一下 **[!UICONTROL Sign in]**.
 
-   要完成此连接，您必须登录到 [!DNL Amazon Seller Central] 使用主要用户的登录凭据的帐户（用于创建卖方帐户的电子邮件或电话）。
+   若要完成此連線，您必須登入 [!DNL Amazon Seller Central] 使用主要使用者登入憑證的帳戶（用來建立賣家帳戶的電子郵件或電話）。
 
-1. 如果出现提示，请输入您从Amazon收到的代码并单击，以完成Amazon双重授权(2FA) **[!UICONTROL Sign in]**.
+1. 如果出現提示，請輸入您從Amazon收到的程式碼，然後按一下，以完成Amazon雙因素授權(2FA) **[!UICONTROL Sign in]**.
 
-1. 在 _[!UICONTROL Amazon Marketplace Web Service]_确认页面，选择“[!UICONTROL I understand...]”复选框，然后单击&#x200B;**[!UICONTROL Next]**.
+1. 於 _[!UICONTROL Amazon Marketplace Web Service]_確認頁面，選取&quot;[!UICONTROL I understand...]」核取方塊並按一下&#x200B;**[!UICONTROL Next]**.
 
-1. 在 _[!UICONTROL You are almost done]_消息，请单击&#x200B;**[!UICONTROL Continue]**.
+1. 於 _[!UICONTROL You are almost done]_訊息，按一下&#x200B;**[!UICONTROL Continue]**.
 
-   您已授予Amazon销售渠道访问数据并与您共享数据的权限 [!DNL Amazon Seller Central] 帐户。 Amazon页面将关闭，并显示一条确认消息。
+   您已授予Amazon Sales Channel存取許可權並與您共用資料 [!DNL Amazon Seller Central] 帳戶。 Amazon頁面會關閉，並顯示確認訊息。
 
-   此 [Amazon sales channel home](./amazon-sales-channel-home.md) 页面打开，其中显示您的Amazon商店信息卡。
+   此 [Amazon銷售管道首頁](./amazon-sales-channel-home.md) 頁面開啟，顯示您的Amazon商店卡片。
 
-   要查看商店功能板，请单击 **[!UICONTROL View Store]** 在商店卡上。
+   若要檢視商店儀表板，請按一下 **[!UICONTROL View Store]** 在商店資訊卡上。
 
-![带有新商店卡的Amazon sales channel home](assets/asc-dashboard-after-2fa.png)
+![Amazon銷售管道首頁（含新商店卡）](assets/asc-dashboard-after-2fa.png)
 
-您的新Amazon销售渠道商店现已连接到您的 [!DNL Amazon Seller Central] 帐户。
+您新的Amazon銷售管道商店現在已連線至您的 [!DNL Amazon Seller Central] 帳戶。
 
-![“下一步”图标](assets/btn-next.png) [**继续创建列表规则**](./ob-create-listing-rule.md)
+![「下一步」圖示](assets/btn-next.png) [**繼續建立清單規則**](./ob-create-listing-rule.md)

@@ -1,6 +1,6 @@
 ---
-title: 目录搜索
-description: 要设置属性匹配，以帮助将符合条件的商务目录产品与Amazon列表进行映射，请更新“目录搜索”设置。
+title: 目錄搜尋
+description: 若要設定有助於將符合條件的Commerce目錄產品與Amazon清單對應的屬性比對，請更新「目錄搜尋」設定。
 redirect_from: /sales-channels/asc/ob-catalog-search.html
 exl-id: 9fcaa924-cba3-498f-8e21-1a1f91b1ad04
 source-git-commit: 632157839130461869345724bdfc03b306a4f613
@@ -10,68 +10,68 @@ ht-degree: 0%
 
 ---
 
-# 目录搜索
+# 目錄搜尋
 
-_目录搜索_ 设置是商店列表设置的一部分。 列表设置可从 [存储仪表板](./amazon-store-dashboard.md).
+_目錄搜尋_ 設定是商店清單設定的一部分。 清單設定可從以下位置存取： [存放區儀表板](./amazon-store-dashboard.md).
 
-这些设置允许您设置属性匹配，以帮助映射符合条件的 [!DNL Commerce] 产品。 映射后，Amazon将激活与定价、数量、改写以及订单和产品同步相关的活动。
+這些設定可讓您設定有助於對應符合條件的屬性比對 [!DNL Commerce] 產品與Amazon清單。 對應後，Amazon會啟動與定價、數量、覆寫以及訂單和產品同步處理相關的動作。
 
-定义这些映射值会增加进行精确匹配的可能性，从而最大限度地减少手动匹配产品清单的需要。 将属性添加为 [预设置任务](./amazon-pre-setup-tasks.md)，则Amazon销售渠道在Amazon和 [!DNL Commerce].
+定義這些對應值會增加完全相符的可能性，將手動比對產品清單的需要降至最低。 將屬性新增為 [預先設定任務](./amazon-pre-setup-tasks.md)，Amazon銷售管道在入門期間自動比對您的產品以及在Amazon和之間同步產品資料的可能性較高 [!DNL Commerce].
 
-如果仅创建Amazon ASIN属性（不为每个产品添加ASIN值），则您的 [!DNL Commerce] 产品可能不会自动与您的Amazon列表匹配。 您可以 [手动分配](./creating-assigning-catalog-products.md) 您的产品。 但是，手动匹配不会创建共享和同步产品数据所需的数据元素。
+如果您只建立Amazon ASIN屬性（不新增每個產品的ASIN值），則您可以 [!DNL Commerce] 產品可能不會自動符合您的Amazon清單。 您可以 [手動指派](./creating-assigning-catalog-products.md) 您的產品。 不過，手動比對不會建立共用和同步產品資料所需的資料元素。
 
 >[!IMPORTANT]
 >
->如果您手动匹配某个产品，并且想要更新该产品的ASIN、UPC或其他数据元素，则必须在两个位置更新数据。 在 [!DNL Commerce] 目录和Amazon列表中的 [!DNL Amazon Seller Central] 帐户。
+>如果您手動比對產品，而且想要更新該產品的ASIN、UPC或其他資料元素，則必須更新兩個位置的資料。 在您的 [!DNL Commerce] 目錄和Amazon中的清單 [!DNL Amazon Seller Central] 帳戶。
 
-最佳做法是映射这些属性和值（如果可用）。 无需完成此映射，但这有利于进行产品匹配，并且需要在Amazon和 [!DNL Commerce].
+如果可用，最佳實務就是對應這些屬性和值。 完成此對應並非必要，但有利於產品比對，而且是Amazon和之間正確目錄同步的必要條件 [!DNL Commerce].
 
-如果要添加属性，请参阅 [为Amazon匹配创建产品属性](./ob-creating-magento-attributes.md).
+如果您想要新增屬性，請參閱 [建立Amazon比對的產品屬性](./ob-creating-magento-attributes.md).
 
-## 配置 [!UICONTROL Catalog Search] 设置
+## 設定 [!UICONTROL Catalog Search] 設定
 
-1. 单击 **[!UICONTROL Listing Settings]** 在商店仪表板上。
+1. 按一下 **[!UICONTROL Listing Settings]** 在商店控制面板上。
 
-1. 展开 _[!UICONTROL Catalog Search]_中。
+1. 展開 _[!UICONTROL Catalog Search]_區段。
 
-1. 对于 **[!UICONTROL ASIN]**，选择您为Amazon ASIN值创建的产品属性。
+1. 對象 **[!UICONTROL ASIN]**，選擇您為Amazon ASIN值建立的產品屬性。
 
-   一个信息([!DNL Amazon Standard Identification Number])是由十个字母和/或数字组成的唯一块，用于标识项目。 对于书籍，ASIN与ISBN号相同，但对于所有其他产品，在将项目上传到其目录后，将创建一个新的ASIN。 您可以在Amazon的产品详细信息页面上找到项目ASIN，以及与项目相关的更多详细信息。
+   ASIN ([!DNL Amazon Standard Identification Number])是識別專案的不重複區塊，由10個字母和/或數字組成。 對於書籍，ASIN與ISBN編號相同，但對於所有其他產品，當專案上傳到其目錄時會建立新的ASIN。 您可以在Amazon的產品詳細資訊頁面上找到專案ASIN，以及與該專案相關的進一步詳細資訊。
 
-1. 对于 **[!UICONTROL EAN]**，选择您为Amazon EAN值创建的产品属性。
+1. 對象 **[!UICONTROL EAN]**，選擇您為Amazon EAN值建立的產品屬性。
 
-   欧洲文章编号(EAN)是条形码标准，是12位或13位产品标识代码。 每个EAN都唯一标识产品、制造商及其属性；通常，EAN将作为条形码打印在产品标签或包装上。 Amazon要求使用EAN代码来提高搜索结果质量和目录质量。 您可以从制造商处获取EAN。
+   歐洲文章編號(EAN)是條碼標準，12或13位數的產品識別碼。 每個EAN都可唯一識別產品、製造商及其屬性；通常EAN會列印在產品標籤上，或包裝上作為條碼。 Amazon需要EAN程式碼來改善搜尋結果的品質和目錄的品質。 您可以向製造商取得EAN。
 
-1. 对于 **[!UICONTROL GCID]**，选择您为Amazon GCIN值创建的产品属性。
+1. 對象 **[!UICONTROL GCID]**，選擇您為Amazon GCIN值建立的產品屬性。
 
-   全局目录标识符(GCID)是指没有UPC代码或ISBN的产品的ID。 Amazon的Brand Registry允许您注册为品牌所有者，并为产品创建唯一ID。
+   通用類別目錄識別碼(GCID)是沒有UPC程式碼或ISBN之產品的ID。 Amazon的Brand Registry可讓您註冊為品牌擁有者，並為產品建立唯一ID。
 
-1. 对于 **[!UICONTROL ISBN]**，选择您为Amazon ISBN值创建的产品属性。
+1. 對象 **[!UICONTROL ISBN]**，選擇您為Amazon ISBN值建立的產品屬性。
 
-   国际标准书号(ISBN)是唯一的商业书籍标识码条形码。 每个ISBN代码都唯一地标识一本书。 ISBN有10位或13位。 2007年1月1日之后分配的所有ISBN都有13位数字。
+   國際標準書號(ISBN)是唯一的商業書籍識別碼條碼。 每個ISBN程式碼都可唯一識別書籍。 ISBN有10或13位數。 2007年1月1日之後指派的所有ISBN都有13位數。
 
-1. 对于 **[!UICONTROL UPC]**，选择您为Amazon UPC值创建的产品属性。
+1. 對象 **[!UICONTROL UPC]**，選擇您為Amazon UPC值建立的產品屬性。
 
-   通用产品代码(UPC)是一个12位条形码，广泛用于美国的零售包装。
+   通用產品代碼(UPC)是12位數的條碼，在美國廣泛用於零售包裝。
 
-1. 对于 **[!UICONTROL General Search]**，请选择要用于常规搜索匹配的产品属性。
+1. 對象 **[!UICONTROL General Search]**，選擇您要用於一般搜尋相符專案的產品屬性。
 
-   此属性是您可以选择匹配的属性 [!DNL Commerce] 产品添加到相应的Amazon列表。 常规搜索使用目录中的关键词搜索。 因此，建议使用 [!DNL Commerce] 包含相关关键字（如产品SKU或产品名称）的属性。 常规搜索可能会返回许多可能的匹配项，在这种情况下，您可以从可能的匹配项中选择相应的Amazon列表。 此字段的常见选择是 `Product Name`.
+   您可以選取此屬性來比對 [!DNL Commerce] 將產品加入適當的Amazon清單。 一般搜尋會使用您目錄中的關鍵字搜尋。 因此，建議使用 [!DNL Commerce] 帶有相關關鍵字的屬性，例如產品SKU或產品名稱。 一般搜尋可能會傳回許多可能的相符專案，在此情況下，您可以從可能的相符專案中選擇適當的Amazon清單。 此欄位的常見選擇為 `Product Name`.
 
-1. 完成后，单击 **[!UICONTROL Save listing settings]**.
+1. 完成後，按一下 **[!UICONTROL Save listing settings]**.
 
-![目录搜索](assets/amazon-catalog-search.png)
+![目錄搜尋](assets/amazon-catalog-search.png)
 
-| 字段 | 描述 |
+| 欄位 | 說明 |
 |--- |--- |
-| [!UICONTROL ASIN] | 由10个字母和/或数字组成的唯一块，用于标识项目。<br><br>ASIN代表 [!DNL Amazon Standard Identification Number]. ASIN是由10个字母和/或数字组成的唯一块，用于标识项目。 对于书籍，ASIN与ISBN号相同，但对于所有其他产品，在将项目上传到其目录后，将创建一个新的ASIN。 您可以在Amazon的产品详细信息页面上找到项目ASIN，以及与项目相关的更多详细信息。 |
-| [!UICONTROL EAN (European Article Number)] | 12位或13位产品标识码。 欧洲文章编号(EAN)是条形码标准，是12位或13位产品标识代码。 每个EAN都唯一标识产品、制造商及其属性；通常，EAN将作为条形码打印在产品标签或包装上。 Amazon要求使用EAN代码来提高搜索结果质量和目录质量。 您可以从制造商处获取EAN。 |
-| [!UICONTROL GCID (Global Catalog Identifier)] | 全局目录标识符(GCID)是指没有UPC代码或ISBN的产品的ID。 Amazon的品牌注册允许您注册为品牌所有者，并为可能没有UPC或ISBN的产品创建唯一ID。 |
-| [!UICONTROL ISBN (International Standard Book Number)] | 10位或13位唯一商业书籍标识符条形码。 国际标准书号(ISBN)是唯一的商业书籍标识码条形码。 每个ISBN代码都唯一地标识一本书。 ISBN有10位或13位。 2007年1月1日之后分配的所有ISBN都有13位数字。 |
-| UPC（通用产品代码） | 12位的条形码。 通用产品代码(UPC)是一个12位条形码，广泛用于美国的零售包装。 |
-| [!UICONTROL General Search] | 选择属性。 此属性是您可以选择匹配的属性 [!DNL Commerce] 产品添加到相应的Amazon列表。 常规搜索使用目录中的关键词搜索。 因此，建议使用 [!DNL Commerce] 包含相关关键字（如产品SKU或产品名称）的属性。 常规搜索可能会返回许多可能的匹配项，在这种情况下，您可以从可能的匹配项中选择相应的Amazon列表。 此字段的常见选择是 `Product Name`. |
+| [!UICONTROL ASIN] | 識別專案的10個字母和/或數字的唯一區塊。<br><br>ASIN代表 [!DNL Amazon Standard Identification Number]. ASIN是識別專案的10個字母和/或數字的唯一區塊。 對於書籍，ASIN與ISBN編號相同，但對於所有其他產品，當專案上傳到其目錄時會建立新的ASIN。 您可以在Amazon的產品詳細資訊頁面上找到專案ASIN，以及與該專案相關的進一步詳細資訊。 |
+| [!UICONTROL EAN (European Article Number)] | 12或13位數的產品識別碼。 歐洲文章編號(EAN)是條碼標準，12或13位數的產品識別碼。 每個EAN都可唯一識別產品、製造商及其屬性；通常EAN會列印在產品標籤上，或包裝上作為條碼。 Amazon需要EAN程式碼來改善搜尋結果的品質和目錄的品質。 您可以向製造商取得EAN。 |
+| [!UICONTROL GCID (Global Catalog Identifier)] | 通用類別目錄識別碼(GCID)是沒有UPC程式碼或ISBN之產品的ID。 Amazon的Brand Registry可讓您註冊為品牌擁有者，並為可能沒有UPC或ISBN的產品建立唯一ID。 |
+| [!UICONTROL ISBN (International Standard Book Number)] | 10或13位數的唯一商業書籍識別碼條碼。 國際標準書號(ISBN)是唯一的商業書籍識別碼條碼。 每個ISBN程式碼都可唯一識別書籍。 ISBN有10或13位數。 2007年1月1日之後指派的所有ISBN都有13位數。 |
+| UPC （通用產品代碼） | 12位數的條碼。 通用產品代碼(UPC)是12位數的條碼，在美國廣泛用於零售包裝。 |
+| [!UICONTROL General Search] | 選取屬性。 您可以選取此屬性來比對 [!DNL Commerce] 將產品加入適當的Amazon清單。 一般搜尋會使用您目錄中的關鍵字搜尋。 因此，建議使用 [!DNL Commerce] 帶有相關關鍵字的屬性，例如產品SKU或產品名稱。 一般搜尋可能會傳回許多可能的相符專案，在此情況下，您可以從可能的相符專案中選擇適當的Amazon清單。 此欄位的常見選擇為 `Product Name`. |
 
-**快速访问** - [!UICONTROL Listing Settings] 章节
+**快速存取** - [!UICONTROL Listing Settings] 區段
 
 - [[!UICONTROL Product Listing Actions]](./product-listing-actions.md)
 - [[!UICONTROL Third Party Listings]](./third-party-listing-settings.md)

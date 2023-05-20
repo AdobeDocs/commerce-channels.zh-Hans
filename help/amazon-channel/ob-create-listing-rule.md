@@ -1,56 +1,56 @@
 ---
-title: '入门：创建列表规则'
-description: 在完成AmazonAmazon销售渠道入门培训流程时，创建初始列表规则以便为您的 [!DNL Commerce] 产品。
+title: 「入門：建立清單規則」
+description: 完成Amazon銷售管道上線流程時，請建立初始清單規則，以便為產生Amazon清單 [!DNL Commerce] 產品。
 exl-id: b318823e-a726-4a59-b117-9838562c7d8b
 source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
 
-# 入门：创建列表规则
+# 入門：建立清單規則
 
-上市规则可以在用户引导期间定义，也可以随时修改。 新用户引导后，您可以访问 [上市规则](./listing-rules.md) 在商店中 [仪表板](./amazon-store-dashboard.md).
+清單規則可在上線期間定義，但亦可隨時修改。 上線後，您可以存取 [清單規則](./listing-rules.md) 在商店上 [儀表板](./amazon-store-dashboard.md).
 
-## 在新用户引导期间创建列表规则
+## 在上線期間建立清單規則
 
-1. 连接存储后，单击 **[!UICONTROL View Store]** （对于添加的存储区）。
+1. 連線商店後，按一下 **[!UICONTROL View Store]** 用於新增的商店。
 
-   商店 [仪表板](./amazon-store-dashboard.md) 显示为 `No products listed to Amazon` 消息。
+   商店 [儀表板](./amazon-store-dashboard.md) 顯示時具有 `No products listed to Amazon` 訊息。
 
-1. 单击 **[!UICONTROL Preview and List Eligible Products]**.
+1. 按一下 **[!UICONTROL Preview and List Eligible Products]**.
 
-   此 _[!UICONTROL Listing Rules]_页面。
+   此 _[!UICONTROL Listing Rules]_頁面便會顯示。
 
-1. 为在Amazon上列出的产品资格定义所需条件，然后单击 **[!UICONTROL Preview changes]**，或单击 **[!UICONTROL Preview changes]** 跳过此步骤。
+1. 定義您想要的條件以符合在Amazon上列出的產品資格，然後按一下 **[!UICONTROL Preview changes]**，或按一下 **[!UICONTROL Preview changes]** 以略過此步驟。
 
-   参见 [示例：定义条件](./ob-define-condition-example.md).
+   另請參閱 [範例：定義條件](./ob-define-condition-example.md).
 
-1. 在“列表预览”中查看列表：
+1. 在「清單預覽」中檢閱您的清單：
 
-   ![列表预览](assets/amazon-ob-listing-preview.png)
+   ![清單預覽](assets/amazon-ob-listing-preview.png)
 
-   - **[!UICONTROL Ineligible Listings]**  — 根据您当前的列表规则设置，此选项卡上列出的产品不符合Amazon列表的条件。
+   - **[!UICONTROL Ineligible Listings]**  — 根據您目前的清單規則設定，此標籤上列出的產品不符合Amazon清單的資格。
 
-      不符合条件的产品不会发布到Amazon。 如果Amazon上已列出不合格产品，并且您将Amazon列表与您的 [!DNL Commerce] 目录产品，Amazon列表的数量更改为 `0` 以防止产品销售。 要手动从Amazon中删除列表，请参阅 [结束Amazon列表](./end-listings-manually.md). 此处不列出不符合Amazon要求的产品。 这些产品在 [[!UICONTROL Inactive Listings] 选项卡](./inactive-listings.md).
+      不符合資格的產品不會發佈至Amazon。 如果不符合資格的產品已列於Amazon上，且您將Amazon清單與您的產品比對， [!DNL Commerce] 目錄產品，Amazon清單的數量變更為 `0` 以防止產品銷售。 若要從Amazon手動移除清單，請參閱 [結束Amazon清單](./end-listings-manually.md). 此處不列出不符合Amazon要求的產品。 這些產品會列在 [[!UICONTROL Inactive Listings] 標籤](./inactive-listings.md).
 
-      要更改 `Ineligible` 列为 `Eligible` 列出，重复此过程并修改您的列出规则。
+      若要變更 `Ineligible` 清單為 `Eligible` 列出、重複此程式並修改您的清單規則。
 
-   - **[!UICONTROL Eligible Listings]**  — 根据您当前的列表规则设置，此选项卡上列出的产品有资格加入Amazon列表，并且有资格符合Amazon要求。 此选项卡包括已导入的现有Amazon列表(如果您具有 **[!UICONTROL Import Third Party Listings]** 设置为 `Import Listing` 在您的 [列表设置](./listing-settings.md))。
+   - **[!UICONTROL Eligible Listings]**  — 根據您目前的清單規則設定，此標籤上列出的產品符合Amazon清單資格，並符合Amazon要求。 此索引標籤包含已匯入的現有Amazon清單(如果您有 **[!UICONTROL Import Third Party Listings]** 設定為 `Import Listing` 在您的 [清單設定](./listing-settings.md))。
 
-   - **[!UICONTROL New Listings]**  — 此选项卡上列出的产品包括 [!DNL Commerce] 根据当前的列表规则设置新建符合Amazon列表条件的目录产品并创建Amazon列表。
+   - **[!UICONTROL New Listings]**  — 此標籤上列出的產品包含您的 [!DNL Commerce] 根據您目前的清單規則設定和建立Amazon清單，新符合Amazon清單資格的目錄產品。
 
-1. 完成后，单击 **[!UICONTROL Save and Close]**.
+1. 完成後，按一下 **[!UICONTROL Save and Close]**.
 
-   商店 [仪表板](./amazon-store-dashboard.md) 打开。
+   商店 [儀表板](./amazon-store-dashboard.md) 隨即開啟。
 
-完成载入商店后，信息会在 [!DNL Commerce] 和Amazon的启动。 您的Amazon列表已导入到 [!DNL Commerce] 并尝试与中的产品进行匹配 [!DNL Commerce] 目录。
+上線商店完成後，資訊會在 [!DNL Commerce] 和Amazon已啟動。 您的Amazon清單已匯入 [!DNL Commerce] 並嘗試比對您網站上的產品 [!DNL Commerce] 目錄。
 
-Amazon您可以在 _[!UICONTROL Recent Orders]_区段。 参见 [存储仪表板](./amazon-store-dashboard.md) 或 [管理订单](./managing-orders.md).
+您可以在「 」中檢視您的Amazon訂單資訊 _[!UICONTROL Recent Orders]_區段。 另請參閱 [存放區控制面板](./amazon-store-dashboard.md) 或 [管理訂單](./managing-orders.md).
 
 >[!IMPORTANT]
 >
->有一些重要的商店设置（列表、定价、规则、履行等）具有新商店的默认值。 要确保您的商店设置为满足您的特定需求，请查看您的 [存储设置](./default-store-settings.md) .
+>有些重要的商店設定（清單、定價、規則、履行等等）具有新商店的預設值。 為確保您的商店已設定符合您的特定需求，請檢閱您的 [存放區設定](./default-store-settings.md) .
 
-![“下一步”图标](assets/btn-next.png) [**继续使用默认存储设置**](./default-store-settings.md)
+![「下一步」圖示](assets/btn-next.png) [**繼續使用預設商店設定**](./default-store-settings.md)

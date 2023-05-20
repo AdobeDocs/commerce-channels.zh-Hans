@@ -1,6 +1,6 @@
 ---
-title: 属性
-description: AmazonSales Channel提供 [!UICONTROL Attributes] 选项卡，以监视Amazon和商务属性列表以及它们如何映射以进行产品匹配。
+title: 屬性
+description: AmazonSales Channel提供 [!UICONTROL Attributes] 標籤來監視Amazon和Commerce屬性清單，以及它們如何對應以符合產品。
 exl-id: fc08cd6e-eef9-4e71-82b1-5443e14800ce
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -9,34 +9,34 @@ ht-degree: 0%
 
 ---
 
-# 属性
+# 屬性
 
-的 _[!UICONTROL Attributes]_视图显示您的Amazon和 [!DNL Commerce] 属性。 该列表还指示已映射以进行产品匹配的属性。 有关更多信息，请参阅 [管理属性](./managing-attributes.md).
+此 _[!UICONTROL Attributes]_檢視會顯示您的Amazon清單和 [!DNL Commerce] 屬性。 此清單也會指出已對應用於產品比對的屬性。 如需詳細資訊，請參閱 [管理屬性](./managing-attributes.md).
 
-![属性视图](assets/amazon-attributes-view.png)
+![屬性檢視](assets/amazon-attributes-view.png)
 
-从 _[!UICONTROL Attributes]_查看，并查看表和 [创建或编辑](./creating-attributes.md) 属性。
+從 _[!UICONTROL Attributes]_檢視，您就可以檢閱表格中的屬性設定和 [建立或編輯](./creating-attributes.md) 屬性。
 
-## 查看属性列表
+## 檢視您的屬性清單
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Marketing]** > _[!UICONTROL Channels]_>**[!UICONTROL Amazon Sales Channel]**.
+1. 於 _管理員_ 側欄，前往 **[!UICONTROL Marketing]** > _[!UICONTROL Channels]_>**[!UICONTROL Amazon Sales Channel]**.
 
-1. 单击 **[!UICONTROL Attributes]** 在左侧菜单中，找到Amazon属性，并查看属性列表。
+1. 按一下 **[!UICONTROL Attributes]** 在左側功能表中，找出Amazon屬性，並檢閱屬性清單。
 
-1. 根据需要创建或编辑属性：
+1. 視需要建立或編輯屬性：
 
-   - 至 [创建](./creating-attributes.md#create-an-attribute) 并为属性定义匹配属性值，单击 **[!UICONTROL Create]**.
+   - 至 [建立](./creating-attributes.md#create-an-attribute) 並定義屬性的「相符屬性值」，按一下 **[!UICONTROL Create]**.
 
-   - 停用或停用 [编辑设置](./creating-attributes.md#edit-an-attribute) 或属性的匹配属性值，单击 **[!UICONTROL Edit]**.
+   - 若要停用或 [編輯設定](./creating-attributes.md#edit-an-attribute) 或屬性的「相符屬性值」，按一下 **[!UICONTROL Edit]**.
 
-      编辑属性包括更改属性映射以用于产品匹配。
+      編輯屬性包括變更產品比對的屬性對應。
 
-| 字段 | 描述 |
+| 欄位 | 說明 |
 |--- |--- |
-| [!UICONTROL Country] | 在中定义的销售活动的国家/地区  **[!DNL Amazon Marketplace]国家/地区** 时段 [存储集成](./store-integration.md). |
-| [!UICONTROL ID] | 生成的通用属性值 [!DNL Commerce] 创建属性时。 |
-| [!UICONTROL Amazon Attribute Name] | 从Amazon导入的属性的名称。 |
-| [!UICONTROL Product Catalog Attribute Code] | 如果已映射，则 [!DNL Commerce] 分配到的属性 _[!UICONTROL Amazon Attribute Name]_用于匹配目录和列出产品。 |
-| [!UICONTROL Overwrite Magento Values] | 如果将属性设置为 `Overwrite Existing Magento Values` 在“属性设置”中，该表显示 `Enabled`. 启用表示当从Amazon收到属性的更新产品信息时，新信息会更新（覆盖）您 [!DNL Commerce] 目录。 它还会影响 [!DNL Commerce] 商店。 |
-| 状态 | 指示是否已将属性值导入 [!DNL Commerce] 并映射到 [!DNL Commerce] 属性。 选项： `Enabled` / `Disabled` |
-| 操作 | 指示属性可用的任务选项。 选项： `Create` / `Edit` |
+| [!UICONTROL Country] | 中定義的銷售活動國家/地區  **[!DNL Amazon Marketplace]國家** 期間 [存放區整合](./store-integration.md). |
+| [!UICONTROL ID] | 產生的一般屬性值 [!DNL Commerce] 建立屬性時。 |
+| [!UICONTROL Amazon Attribute Name] | 從Amazon匯入的屬性名稱。 |
+| [!UICONTROL Product Catalog Attribute Code] | 如果已對應，則 [!DNL Commerce] 指派給對映的屬性 _[!UICONTROL Amazon Attribute Name]_以比對目錄並列出產品。 |
+| [!UICONTROL Overwrite Magento Values] | 如果屬性設定為 `Overwrite Existing Magento Values` 在「屬性設定」中，表格顯示 `Enabled`. 啟用表示從Amazon收到屬性的更新產品資訊時，新資訊會更新（覆寫）中產品的對應資訊。 [!DNL Commerce] 目錄。 它也會影響下列清單中的產品： [!DNL Commerce] 商店。 |
+| 狀態 | 表示屬性值是否已匯入 [!DNL Commerce] 並對應至 [!DNL Commerce] 屬性。 選項： `Enabled` / `Disabled` |
+| 動作 | 表示可用於屬性的工作選項。 選項： `Create` / `Edit` |

@@ -1,6 +1,6 @@
 ---
-title: 准备列出
-description: Amazon Sales Channel提供了Ready to List选项卡，以帮助您查看符合条件但未自动列出的Commerce产品。
+title: 準備列出
+description: Amazon銷售管道提供「準備列出」標籤，協助您檢閱符合資格但未自動列出的Commerce產品。
 exl-id: f62017fb-964f-43f0-b76b-8f39f447466a
 source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
@@ -11,44 +11,44 @@ ht-degree: 0%
 
 # [!UICONTROL Ready to List]
 
-此 _[!UICONTROL Ready to List]_选项卡显示 [!DNL Commerce] 满足列表设置并准备好发布到Amazon as a的目录产品&#x200B;**新**列表。 与其他列表选项卡不同，此选项卡并不总是出现在 [_[!UICONTROL Product Listings]_](./managing-product-listings.md) 页面。
+此 _[!UICONTROL Ready to List]_標籤顯示 [!DNL Commerce] 目錄產品符合您的清單設定，且可發佈至Amazon as a **新**清單。 與其他清單標籤不同，此標籤並不總是顯示在 [_[!UICONTROL Product Listings]_](./managing-product-listings.md) 頁面。
 
-此 _[!UICONTROL Ready to List]_选项卡仅在 [**[!UICONTROL Automatic List Action]**](./product-listing-actions.md) 在列表设置中，设置为 `Do Not Automatically List Eligible Products`. 此设置可告知Amazon sales channel，必须手动发布任何新的Amazon列表。
+此 _[!UICONTROL Ready to List]_標籤僅出現於 [**[!UICONTROL Automatic List Action]**](./product-listing-actions.md) 在您的清單設定中，設定為 `Do Not Automatically List Eligible Products`. 此設定可告知Amazon sales channel任何新的Amazon清單都必須手動發佈。
 
-时间 [**[!UICONTROL Automatic List Action]**](./product-listing-actions.md) 设置为 `Automatically List Eligible Products`，Amazon sales channel会自动发布符合条件的目录产品的新列表。 由于新列表会自动发布，因此 _[!UICONTROL Ready to List]_选项卡未显示。
+時間 [**[!UICONTROL Automatic List Action]**](./product-listing-actions.md) 設為 `Automatically List Eligible Products`，Amazon sales channel會自動發佈合格目錄產品的新清單。 由於新清單會自動發佈，因此 _[!UICONTROL Ready to List]_索引標籤未顯示。
 
 下 _[!UICONTROL Actions]_：
 
-- **[!UICONTROL Publish Product to Amazon]**：选择将列表重新发布到 [!DNL Amazon Marketplace]. 参见 [发布Amazon列表](./publish-listings-manually.md)
+- **[!UICONTROL Publish Product to Amazon]**：選擇將清單重新發佈至 [!DNL Amazon Marketplace]. 另請參閱 [發佈Amazon清單](./publish-listings-manually.md)
 
-下 **[!UICONTROL Select]** 在 _[!UICONTROL Action]_列：
+下 **[!UICONTROL Select]** 在 _[!UICONTROL Action]_欄：
 
-- **[!UICONTROL Publish On Amazon]**：选择将列表重新发布到 [!DNL Amazon Marketplace]. 参见 [发布Amazon列表](./publish-listings-manually.md).
+- **[!UICONTROL Publish On Amazon]**：選擇將清單重新發佈至 [!DNL Amazon Marketplace]. 另請參閱 [發佈Amazon清單](./publish-listings-manually.md).
 
-- **[!UICONTROL View Details]**：选择查看列表详细信息，包括 [列出活动日志](./product-listing-details.md#listing-activity-log)， [Buy Box竞争对手定价](./product-listing-details.md#buy-box-competitor-pricing)、和 [最低竞争对手价格](./product-listing-details.md#lowest-competitor-pricing). 此操作仅供查看。 无法对列表详细信息进行任何更改。 参见 [查看详细信息](./product-listing-details.md).
+- **[!UICONTROL View Details]**：選擇檢視清單詳細資訊，包括 [列出活動記錄](./product-listing-details.md#listing-activity-log)， [Buy Box競爭者定價](./product-listing-details.md#buy-box-competitor-pricing)、和 [最低競爭者價格](./product-listing-details.md#lowest-competitor-pricing). 此動作僅供檢視。 清單詳細資料無法變更。 另請參閱 [檢視詳細資料](./product-listing-details.md).
 
-您可以手动选择几个选项 [将新列表发布到Amazon](./publish-listings-manually.md).
+您有幾個選項可手動執行 [將新清單發佈至Amazon](./publish-listings-manually.md).
 
 >[!NOTE]
->如果您有正在处理的列表，则列表的数量将显示在选项卡上方的消息中。
+>如果您有處理中的清單，清單數量會顯示在標籤上方的訊息中。
 
-![准备列出](assets/amazon-ready-to-list.png)
+![準備列出](assets/amazon-ready-to-list.png)
 
-## 默认列
+## 預設欄
 
-| 列 | 描述 |
+| 欄 | 說明 |
 |---|---|
-| [!UICONTROL Amazon Seller SKU] | Amazon为产品分配的SKU（库存单位），用于标识产品、选件、价格和制造商。 |
-| [!UICONTROL ASIN] | 由10个字母和/或数字组成的用于标识项目的唯一块。<br><br>ASIN表示 [!DNL Amazon Standard Identification Number]. ASIN是一个由10个字母和/或数字组成的唯一块，用于标识项目。 对于图书，ASIN与ISBN编号相同，但对于所有其他产品，当项目上传到它们的目录时，将创建一个新的ASIN。 您可以在Amazon的产品详细信息页面上找到项目ASIN，以及与该项目相关的更多详细信息。 |
-| [!UICONTROL Product Listing Name] | 产品的名称。 |
-| [!UICONTROL Condition] | 此 [条件](./product-listing-condition.md) 产品的。 |
-| [!UICONTROL Landed Price] | 产品的上市价格加上装运价格。 |
-| [!UICONTROL Amazon Quantity] | 当产品在Amazon上主动列出时的可用数量。 |
-| [!UICONTROL Status] | 由Amazon定义的列表状态。 |
-| [!UICONTROL Action] | 可应用于特定列表的可用操作列表。 要应用操作，请单击 **[!UICONTROL Select]** 在 _[!UICONTROL Action]_列并选择一个选项：<ul><li>[[!UICONTROL Publish on Amazon]](./publish-listings-manually.md)</li><li>[[!UICONTROL View Details]](./product-listing-details.md)</li></ul> |
+| [!UICONTROL Amazon Seller SKU] | Amazon指派給產品的SKU （庫存單位），用於識別產品、選項、價格和製造商。 |
+| [!UICONTROL ASIN] | 識別專案的10個字母和/或數字的唯一區塊。<br><br>ASIN代表 [!DNL Amazon Standard Identification Number]. ASIN是識別專案的10個字母和/或數字的唯一區塊。 對於書籍，ASIN與ISBN編號相同，但對於所有其他產品，當專案上傳到其目錄時會建立新的ASIN。 您可以在Amazon的產品詳細資訊頁面上找到專案ASIN，以及與該專案相關的進一步詳細資訊。 |
+| [!UICONTROL Product Listing Name] | 產品的名稱。 |
+| [!UICONTROL Condition] | 此 [條件](./product-listing-condition.md) 產品的。 |
+| [!UICONTROL Landed Price] | 產品的清單價格加上其送貨價格。 |
+| [!UICONTROL Amazon Quantity] | 產品在Amazon上積極列出時的可用數量。 |
+| [!UICONTROL Status] | 清單的狀態，由Amazon定義。 |
+| [!UICONTROL Action] | 可套用至特定清單的可用動作清單。 若要套用動作，請按一下 **[!UICONTROL Select]** 在 _[!UICONTROL Action]_欄並選擇選項：<ul><li>[[!UICONTROL Publish on Amazon]](./publish-listings-manually.md)</li><li>[[!UICONTROL View Details]](./product-listing-details.md)</li></ul> |
 
-### 列表准备就绪的常见原因
+### 列出清單準備就緒的常見原因
 
-- **[!UICONTROL Ready to List]**  — 产品与Amazon ASIN匹配并计划列出。 如果 [**[!UICONTROL Automatic List Action]**](./product-listing-actions.md) 在列表设置中，设置为 `Do Not Automatically List Eligible Products`，此状态表示准备好手动列出的产品。
+- **[!UICONTROL Ready to List]**  — 產品符合Amazon ASIN並排定上市。 若 [**[!UICONTROL Automatic List Action]**](./product-listing-actions.md) 在您的清單設定中，設定為 `Do Not Automatically List Eligible Products`，此狀態代表已準備好手動列出的產品。
 
-- **[!UICONTROL List in Progress]**  — 产品列表已提交给Amazon，并等待Amazon的接受确认。
+- **[!UICONTROL List in Progress]**  — 產品清單已提交至Amazon，並正等待Amazon的接受確認。

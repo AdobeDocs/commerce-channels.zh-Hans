@@ -1,6 +1,6 @@
 ---
-title: 关于AmazonSales Channel
-description: 使用Amazon销售渠道扩展将Adobe Commerce或Magento Open Source与您的Amazon销售中心帐户无缝集成。
+title: 關於AmazonSales Channel
+description: 使用Amazon Sales Channel擴充功能，將Adobe Commerce或Magento Open Source與Amazon Seller Central帳戶緊密整合。
 exl-id: 11752491-d0da-4ff7-a0a7-d17d4fa1bfc9
 source-git-commit: f9ef1b031a1a8a8a4b6c2453d431a6f35155c4ac
 workflow-type: tm+mt
@@ -9,122 +9,122 @@ ht-degree: 0%
 
 ---
 
-# 关于 [!DNL Amazon Sales Channel]
+# 關於 [!DNL Amazon Sales Channel]
 
-[!DNL Amazon Sales Channel] 提供了Amazon销售渠道扩展，该扩展可将您的 [!DNL Commerce] 使用 [!DNL Amazon Seller Central] 帐户。 之后 [载入](./amazon-onboarding-home.md), [!DNL Commerce] 成为“中央指挥中心”，用于管理和控制您的Amazon列表、订单和库存，以及Amazon商店的定价。
+[!DNL Amazon Sales Channel] 提供Amazon sales channel擴充功能，將您的 [!DNL Commerce] 使用您的管理 [!DNL Amazon Seller Central] 帳戶。 晚於 [入門](./amazon-onboarding-home.md)， [!DNL Commerce] 會成為「中央指揮中心」，用於管理和控制Amazon商店的Amazon清單、訂單和庫存以及定價。
 
-[存储集成](./store-integration.md) 连接 [!DNL Commerce] 实例和Amazon来在两个平台之间同步数据。 Amazon销售渠道使您能够：
+[存放區整合](./store-integration.md) 連線您的 [!DNL Commerce] 執行個體和Amazon之間的資料同步。 Amazon sales channel可讓您：
 
-- [板载](./amazon-onboarding-home.md) 集成一个或多个 [!DNL Amazon Seller Central] 帐户为Adobe Commerce或Magento Open Source。
+- [上線](./amazon-onboarding-home.md) 並整合一或多個 [!DNL Amazon Seller Central] 具有Adobe Commerce或Magento Open Source的帳戶。
 
-- 导入并同步现有的Amazon列表，并与 [!DNL Commerce] 目录，创建集中的产品目录。
+- 匯入並同步處理您現有的Amazon清單，並比對您產品中的專案。 [!DNL Commerce] 目錄，建立集中式產品目錄。
 
-- 为中的产品创建和管理Amazon列表 [!DNL Commerce] 目录。
+- 建立並管理您產品的Amazon清單 [!DNL Commerce] 目錄。
 
-- 在 [!DNL Commerce] 和Amazon，同步订单状态、付款和退款信息。
+- 檢視與履行（出貨）訂單于 [!DNL Commerce] 和Amazon，同步訂單狀態、付款和退款資訊。
 
-- 查看日志，以获取的分析和错误 [竞争价格](./competitive-price-analysis.md), [列表更改](./listing-changes-log.md)和 [通信问题](./communication-errors-log.md).
+- 檢視分析記錄檔和錯誤 [具競爭力的價格](./competitive-price-analysis.md)， [清單變更](./listing-changes-log.md)、和 [溝通問題](./communication-errors-log.md).
 
-访问Amazon商店，以查看和管理Amazon销售渠道上的所有这些功能、帐户信息、列表、订单等 [主页](./amazon-sales-channel-home.md).
+存取您的Amazon商店，以檢視及管理Amazon銷售管道上的所有功能、帳戶資訊、清單、訂單等 [首頁](./amazon-sales-channel-home.md).
 
-## 促销和定价
+## 促銷與定價
 
-使用 [!DNL Amazon Sales Channel] 扩展，您可以：
+使用 [!DNL Amazon Sales Channel] 擴充功能上，您可以：
 
-- 将Amazon列表定价同步到 [!DNL Commerce] 目录价格（或替代价格属性）。
+- 同步Amazon清單定價至 [!DNL Commerce] 型錄價格（或替代價格屬性）。
 
-- 启用MSRP [全线定价](./listing-price.md#configure-listing-price-settings) 以提升客户价值主张。
+- 啟用MSRP [刪除式定價](./listing-price.md#configure-listing-price-settings) 在您的Amazon清單中增加客戶價值主張。
 
-- 启用和管理 [最低广告价格(MAP)](./listing-price.md#configure-listing-price-settings) 在您的Amazon列表中。
+- 啟用和管理 [最低廣告價格(MAP)](./listing-price.md#configure-listing-price-settings) 在您的Amazon清單中。
 
-- 配置其他 [增值税](./listing-price.md#configure-listing-price-settings) 价格的Amazon。
+- 設定其他 [VAT稅](./listing-price.md#configure-listing-price-settings) 在您的Amazon定價中。
 
-- 在 [库存/数量设置](./stock-quantity.md#configure-stock--quantity-settings) 以显示您的Amazon清单，以增加购买者的紧迫性。
+- 在「 」中設定「可用數量」的自訂值 [庫存/數量設定](./stock-quantity.md#configure-stock--quantity-settings) 與您的Amazon清單一起顯示，以增加購買者的急迫性。
 
-## 定价规则
+## 定價規則
 
-使用 [!DNL Amazon Sales Channel] 扩展，您可以：
+使用 [!DNL Amazon Sales Channel] 擴充功能上，您可以：
 
-- 创建可堆叠、灵活且复杂的 [定价规则](./pricing-products.md) 用于管理日常销售或季节性促销的Amazon定价。
+- 建立可棧疊、彈性且複雜的架構 [定價規則](./pricing-products.md) 管理日常銷售或季節性促銷活動的Amazon定價。
 
-- 创建 [地板](./floor-price.md) 和 [天花板](./optional-ceiling-price.md) 价格来保护最低和最高的价格。
+- 建立 [floor](./floor-price.md) 和 [上限](./optional-ceiling-price.md) 價格可保護您最低與最高的價格。
 
-- 创建和管理 [智能重定价规则](./intelligent-repricing-rules.md) 自动调整您的产品价格，以便与其他Amazon竞争对手([最低竞争对手](./lowest-competitor-pricing.md) 和 [Buy Box](./buy-box-competitor-pricing.md) 价格)。
+- 建立和管理 [智慧型重新訂價規則](./intelligent-repricing-rules.md) 會自動調整與其他Amazon競爭者相關的產品定價([最低競爭者](./lowest-competitor-pricing.md) 和 [Buy Box](./buy-box-competitor-pricing.md) 價格)。
 
-## 目录馈送管理
+## 目錄摘要管理
 
-使用 [!DNL Amazon Sales Channel] 扩展，您可以：
+使用 [!DNL Amazon Sales Channel] 擴充功能上，您可以：
 
-- 导入您现有的Amazon列表（产品），并与中的现有列表（产品）匹配，或在 [!DNL Commerce] 目录。
+- 匯入您現有的Amazon清單（產品），並與中的現有或建立產品相符 [!DNL Commerce] 目錄。
 
-- 发布 [!DNL Commerce] 产品到Amazon以创建Amazon列表。
+- 發佈您的 [!DNL Commerce] Amazon以建立Amazon清單。
 
-- 创建 [覆盖](./creating-editing-overrides.md) 设置单个价格、处理时间、条件和卖方附注消息。
+- 建立 [覆寫](./creating-editing-overrides.md) 設定個別價格、處理時間、條件和賣家備註訊息。
 
-- 导入和映射产品 [属性](./attributes-view.md) 从Amazon列表自动与 [!DNL Commerce] 目录。
+- 匯入和對應產品 [屬性](./attributes-view.md) 從您的Amazon清單，自動比對產品於 [!DNL Commerce] 目錄。
 
-- 设置多个搜索参数，以将Amazon列表与 [!DNL Commerce] 目录。
+- 設定多個搜尋引數以比對Amazon清單與您的 [!DNL Commerce] 目錄。
 
-- 定义 [列表规则](./listing-rules.md) 确定 [!DNL Commerce] 产品有资格在Amazon上市。
+- 定義 [清單規則](./listing-rules.md) 以判斷您的 [!DNL Commerce] 產品符合在Amazon上列出的資格。
 
-- 设置默认值 [处理时间](./product-listing-actions.md) 的Amazon列表。
+- 設定預設值 [處理時間](./product-listing-actions.md) 以取得您新的Amazon清單。
 
-- 根据 [!DNL Commerce] 属性。
+- 根據 [!DNL Commerce] 屬性。
 
-- 为每个条件类型添加卖家注释（可选）。
+- 為每個條件型別新增賣家備註（選擇性）。
 
-- 在将Amazon列表导入到 [!DNL Commerce] 目录。
+- 將Amazon清單匯入您的時，實施數量臨界值 [!DNL Commerce] 目錄。
 
-- 查看推荐的 [列表改进](./listing-improvements.md).
+- 檢視建議 [清單改善](./listing-improvements.md).
 
-## 订单管理和客户服务
+## 訂單管理與客戶服務
 
-使用 [!DNL Amazon Sales Channel] 扩展，您可以：
+使用 [!DNL Amazon Sales Channel] 擴充功能上，您可以：
 
-- 在Amazon和 [!DNL Commerce].
+- Amazon和中的支援與處理訂單 [!DNL Commerce].
 
-- [导入](./order-settings.md#configure-order-settings) 你的Amazon订单 [!DNL Commerce] 或者把他们留在Amazon。
+- [匯入](./order-settings.md#configure-order-settings) 您的Amazon訂單 [!DNL Commerce] 或將其保留在Amazon中。
 
-- 定义 [!DNL Commerce] 网站存储以与您的Amazon订单关联，以便导入和管理订单。
+- 定義您的 [!DNL Commerce] 網站商店與您的Amazon訂單建立關聯，以便匯入和管理訂單。
 
-- 查看、取消和发运订单 [!DNL Commerce] 和/或Amazon，具体取决于 [履行设置](./fulfilled-by.md).
+- 檢視、取消與出貨訂單 [!DNL Commerce] 和/或Amazon，視您網站上的 [履行設定](./fulfilled-by.md).
 
-- 将您的Amazon订单状态映射到 [!DNL Commerce] （可选）。
+- 將您的Amazon訂單狀態對應至中的自訂狀態 [!DNL Commerce] （選擇性）。
 
-- 查看并管理订单错误以解决问题并与客户建立联系。
+- 檢視和管理訂單錯誤以解決問題並與客戶聯絡。
 
-- 将订单跟踪数据发送到 [!DNL Amazon Seller Central] 帐户。
+- 將訂單追蹤資料傳送至 [!DNL Amazon Seller Central] 帳戶。
 
-- [取消订单](./cancel-unshipped-order.md) 并选择原因响应。
+- [取消訂單](./cancel-unshipped-order.md) 並選取原因回應。
 
-- 查看 [最近订购](./amazon-store-dashboard.md) 有关您的Amazon订单的信息。
+- 檢視 [最近訂單](./amazon-store-dashboard.md) Amazon訂單的相關資訊。
 
-## 报表
+## 報告
 
-使用 [!DNL Amazon Sales Channel] 扩展中，您可以查看有关以下内容的报表信息：
+使用 [!DNL Amazon Sales Channel] 擴充功能中，您可以檢閱下列相關報表資訊：
 
-- 按活动、不活动、符合条件和不完整状态列出。
+- 依使用中、非使用中、合格及未完成等狀態的清單。
 
-- 等待发运的订单。
+- 等待出貨的訂單。
 
-- 最近的命令。
+- 最近的訂單。
 
-- Amazon [列表更改日志](./listing-changes-log.md) 复查产品/列表信息源更改（如价格和数量）。
+- Amazon [列出變更記錄](./listing-changes-log.md) 複查產品/清單摘要變更（例如價格與數量）。
 
-- 产品 [Buy Box](./buy-box-competitor-pricing.md) 竞争者定价数据。
+- 產品 [Buy Box](./buy-box-competitor-pricing.md) 競爭者定價資料。
 
-- 产品 [竞争者定价最低](./lowest-competitor-pricing.md) 数据。
+- 產品 [最低競爭者價格](./lowest-competitor-pricing.md) 資料。
 
-## 支持全球销售
+## 支援全球銷售
 
-使用 [!DNL Amazon Sales Channel] 扩展，您可以：
+使用 [!DNL Amazon Sales Channel] 擴充功能上，您可以：
 
-- 管理多个 [!DNL Amazon Marketplace] 地区（国家）。
+- 管理多個 [!DNL Amazon Marketplace] 地區（國家/地區）。
 
-- 使用支持多种货币 [[!DNL Commerce] 货币兑换工具](https://docs.magento.com/user-guide/stores/currency-configuration.html){target="_blank"}.
+- 支援多種貨幣，使用 [[!DNL Commerce] 貨幣轉換工具](https://docs.magento.com/user-guide/stores/currency-configuration.html){target="_blank"}.
 
-- 管理您的产品位置和Amazon履行中心的发货。
+- 管理產品地點與Amazon履行中心的出貨。
 
-## 客户管理
+## 客戶管理
 
-构建 [!DNL Commerce] 客户数据库按 [导入客户数据](./order-settings.md#configure-order-settings) 与您的Amazon订单相关联。 通过 [!DNL Amazon Marketplace] 列表和 [!DNL Commerce] 店面。
+建置您的 [!DNL Commerce] 客戶資料庫建立者： [匯入客戶資料](./order-settings.md#configure-order-settings) 與您的Amazon訂單相關聯。 透過您擴充的客戶清單，提升您的行銷潛力 [!DNL Amazon Marketplace] 清單和 [!DNL Commerce] 店面。

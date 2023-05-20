@@ -1,6 +1,6 @@
 ---
-title: 添加定价规则
-description: 使用定价规则管理Commerce产品目录的Amazon Marketplace上的列表价格。
+title: 新增訂價規則
+description: 使用定價規則來管理您Commerce產品目錄的Amazon Marketplace上的定價。
 exl-id: 37ecf25a-7b47-4f6d-a4bb-2f306f7b5997
 source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
@@ -9,43 +9,43 @@ ht-degree: 0%
 
 ---
 
-# 添加定价规则
+# 新增訂價規則
 
-在集成存储后，您可以随时配置或修改定价规则。 定价规则是的一部分 [列表设置](./listing-settings.md) 并可从以下位置访问： [存储仪表板](./amazon-store-dashboard.md).
+整合商店後，您可以隨時設定或修改定價規則。 定價規則是的一部分 [清單設定](./listing-settings.md) 而且可以從 [存放區儀表板](./amazon-store-dashboard.md).
 
-## 标准价格规则
+## 標準價格規則
 
-通过标准价格规则操作，您可以按特定百分比或相对于*的固定美元金额增加或减少Amazon挂牌价格&#x200B;*[!UICONTROL Magento Price Source*]* 在中定义 [挂牌价](./listing-price.md).
+標準價格規則動作可讓您以特定百分比或相對於*的固定金額來增加或減少Amazon掛牌價格&#x200B;*[!UICONTROL Magento Price Source*]* 在中定義 [清單價格](./listing-price.md).
 
-### 添加标准定价规则
+### 新增標準訂價規則
 
-1. 单击 **[!UICONTROL Pricing rules]** 在商店仪表板上。
+1. 按一下 **[!UICONTROL Pricing rules]** 在商店控制面板上。
 
-1. 单击 **[!UICONTROL Add new pricing rule]**.
+1. 按一下 **[!UICONTROL Add new pricing rule]**.
 
-1. 完成 **[[!UICONTROL General Settings]](./pricing-rule-general-settings.md)** 用于规则。
+1. 完成 **[[!UICONTROL General Settings]](./pricing-rule-general-settings.md)** 用於規則。
 
-1. 完成 **[[!UICONTROL Price Rule Conditions]](./pricing-rule-conditions.md)** 用于规则。
+1. 完成 **[[!UICONTROL Price Rule Conditions]](./pricing-rule-conditions.md)** 用於規則。
 
-1. 完成 **[[!UICONTROL Price Rule Actions]](./standard-price-rules.md)** 用于规则。
+1. 完成 **[[!UICONTROL Price Rule Actions]](./standard-price-rules.md)** 用於規則。
 
-1. 完成后，单击 **[!UICONTROL Save pricing rule]**.
+1. 完成後，按一下 **[!UICONTROL Save pricing rule]**.
 
-## 智能重新定价规则
+## 智慧型重新訂價規則
 
-智能重新定价规则使用Amazon竞争对手的定价来确定您的上市价格。 竞争对手是其他销售商，它们列出的产品与您在Amazon上列出的产品相同。
+智慧型重新定價規則會使用Amazon競爭者的定價來決定您的掛牌價格。 競爭對手是其他銷售商，列出的產品與您在Amazon上列出的產品相同。
 
-### 添加智能重新定价规则
+### 新增智慧型重新訂價規則
 
-1. 单击 **[!UICONTROL Pricing rules]** 在商店仪表板上。
+1. 按一下 **[!UICONTROL Pricing rules]** 在商店控制面板上。
 
-1. 单击 **[!UICONTROL Add new pricing rule]**.
+1. 按一下 **[!UICONTROL Add new pricing rule]**.
 
-1. 完成 **[[!UICONTROL General Settings]](./pricing-rule-general-settings.md)** 用于规则。
+1. 完成 **[[!UICONTROL General Settings]](./pricing-rule-general-settings.md)** 用於規則。
 
-1. 完成 **[[!UICONTROL Price Rule Conditions]](./pricing-rule-conditions.md)** 用于规则。
+1. 完成 **[[!UICONTROL Price Rule Conditions]](./pricing-rule-conditions.md)** 用於規則。
 
-1. 完成 **[!UICONTROL Price Rule Actions]** 用于规则。
+1. 完成 **[!UICONTROL Price Rule Actions]** 用於規則。
 
    - [[!UICONTROL Select Rule Typ]e](./intelligent-repricing-rules.md)
 
@@ -57,4 +57,4 @@ ht-degree: 0%
 
    - [[!UICONTROL Optional Ceiling Price]](./optional-ceiling-price.md)
 
-1. 完成后，单击 **[!UICONTROL Save pricing rule]**.
+1. 完成後，按一下 **[!UICONTROL Save pricing rule]**.

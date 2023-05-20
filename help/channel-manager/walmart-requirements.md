@@ -1,6 +1,6 @@
 ---
-title: '[!DNL Walmart] 要求'
-description: '''验证您是否具有 [!DNL Walmart Marketplace]与渠道管理器集成的信息和资源。'
+title: '''[!DNL Walmart] 需求'
+description: '確認您具備下列必要條件 [!DNL Walmart Marketplace]與Channel Manager整合的資訊和資源。'
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
 source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
@@ -9,57 +9,57 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Walmart] 要求
+# [!DNL Walmart] 需求
 
-[!DNL Channel Manager] 需要以下资源和信息才能配置 [!DNL Commerce] 销售渠道 [!DNL Walmart Marketplace.]
+[!DNL Channel Manager] 需要下列資源和資訊才能設定 [!DNL Commerce] 的銷售管道 [!DNL Walmart Marketplace.]
 
-* A [!DNL Walmart] 卖家帐户
+* A [!DNL Walmart] 賣家帳戶
 
-* 用于将Adobe Commerce或Magento Open Source连接到的API密钥 [!DNL Walmart Marketplace]
+* 連線Adobe Commerce或Magento Open Source的API金鑰 [!DNL Walmart Marketplace]
 
-   的 [!DNL Walmart Marketplace] API密钥支持在 [!DNL Channel Manager] Adobe [!DNL Commerce] 或者Magento Open Source和沃尔玛市场。 在启动Channel Manager载入过程之前，在Seller Central中设置API密钥。
+   此 [!DNL Walmart Marketplace] API金鑰可讓您整合 [!DNL Channel Manager] 用於Adobe [!DNL Commerce] 或Magento Open Source和沃爾瑪商場。 開始管道管理員上線流程之前，請先在賣方中心設定API金鑰。
 
-## 设置 [!DNL Walmart Seller] 帐户
+## 設定 [!DNL Walmart Seller] 帳戶
 
-转到 [!DNL Walmart Seller Center] 设置 [沃尔玛卖家账户](https://seller.walmart.com/signup?q=&amp;origin=solution_provider&amp;src=0014M00001zivMp).
+前往 [!DNL Walmart Seller Center] 以設定您的 [沃爾瑪賣家帳戶](https://seller.walmart.com/signup?q=&amp;origin=solution_provider&amp;src=0014M00001zivMp).
 
-## 生成 [!DNL Walmart Marketplace] 生产API密钥
+## 產生 [!DNL Walmart Marketplace] 生產API金鑰
 
-1. 转到 [!DNL Walmart Marketplace] 生成 [解决方案提供商生产API密钥，用于Adobe](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
+1. 前往 [!DNL Walmart Marketplace] 產生 [適用於Adobe的解決方案提供者生產API金鑰](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
 
-1. 创建密钥并配置权限：
+1. 建立金鑰並設定許可權：
 
-   * 选择Adobe作为解决方案提供商。
+   * 選取Adobe作為解決方案提供者。
 
-   * 如下表所示，设置权限。 有关详细信息，请参阅 [API凭据](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) 在 _沃尔玛销售商帮助_.
+   * 設定許可權，如下表所示。 如需詳細資訊，請參閱 [API認證](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) 在 _沃爾瑪市集賣家說明_.
 
-   **AdobeWalmart的API密钥配置**
+   **Walmart的AdobeAPI金鑰設定**
 
-   | **权限** | **设置** |
+   | **許可權** | **設定** |
    |----------------|-------------|
-   | 内容 | 完全访问 |
-   | 获取信息源 | 仅查看 |
-   | 库存 | 完全访问 |
-   | 项目 | 完全访问 |
-   | 滞后时间 | 完全访问 |
-   | 订购 | 完全访问 |
-   | 价格 | 完全访问 |
-   | 报表 | 仅查看 |
-   | 返回结果 | 完全访问 |
-   | 规则 | 完全访问 |
-   | 装运 | 完全访问 |
+   | 內容 | 完全存取 |
+   | 取得摘要 | 僅供檢視 |
+   | 詳細目錄 | 完全存取 |
+   | 專案 | 完全存取 |
+   | 延遲時間 | 完全存取 |
+   | 訂購 | 完全存取 |
+   | 價格 | 完全存取 |
+   | 報表 | 僅供檢視 |
+   | 傳回 | 完全存取 |
+   | 規則 | 完全存取 |
+   | 送貨 | 完全存取 |
 
-## [!DNL Walmart Marketplace] 存储状态
+## [!DNL Walmart Marketplace] 存放區狀態
 
-将产品连接到市场时，列出的可用性取决于 [!DNL Walmart Marketplace] 商店：
+當您將產品連線至市集時，清單的可用性取決於您的狀態 [!DNL Walmart Marketplace] 商店：
 
-* 对于实时商店，您的产品选件将列出并在匹配操作完成时可供销售。
+* 若是即時商店，您的產品選件會列在清單中，並於比對作業完成後可供出售。
 
-* 对于不处于实时状态的商店，您的产品选件会进行暂存，且客户不可见。 当 [!DNL Walmart Marketplace] 存储会上线，暂存列表会自动推送到实时存储。
+* 對於未上線的商店，您的產品選件會進行暫存，且客戶無法看到。 當 [!DNL Walmart Marketplace] 商店上線，分階段清單會自動推送至上線商店。
 
-![[!DNL Walmart Seller Central] 暂存产品](assets/walmart-seller-central-staged.png)
+![[!DNL Walmart Seller Central] 暫存產品](assets/walmart-seller-central-staged.png)
 
 >[!IMPORTANT]
 >
->之后 [!DNL Channel Manager] 已安装并配置，则所有库存、价格和订单更新都会自动同步。 不连接 [!DNL Channel Manager] 直到您禁用任何其他更新产品和订单数据的集成，才会将其添加到Walmart Marketplace实时商店。 如果您配置了其他集成，请验证 [!DNL Commerce] 匹配 [!DNL Walmart Marketplace] 连接到实时商店之前。
+>晚於 [!DNL Channel Manager] 安裝與設定完成，所有存貨、價格及訂單更新會自動同步。 不要連線 [!DNL Channel Manager] 至沃爾瑪商店直播，直到您停用任何其他可更新產品與訂單資料的整合功能。 如果您已設定其他整合，請確認中的料號數量與價格 [!DNL Commerce] 比對下列專案的數量： [!DNL Walmart Marketplace] 連線到即時商店之前。
 

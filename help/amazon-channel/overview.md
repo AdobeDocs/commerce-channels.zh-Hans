@@ -1,6 +1,6 @@
 ---
-title: '"[!DNL Amazon Sales Channel] 使用手冊」'
-description: '"[!DNL Amazon Sales Channel] 可讓商戶順暢地銷售產品， [!DNL Amazon Marketplace].」'
+title: ”[!DNL Amazon Sales Channel] 用户指南”
+description: ”[!DNL Amazon Sales Channel] 使商家能够在以下位置无缝地销售产品： [!DNL Amazon Marketplace].”
 redirect_from: /sales-channels/amazon/amazon-sales-channel.html
 exl-id: a4a6f446-7029-4c92-bce3-5b857cc33056
 source-git-commit: 74e58c95479b624ad9993d613776b4d33c492080
@@ -10,32 +10,32 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Amazon Sales Channel] 使用手冊
+# [!DNL Amazon Sales Channel] 用户指南
 
-[!DNL Amazon Sales Channel] 可讓商戶順暢地銷售產品， [!DNL Amazon Marketplace].
+[!DNL Amazon Sales Channel] 使商家能够在以下位置无缝地销售产品： [!DNL Amazon Marketplace].
 
-身為Adobe Commerce或Magento Open Source商家，您可以使用 [!DNL Amazon Sales Channel] 擴充功能，可將您的商店與全球最大的網際網路購物目的地整合。 此擴充功能可透過連線來啟用Amazon銷售 [!DNL Commerce] 搭配您的 [!DNL Amazon Seller Central] 帳戶並提供目錄和訂單資料的自動化和同步化。 完整管理所有Amazon清單、實作簡易或智慧型訂價規則，並透過單一維護訂單與存貨 [!DNL Commerce] 儀表板。
+作为Adobe Commerce或Magento Open Source商家，您可以使用 [!DNL Amazon Sales Channel] 扩展功能，可将您的商店与全球最大的全球Internet购物目的地集成。 此扩展通过连接以下项来支持Amazon销售 [!DNL Commerce] 与您的 [!DNL Amazon Seller Central] 帐户，并提供目录和订单数据的自动化和同步。 完全管理所有Amazon列表，实施简单或智能的定价规则，并通过单一工具维护您的订单和库存 [!DNL Commerce] 仪表板。
 
-快速入門很容易。 入門流程會引導您建立 [!DNL Amazon Seller Central] 帳戶並整合您的Amazon sales channel商店和 [!DNL Commerce] 目錄，用於管理Amazon清單、訂單、存貨及履行。 中央儀表板會顯示所有Amazon銷售管道商店整合和Amazon清單的狀態更新。 接觸全球的新客戶 [!DNL Amazon Marketplace] 簡化並自動化流程 — 幾乎不需要任何成本與勞力，即可建立新系統。
+入门很简单。 一个简短的入门培训流程可指导您创建 [!DNL Amazon Seller Central] 帐户并与Amazon sales channel store和 [!DNL Commerce] 用于管理Amazon列表、订单、库存和履行的catalog。 一个中央仪表板显示所有Amazon sales channel store集成和Amazon列表的状态更新。 接触全球的新客户 [!DNL Amazon Marketplace] 简化和自动化的流程 — 只需很少或完全不需要安装新系统的成本和人力。
 
-整合您的 [!DNL Amazon Seller Central] 帳戶， [!DNL Amazon Sales Channel] 擴充功能可讓您管理帳戶，並在以下兩者之間同步資料： [!DNL Commerce] 和Amazon。 它可讓您直接透過建立清單、管理促銷、設定價格，以及管理存貨與履行 [!DNL Commerce] 管理員。 這些選項包括定價規則，可監控相同料號的Amazon定價，並自動調整價格以提高競爭力。
+集成您的 [!DNL Amazon Seller Central] 帐户， [!DNL Amazon Sales Channel] 扩展使您能够管理帐户并在以下位置同步数据： [!DNL Commerce] 和Amazon。 它使您能够通过以下方式直接创建清单、管理促销、设置价格以及管理库存和履行 [!DNL Commerce] 管理员。 这些选项包括定价规则，用于监控同一项目的Amazon定价，并自动调整价格以提高竞争力。
 
 ## 指南概述
 
-本指南會介紹一些基本的 [!DNL Amazon Seller Central] 資訊，設定Amazon銷售管道的需求。 此外，還包含入門和整合程式、可用商店、產品、價格和其他選項的詳細資訊，以及您如何使用Amazon銷售管道來管理以下專案的清單和銷售情形： [!DNL Amazon Marketplace]. 使用左側邊欄瀏覽各種功能，並深入研究以存取詳細資訊和程式。
+本指南将回顾一些基本的 [!DNL Amazon Seller Central] 信息，以及设置Amazon销售渠道的要求。 此外，它还包含有关入门和集成流程、可用的商店、产品、价格和其他选项，以及如何使用Amazon销售渠道管理您在 [!DNL Amazon Marketplace]. 使用左边栏浏览各种功能，并细化以访问详细信息和过程。
 
-| 區域 | 說明 |
+| 面积图 | 描述 |
 |----|----|
-| [關於Amazon sales channel](./about-amazon-sales-channel.md) | 進一步瞭解Amazon銷售管道基本知識、主要功能、最佳實務等。 |
-| [上線Amazon銷售管道](./amazon-onboarding-home.md) | 快速建立Amazon商店並整合 [!DNL Amazon Seller Central]. 啟動並執行Amazon銷售管道，以開始銷售。 |
-| [Amazon銷售管道首頁](./amazon-sales-channel-home.md) | 進一步瞭解Amazon銷售管道首頁，以及可用的選項和工作。 檢視有關Amazon存放區的摘要資訊，並存取存放區詳細資訊和設定。 |
-| [管理屬性](./attributes-view.md) | Amazon sales channel將產品對映至 [!DNL Commerce] 使用產品屬性的目錄和Amazon。 進一步瞭解如何建立、對應及管理這些屬性。 |
-| [管理商店設定](./ob-store-review.md) | 檢視並修改您的商店設定，包括清單設定、訂單設定以及清單和定價規則。 |
-| [管理清單](./managing-product-listings.md) | 當您透過Amazon Marketplace銷售時，可以更新、新增和管理您的清單（設定、規則和定價）。 進一步瞭解如何建立和修改商店及清單設定。 |
-| [管理訂單與履行](./managing-orders.md) | Amazon sales channel透過Amazon支援訂單履行與出貨，並且 [!DNL Commerce]. 直接透過Amazon進一步瞭解履行 [!DNL Commerce]，以及訂單管理選項。 |
-| [檢視記錄與報告](./amazon-logs-reports.md) | 深入瞭解追蹤的錯誤以及Amazon與之間的互動 [!DNL Commerce]. |
+| [关于Amazon sales channel](./about-amazon-sales-channel.md) | 详细了解Amazon销售渠道基础知识、主要功能、最佳实践等。 |
+| [载入Amazon销售渠道](./amazon-onboarding-home.md) | 快速创建Amazon商店并与集成 [!DNL Amazon Seller Central]. 启动并运行Amazon销售渠道以开始销售。 |
+| [Amazon sales channel home](./amazon-sales-channel-home.md) | 详细了解Amazon销售渠道主页以及可用的选项和任务。 查看有关Amazon存储的摘要信息，并访问存储详细信息和设置。 |
+| [管理属性](./attributes-view.md) | Amazon sales channel将产品映射到 [!DNL Commerce] 使用产品属性的catalog和Amazon。 了解有关创建、映射和管理这些属性的更多信息。 |
+| [管理商店设置](./ob-store-review.md) | 查看并修改您的商店设置，包括列表设置、订单设置以及列表和定价规则。 |
+| [管理列表](./managing-product-listings.md) | 当您通过Amazon Marketplace进行销售时，可以更新、添加和管理您的列表（设置、规则和定价）。 了解有关创建和修改商店及列表设置的更多信息。 |
+| [管理订单和履行](./managing-orders.md) | Amazon sales channel支持通过Amazon的订单履行和发运，并且 [!DNL Commerce]. 直接通过Amazon了解关于实现目标的更多信息 [!DNL Commerce]和订单管理选项。 |
+| [查看日志和报告](./amazon-logs-reports.md) | 详细了解Amazon和之间跟踪的错误和交互 [!DNL Commerce]. |
 
-## 其他Adobe Commerce檔案
+## 其他Adobe Commerce文档
 
-- [Adobe Commerce使用手冊](https://docs.magento.com/user-guide/){target="_blank"}
-- [Adobe Commerce開發人員指南](https://devdocs.magento.com/){target="_blank"}
+- [Adobe Commerce用户指南](https://docs.magento.com/user-guide/){target="_blank"}
+- [Adobe Commerce开发人员指南](https://devdocs.magento.com/){target="_blank"}

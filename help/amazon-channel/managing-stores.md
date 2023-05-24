@@ -1,6 +1,6 @@
 ---
-title: Amazon商店檢視
-description: 前往Amazon商店檢視，快速檢閱每個Amazon商店的基本統計資料，以及存取管理選項。
+title: Amazon商店视图
+description: 转到Amazon商店视图，快速查看每个Amazon商店的基本统计数据以及访问管理选项。
 exl-id: 1376cd84-da81-4d3b-a5be-218aa802eed6
 source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
@@ -9,35 +9,35 @@ ht-degree: 0%
 
 ---
 
-# Amazon商店檢視
+# Amazon商店视图
 
-檢視Amazon銷售管道首頁時， _Amazon商店_ 依預設，檢視會開啟。
+在查看Amazon销售渠道主页时， _Amazon商店_ 默认情况下打开视图。
 
-![Amazon商店檢視](assets/amazon-sales-channel-home-tabs.png)
+![Amazon商店视图](assets/amazon-sales-channel-home-tabs.png)
 
-此 _[!UICONTROL Amazon Stores]_檢視會顯示每個Amazon商店的「商店卡」，以及一些基本統計和管理選項。 每張卡片中所顯示的摘要資訊包含各商店狀態、建立日期、上次更新日期、需要注意的清單（例如：未完成的清單）以及指定的清單 [!DNL Commerce] 網站。
+此 _[!UICONTROL Amazon Stores]_视图会显示每个Amazon商店的“商店卡”，以及一些基本统计数据和管理选项。 每张信息卡中显示的汇总信息包括每个商店状态、创建日期、上次更新日期、需要注意的列表（例如：未完成列表）和已分配的列表 [!DNL Commerce] 网站。
 
-檢視 _[!UICONTROL Amazon Store]_檢視，每個商店卡可讓您：
+查看 _[!UICONTROL Amazon Store]_视图，每个商店卡允许您：
 
-- 若要開啟商店，請執行下列步驟： [儀表板](./amazon-store-dashboard.md)，按一下 **[!UICONTROL View Store]**.
+- 打开商店 [仪表板](./amazon-store-dashboard.md)，单击 **[!UICONTROL View Store]**.
 
-- 若要變更商店狀態或刪除商店，請按一下 **[!UICONTROL Action]** 並選擇：
+- 要更改存储状态或删除存储，请单击 **[!UICONTROL Action]** 并选择：
 
-   - **[!UICONTROL Activate]** / **[!UICONTROL Deactivate]**  — 選擇將存放區的狀態變更為 `Active` 或 `Inactive`（分別）。
+   - **[!UICONTROL Activate]** / **[!UICONTROL Deactivate]**  — 选择以将存储状态更改为 `Active` 或 `Inactive`，则不会显示任何内容。
 
-      變更 `Inactive` 儲存至 `Active` status會使用商店目前的商店設定（例如清單設定、價格規則和覆寫）來啟用商店的清單和訂單活動。
+      更改 `Inactive` 存储到 `Active` status使用商店当前商店设置（例如清单设置、价格规则和覆盖）激活商店的清单和订单活动。
 
-      變更存放區狀態，從 `Active` 至 `Inactive` status會暫停商店的清單和訂單活動。 非使用中存放區會保留所有存放區設定與清單，但會暫時停止訂價、數量及訂單管理的同步化，直到存放區變更回為止 `Active` 狀態。 此功能可讓您在地區層級控制商店活動，而不需要重新建立或重新整合您的Amazon商店，或遺失歷史訂單和銷售資料。
+      更改存储状态 `Active` 到 `Inactive` 状态会暂停商店的列表和订单活动。 非活动存储会保留所有存储设置和列表，但会暂时停止定价、数量和订单管理的同步，直到存储重新更改为 `Active` 状态。 利用此功能，您可以在区域级别控制商店活动，而无需重新创建或重新集成Amazon商店，也不必丢失历史订单和销售数据。
 
-   - **[!UICONTROL Delete]**  — 選擇刪除不再需要的存放區。
+   - **[!UICONTROL Delete]**  — 选择删除不再需要的存储。
 
-      選擇您何時想要刪除現有的Amazon商店及其與的整合設定 [!DNL Amazon Seller Central] 帳戶。 刪除帳戶會從Amazon銷售管道中移除該商店，以及所有帳戶設定、清單、記錄和其他與此商店相關的資訊。 刪除後無法擷取存放區，必須建立新存放區。
+      选择您希望何时删除现有Amazon存储区及其与的集成设置 [!DNL Amazon Seller Central] 帐户。 删除帐户会从Amazon销售渠道中删除该商店，以及所有帐户设置、列表、日志和与此商店相关的其他信息。 删除后无法检索存储，必须创建新存储。
 
 >[!NOTE]
->若要在整合期間變更指派給商店的網站，您必須刪除商店，然後使用商店整合期間定義的不同網站再次新增商店。
+>若要在集成期间更改分配给商店的网站，您必须删除商店，然后使用商店集成期间定义的其他网站再次添加商店。
 
-| 商店卡 | 說明 |
+| 存储卡 | 描述 |
 |--- |--- |
-| 頂端區段 | 包括： <br>存放區的區域圖示，定義於 [存放區整合](./store-integration.md).<br> 已指派 _[!UICONTROL Magento Website]_，會在存放區整合期間定義。<br>此_[!UICONTROL Status]_ ，屬於您的商店。 選項： **[!UICONTROL Active]**  — 商店整合已透過Amazon完成及驗證，並可用於銷售活動。 **[!UICONTROL Inactive]**  — 商店整合已完成，但並未使用或可供銷售活動使用。 時間 `Inactive`，您的Amazon銷售已暫停。 時間 `Active`，銷售收入和其他設定會在啟用前儲存以更新。<br>此 *[!UICONTROL Last Updated]* 最近變更Amazon商店設定的日期。<br>此 *[!UICONTROL Created]* 在Amazon銷售管道中建立Amazon商店的日期。 |
-| 中間截面 | 包含過去30天的商店活動摘要圖表，並包含任何需要注意的清單和警報。 |
-| 底部區段 | 包含「檢視存放區」和「動作」選項。<br>若要開啟商店，請執行下列動作： [儀表板](./amazon-store-dashboard.md)，按一下 **[!UICONTROL View Store]**.<br>若要啟用、停用或刪除商店，請按一下 **[!UICONTROL Actions]**. |
+| 顶部区域 | 包括： <br>存储的区域图标，在期间定义 [存储集成](./store-integration.md).<br> 已分配 _[!UICONTROL Magento Website]_，在存储集成期间定义。<br>此_[!UICONTROL Status]_ 你店里的。 选项： **[!UICONTROL Active]**  — 商店集成已完成，并已通过Amazon验证，可开展销售活动。 **[!UICONTROL Inactive]**  — 商店集成已完成，但未使用或可用于销售活动。 时间 `Inactive`，您的Amazon销售将暂停。 时间 `Active`、销售收入和其他设置保存以在激活之前更新。<br>此 *[!UICONTROL Last Updated]* 最近更改Amazon商店设置的日期。<br>此 *[!UICONTROL Created]* 在Amazon sales channel中创建Amazon商店的日期。 |
+| 中段 | 包括过去30天的商店活动摘要图表，并包括需要注意的任何列表和警报。 |
+| 底部区域 | 包括“查看存储”和“操作”选项。<br>打开商店 [仪表板](./amazon-store-dashboard.md)，单击 **[!UICONTROL View Store]**.<br>要激活、取消激活或删除商店，请单击 **[!UICONTROL Actions]**. |

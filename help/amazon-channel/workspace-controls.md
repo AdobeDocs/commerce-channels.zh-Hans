@@ -1,6 +1,6 @@
 ---
-title: 工作區控制項
-description: AmazonSales Channel提供工作區控制項，可協助您找出清單、檢視資訊，以及輕鬆套用動作。
+title: 工作区控件
+description: AmazonSales Channel提供工作区控件，可帮助您查找列表、查看信息以及轻松应用操作。
 exl-id: 4f76b1d0-ae58-435b-bd6d-50155a023421
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -9,84 +9,84 @@ ht-degree: 0%
 
 ---
 
-# 工作區控制項
+# 工作区控件
 
-Amazon銷售管道 [首頁](./amazon-sales-channel-home.md) 有一些常見的工作區控制項，包括篩選器、預設檢視、欄和匯出。 並非所有頁面都具有相同的控制選項。
+Amazon销售渠道 [主页](./amazon-sales-channel-home.md) 具有一些常见的工作区控件，包括筛选器、默认视图、列和导出。 并非所有页面都具有相同的控制选项。
 
-![AmazonSales Channel工作區控制項範例](assets/amazon-workspace-controls.png)
+![AmazonSales Channel工作区控制示例](assets/amazon-workspace-controls.png)
 
-## 動作
+## 操作
 
-此 _[!UICONTROL Actions]_選擇器提供使用者可用於頁面的動作清單。 選取後，動作會套用至所有選取的專案。 若要將動作套用至特定專案，請選取每個專案第一欄中的核取方塊，然後選擇下方的選項_[!UICONTROL Actions]_.
+此 _[!UICONTROL Actions]_选择器提供了用户可用于页面的操作列表。 选中后，该操作将应用于所有选定项目。 要将操作应用于特定项目，请选中每个项目第一列中的复选框，然后选择下的选项_[!UICONTROL Actions]_.
 
-例如，當選取器顯示在 _[!UICONTROL Attributes]_頁面中，包含_[!UICONTROL Re-import Product Attribute Values]_ 動作。 選擇此動作會偵測對應 [!DNL Amazon Seller Central] 帳戶並重新整理 [!DNL Commerce] 在左側欄中勾選每個Amazon存放區專案的資料。
+例如，当选择器显示在 _[!UICONTROL Attributes]_页面上，它包含_[!UICONTROL Re-import Product Attribute Values]_ 操作。 选择此操作将试通 [!DNL Amazon Seller Central] 帐户并刷新 [!DNL Commerce] 左侧列中勾选了每个Amazon存储项的数据。
 
-![動作功能表範例](assets/amazon-sales-channel-home-actions-option.png)
+![“操作”菜单示例](assets/amazon-sales-channel-home-actions-option.png)
 
-## 篩選器
+## 筛选器
 
-此 _[!UICONTROL Filters]_控制項顯示縮小表格中所顯示資料範圍的選項。 篩選選項是根據在「欄」控制項中選取的欄而定。 篩選選項只會顯示在「欄」控制項中啟用的欄。
+此 _[!UICONTROL Filters]_控件显示用于缩小表中显示的数据范围的选项。 过滤器选项基于在“列”控件中选择的列。 筛选选项仅显示在列控件中启用的列。
 
-篩選器控制項可包含用於縮小指定日期資料範圍的動態行事曆、具有預先定義選取範圍的欄的下拉式功能表，以及可能包含自訂資料的任意文字欄位。
+过滤器控件可以包括用于缩小指定日期的数据范围的动态日历、具有预定义选择的列的下拉菜单以及可能包含自定义数据的自由文本字段。
 
-下列範例顯示篩選訂單清單的設定，以僅顯示符合以下條件的訂單：
+以下示例显示了用于筛选订单列表的设置，以仅显示满足以下条件的订单：
 
-- 在2019年2月1日到2019年2月7日之間所下的訂單，以及
-- 採購員為的訂單 `Smith`、和
-- 狀態為「 」的訂單 `Shipped`.
+- 2019年1月2日至2019年7月2日期间下达的订单，以及
+- 买方名为的订单 `Smith`、和
+- 状态为“ ”的订单 `Shipped`.
 
-設定好篩選選項後，按一下 **[!UICONTROL Apply Filters]** 以篩選列出的資料。 按一下「取消」結束「篩選器」控制項而不套用。
+设置好筛选选项后，单击 **[!UICONTROL Apply Filters]** 以筛选列出的数据。 单击“取消”退出“筛选器”控件而不应用。
 
-![篩選器控制項範例](assets/workspace-controls-filters.png)
+![过滤器控件示例](assets/workspace-controls-filters.png)
 
-將篩選器套用至資料後， **[!UICONTROL Active Filters]** 資訊隨即顯示。 您可以按一下 ![清除篩選器圖示](assets/x-icon-clear-filters.png) 圖示以清除特定的篩選選項，或按一下 **[!UICONTROL Clear All]** 以清除所有套用的篩選器。
+将过滤器应用于数据后， **[!UICONTROL Active Filters]** 将显示信息。 您可以单击 ![“清除过滤器”图标](assets/x-icon-clear-filters.png) 图标以清除特定的过滤器选项，或单击 **[!UICONTROL Clear All]** 以清除所有应用的筛选器。
 
-![作用中篩選器範例](assets/applied-filters-line.png)
+![活动过滤器示例](assets/applied-filters-line.png)
 
-## 檢視
+## 视图
 
-「檢視」控制項以頁面的預設欄為基礎，因此命名為「預設檢視」。 您可以使用「欄」控制項來新增或移除可用的欄。 當您自訂欄時，隨後可以將檢視儲存為「檢視」控制項中的自訂檢視。
+“视图”控件基于页面的默认列，因此被命名为“默认视图”。 您可以使用“列”控件添加或删除可用列。 自定义列时，您随后可以将视图另存为视图控件中的自定义视图。
 
-當您在頁面顯示中新增或移除欄時：
+在页面显示中添加或删除列后：
 
-1. 按一下 **[!UICONTROL Default View]** > **[!UICONTROL Save View As...]**.
+1. 单击 **[!UICONTROL Default View]** > **[!UICONTROL Save View As...]**.
 
-1. 輸入檢視的名稱。
+1. 输入视图的名称。
 
-1. 若要儲存自訂檢視，請按一下箭頭圖示。
+1. 要保存自定义视图，请单击箭头图标。
 
-![檢視控制項範例](assets/workspace-controls-view.png)
+![查看控件示例](assets/workspace-controls-view.png)
 
-在此範例中， _訂單ID_ 欄會新增至「欄」控制項中，並儲存為自訂檢視。 請注意，儲存自訂檢視名稱后，「檢視」的名稱會從 _預設檢視_ 至輸入的名稱。
+在此示例中， _订单ID_ 列会添加到列控件中并另存为自定义视图。 请注意，保存自定义视图名称后，视图名称会从 _默认视图_ 输入名称。
 
-您可以選取下列專案中的所需檢視，在檢視之間切換 _[!UICONTROL View]_功能表。
+您可以通过在视图之间选择所需的视图来切换 _[!UICONTROL View]_菜单。
 
-如果您想要刪除或變更自訂檢視的名稱，請按一下鉛筆圖示。 然後您可以輸入不同的名稱，或按一下垃圾桶圖示以刪除自訂檢視。 無法刪除預設檢視。
+如果要删除或更改自定义视图的名称，请单击铅笔图标。 然后，您可以输入其他名称，也可以单击垃圾桶图标以删除自定义视图。 无法删除默认视图。
 
-## 欄
+## 列
 
-「欄」控制項可讓您新增或移除頁面顯示中的資料欄。 每個Amazon銷售管道頁面都有資料欄的預設組合，但大多數頁面都有其他可用欄。 如果沒有可用的其他欄，您仍然可以從顯示中移除預設欄。
+列控件允许您在页面显示中添加或删除数据列。 每个Amazon Sales Channel页面都有一个预设的数据列组合，但大多数页面都有可用的其他列。 如果没有可用的其他列，您仍可以从显示中删除默认列。
 
-下列範例顯示欄控制項。 核取選項對應至頁面上顯示的欄標題。
+以下示例显示了Columns控件。 选中选项对应于页面上显示的列标题。
 
-- 若要新增資料欄至頁面，請選取核取方塊。
-- 若要從頁面中移除資料欄，請勿選取核取方塊。
+- 要向页面中添加数据列，请选中复选框。
+- 要从页面中删除数据列，请不要选中复选框。
 
-![欄控制項範例](assets/workspace-controls-columns.png)
+![列控件示例](assets/workspace-controls-columns.png)
 
-核取方塊變更會立即顯示。 如果您進行變更並退出頁面，頁面會返回到預設欄顯示。 對於您定期進行的變更，您可以將欄變更儲存為「檢視」控制項中的自訂檢視。 然後，您就可以在「檢視」控制項中切換，而不必手動新增或移除欄。
+复选框更改会立即显示。 如果进行更改并退出该页面，则该页面将返回到默认列显示。 对于您定期进行的更改，可以将列更改保存为视图控件中的自定义视图。 然后，您可以在视图控件中切换，而无需手动添加或删除列。
 
-您可以按一下 **[!UICONTROL Reset]** 以將選項設定回預設設定，或者您可以按一下 **[!UICONTROL Cancel]** 以結束，而不進行變更。
+您可以单击 **[!UICONTROL Reset]** 以将选项设置回默认设置，或者您可以单击 **[!UICONTROL Cancel]** 退出而不进行更改。
 
-## 匯出
+## 导出
 
-「匯出」選項可讓您將資料匯出至資料檔，而資料檔無法匯入至協力廠商軟體或個別資料庫。 匯出的資料僅限於顯示的資料。 如有需要，請先確認您新增或移除欄，再使用「匯出」控制項。
+导出选项允许您将数据导出到数据文件，而数据文件可以导入到第三方软件或单独的数据库中。 导出的数据仅限于显示的数据。 如果需要，请确保在使用导出控制之前添加或删除列。
 
-準備匯出資料時，請選擇匯出格式選項，然後按一下 **[!UICONTROL Export]**.
+准备导出数据时，请选择导出格式选项并单击 **[!UICONTROL Export]**.
 
-- CSV — 包含純文字資料的逗號分隔值檔案
-- Excel XML — 以XML為基礎的試算表資料格式（通常用於Excel使用者）
+- CSV — 包含纯文本数据的逗号分隔值文件
+- Excel XML — 基于XML的电子表格数据格式（通常用于Excel用户）
 
-產生的資料檔案會自動儲存到您指定的資料夾以供下載。
+生成的数据文件会自动保存到您指定的文件夹以供下载。
 
-![匯出控制](assets/workspace-controls-export.png)
+![导出控制](assets/workspace-controls-export.png)

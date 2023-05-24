@@ -1,6 +1,6 @@
 ---
-title: 訂單設定
-description: 使用訂單設定來決定如何將Amazon訂單匯入您的Commerce商店並進行處理。
+title: 订单设置
+description: 使用订单设置可确定如何将Amazon订单导入您的Commerce商店并在该商店中进行处理。
 redirect_from: /sales-channels/asc/ob-order-settings.html
 exl-id: dc8d0ce1-86a8-4949-b49a-73c5cf62db16
 source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
@@ -10,109 +10,109 @@ ht-degree: 0%
 
 ---
 
-# 訂單設定
+# 订单设置
 
-訂單設定會定義是否及如何將Amazon訂單匯入及處理 [!DNL Commerce] 並可從 [存放區儀表板](./amazon-store-dashboard.md).
+订单设置定义是否以及如何将Amazon订单导入并在中进行处理 [!DNL Commerce] 并可从 [存储仪表板](./amazon-store-dashboard.md).
 
-訂單匯入設定設為 `Enabled` 根據預設，這表示您的Amazon訂單會出現在商店控制面板上，並建立對應的 [!DNL Commerce] 訂購。 匯入的訂單可在以下位置管理： [!DNL Commerce] [訂購](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"} 工作流程。
+订单导入设置设置为 `Enabled` 默认情况下，这意味着您的Amazon订单显示在商店功能板上，并创建相应的 [!DNL Commerce] 订单。 可以在以下位置管理导入的订单 [!DNL Commerce] [订单](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"} 工作流。
 
 >[!NOTE]
 >
->無論您的訂單設定為何，系統都不會匯入您商店整合前已有的Amazon訂單。
+>无论您的订单设置如何，都不会导入应用商店集成之前存在的Amazon订单。
 
-晚於 [存放區整合](./store-integration.md) 完成，您可以變更訂單設定。 如果您將訂單設定設為 `Disabled`，Amazon訂單會顯示在商店儀表板上，但必須在以下位置管理： [!DNL Amazon Seller Central] 帳戶。
+晚于 [存储集成](./store-integration.md) 完成，您可以更改订单设置。 如果您将订单设置设置为 `Disabled`，Amazon订单会显示在商店仪表板上，但必须在以下位置进行管理： [!DNL Amazon Seller Central] 帐户。
 
-在Amazon上建立訂單時，不會立即匯入 [!DNL Commerce]. Amazon指派 `Pending` 新建立訂單的狀態。 Amazon驗證訂單和付款方式後，訂單的狀態會變更為 `Unshipped`. 此狀態變更會觸發訂單匯入，並且 [!DNL Commerce] 建立相符的對應順序。
+在Amazon上创建订单时，不会立即将其导入到 [!DNL Commerce]. Amazon分配 `Pending` 新创建订单的状态。 在Amazon验证订单和支付方式后，订单的状态将更改为 `Unshipped`. 此状态更改会触发订单导入，并且 [!DNL Commerce] 创建匹配的、对应的顺序。
 
-從Amazon匯入的訂單可在以下位置管理： [!DNL Commerce] [訂單工作流程](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"}. 另請參閱 [管理訂單](./managing-orders.md).
+从Amazon导入的订单可在以下位置管理： [!DNL Commerce] [订单工作流](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"}. 另请参阅 [管理订单](./managing-orders.md).
 
-## 設定訂單設定 {#configure-order-settings}
+## 配置订单设置 {#configure-order-settings}
 
-1. 按一下 **[!UICONTROL Order Settings]** 在商店控制面板上。
+1. 单击 **[!UICONTROL Order Settings]** 在商店仪表板上。
 
-1. 對象 **[!UICONTROL Import Amazon Orders]** （必要），選擇一個選項：
+1. 对象 **[!UICONTROL Import Amazon Orders]** （必需），选择一个选项：
 
-   - `Disabled`  — 選擇您不想在中建立對應訂單的時間 [!DNL Commerce] 從Amazon收到新訂單時。 選擇後，會停用此頁面上的所有其他欄位。
+   - `Disabled`  — 选择您不想在中创建相应订单的时间 [!DNL Commerce] 从Amazon收到新订单时。 选中后，将禁用此页上的所有其他字段。
 
-   - `Enabled` - （預設）選擇何時建立對應的 [!DNL Commerce] 從Amazon收到新訂單時的訂單。 [!DNL Commerce] 訂單是根據Amazon狀態和存貨層次建立的。
+   - `Enabled`  — （默认）选择何时要创建对应的 [!DNL Commerce] 订单时收到来自Amazon的新订单。 [!DNL Commerce] 根据Amazon状态和库存水平创建订单。
 
       >[!NOTE]
       >
-      >匯入Amazon訂單必須設定為 `Enabled` 若要在中管理Amazon訂單 [!DNL Commerce] [訂購](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"} 工作流程。 當設定為 `Disabled`，您的Amazon訂單中沒有對應的 [!DNL Commerce] 訂單編號，且無法在中管理 [!DNL Commerce]. 您可以管理下列訂單： [!DNL Amazon Seller Central] 帳戶。
+      >导入Amazon订单必须设置为 `Enabled` 在中管理Amazon订单 [!DNL Commerce] [订单](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"} 工作流。 当设置为 `Disabled`，您的Amazon订单中没有与 [!DNL Commerce] 订单编号，不能在中管理 [!DNL Commerce]. 您管理以下订单的位置 [!DNL Amazon Seller Central] 帐户。
 
-1. 對象 **[!UICONTROL Import Amazon Orders Into Magento Store]**，選擇哪一個 [!DNL Commerce] 儲存於中建立對應訂單時，相關聯的Amazon訂單 [!DNL Commerce].
+1. 对象 **[!UICONTROL Import Amazon Orders Into Magento Store]**，选择所需的 [!DNL Commerce] 存储在中创建相应订单时与之关联的Amazon订单 [!DNL Commerce].
 
-   此設定預設為您在選取的網站時，使用「商店檢視」 [已新增Amazon存放區](./store-integration.md). 若要變更此設定，選項清單取決於 [!DNL Commerce] 您在設定中設定的存放區。 另請參閱 [商店](https://docs.magento.com/user-guide/stores/stores-all-create-view.html#create-a-new-store-view){target="_blank"}.
+   此设置默认为您在访问网站时选择的网站商店视图 [添加了Amazon store](./store-integration.md). 如果要更改此设置，选项列表取决于 [!DNL Commerce] 存储您在配置中设置的内容。 参见 [商店](https://docs.magento.com/user-guide/stores/stores-all-create-view.html#create-a-new-store-view){target="_blank"}.
 
-1. 對象 **[!UICONTROL Customer Creation]**，選擇一個選項：
+1. 对象 **[!UICONTROL Customer Creation]**，选择一个选项：
 
-   - `No Customer Creation (guest)` - （預設）選擇您不想在中建立客戶帳戶的時間 [!DNL Commerce] 使用從Amazon訂單匯入的客戶資料。 選擇後， [!DNL Commerce] 會以處理訪客結帳的方式處理匯入的Amazon訂單 [!DNL Commerce].
+   - `No Customer Creation (guest)`  — （默认）选择您不想在中创建客户帐户的时间 [!DNL Commerce] 使用从Amazon订单中导入的客户数据。 选择后， [!DNL Commerce] 处理导入的Amazon订单的方式与处理访客结帐的方式相同 [!DNL Commerce].
 
-   - `Build New Customer Account`  — 選擇您要在中建立新客戶帳戶的時間 [!DNL Commerce] 使用隨Amazon訂單匯入的客戶資料。 此選項可協助您根據Amazon訂單建立客戶資料庫。
+   - `Build New Customer Account`  — 选择要在中创建新客户帐户的时间 [!DNL Commerce] 使用随Amazon订单导入的客户数据。 此选项有助于根据Amazon订单构建客户数据库。
 
-1. 對象 **[!UICONTROL Order Number Source]**，選擇一個選項：
+1. 对象 **[!UICONTROL Order Number Source]**，选择一个选项：
 
-   - `Build Using Magento Order Number` - （預設）選擇何時建立唯一 [!DNL Commerce] 使用的對應Amazon訂單的訂單編號 [!DNL Commerce] 增量指派的訂單ID。
+   - `Build Using Magento Order Number`  — （默认）选择何时要创建唯一 [!DNL Commerce] 使用的相应Amazon订单的订单编号 [!DNL Commerce] 增量分配的订单ID。
 
-   - `Build Using Amazon Order Number`  — 選擇您想要建立 [!DNL Commerce] 訂單編號，使用對應的Amazon指派的訂單編號。
+   - `Build Using Amazon Order Number`  — 选择何时创建 [!DNL Commerce] 订单编号(使用相应的Amazon分配的订单编号)。
    >[!NOTE]
    >
-   >匯入訂單後，Amazon訂單編號會顯示在 _[!UICONTROL Recent Orders]_在商店控制面板上的清單。 此 [!DNL Commerce] 訂單編號會在檢視訂單詳細資料時顯示 [!DNL Commerce] [訂購](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"} 工作區。
+   >导入订单后，Amazon订单编号将显示在 _[!UICONTROL Recent Orders]_列表。 此 [!DNL Commerce] 在中查看订单详细信息时显示的订单编号 [!DNL Commerce] [订单](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"} 工作区。
 
-1. 對象 **[!UICONTROL Order Status]** （必要），選擇一個選項：
+1. 对象 **[!UICONTROL Order Status]** （必需），选择一个选项：
 
-   - `Default Order Status` - （預設）選擇何時要將從Amazon匯入的新建立訂單指派給您為新訂單定義的預設訂單狀態。 新訂單的預設狀態（除非您已為新訂單建立自訂訂單狀態）為 `Pending`. 另請參閱 [處理訂單](https://docs.magento.com/user-guide/sales/order-processing.html){target="_blank"}.
+   - `Default Order Status`  — （默认）选择何时要将从Amazon导入的新创建订单分配给您为新订单定义的默认订单状态。 新订单的默认状态（除非您为新订单创建了自定义订单状态）为 `Pending`. 参见 [处理订单](https://docs.magento.com/user-guide/sales/order-processing.html){target="_blank"}.
 
-   - `Custom Order Status`  — 選擇何時要將從Amazon匯入的新建立訂單指派給預設以外的狀態。
+   - `Custom Order Status`  — 选择何时希望为从Amazon导入的新创建订单分配默认状态以外的状态。
 
-   - `Processing Order Status`  — 啟用時機 **[!UICONTROL Order Status]** 設為 `Custom Order Status`. 選擇您要用於從Amazon匯入之新建立訂單的狀態。 此欄位中的選項是根據中的預設狀態選項 [!DNL Commerce]. 另請參閱 [訂單狀態](https://docs.magento.com/user-guide/sales/order-status.html). 您也可以建立自訂訂單狀態，顯示於此處以供選取。 若要建立自訂訂單狀態，請參閱 [自訂訂單狀態](https://docs.magento.com/user-guide/sales/order-status-custom.html){target="_blank"}.
+   - `Processing Order Status`  — 启用条件 **[!UICONTROL Order Status]** 设置为 `Custom Order Status`. 选择要用于从Amazon导入的新创建订单的状态。 此字段中的选项基于默认状态选项 [!DNL Commerce]. 参见 [订单状态](https://docs.magento.com/user-guide/sales/order-status.html). 您还可以创建自定义订单状态以在此处显示以供选择。 要创建自定义订单状态，请参阅 [自定义订单状态](https://docs.magento.com/user-guide/sales/order-status-custom.html){target="_blank"}.
 
-1. 完成後，按一下 **[!UICONTROL Save order settings]**.
+1. 完成后，单击 **[!UICONTROL Save order settings]**.
 
-![訂單設定](assets/amazon-order-settings.png)
+![订单设置](assets/amazon-order-settings.png)
 
-| 欄位 | 說明 |
+| 字段 | 描述 |
 |---|---|
-| [!UICONTROL Import Amazon Orders] | 選項：<ul><li>**[!UICONTROL Disabled]**  — 選擇您不想在中建立對應訂單的時間 [!DNL Commerce] 從Amazon收到新訂單時。 選擇後，會停用此頁面上的所有其他欄位。</li><li>**[!UICONTROL Enabled]** - （預設）選擇何時建立對應的 [!DNL Commerce] 從Amazon收到新訂單時的訂單。 [!DNL Commerce] 訂單是根據Amazon狀態和存貨層次建立的。</li></ul><br><br>`Enabled` 必須選取此項才能管理Amazon訂單 [!DNL Commerce]. 時間 `Disabled` ，您的Amazon訂單會顯示在商店儀表板上，但訂單必須在以下位置進行管理： [!DNL Amazon Seller Central] 帳戶。 |
-| [!UICONTROL Import Amazon Orders Into Magento Store] | 選擇哪一個 [!DNL Commerce] 儲存在中建立訂單時，相關聯的Amazon訂單 [!DNL Commerce] [訂購](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"} workspace. This setting defaults to the Store View for the [!DNL Commerce] website selected when you [added the Amazon store](./store-integration.md). If you want to change this setting, the list of options depends on the [!DNL Commerce] stores you have set up in your configuration. See [Stores](https://docs.magento.com/user-guide/stores/stores-all-stores.html){target="_blank"}. |
-| [!UICONTROL Customer Creation] | 選項：<ul><li>**[!UICONTROL No Customer Creation (guest)]** - （預設）選擇您不想在中建立客戶帳戶的時間 [!DNL Commerce] 使用從Amazon訂單匯入的客戶資料。 選擇此選項時，此選項會告知 [!DNL Commerce] 以處理匯入的Amazon訂單，就像處理訪客結帳一樣。</li><li>**[!UICONTROL Build New Customer Account]**  — 選擇您要在何時在中建立新的客戶帳戶 [!DNL Commerce] 客戶資料庫，使用隨Amazon訂單匯入的客戶資料。 此選項有助於建立 [!DNL Commerce] 來自您Amazon訂單的客戶資料庫。</li></ul> |
-| 訂單編號來源 | 選項：<ul><li>**[!UICONTROL Build Using Magento Order Number]** - （預設）選擇何時建立唯一 [!DNL Commerce] 使用的對應Amazon訂單的訂單編號 [!DNL Commerce] 增量指派的訂單ID。 </li><li>**使用Amazon訂單編號建立**  — 選擇您想要建立 [!DNL Commerce] 訂單編號，使用對應的Amazon指派的訂單編號。</li></ul> |
-| 擱置中的訂單 | 選項：<ul><li>**[!UICONTROL Do Not Reserve Quantity]**  — 選擇何時不想要您的 [!DNL Commerce] 受您的Amazon訂單影響的庫存數量。 選擇您是否將Amazon用於履行流程(FBA)。 當您選擇並收到Amazon訂單時，訂購數量不會影響 [!DNL Commerce] 庫存量。</li><li>**[!UICONTROL Reserve Quantity]**  — 選擇您希望Amazon訂單中的訂單數量在您的 [!DNL Commerce] 庫存量。 當您選擇並收到Amazon訂單時，訂購數量將「預留」在 [!DNL Commerce] 庫存數量，以防止您的 [!DNL Commerce] 庫存來自「超量銷售」。 「預留」數量無法透過您的購買。 [!DNL Commerce] 店面。</li></ul> |
-| [!UICONTROL Order Status] | 選項：<ul><li>**[!UICONTROL Default Order Status]** - （預設）選擇何時要將從Amazon匯入的新建立訂單指派給新訂單的預設訂單狀態。 新訂單的預設狀態（除非您已為新訂單建立自訂訂單狀態）為 `Pending`. 另請參閱 [處理訂單](https://docs.magento.com/user-guide/sales/order-processing.html).</li><li>>**[!UICONTROL Custom Order Status]**  — 選擇何時要將從Amazon匯入的新建立訂單指派給預設以外的狀態。 選擇後， **[!UICONTROL Processing Order Status]** 可讓您選擇要用於從Amazon匯入之新建立訂單的狀態。</li></ul> |
-| [!UICONTROL Processing Orders Status] | 啟用時機 _[!UICONTROL Order Status]_設為 `Custom Order Status`. 選擇您要指定給新訂單的訂單狀態。 此欄位中的選項取決於中的預設狀態選項 [!DNL Commerce]. 另請參閱 [訂單狀態](https://docs.magento.com/user-guide/sales/order-status.html){target="_blank"}. You can also create a custom order status to show here. To create a custom order status, see [Custom Order Status](https://docs.magento.com/user-guide/sales/order-status-custom.html){target="_blank"}. |
+| [!UICONTROL Import Amazon Orders] | 选项：<ul><li>**[!UICONTROL Disabled]**  — 选择您不想在中创建相应订单的时间 [!DNL Commerce] 从Amazon收到新订单时。 选中后，将禁用此页上的所有其他字段。</li><li>**[!UICONTROL Enabled]**  — （默认）选择何时要创建对应的 [!DNL Commerce] 订单时收到来自Amazon的新订单。 [!DNL Commerce] 根据Amazon状态和库存水平创建订单。</li></ul><br><br>`Enabled` 必须选择才能在中管理Amazon订单 [!DNL Commerce]. 时间 `Disabled` ，则您的Amazon订单会显示在商店仪表板上，但必须在以下位置管理这些订单： [!DNL Amazon Seller Central] 帐户。 |
+| [!UICONTROL Import Amazon Orders Into Magento Store] | 选择哪些 [!DNL Commerce] 将创建订单时与之关联的Amazon订单存储在 [!DNL Commerce] [订单](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"} workspace. This setting defaults to the Store View for the [!DNL Commerce] website selected when you [added the Amazon store](./store-integration.md). If you want to change this setting, the list of options depends on the [!DNL Commerce] stores you have set up in your configuration. See [Stores](https://docs.magento.com/user-guide/stores/stores-all-stores.html){target="_blank"}. |
+| [!UICONTROL Customer Creation] | 选项：<ul><li>**[!UICONTROL No Customer Creation (guest)]**  — （默认）选择您不想在中创建客户帐户的时间 [!DNL Commerce] 使用从Amazon订单中导入的客户数据。 选择此选项后，此选项将告知 [!DNL Commerce] 以处理导入的Amazon订单的方式与处理访客结帐的方式相同。</li><li>**[!UICONTROL Build New Customer Account]**  — 选择您要在以下位置创建新客户帐户的时间： [!DNL Commerce] 客户数据库，使用通过Amazon订单导入的客户数据。 此选项有助于构建 [!DNL Commerce] 来自您的Amazon订单的客户数据库。</li></ul> |
+| 订单编号来源 | 选项：<ul><li>**[!UICONTROL Build Using Magento Order Number]**  — （默认）选择何时要创建唯一 [!DNL Commerce] 使用的相应Amazon订单的订单编号 [!DNL Commerce] 增量分配的订单ID。 </li><li>**使用Amazon订单号构建**  — 选择何时创建 [!DNL Commerce] 订单编号(使用相应的Amazon分配的订单编号)。</li></ul> |
+| 待处理订单 | 选项：<ul><li>**[!UICONTROL Do Not Reserve Quantity]**  — 选择您不想要的 [!DNL Commerce] 受Amazon订单影响的库存数量。 选择是否将Amazon用于履行流程(FBA)。 选择并接收Amazon订单后，订购数量不会影响 [!DNL Commerce] 库存数量。</li><li>**[!UICONTROL Reserve Quantity]**  — 选择您希望Amazon订单中的订货量在 [!DNL Commerce] 库存数量。 当您选择并收到Amazon订单后，订购的数量将“预留”在 [!DNL Commerce] 库存数量，以防止您的 [!DNL Commerce] “超卖”的股票。 “预留”数量不可通过您的以下渠道购买： [!DNL Commerce] 店面。</li></ul> |
+| [!UICONTROL Order Status] | 选项：<ul><li>**[!UICONTROL Default Order Status]**  — （默认）选择何时要将从Amazon导入的新创建订单分配给新订单的默认订单状态。 新订单的默认状态（除非您为新订单创建了自定义订单状态）为 `Pending`. 参见 [处理订单](https://docs.magento.com/user-guide/sales/order-processing.html).</li><li>>**[!UICONTROL Custom Order Status]**  — 选择何时希望为从Amazon导入的新创建订单分配默认状态以外的状态。 选择后， **[!UICONTROL Processing Order Status]** 允许您选择要用于从Amazon导入的新创建订单的状态。</li></ul> |
+| [!UICONTROL Processing Orders Status] | 启用时间 _[!UICONTROL Order Status]_设置为 `Custom Order Status`. 选择要分配给新订单的订单状态。 此字段中的选项取决于中的默认状态选项 [!DNL Commerce]. 参见 [订单状态](https://docs.magento.com/user-guide/sales/order-status.html){target="_blank"}. You can also create a custom order status to show here. To create a custom order status, see [Custom Order Status](https://docs.magento.com/user-guide/sales/order-status-custom.html){target="_blank"}. |
 
-## [!DNL Commerce] 訂單建立
+## [!DNL Commerce] 订单创建
 
-[!DNL Commerce] 系統會根據下列狀態與存貨條件，為Amazon訂單建立訂單。
+[!DNL Commerce] 系统会根据以下状态和库存条件为Amazon订单创建订单。
 
-### 使用Inventory management建立訂單
+### 使用Inventory management创建订单
 
 >[!NOTE]
 >
->僅於Adobe Commerce和Magento Open Source 2.3.x整合中支援。
+>仅在Adobe Commerce和Magento Open Source2.3.x集成中受支持。
 
-| 履行管道 | [!DNL Commerce] 詳細目錄狀態 | Amazon訂單狀態 | [!UICONTROL Create Magento Order] 設定 | 庫存預留 |
+| 履行渠道 | [!DNL Commerce] 库存状态 | Amazon订单状态 | [!UICONTROL Create Magento Order] 设置 | 库存预留 |
 |---|---|---|---|---|
-| FBA | 有貨<br>無庫存<br>不管理 | 擱置中 | 否 | 否 |
-| FBA | 有貨<br>無庫存<br>不管理 | PendingAvailable | 否 | 否 |
-| FBA | 有貨<br>無庫存<br>不管理 | 已取消 | 否 | 否 |
-| FBA | 有貨<br>無庫存<br>不管理 | 錯誤 | 否 | 否 |
-| FBA | 有貨<br>無庫存<br>不管理 | 未送出 | 否 | 否 |
-| FBA | 有貨<br>無庫存<br>不管理 | 已部分出貨 | 否 | 否 |
-| FBA | 有貨<br>不管理 | 已送出 | 是 | 否 |
-| FBA | 無庫存 | 已送出 | 否 | 否 |
-| FBM | 有貨<br>無庫存<br>不管理 | 擱置中 | 否 | 否 |
-| FBM | 有貨<br>無庫存<br>不管理 | PendingAvailable | 否 | 否 |
-| FBM | 有貨<br>無庫存<br>不管理 | 已取消 | 否 | 否 |
-| FBM | 有貨<br>無庫存<br>不管理 | 錯誤 | 否 | 否 |
-| FBM | 有貨<br>不管理 | 未送出 | 是 | 是 |
-| FBM | 無庫存 | 未送出 | 否 | 否 |
-| FBM | 有貨<br>不管理 | 已部分出貨 | 是 | 是 |
-| FBM | 無庫存 | 已部分出貨 | 否 | 否 |
-| FBM | 有貨<br>不管理 | 已送出 | 是 | 是 |
-| FBM | 無庫存 | 已送出 | 否 | 否 |
+| FBA | 有货<br>缺货<br>不管理 | 待处理 | 否 | 否 |
+| FBA | 有货<br>缺货<br>不管理 | Pendingavailability | 否 | 否 |
+| FBA | 有货<br>缺货<br>不管理 | 已取消 | 否 | 否 |
+| FBA | 有货<br>缺货<br>不管理 | 错误 | 否 | 否 |
+| FBA | 有货<br>缺货<br>不管理 | 未发货 | 否 | 否 |
+| FBA | 有货<br>缺货<br>不管理 | 已部分装运 | 否 | 否 |
+| FBA | 有货<br>不管理 | 已发货 | 是 | 否 |
+| FBA | 缺货 | 已发货 | 否 | 否 |
+| FBM | 有货<br>缺货<br>不管理 | 待处理 | 否 | 否 |
+| FBM | 有货<br>缺货<br>不管理 | Pendingavailability | 否 | 否 |
+| FBM | 有货<br>缺货<br>不管理 | 已取消 | 否 | 否 |
+| FBM | 有货<br>缺货<br>不管理 | 错误 | 否 | 否 |
+| FBM | 有货<br>不管理 | 未发货 | 是 | 是 |
+| FBM | 缺货 | 未发货 | 否 | 否 |
+| FBM | 有货<br>不管理 | 已部分装运 | 是 | 是 |
+| FBM | 缺货 | 已部分装运 | 否 | 否 |
+| FBM | 有货<br>不管理 | 已发货 | 是 | 是 |
+| FBM | 缺货 | 已发货 | 否 | 否 |
 
 >[!NOTE]
->若在中匯入Amazon訂單 `Partially Shipped` 或 `Shipped` 狀態，所建立的存貨預留適用於訂單中的所有料號。 Amazon sales channel不會補償先前已出貨的專案。
+>如果Amazon订单是在 `Partially Shipped` 或 `Shipped` 状态，创建的库存预留适用于订单中的所有物料。 Amazon sales channel不对以前发运的项目进行补偿。
 >
->如果訂單已由Amazon (FBA)履行，但料號位於 `out of stock` 狀態， [!DNL Commerce] 無法建立對應的訂單。 這是Inventory management整合的限制。
+>如果订单已由Amazon (FBA)履行，但有一个物料在 `out of stock` 状态， [!DNL Commerce] 无法创建相应的订单。 这是Inventory management集成的限制。

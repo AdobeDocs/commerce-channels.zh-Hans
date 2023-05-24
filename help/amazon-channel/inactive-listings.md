@@ -1,6 +1,6 @@
 ---
-title: 非使用中清單
-description: Amazon銷售管道提供 [!UICONTROL Inactive] 標籤以監視您目前的非作用中 [!DNL Amazon Marketplace] 清單。
+title: 非活动列表
+description: Amazon销售渠道提供 [!UICONTROL Inactive] 选项卡以监视当前不活动 [!DNL Amazon Marketplace] 列表。
 exl-id: 1d20e75f-3346-48cb-83f7-a9e7acb26a96
 source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
@@ -9,46 +9,46 @@ ht-degree: 0%
 
 ---
 
-# 非使用中清單
+# 非活动列表
 
-此 _[!UICONTROL Inactive]_索引標籤會顯示您已發佈至Amazon但在上未啟用的產品。 [!DNL Amazon Marketplace]. 您的清單可能由於一些不同原因而處於非使用中狀態。 例如，您可能沒有資格列出該特定品牌。 非作用中清單是由Amazon的清單標準與您的 [!DNL Amazon Seller Central] 帳戶許可權。
+此 _[!UICONTROL Inactive]_选项卡显示已发布到Amazon但在上未处于活动状态的产品 [!DNL Amazon Marketplace]. 由于其他原因，您的列表可能处于不活动状态。 例如，您可能没有资格列出该特定品牌。 非活动列表由Amazon的列表标准和 [!DNL Amazon Seller Central] 帐户权限。
 
 下 _[!UICONTROL Actions]_：
 
-- **[!UICONTROL End Listing(s) on Amazon]**：選擇以從「 」中移除所有選取的清單 [!DNL Amazon Marketplace]. 另請參閱 [結束Amazon清單](./end-listings-manually.md).
+- **[!UICONTROL End Listing(s) on Amazon]**：选择以从列表中删除所有选定的列表 [!DNL Amazon Marketplace]. 参见 [结束Amazon列表](./end-listings-manually.md).
 
-- **[!UICONTROL Edit Listing Overrides]**：選擇以變更清單的覆寫設定。 另請參閱 [覆寫](./overrides.md) 或 [編輯或移除覆寫](./creating-editing-overrides.md#edit-override-single-listing).
+- **[!UICONTROL Edit Listing Overrides]**：选择以更改列表的覆盖设置。 参见 [覆盖](./overrides.md) 或 [编辑或删除覆盖](./creating-editing-overrides.md#edit-override-single-listing).
 
-下 **[!UICONTROL Select]** 在 _[!UICONTROL Action]_欄：
+下 **[!UICONTROL Select]** 在 _[!UICONTROL Action]_列：
 
-- **[!UICONTROL View Details]**：選擇檢視清單詳細資訊，包括 [列出活動記錄](./product-listing-details.md#listing-activity-log)， [Buy Box競爭者定價](./product-listing-details.md#buy-box-competitor-pricing)、和 [最低競爭者價格](./product-listing-details.md#lowest-competitor-pricing). 此動作僅供檢視。 清單詳細資料無法變更。 另請參閱 [檢視詳細資料](./product-listing-details.md).
+- **[!UICONTROL View Details]**：选择查看列表详细信息，包括 [列出活动日志](./product-listing-details.md#listing-activity-log)， [Buy Box竞争对手定价](./product-listing-details.md#buy-box-competitor-pricing)、和 [最低竞争对手价格](./product-listing-details.md#lowest-competitor-pricing). 此操作仅供查看。 无法对列表详细信息进行任何更改。 参见 [查看详细信息](./product-listing-details.md).
 
-- **[!UICONTROL Create Override]**：選擇建立覆寫並將其套用至此清單。 另請參閱 [建立覆寫](./creating-editing-overrides.md).
+- **[!UICONTROL Create Override]**：选择创建覆盖并将其应用于此列表。 参见 [创建覆盖](./creating-editing-overrides.md).
 
-- **[!UICONTROL Edit Assigned ASIN]**：選擇以修改指派給目錄產品的ASIN。 如果目錄中的產品符合錯誤的ASIN，則會使用此動作。 另請參閱 [編輯指派的ASIN](./edit-assigned-asin.md).
+- **[!UICONTROL Edit Assigned ASIN]**：选择以修改分配给您的目录产品的ASIN。 当目录中的产品与错误的ASIN匹配时，将使用此操作。 参见 [编辑分配的ASIN](./edit-assigned-asin.md).
 
-- **[!UICONTROL Create Alias Seller SKU]**：選擇建立別名SKU （庫存單位），此SKU可用來從相同目錄產品建立Amazon清單。 另請參閱 [建立別名賣家SKU](./create-alias-seller-sku.md).
+- **[!UICONTROL Create Alias Seller SKU]**：选择创建别名SKU（库存单位），该SKU可用于从同一目录产品创建Amazon列表。 参见 [创建别名卖方SKU](./create-alias-seller-sku.md).
 
-- **[!UICONTROL Switch to Fulfilled by Amazon/Merchant]**：選擇以變更與訂單相關聯的履行方式。 另請參閱 [設定履行者設定](./fulfilled-by.md#configure-fulfilled-by-settings).
+- **[!UICONTROL Switch to Fulfilled by Amazon/Merchant]**：选择以更改与订单关联的履行方法。 参见 [配置履行者设置](./fulfilled-by.md#configure-fulfilled-by-settings).
 
-- **[!UICONTROL End Listing]**：選擇將清單從 [!DNL Amazon Marketplace]. 另請參閱 [結束Amazon清單](./end-listings-manually.md).
+- **[!UICONTROL End Listing]**：选择以从列表中删除列表 [!DNL Amazon Marketplace]. 参见 [结束Amazon列表](./end-listings-manually.md).
 
 >[!NOTE]
 >
->如果您有處理中的清單，標籤上方會出現一則訊息，指出清單的數量。
+>如果您有正在处理的列表，则标签上方会显示一条消息，指示列表的数量。
 
-![非作用中Amazon清單](assets/amazon-inactive-listings.png)
+![不活跃的Amazon列表](assets/amazon-inactive-listings.png)
 
-Amazon銷售管道首頁有一些共同之處 [工作區控制項](./workspace-controls.md) 可讓您自訂顯示的資料。
+Amazon sales channel home pages有一些共同之处 [工作区控件](./workspace-controls.md) 允许您自定义显示的数据。
 
-| 欄 | 說明 |
+| 列 | 描述 |
 |--- |--- |
-| [!UICONTROL Amazon Seller SKU] | Amazon指派給產品的SKU （庫存單位），用於識別產品、選項、價格和製造商。 |
-| [!UICONTROL ASIN] | 識別專案的10個字母和/或數字的唯一區塊。<br><br>ASIN代表Amazon標準識別碼。 ASIN是識別專案的10個字母和/或數字的唯一區塊。 對於書籍，ASIN與ISBN編號相同，但對於所有其他產品，當專案上傳到其目錄時會建立新的ASIN。 您可以在Amazon的產品詳細資訊頁面上找到專案ASIN，以及與該專案相關的進一步詳細資訊。 |
-| [!UICONTROL Product Listing Name] | 產品的名稱。 |
-| [!UICONTROL Condition] | 此 [條件](./product-listing-condition.md) 產品的。 |
-| [!UICONTROL Landed Price] | 產品的清單價格加上其送貨價格。 |
-| [!UICONTROL Amazon Quantity] | 產品在Amazon上積極列出時的可用數量。 |
-| [!UICONTROL Status] | 清單的狀態，由Amazon定義。 |
-| [!UICONTROL Inactive Reason (if provided by Amazon)] | Amazon並不一定都會提供不活躍清單的原因，您可以聯絡客戶支援以解決清單問題。 在某些情況下，Amazon會通知您原因。 若要檢視這些回應，請按一下 **[!UICONTROL View Details]** 在 _[!UICONTROL Action]_欄。 如果這些問題已解決且Amazon移除錯誤，產品會移至_[!UICONTROL Active]_ 標籤。 |
-| 動作 | 可套用至特定清單的可用動作清單。 若要套用動作，請按一下 **[!UICONTROL Select]** 在 _[!UICONTROL Action]_欄並選取選項：<ul><li>[[!UICONTROL View Details]](./product-listing-details.md)</li><li>[[!UICONTROL Create Override]](./creating-editing-overrides.md)</li><li>[[!UICONTROL Edit Assigned ASIN]](./edit-assigned-asin.md)</li><li>[[!UICONTROL Create Alias Seller SKU]](./create-alias-seller-sku.md#region-specific)</li><li>[[!UICONTROL Switch to Fulfilled By Amazon/Merchant]](./fulfilled-by.md#configure-fulfilled-by-settings)</li><li>[[!UICONTROL End Listing]](./end-listings-manually.md)</li></ul> |
+| [!UICONTROL Amazon Seller SKU] | Amazon为产品分配的SKU（库存单位），用于标识产品、选件、价格和制造商。 |
+| [!UICONTROL ASIN] | 由10个字母和/或数字组成的用于标识项目的唯一块。<br><br>ASIN表示Amazon标准标识号。 ASIN是一个由10个字母和/或数字组成的唯一块，用于标识项目。 对于图书，ASIN与ISBN编号相同，但对于所有其他产品，当项目上传到它们的目录时，将创建一个新的ASIN。 您可以在Amazon的产品详细信息页面上找到项目ASIN，以及与该项目相关的更多详细信息。 |
+| [!UICONTROL Product Listing Name] | 产品的名称。 |
+| [!UICONTROL Condition] | 此 [条件](./product-listing-condition.md) 产品的。 |
+| [!UICONTROL Landed Price] | 产品的上市价格加上装运价格。 |
+| [!UICONTROL Amazon Quantity] | 当产品在Amazon上主动列出时的可用数量。 |
+| [!UICONTROL Status] | 由Amazon定义的列表状态。 |
+| [!UICONTROL Inactive Reason (if provided by Amazon)] | Amazon并不总是提供列表不活跃的原因，您可以联系客户支持来解决列表问题。 在某些情况下，Amazon会通知您一个原因。 要查看这些响应，请单击 **[!UICONTROL View Details]** 在 _[!UICONTROL Action]_列。 如果解决了这些问题并且Amazon删除了错误，则产品将移至_[!UICONTROL Active]_ 选项卡。 |
+| 操作 | 可应用于特定列表的可用操作列表。 要应用操作，请单击 **[!UICONTROL Select]** 在 _[!UICONTROL Action]_列并选择选项：<ul><li>[[!UICONTROL View Details]](./product-listing-details.md)</li><li>[[!UICONTROL Create Override]](./creating-editing-overrides.md)</li><li>[[!UICONTROL Edit Assigned ASIN]](./edit-assigned-asin.md)</li><li>[[!UICONTROL Create Alias Seller SKU]](./create-alias-seller-sku.md#region-specific)</li><li>[[!UICONTROL Switch to Fulfilled By Amazon/Merchant]](./fulfilled-by.md#configure-fulfilled-by-settings)</li><li>[[!UICONTROL End Listing]](./end-listings-manually.md)</li></ul> |

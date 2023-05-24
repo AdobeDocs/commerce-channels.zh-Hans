@@ -1,6 +1,6 @@
 ---
-title: 存貨/數量
-description: 若要控制將您的Commerce商店的產品數量詳細資料同步至您的 [!DNL Amazon Seller Central] 帳戶，更新「庫存/數量」設定。
+title: 库存/数量
+description: 要控制Commerce商店中的产品数量详细信息同步到 [!DNL Amazon Seller Central] 帐户，更新“库存/数量”设置。
 redirect_from: /sales-channels/asc/ob-stock-quantity.html
 exl-id: a8b7ab6c-393c-43c6-b5ef-68845177edff
 source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
@@ -10,47 +10,47 @@ ht-degree: 0%
 
 ---
 
-# 存貨/數量
+# 库存/数量
 
-*[!UICONTROL Stock/Quantity]* 設定是商店清單設定的一部分。 清單設定可從以下位置存取： [存放區儀表板](./amazon-store-dashboard.md).
+*[!UICONTROL Stock/Quantity]* 设置是商店列表设置的一部分。 列表设置可从以下位置访问： [存储仪表板](./amazon-store-dashboard.md).
 
-這些設定可用來同步您的產品數量詳細資料 [!DNL Commerce] 店面數量與您的數量 [!DNL Amazon Seller Central] 帳戶。 此工具功能強大，可藉由向買家顯示緊迫性來用於其他廣告，同時保持存貨井然有序。 例如，某些商戶的倉庫中可能有150件特定SKU的庫存，並且想要確保Amazon購物者可以購買其所有存貨。 其他商戶可能希望一次只列出一個專案，讓一般使用者產生稀缺感。 在此情況下，請將 *[!UICONTROL Maximum Listed Quantity]* 至 `1`.
+这些设置用于同步产品数量详细信息 [!DNL Commerce] 店面数量与您的数量 [!DNL Amazon Seller Central] 帐户。 此工具功能强大，可以通过向买方显示紧迫性来用于其他广告，同时保持库存井然有序。 例如，某些商户的仓库中可能有150件特定SKU的库存，并希望确保Amazon购物者可以购买其所有库存。 其他商家可能希望一次只列出一个项目，给最终用户造成稀缺感。 在这种情况下，请将 *[!UICONTROL Maximum Listed Quantity]* 到 `1`.
 
-數量是地區屬性，且以 **[!UICONTROL Amazon Marketplace Country]** 設定期間定義 [存放區整合](./store-integration.md). 當對產品數量進行變更時，該變更會影響所有共用該數量的Amazon清單 [!DNL Amazon Seller SKU] 在相同國家/地區銷售的Amazon商店中。 共用專案的變更 [!DNL Amazon Seller SKU] 不會影響您為不同國家/地區設定的Amazon商店。 您的第一個整合的Amazon存放區（具有最早的建立日期）會控制數量設定中的優先順序。
+数量是区域属性，基于 **[!UICONTROL Amazon Marketplace Country]** 设置定义期间 [存储集成](./store-integration.md). 当对产品的数量进行更改时，该更改会影响共享该产品的所有Amazon列表 [!DNL Amazon Seller SKU] 在同一个国家/地区销售的Amazon商店中。 对共享的更改 [!DNL Amazon Seller SKU] 不会影响您为其他国家/地区设置的Amazon商店。 您的第一个Amazon存储区已集成（具有最早的创建日期），可控制数量设置中的优先级。
 
 >[!NOTE]
 >
->對於Adobe Commerce和Magento Open Source 2.3.x使用者，Amazon sales channel支援使用Inventory management擴充功能，無需任何其他設定。 另請參閱 [管理詳細目錄](https://docs.magento.com/user-guide/v2.3/catalog/inventory-management.html){target="_blank"}.
+>对于Adobe Commerce和Magento Open Source 2.3.x用户，Amazon sales channel支持使用Inventory management扩展，而无需任何其他设置。 参见 [管理库存](https://docs.magento.com/user-guide/v2.3/catalog/inventory-management.html){target="_blank"}.
 
-## 設定庫存/數量設定 {#configure-stock--quantity-settings}
+## 配置库存/数量设置 {#configure-stock--quantity-settings}
 
-1. 按一下 **[!UICONTROL Listing Settings]** 在商店控制面板上。
+1. 单击 **[!UICONTROL Listing Settings]** 在商店仪表板上。
 
-1. 展開 **[!UICONTROL Stock / Quantity]** 區段。
+1. 展开 **[!UICONTROL Stock / Quantity]** 部分。
 
-1. 對象 **[!UICONTROL Out-of-Stock Threshold]** （必要），輸入產品數量最低的數值，以保持產品符合其Amazon清單的資格。
+1. 对象 **[!UICONTROL Out-of-Stock Threshold]** （必需），输入产品最小数量的数值，以使产品符合其Amazon列表的条件。
 
-   預設值為 `0`. 若您的 [!DNL Commerce] 產品庫存低於此數字，各自的Amazon清單不符合透過Amazon銷售的資格。
+   默认为 `0`. 如果您的 [!DNL Commerce] 产品库存低于此数量，则相应的Amazon列表不符合通过Amazon进行销售的资格。
 
-1. 對象 **[!UICONTROL Maximum Listed Quantity]** （必要），輸入您要在Amazon清單中顯示的數量數值。
+1. 对象 **[!UICONTROL Maximum Listed Quantity]** （必需），为要在Amazon列表中显示的数量输入一个数值。
 
-   此設定會依輸入的值列出所有符合條件的Amazon清單。 銷售料號時，Amazon清單數量不會變更。 清單可用數量一律會使用此值，即使實際產品數量高於或低於此值。 此設定通常用於不管理產品詳細目錄時。 例如，您的可能有一個產品數量為80 [!DNL Commerce] 目錄。 設定為 `10`，Amazon清單一律會顯示可用的數量： `10` 且不會隨著產品銷售而改變。
+   此设置按输入的值列出所有符合条件的Amazon列表。 销售物料后，Amazon列表数量不会发生更改。 可用清单数量始终使用此值，即使实际产品数量更高或更低也是如此。 此设置通常在您不管理产品库存时使用。 例如，您可能有一个产品在 [!DNL Commerce] 目录。 设置为时 `10`时，Amazon列表始终显示可用数量 `10` 产品销售时不会更改。
 
-1. 對象 **[!UICONTROL "Do Not Manage Stock" Quantity]** （必要），輸入要顯示給Amazon清單的數量值。
+1. 对象 **[!UICONTROL "Do Not Manage Stock" Quantity]** （必需），输入要为Amazon列表显示的数量值。
 
-   Amazon要求您發佈可用數量。 對象 [!DNL Commerce] 若您設定為不管理庫存但想在Amazon上列出的產品，則清單會隨此處輸入的可用數量一起發佈。
+   Amazon要求您发布可用数量。 对象 [!DNL Commerce] 如果产品设置为不管理库存，但希望在Amazon上列出这些产品，则会发布此列表，并在此处输入可用数量。
 
-1. 完成後，按一下 **[!UICONTROL Save listing settings]**.
+1. 完成后，单击 **[!UICONTROL Save listing settings]**.
 
-![庫存/數量設定](assets/amazon-stock-quantity.png)
+![库存/数量设置](assets/amazon-stock-quantity.png)
 
-| 欄位 | 說明 |
+| 字段 | 描述 |
 |---|---|
-| [!UICONTROL Out-of-Stock Threshold] | 輸入產品最小數量的數值，以保持產品符合其Amazon清單的資格(預設為 `0`)。<br><br>若您的 [!DNL Commerce] 產品庫存低於此數字，各自的Amazon清單不符合透過Amazon銷售的資格。 |
-| [!UICONTROL Maximum Listed Quantity] | 輸入您要在Amazon清單中顯示的數量數值。<br><br>銷售料號時，Amazon清單會以此處輸入的數量重新發佈。 此設定通常用於不管理產品詳細目錄時。<br><br>例如，您輸入「列出數量上限」值如下 `10`. 您產品的實際數量為 `80`. 因為您已將此值設定在 `10`，Amazon清單一律會顯示可用的數量： `10`. 可用數量一律以定義的值顯示，即使存貨數量較低亦然。 |
-| [!UICONTROL "Do Not Manage Stock" Quantity] | 輸入Amazon清單的顯示數量值。<br><br>Amazon要求您發佈可用數量。 對象 [!DNL Commerce] 若您設定為不管理庫存但想在Amazon上列出的產品，則清單會隨此處輸入值的可用數量一起發佈。 |
+| [!UICONTROL Out-of-Stock Threshold] | 输入产品最小数量的数字值，以保持产品符合其Amazon列表的条件(默认值为 `0`)。<br><br>如果您的 [!DNL Commerce] 产品库存低于此数量，则相应的Amazon列表不符合通过Amazon进行销售的资格。 |
+| [!UICONTROL Maximum Listed Quantity] | 输入要在Amazon列表中显示的数量的数值。<br><br>销售物料后，Amazon列表会重新发布并在此处输入数量。 此设置通常在您不管理产品库存时使用。<br><br>例如，您可以将“列出的最大数量”值输入为 `10`. 您的产品实际数量为 `80`. 因为您已将此值设置为 `10`时，Amazon列表始终显示可用数量 `10`. 可用数量始终随定义的值一起显示，即使库存数量较低也是如此。 |
+| [!UICONTROL "Do Not Manage Stock" Quantity] | 输入Amazon清单的显示数量值。<br><br>Amazon要求您发布可用数量。 对象 [!DNL Commerce] 如果产品设置为不管理库存，但是您想要在Amazon上将其列出，则会发布该列表，其中包含此处输入的值的可用数量。 |
 
-**快速存取** - [!UICONTROL Listing Settings] 區段
+**快速访问** - [!UICONTROL Listing Settings] 区域
 
 - [[!UICONTROL Product Listing Actions]](./product-listing-actions.md)
 - [[!UICONTROL Third Party Listings]](./third-party-listing-settings.md)
@@ -61,16 +61,16 @@ ht-degree: 0%
 - [[!UICONTROL Catalog Search]](./catalog-search.md)
 - [[!UICONTROL Product Listing Condition]](./product-listing-condition.md)
 
-## 範例：列出數量上限
+## 示例：列出的最大数量
 
-銷售料號時，Amazon清單會重新列出此數量的料號。
+在销售某个物料后，Amazon列表会按此数量重新列出该物料。
 
-例如，如果您設定 *[!UICONTROL Maximum Listed Quantity]* 作為 `12`，Amazon清單會顯示數量12，即使產品有 [!DNL Commerce] 數量80：
+例如，如果您设置 *[!UICONTROL Maximum Listed Quantity]* 作为 `12`，Amazon列表显示的数量为12，即使产品具有 [!DNL Commerce] 数量80：
 
-![列出的最大數量範例1](assets/amazon-max-listed-quantity.png)
+![列出的最大数量示例1](assets/amazon-max-listed-quantity.png)
 
-如果您設定 *[!UICONTROL Maximum Listed Quantity]* 作為 `1`，則所有合格產品都會列出，且數量為 `1`. 當有商品售出時，系統會尋找您的 [!DNL Commerce] 產品，若有其他庫存，則在Amazon上重新搜尋數量為 `1`.
+如果您设置了 *[!UICONTROL Maximum Listed Quantity]* 作为 `1`，则所有符合条件的产品都以一定数量列出 `1`. 售出物品后，系统会查找您的 [!DNL Commerce] 产品，如果存在其他库存，则在Amazon上重新提供该物料的数量 `1`.
 
-此選項對於通常訂購數量為1的產品可能很有價值。 這也會增加購物者在檢視Amazon清單時的急迫性。
+此选项对于通常按1数量订购的产品可能很有价值。 此外，它也会增加购物者在查看Amazon列表时的紧迫感。
 
-![列出的最大數量範例2](assets/amazon-max-listed-quantity-1.png)
+![列出的最大数量实例2](assets/amazon-max-listed-quantity-1.png)

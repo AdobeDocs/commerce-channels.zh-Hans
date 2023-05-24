@@ -1,6 +1,6 @@
 ---
-title: '連線到 [!DNL Commerce] 服務'
-description: '''連線管道管理員 [!DNL Commerce] 服務以啟用資料同步化及以下專案之間的通訊： [!DNL Commerce] 執行個體、管道管理員和其他支援服務。'
+title: '''连接到 [!DNL Commerce] 服务'
+description: '''将渠道管理器连接到 [!DNL Commerce] 服务以启用数据同步和 [!DNL Commerce] 实例、渠道经理和其他支持服务。”'
 role: User
 level: Intermediate
 exl-id: 97da2142-ecef-44dc-91d8-5dc55c713d31
@@ -12,44 +12,44 @@ ht-degree: 0%
 ---
 
 
-# 連線到 [!DNL Commerce] 服務
+# 连接到 [!DNL Commerce] 服务
 
-此 [!DNL Commerce Services Connector] 整合Channel Manager服務與Adobe Commerce和Magento Open Source例項。 聯結器可讓資料同步化，並可在下列專案之間通訊： [!DNL Commerce] 例項， [!DNL Channel Manager]和其他支援服務。
+此 [!DNL Commerce Services Connector] 将Channel Manager服务与Adobe Commerce和Magento Open Source实例集成。 该连接器实现了数据同步和以下对象之间的通信： [!DNL Commerce] 实例， [!DNL Channel Manager]和其他支持服务。
 
-[!DNL Commerce Services Connector] 安裝程式需要一次性使用 [Adobe Commerce SaaS服務](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html){target="_blank"} 例如 [!DNL Channel Manager]， [!DNL Live Search]、和 [!DNL Product Recommendations]. 如果您已經為其他服務設定聯結器，請略過此步驟。
+[!DNL Commerce Services Connector] 设置需要一次性使用 [Adobe Commerce SaaS服务](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html){target="_blank"} 例如 [!DNL Channel Manager]， [!DNL Live Search]、和 [!DNL Product Recommendations]. 如果已为其他服务配置了连接器，请跳过此步骤。
 
-## 需求
+## 要求
 
-- **Commerce帳戶** — 若要安裝軟體至 [!DNL Commerce] 執行個體時，您必須擁有擁有擁有該帳戶之擁有者或管理員存取權， [!DNL Commerce] 平台。
+- **Commerce帐户** — 安装软件 [!DNL Commerce] 实例中，您必须拥有对具有访问权限的所有者或管理员的帐户 [!DNL Commerce] 平台。
 
-   帳戶擁有者和超級使用者可以從以下位置建立管理員帳戶： [!DNL Commerce] 例項或從命令列使用 [!DNL Commerce] CLI命令 `admin:user:create`.
+   帐户所有者和超级用户可以从中创建管理员帐户 [!DNL Commerce] 实例或从命令行中使用 [!DNL Commerce] CLI命令 `admin:user:create`.
 
-- **Adobe Commerce生產API金鑰** — 這個 [金鑰](https://docs.magento.com/user-guide/system/saas.html#apikey){target="_blank"} 啟用API存取，以存取頻道管理員所需的服務。 您需要此金鑰的公開和私人認證。
+- **Adobe Commerce生产API密钥**-This [键](https://docs.magento.com/user-guide/system/saas.html#apikey){target="_blank"} 允许通过API访问渠道管理器所需的服务。 您需要此密钥的公共和专用凭据。
 
 >[!TIP]
 >
->若要提供認證，請 [!DNL Commerce] 授權擁有者或帳戶擁有者可以選擇 [共用存取權](https://docs.magento.com/user-guide/magento/magento-account-share.html){target="_blank"}, or give the [API Key](https://docs.magento.com/user-guide/system/saas.html#apikey){target="_blank"} 認證給信任的開發人員。
+>要提供凭据，请 [!DNL Commerce] 许可证持有人或帐户所有者可以选择 [共享访问](https://docs.magento.com/user-guide/magento/magento-account-share.html){target="_blank"}, or give the [API Key](https://docs.magento.com/user-guide/system/saas.html#apikey){target="_blank"} 凭据发送给受信任的开发人员。
 
-## 設定 [!DNL Commerce Services Connector]
+## 配置 [!DNL Commerce Services Connector]
 
-1. 開啟Store Services設定。
+1. 打开存储服务配置。
 
-   - 從「管理員」中選取「 」 **[!UICONTROL Stores]**.
+   - 在管理员中，选择 **[!UICONTROL Stores]**.
 
-   - 下 *[!UICONTROL Settings]*，選取 **[!UICONTROL Configuration]**.
+   - 下 *[!UICONTROL Settings]*，选择 **[!UICONTROL Configuration]**.
 
-   - 展開 **[!UICONTROL Services]** 並選取 **[!UICONTROL Commerce Services Connector]**.
+   - 展开 **[!UICONTROL Services]** 并选择 **[!UICONTROL Commerce Services Connector]**.
 
-1. 從您的Adobe Commerce帳戶新增生產API金鑰認證。
+1. 从您的Adobe Commerce帐户添加生产API密钥凭据。
 
-   ![[!DNL Commerce Services Connector] 中的服務 [!DNL Admin] 檢視](assets/commerce-services-connector-admin-service-view.png)
+   ![[!DNL Commerce Services Connector] 中的服务 [!DNL Admin] 视图](assets/commerce-services-connector-admin-service-view.png)
 
 
    >[!NOTE]
    >
-   > 若您的 [!DNL Commerce] 執行個體有其他 [!DNL Adobe Commerce] 服務如 [!DNL Live Search] 或 [!DNL Product Recommendations] 安裝，認證資訊會顯示在介面中，不需要進一步設定。
+   > 如果您的 [!DNL Commerce] 实例具有其他 [!DNL Adobe Commerce] 服务如 [!DNL Live Search] 或 [!DNL Product Recommendations] 安装，界面中会显示凭据信息，无需进一步配置。
 
-1. 設定SaaS專案和資料空間，讓Commerce Services可以將資料傳送至Channel Manager服務。
+1. 配置SaaS项目和数据空间，以便Commerce Services能够向渠道管理器服务发送数据。
 
-   ![[!DNL Commerce Services Connector] 中的SaaS識別碼設定 [!DNL Admin] 檢視](assets/commerce-services-connector-saas-config.png)
+   ![[!DNL Commerce Services Connector] 中的SaaS标识符配置 [!DNL Admin] 视图](assets/commerce-services-connector-saas-config.png)
 

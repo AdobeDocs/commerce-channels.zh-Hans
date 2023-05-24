@@ -1,6 +1,6 @@
 ---
-title: '安裝 [!DNL Channel Manager]'
-description: '安裝[!DNL Channel Manager] 副檔名。'
+title: '''安装 [!DNL Channel Manager]‘'
+description: '''安装[!DNL Channel Manager] 扩展。'
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
 source-git-commit: 96016b086a2c6567fab66b497892022f172f4bdd
 workflow-type: tm+mt
@@ -10,127 +10,127 @@ ht-degree: 0%
 ---
 
 
-# 安裝 [!DNL Channel Manager]
+# 安装 [!DNL Channel Manager]
 
-檢閱 [需求](onboard.md#requirements) 並在安裝Channel Manager之前收集必要資訊。
+查看 [要求](onboard.md#requirements) 并收集所需的信息，然后再安装渠道管理器。
 
-## 安裝擴充功能
+## 安装扩展
 
-Channel Manager的安裝指示取決於Adobe Commerce或Magento Open Source是部署在內部部署還是部署在雲端基礎結構上。
+Channel Manager的安装说明取决于Adobe Commerce或Magento Open Source是部署在本地还是部署在云基础架构上。
 
-- 安裝在 [內部部署執行個體](#install-on-an-on-premises-instance).
+- 安装在 [内部部署实例](#install-on-an-on-premises-instance).
 
-- 安裝在 [[!DNL Adobe Commerce] 在雲端基礎結構執行個體上](#install-adobe-commerce-on-cloud-infrastructure)
+- 安装在 [[!DNL Adobe Commerce] 在云基础架构实例上](#install-adobe-commerce-on-cloud-infrastructure)
 
-這兩種方法都需要您使用命令列介面(CLI)。
+这两种方法都需要使用命令行界面(CLI)。
 
 >[!NOTE]
 >
->如需安裝的協助 [!DNL Commerce] 使用CLI的軟體，請參閱 [一般CLI安裝](https://devdocs.magento.com/extensions/install/){target="_blank"}.
+>有关安装的帮助 [!DNL Commerce] 使用CLI的软件，请参见 [常规CLI安装](https://devdocs.magento.com/extensions/install/){target="_blank"}.
 
-### 安裝在內部部署執行個體上
+### 在内部部署实例上安装
 
-使用這些指示來安裝 [!DNL Channel Manager] Adobe Commerce和Magento Open Source至內部部署執行個體。
+按照以下说明安装 [!DNL Channel Manager] Adobe Commerce和Magento Open Source到内部部署实例时，不会将反向链接计算两次。
 
-1. 登入 [!DNL Commerce] server as a [具有許可權的使用者](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/file-system-perms.html){target="_blank"} 以寫入 [!DNL Commerce] 檔案系統。
+1. 登录到 [!DNL Commerce] server as a [具有权限的用户](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/file-system-perms.html){target="_blank"} 以写入 [!DNL Commerce] 文件系统。
 
-1. 將您的網站放入 [維護模式](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html){target="_blank"}.
+1. 将您的网站放入 [维护模式](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html){target="_blank"}.
 
    ```bash
    $ bin/magento maintenance:enable
    ```
 
-1. 從 [!DNL Commerce] 專案根目錄，新增頻道管理員至 `composer.json`.
+1. 从 [!DNL Commerce] 项目根目录，添加渠道管理器 `composer.json`.
 
    ```bash
     composer require magento/channel-manager --no-update
    ```
 
-1. 如果出現提示，請輸入 [!DNL Commerce] 帳戶。
+1. 如果出现提示，请输入 [!DNL Commerce] 帐户。
 
-   您的公開金鑰是您的使用者名稱；您的私密金鑰是您的密碼。
+   您的公钥是您的用户名；您的私钥是您的密码。
 
-1. 更新相依性並安裝擴充功能。
+1. 更新依赖项并安装扩展。
 
    ```bash
    composer update magento/channel-manager
    ```
 
-   此 `composer update` 命令只會更新所需的相依性 [!DNL Channel Manager]. 若要更新所有相依性，請改用此命令： `composer update`.
+   此 `composer update` 命令仅更新以下项所需的依赖项： [!DNL Channel Manager]. 要更新所有依赖项，请改用此命令： `composer update`.
 
-1. 等待Composer完成更新專案相依性並解決任何錯誤。
+1. 等待Composer完成项目依赖关系更新并解决所有错误。
 
-1. 驗證模組安裝：
+1. 验证模块安装：
 
-   - 檢查模組狀態。
+   - 检查模块状态。
 
       ```bash
       bin/magento module:status Magento_SalesChannels
       ```
 
-      範例回應：
+      示例响应：
 
       ```terminal
       Module is enabled
       ```
 
-   - 如果未啟用此模組，請啟用它。
+   - 如果未启用该模块，请启用该模块。
 
    ```bash
    bin/magento module:enable Magento_SalesChannels
    ```
 
-1. 註冊擴充功能。
+1. 注册扩展。
 
    ```bash
    bin/magento setup:upgrade
    ```
 
-1. 如果出現提示，請重新編譯 [!DNL Commerce] 專案。
+1. 如果出现提示，请重新编译 [!DNL Commerce] 项目。
 
    ```bash
    bin/magento setup:di:compile
    ```
 
-1. 清除快取。
+1. 清理缓存。
 
    ```bash
    bin/magento cache:clean
    ```
 
-1. 停用維護模式。
+1. 禁用维护模式。
 
    ```bash
    bin/magento maintenance:disable
    ```
 
-### 在雲端基礎結構執行個體上的Adobe Commerce上安裝
+### 在Adobe Commerce on Cloud Infrastructure实例上安装
 
-將擴充功能新增至雲端例項時，請在開發分支中工作。
+向云实例添加扩展时，请在开发分支中工作。
 
-如需使用分支的協助，請參閱 [開始建立分支](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted){target="_blank"} (位於Adobe Commerce開發人員檔案中)。
+有关使用分支的帮助，请参阅 [创建分支入门](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted){target="_blank"} 在Adobe Commerce开发人员文档中。
 
-在安裝期間，擴充功能名稱(`magento\channel-manager`)會自動插入 [app/etc/config.php](https://devdocs.magento.com/cloud/live/sens-data-over.html#configuration-data){target="_blank"} 檔案。 您不需要直接編輯檔案。
+在安装过程中，扩展名称(`magento\channel-manager`)自动插入到 [app/etc/config.php](https://devdocs.magento.com/cloud/live/sens-data-over.html#configuration-data){target="_blank"} 文件。 您无需直接编辑文件。
 
-1. 在本機工作站上，變更至雲端專案根目錄。
+1. 在本地工作站上，更改为云项目根目录。
 
-1. 建立或簽出開發 [分支](https://devdocs-beta.magento.com/cloud/env/environments-start.html#getstarted){target="_blank"}.
+1. 创建或签出开发 [分支](https://devdocs-beta.magento.com/cloud/env/environments-start.html#getstarted){target="_blank"}.
 
-1. 使用Composer名稱，將擴充功能新增至 `require` 部分 `composer.json` 檔案。
+1. 使用编辑器名称，将扩展添加到 `require` 部分 `composer.json` 文件。
 
    ```bash
    composer require magento/module-sales-channels-extension --no-update
    ```
 
-1. 更新相依性並安裝擴充功能。
+1. 更新依赖项并安装扩展。
 
    ```bash
    composer update magento/module-sales-channels-extension
    ```
 
-   此 `composer update` 命令只會更新所需的相依性 [!DNL Channel Manager]. 若要更新所有相依性，請改用此命令： `composer update`.
+   此 `composer update` 命令仅更新以下项所需的依赖项： [!DNL Channel Manager]. 要更新所有依赖项，请改用此命令： `composer update`.
 
-1. 新增、認可和推送程式碼變更 — 包含對兩者的變更 `composer.lock` 和 `composer.json` 檔案。
+1. 添加、提交和推送代码更改 — 包含对两者的更改 `composer.lock` 和 `composer.json` 文件。
 
    ```bash
    $ git add -A
@@ -144,69 +144,69 @@ Channel Manager的安裝指示取決於Adobe Commerce或Magento Open Source是�
    $ git push origin <branch-name>
    ```
 
-1. 建置和部署程式完成後，請使用SSH登入遠端環境，並確認擴充功能已正確安裝。
+1. 构建和部署过程完成后，使用SSH登录到远程环境并验证扩展是否已正确安装。
 
 ```bash
    bin/magento module:status Magento_SalesChannels
 ```
 
-範例回應：
+示例响应：
 
 ```terminal
 Module is enabled
 ```
 
-如果模組已停用， [在您的本機環境中啟用它](https://devdocs.magento.com/cloud/howtos/install-components.html#manage-extensions) 並部署您的變更。
+如果模块被禁用， [在本地环境中启用它](https://devdocs.magento.com/cloud/howtos/install-components.html#manage-extensions) 并部署您的更改。
 
 
-1. 成功安裝擴充功能後，請登入 [!UICONTROL Admin] 至 [設定Commerce服務聯結器](connect.md).
+1. 成功安装扩展后，登录到 [!UICONTROL Admin] 到 [配置Commerce服务连接器](connect.md).
 
    >[!NOTE]
    >
-   >如需將Channel Manager更新至新版本的指示，請參閱 [升級模組和擴充功能](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html){target="_blank"}.
+   >有关将Channel Manager更新到新版本的说明，请参阅 [升级模块和扩展](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html){target="_blank"}.
 
 
-## 疑難排除
+## 疑难解答
 
-使用下列資訊來解決Channel Manager安裝過程中發生的錯誤。
+使用以下信息可解决Channel Manager安装过程中发生的错误。
 
-### 不正確的撰寫器金鑰
+### 不正确的编辑器键
 
-如果 [存取金鑰](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target="_blank"} 用於驗證Composer存放庫無效，或未連結到 [!DNL MAGE ID] 用於註冊 [!DNL Channel Manager] 服務，會顯示下列錯誤。
+如果 [访问密钥](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target="_blank"} 用于对编辑器存储库进行身份验证无效，或未链接到 [!DNL MAGE ID] 用于注册 [!DNL Channel Manager] 服务，显示以下错误。
 
 ```terminal
 Could not find a matching version of package magento/channel-manager. Check the package spelling, your version constraint and that the package is available in a stability which matches your minimum-stability (stable).
 ```
 
-檢查金鑰組態：
+检查密钥配置：
 
-1. 尋找的位置 `auth.json` 檔案：
+1. 查找的位置 `auth.json` 文件：
 
    ```bash
    $ composer config –global home
    ```
 
-1. 檢視 `auth.json` 檔案。
+1. 查看 `auth.json` 文件。
 
    ```bash
    $ cat /path/to/auth.json
    ```
 
-1. 確認auth.json中的認證相符 [與影像ID相關聯的金鑰](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target="_blank"} 用於註冊Channel Manager服務。
+1. 验证auth.json中的凭据是否匹配 [与图像ID关联的键](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target="_blank"} 用于注册Channel Manager服务。
 
-### PHP的記憶體不足
+### PHP内存不足
 
-如果系統沒有為PHP分配足夠的記憶體，則會顯示以下錯誤。
+如果系统没有为PHP分配足够的内存，则会显示以下错误。
 
 ```terminal
 Fatal error: Allowed memory size of 2146435072 bytes exhausted (tried to allocate 4096 bytes) in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php on line 52
 ```
 
-使用下列其中一種方法來解決記憶體問題：
+使用以下任一方法解决内存问题：
 
-- [增加PHP的記憶體限制](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html#increase-php-memory-limit){target="_blank"} in the environment `php.ini` file. Also, verify that the Commerce instance has the [recommended values](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/php-settings.html){target="_blank"} 用於其他PHP設定。
+- [增加PHP的内存限制](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html#increase-php-memory-limit){target="_blank"} in the environment `php.ini` file. Also, verify that the Commerce instance has the [recommended values](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/php-settings.html){target="_blank"} 用于其他PHP设置。
 
-- 從命令列指定記憶體限制。
+- 从命令行指定内存限制。
 
    ```bash
    $ php -d memory_limit=-1 \[path to composer]/composer require magento/payment-services.
@@ -218,14 +218,14 @@ Fatal error: Allowed memory size of 2146435072 bytes exhausted (tried to allocat
    $ php-d memory_limit=-1 vendor/bin/composer require magento/channel-manager
    ```
 
-### 缺少檢視
+### 缺少视图
 
-如果您收到有關遺失的錯誤 `process_catalog_exporter_view` 在安裝管道管理員期間，請嘗試 [重新整理索引器](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-index.html#config-cli-subcommands-index-reindex){target="_blank"}.
+如果您收到有关缺失的错误 `process_catalog_exporter_view` 在安装渠道管理器期间，请尝试 [刷新索引器](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-index.html#config-cli-subcommands-index-reindex){target="_blank"}.
 
 ```bash
 php bin/magento indexer:refresh
 ```
 
-### 雲端部署錯誤
+### 云部署错误
 
-如需將擴充功能部署至雲端的問題，請參閱 [擴充功能部署失敗](https://devdocs.magento.com/cloud/trouble/trouble_comp-deploy-fail.html){target="_blank"}.
+有关将扩展部署到云时出现的问题，请参阅 [扩展部署失败](https://devdocs.magento.com/cloud/trouble/trouble_comp-deploy-fail.html){target="_blank"}.

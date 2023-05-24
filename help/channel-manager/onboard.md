@@ -1,6 +1,6 @@
 ---
-title: 上線 [!DNL Channel Manager]
-description: '將您的執行個體連線到 [!DNL Channel Manager] 完成幾個入門步驟即可完成服務。'
+title: 载入 [!DNL Channel Manager]
+description: '''将您的实例连接到 [!DNL Channel Manager] 完成几个入门培训步骤即可完成此服务。”'
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
@@ -12,71 +12,71 @@ ht-degree: 0%
 ---
 
 
-# 上線 [!DNL Channel Manager]
+# 载入 [!DNL Channel Manager]
 
-在您完成通路經理上線流程後，即可從Adobe Commerce存取、設定及管理Walmart Marketplace通路銷售作業。 管道管理員可從以下網址取得： [!UICONTROL Channel Manager] 上的選項 [!UICONTROL Commerce Admin Marketing] 功能表。
+完成渠道经理新用户引导流程后，您可以从Adobe Commerce访问、配置和管理沃尔玛商城渠道销售操作。 渠道管理器可从以下网址获得： [!UICONTROL Channel Manager] 上的选项 [!UICONTROL Commerce Admin Marketing] 菜单。
 
-![[!DNL Channel Manager] 「管理員」檢視中的選項](assets/channel-manager-admin-view.png)
+![[!DNL Channel Manager] “管理员”视图中的选项](assets/channel-manager-admin-view.png)
 
-## 需求
+## 要求
 
-檢閱使用Channel Manager的需求，並收集下載、安裝和設定擴充功能所需的帳戶資訊和認證。
+查看使用渠道管理器的要求，并收集下载、安装和配置扩展所需的帐户信息和凭据。
 
-- **[沃爾瑪市集需求](walmart-requirements.md)** — 確認您符合整合通路管理器的需求，包括 [設定您的賣家帳戶](https://sellerhelp.walmart.com/seller/s/guide?article=000008219) 以及產生API金鑰來啟用整合。
+- **[沃尔玛市场要求](walmart-requirements.md)** — 确认您满足与渠道管理器集成的要求，包括 [设置您的卖方帐户](https://sellerhelp.walmart.com/seller/s/guide?article=000008219) 和生成API密钥以启用集成。
 
-- **Commerce帳戶資訊** — 下載和安裝 [!DNL Channel Manager] 需要 [Commerce帳戶](https://docs.magento.com/user-guide/magento/magento-account.html){target="_blank"}. 您需要帳戶ID和憑證，以及擁有該帳戶擁有者或管理員許可權的 [!DNL Adobe Commerce] 或 [!DNL Magento Open Source] 執行個體。
+- **Commerce帐户信息** — 下载和安装 [!DNL Channel Manager] 需要 [Commerce帐户](https://docs.magento.com/user-guide/magento/magento-account.html){target="_blank"}. 您需要具有所有者或管理员访问权限的帐户ID和凭据， [!DNL Adobe Commerce] 或 [!DNL Magento Open Source] 实例。
 
-   - **影像ID**-[登入](https://account.magento.com/customer/account/login/) 至 [!DNL Commerce] 要從中取得ID的帳戶 **[!UICONTROL My Account - Magento settings]**.
+   - **图像ID**-[登录](https://account.magento.com/customer/account/login/) 到 [!DNL Commerce] 要从中获取ID的帐户 **[!UICONTROL My Account - Magento settings]**.
 
-      ![[!DNL MAGEID] 於 [!DNL Commerce] 帳戶設定](assets/mageid-my-commerce-account.png)
+      ![[!DNL MAGEID] 日期 [!DNL Commerce] 帐户设置](assets/mageid-my-commerce-account.png)
 
-   - **存取金鑰 —** 取得要下載的驗證金鑰 [!DNL Commerce] 擴充功能來自 [!DNL Commerce] Composer存放庫 `([!DNL repo.magento.com]`)。
+   - **访问密钥 —** 获取要下载的身份验证密钥 [!DNL Commerce] 扩展来自 [!DNL Commerce] Composer存储库 `([!DNL repo.magento.com]`)。
 
       ![[!UICONTROL Commerce Marketplace access keys]](assets/commerce-marketplace-access-keys.png)
 
-      在Adobe Commerce和Magento Open Source專案中，擁有者可以設定 [共用存取](https://docs.magento.com/user-guide/magento/magento-account-share.html) 可讓受信任的員工和服務提供者使用擁有者或授權擁有者帳戶的憑證下載擴充功能。
+      在Adobe Commerce和Magento Open Source项目中，所有者可以设置 [共享访问](https://docs.magento.com/user-guide/magento/magento-account-share.html) 允许受信任的员工和服务提供商使用所有者或许可证持有人帐户的凭据下载扩展。
 
-      對象 [!DNL Adobe Commerce] 在雲端基礎結構專案中，軟體安裝程式必須具備以下存取許可權： [!DNL Commerce] 例項：
+      对象 [!DNL Adobe Commerce] 在云基础架构项目上，软件安装程序必须拥有对 [!DNL Commerce] 实例：
 
-      - 雲端專案的超級使用者存取權
-      - 管理員存取特定環境
-      - 一個 [!DNL Adobe Commerce] 具有存取Composer存放庫許可權的帳戶
+      - 超级用户对云项目的访问权限
+      - 管理员对特定环境的访问权限
+      - 一个 [!DNL Adobe Commerce] 有权访问Composer存储库的帐户
 
-      另請參閱 [管理使用者存取權](https://devdocs.magento.com/cloud/project/user-admin.html).
+      参见 [管理用户访问权限](https://devdocs.magento.com/cloud/project/user-admin.html).
 
 
-- **使用撰寫器和的體驗[!DNL Commerce CLI]** — 請參閱 [一般CLI安裝](https://devdocs.magento.com/extensions/install/){target="_blank"} 瞭解如何使用這些工具來安裝及管理擴充功能 [!DNL Adobe Commerce] 或 [!DNL Magento Open Source] 平台。
+- **使用Composer和[!DNL Commerce CLI]** — 请参阅 [常规CLI安装](https://devdocs.magento.com/extensions/install/){target="_blank"} 有关使用这些工具安装和管理扩展的信息 [!DNL Adobe Commerce] 或 [!DNL Magento Open Source] 平台。
 
-- **[[!DNL Amazon Sales Channel] 版本4.4.2或更新版本](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)** — 若您已啟動 [!DNL Amazon Sales Channel] 您的 [!DNL Commerce] 網站，確認您的 [!DNL Commerce] 安裝之前，平台已安裝4.4.2版或更新版本 [!DNL Channel Manager].
+- **[[!DNL Amazon Sales Channel] 版本4.4.2或更高版本](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)** — 如果已激活 [!DNL Amazon Sales Channel] 您的 [!DNL Commerce] 站点，验证您的 [!DNL Commerce] 安装之前，平台已安装版本4.4.2或更高版本 [!DNL Channel Manager].
 
-- **[!DNL Inventory Management]Adobe Commerce和Magento Open Source的擴充功能**
+- **[!DNL Inventory Management]Adobe Commerce和Magento Open Source的扩展**
 
-   如果您計畫使用「通路管理員」進行存貨和訂單管理，則必須在Adobe Commerce和Magento Open Source執行個體上安裝並啟用Inventory management擴充功能。 一般而言，此擴充功能會依預設安裝在Adobe Commerce上並啟用， [!DNL Magento Open Source] 2.3.x和更新版本。
+   如果您计划使用渠道管理器进行库存和订单管理，则必须在Adobe Commerce和Magento Open Source实例上安装并启用Inventory management扩展。 通常，此扩展已安装并默认在Adobe Commerce上启用，并且 [!DNL Magento Open Source] 2.3.x及更高版本。
 
-   如果您從2.2.x升級Commerce，或您已停用Inventory management，請更新您的安裝以包含必要的模組。 另請參閱 [安裝Inventory management](https://devdocs.magento.com/extensions/inventory-management/) (位於Adobe Commerce開發人員檔案中)。
+   如果从2.2.x升级Commerce，或者已禁用Inventory management，请更新安装以包含所需的模块。 参见 [安装Inventory management](https://devdocs.magento.com/extensions/inventory-management/) 在Adobe Commerce开发人员文档中。
 
-### 系統需求
+### 系统要求
 
 - [Adobe Commerce 2.4.x](https://devdocs.magento.com/release/released-versions.html)
 - [PHP 7.3 / 7.4](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/php-settings.html)
-- [Composer 1.x或更新版本](https://devdocs.magento.com/cloud/reference/cloud-composer.html)
-- [[!DNL Amazon Sales Channel] 版本4.4.2或更新版本](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html) — 如果您已啟用 [!DNL Amazon Sales Channel] 您的 [!DNL Commerce] 網站，確認您的 [!DNL Commerce] 平台在安裝前已安裝4.4.2版 [!DNL Channel Manager].
+- [Composer 1.x或更高版本](https://devdocs.magento.com/cloud/reference/cloud-composer.html)
+- [[!DNL Amazon Sales Channel] 版本4.4.2或更高版本](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html) — 如果已激活 [!DNL Amazon Sales Channel] 您的 [!DNL Commerce] 站点，验证您的 [!DNL Commerce] 安装之前，平台已安装版本4.4.2 [!DNL Channel Manager].
 - [[!DNL Inventory Management]](https://devdocs.magento.com/extensions/inventory-management/)
 
-### 支援的平台
+### 支持的平台
 
-- 雲端上的Adobe Commerce (ECE) ：2.4.x
-- Adobe Commerce內部部署(EE) ：2.4.x
+- Adobe Commerce on Cloud (ECE) ：2.4.x
+- Adobe Commerce内部部署(EE) ：2.4.x
 - Magento Open Source2.4.x
 
-## 入門步驟
+## 载入步骤
 
-1. [設定您的Walmart賣家帳戶](https://seller.walmart.com/signup?q=&amp;origin=solution_provider&amp;src=0014M00001zivMp).
+1. [设置你的沃尔玛卖家帐户](https://seller.walmart.com/signup?q=&amp;origin=solution_provider&amp;src=0014M00001zivMp).
 
-1. [安裝 [!DNL Channel Manager] 擴充功能](install.md).
+1. [安装 [!DNL Channel Manager] 扩展](install.md).
 
-1. [連線至Commerce Services](connect.md) 將管道管理員與商務執行個體和其他支援服務整合。
+1. [连接到Commerce Services](connect.md) 将渠道管理器与商务实例以及其他支持服务集成。
 
-1. [連線您的 [!DNL Commerce] 儲存至 [!DNL Walmart Marketplace]](connect-marketplace.md).
+1. [连接您的 [!DNL Commerce] 存储到 [!DNL Walmart Marketplace]](connect-marketplace.md).
 
-1. [完成商店設定](complete-sales-channel-store-setup.md).
+1. [完成商店设置](complete-sales-channel-store-setup.md).

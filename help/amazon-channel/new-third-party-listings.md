@@ -1,6 +1,6 @@
 ---
-title: 新的協力廠商清單
-description: 將新的Amazon清單比對Commerce目錄中的產品，藉此管理這些清單。
+title: 新的第三方列表
+description: 通过将新的Amazon列表与Commerce目录中的产品进行匹配来管理这些列表。
 exl-id: ace9d334-d1d1-4f4b-88c8-60a9e7d1d17c
 source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
@@ -9,41 +9,41 @@ ht-degree: 0%
 
 ---
 
-# 新的協力廠商清單
+# 新的第三方列表
 
-此 _[!UICONTROL New Third Party]_索引標籤顯示您現有的和產品不相符的Amazon清單。 [!DNL Commerce] 目錄。 若要針對數量、價格、處理時間等使用清單管理，您的每個Amazon清單都必須與中的產品比對（指派） [!DNL Commerce] 目錄。 您有幾個選項可以將清單指派給中的產品 [!DNL Commerce] 目錄。
+此 _[!UICONTROL New Third Party]_选项卡显示您现有的尚未与中的产品匹配的Amazon列表 [!DNL Commerce] 目录。 要将列表管理用于数量、定价、处理时间等，您的每个Amazon列表都必须与中的产品进行匹配（分配） [!DNL Commerce] 目录。 要向中的产品分配列表，有几个选项可用 [!DNL Commerce] 目录。
 
 下 _[!UICONTROL Actions]_：
 
-- **[!UICONTROL Create New Catalog Product(s)]**：選擇使用Amazon清單中的資訊，在 [!DNL Commerce] 目錄。 此程式會自動將Amazon清單與新目錄產品配對。 另請參閱 [建立及指派目錄產品](./creating-assigning-catalog-products.md).
+- **[!UICONTROL Create New Catalog Product(s)]**：选择使用Amazon列表中的信息在 [!DNL Commerce] 目录。 此过程会自动将Amazon列表与新目录产品相匹配。 参见 [创建和分配目录产品](./creating-assigning-catalog-products.md).
 
-- **[!UICONTROL Attempt Automatic Match]**：選擇以嘗試根據您目前的目錄，自動比對所選清單與您的目錄 [目錄搜尋](./catalog-search.md) 清單設定中的選項。 如果您修改您的 _[!UICONTROL Catalog Search]_選項，此動作可讓您再次嘗試比對程式。
+- **[!UICONTROL Attempt Automatic Match]**：选择以尝试根据您当前的列表自动将所选列表与您的目录匹配 [目录搜索](./catalog-search.md) 选项。 如果您修改了 _[!UICONTROL Catalog Search]_选项，此操作允许您再次尝试匹配过程。
 
 下 _[!UICONTROL Select]_：
 
-- **[!UICONTROL Assign Catalog Product]**：選擇將清單與中的產品進行比對 [!DNL Commerce] 手動目錄。 另請參閱 [建立及指派目錄產品](./creating-assigning-catalog-products.md).
+- **[!UICONTROL Assign Catalog Product]**：选择将列表与中的产品匹配 [!DNL Commerce] 手动编录。 参见 [创建和分配目录产品](./creating-assigning-catalog-products.md).
 
-- **[!UICONTROL Create New Catalog Product]**：選擇使用Amazon清單中的資訊，在 [!DNL Commerce] 目錄。 此程式會自動將Amazon清單與新目錄產品配對。 另請參閱 [建立及指派目錄產品](./creating-assigning-catalog-products.md).
+- **[!UICONTROL Create New Catalog Product]**：选择使用Amazon列表中的信息在 [!DNL Commerce] 目录。 此过程会自动将Amazon列表与新目录产品相匹配。 参见 [创建和分配目录产品](./creating-assigning-catalog-products.md).
 
-- **[!UICONTROL View Details]**：選擇檢視清單詳細資訊，包括 [列出活動記錄](./product-listing-details.md#listing-activity-log)， [Buy Box競爭者定價](./product-listing-details.md#buy-box-competitor-pricing)、和 [最低競爭者價格](./product-listing-details.md#lowest-competitor-pricing). 此動作僅供檢視。 清單詳細資料無法變更。 另請參閱 [檢視詳細資料](./product-listing-details.md).
+- **[!UICONTROL View Details]**：选择查看列表详细信息，包括 [列出活动日志](./product-listing-details.md#listing-activity-log)， [Buy Box竞争对手定价](./product-listing-details.md#buy-box-competitor-pricing)、和 [最低竞争对手价格](./product-listing-details.md#lowest-competitor-pricing). 此操作仅供查看。 无法对列表详细信息进行任何更改。 参见 [查看详细信息](./product-listing-details.md).
 
 >[!NOTE]
 >
->如果您有處理中的清單，標籤上方會顯示一則訊息，指出清單的數量。
+>如果您有正在处理的列表，则选项卡上方会显示一条消息，指示列表的数量。
 
-![新的協力廠商清單](assets/amazon-listings-new-third-party.png)
+![新的第三方列表](assets/amazon-listings-new-third-party.png)
 
-Amazon銷售管道首頁有一些共同之處 [工作區控制項](./workspace-controls.md) 可讓您自訂顯示的資料。
+Amazon sales channel home pages有一些共同之处 [工作区控件](./workspace-controls.md) 允许您自定义显示的数据。
 
-## 預設欄
+## 默认列
 
-| 欄 | 說明 |
+| 列 | 描述 |
 |---|---|
-| [!UICONTROL Amazon Seller SKU] | Amazon指派給產品的SKU （庫存單位），用於識別產品、選項、價格和製造商。 |
-| [!UICONTROL ASIN] | 識別專案的10個字母和/或數字的唯一區塊。<br><br>ASIN代表 [!DNL Amazon Standard Identification Number]. ASIN是識別專案的10個字母和/或數字的唯一區塊。 對於書籍，ASIN與ISBN編號相同，但對於所有其他產品，當專案上傳到其目錄時會建立新的ASIN。 您可以在Amazon的產品詳細資訊頁面上找到專案ASIN，以及與該專案相關的進一步詳細資訊。 |
-| [!UICONTROL Product Listing Name] | 產品的名稱。 |
-| [!UICONTROL Condition] | 此 [條件](./product-listing-condition.md) 產品的。 |
-| [!UICONTROL Listing Price] | 依價格來源與任何適用的訂價規則的定義，識別料號的上市價格。 |
-| [!UICONTROL Amazon Quantity] | 產品在Amazon上積極列出時的可用數量。 |
-| [!UICONTROL Status] | 清單的狀態，由Amazon定義。 |
-| [!UICONTROL Action] | 可套用至特定清單的可用動作清單。 若要套用動作，請按一下 **[!UICONTROL Select]** 在 _[!UICONTROL Action]_欄並選擇選項：<ul><li>[[!UICONTROL Assign Catalog Product]](./creating-assigning-catalog-products.md)</li><li>[[!UICONTROL Create New Catalog Product]](./creating-assigning-catalog-products.md)</li><li>[[!UICONTROL View Details]](./product-listing-details.md)</li></ul> |
+| [!UICONTROL Amazon Seller SKU] | Amazon为产品分配的SKU（库存单位），用于标识产品、选件、价格和制造商。 |
+| [!UICONTROL ASIN] | 由10个字母和/或数字组成的用于标识项目的唯一块。<br><br>ASIN表示 [!DNL Amazon Standard Identification Number]. ASIN是一个由10个字母和/或数字组成的唯一块，用于标识项目。 对于图书，ASIN与ISBN编号相同，但对于所有其他产品，当项目上传到它们的目录时，将创建一个新的ASIN。 您可以在Amazon的产品详细信息页面上找到项目ASIN，以及与该项目相关的更多详细信息。 |
+| [!UICONTROL Product Listing Name] | 产品的名称。 |
+| [!UICONTROL Condition] | 此 [条件](./product-listing-condition.md) 产品的。 |
+| [!UICONTROL Listing Price] | 标识项目的上市价格，如价格来源和任何适用的定价规则所定义。 |
+| [!UICONTROL Amazon Quantity] | 当产品在Amazon上主动列出时的可用数量。 |
+| [!UICONTROL Status] | 由Amazon定义的列表状态。 |
+| [!UICONTROL Action] | 可应用于特定列表的可用操作列表。 要应用操作，请单击 **[!UICONTROL Select]** 在 _[!UICONTROL Action]_列并选择一个选项：<ul><li>[[!UICONTROL Assign Catalog Product]](./creating-assigning-catalog-products.md)</li><li>[[!UICONTROL Create New Catalog Product]](./creating-assigning-catalog-products.md)</li><li>[[!UICONTROL View Details]](./product-listing-details.md)</li></ul> |

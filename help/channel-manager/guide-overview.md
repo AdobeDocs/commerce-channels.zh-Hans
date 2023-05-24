@@ -1,6 +1,6 @@
 ---
-title: '''[!DNL Channel Manager] 指南概述'
-description: '''全面資訊，關於 [!DNL Channel Manager] 適用於Adobe Commerce和Magento Open Source管理員，包括安裝和上線。'
+title: ‘[!DNL Channel Manager] 指南概述
+description: '有关以下内容的全面信息 [!DNL Channel Manager] 面向Adobe Commerce和Magento Open Source管理员，包括安装和载入。'
 seo-title: Adobe Commerce Channel Manager Guide
 seo-description: Describes how to use [!DNL Channel Manager] with Adobe Commerce or Magento Open Source.
 exl-id: 0703741b-77e0-47b0-917f-b25d14afa7ae
@@ -12,32 +12,32 @@ ht-degree: 0%
 ---
 
 
-# 概觀
+# 概述
 
-本指南適用於Adobe Commerce和Magento Open Source的管理員。 其中包含有關以下專案的詳細資訊 [!DNL Channel Manager] 安裝、上線、設定和管理。 本指南假定您對核心有基本的瞭解 [!DNL Commerce] 設定和功能。
+本指南适用于Adobe Commerce和Magento Open Source的管理员。 它包括有关 [!DNL Channel Manager] 安装、载入、配置和管理。 本指南假定您对核心有基本的了解 [!DNL Commerce] 配置和功能。
 
-[!DNL Channel Manager] 有兩個管理員區域：
+[!DNL Channel Manager] 有两个管理员区域：
 
-* **管理員** — 使用此區域來存取組態選項、產品目錄和「訂單管理」。
-* **命令列介面** — 使用此工具執行安裝和後端設定工作。
+* **管理员** — 使用此区域可访问配置选项、产品目录和订单管理。
+* **命令行界面** — 使用此工具执行安装和后端配置任务。
 
-本指南涵蓋：
+本指南涵盖：
 
-* 全部 [!DNL Channel Manager] — 特定任務，從 [!DNL Commerce] 管理員。
-* 全部 [!DNL Channel Manager] — 從命令列完成的特定工作。
+* 全部 [!DNL Channel Manager] — 特定任务，从 [!DNL Commerce] 管理员。
+* 全部 [!DNL Channel Manager]从命令行完成的特定任务。
 
-有關管理您的專案的詳細資訊， [!DNL Commerce] 平台、專案和網站，請參閱Adobe Commerce和Magento Open Source使用者和開發人員指南。
+欲知关于如何管理 [!DNL Commerce] 平台、项目和网站，请参阅Adobe Commerce和Magento Open Source用户和开发人员指南。
 
-## 其他檔案
+## 其他文档
 
-| 指南 | 說明 |
+| 指南 | 描述 |
 |----------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
-| [Adobe Commerce 2.4使用手冊](https://docs.magento.com/user-guide) | Adobe Commerce和Magento Open Source的以商家為中心的檔案 |
-| [Adobe Commerce 2.4開發人員指南](https://devdocs.magento.com) | 用於建置和自訂Adobe Commerce或Magento Open Source的開發人員專屬檔案 |
+| [Adobe Commerce 2.4用户指南](https://docs.magento.com/user-guide) | Adobe Commerce和Magento Open Source的以商家为中心的文档 |
+| [Adobe Commerce 2.4开发人员指南](https://devdocs.magento.com) | 用于构建和自定义Adobe Commerce或Magento Open Source的以开发人员为中心的文档 |
 
-## 支援
+## 支持
 
-從下列資源取得Adobe Commerce和Magento Open Source的其他資訊和說明：
+从以下资源获取有关Adobe Commerce和Magento Open Source的其他信息和帮助：
 
-* [說明中心](https://support.magento.com/hc/en-us){target="_blank"}
-* [支援票證](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket){target="_blank"} — 提交票證以取得其他協助。
+* [帮助中心](https://support.magento.com/hc/en-us){target="_blank"}
+* [支持票证](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket){target="_blank"} — 提交票证以接收其他帮助。

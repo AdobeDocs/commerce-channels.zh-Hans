@@ -1,6 +1,6 @@
 ---
-title: 「智慧型重新訂價規則：底價」
-description: 使用底價設定來決定智慧型訂價規則的最低價格，以管理您的Amazon清單。
+title: '智能重新定价规则：最低价格'
+description: 使用最低价格设置确定用于管理Amazon清单的智能定价规则的最低价格。
 exl-id: e00cac95-eef8-4d4d-b578-287a91f54bdf
 source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
@@ -9,9 +9,9 @@ ht-degree: 0%
 
 ---
 
-# 智慧型重新訂價規則：底價
+# 智能重新定价规则：底价
 
-智慧型重新訂價規則的區段包括：
+智能重新定价规则的部分包括：
 
 - [[!UICONTROL Select Rule Type]](./intelligent-repricing-rules.md)
 - [[!UICONTROL Competitor Conditional Variances]](./competitor-conditional-variances.md)
@@ -19,39 +19,39 @@ ht-degree: 0%
 - [!UICONTROL Floor Price]
 - [[!UICONTROL Optional Ceiling Price]](./optional-ceiling-price.md)
 
-此 [底價](./floor-price.md) 設定會自動根據智慧型定價規則保護您的最低產品價格。 使用這些設定來設定智慧型訂價規則的下限（最低價格），確保您的產品不會列在所需價格之下。
+此 [底价](./floor-price.md) 设置会自动根据智能定价规则保护您的最低产品价格。 使用这些设置为您的智能定价规则设置下限（最低价格），确保您的产品不会低于所需的价格。
 
-若您符合以下條件，則底價屬性會以網站範圍為基礎： [!DNL Commerce] 商店正在使用網站定價範圍。 另請參閱 [價格範圍](./price-scope.md).
+在以下情况下，最低价格属性基于网站范围： [!DNL Commerce] 商店正在使用网站定价范围。 参见 [价格范围](./price-scope.md).
 
-底價僅用於 **[!UICONTROL Rule Type]** 設為 `Intelligent repricing rule`.
+只有符合以下条件时才使用最低价格 **[!UICONTROL Rule Type]** 设置为 `Intelligent repricing rule`.
 
-## 設定底價
+## 配置底价
 
-在下列欄位中定義您的最低價格設定： _[!UICONTROL Floor Price]_區段。
+在中定义最低价格设置 _[!UICONTROL Floor Price]_部分。
 
-1. 對象 **[!UICONTROL Floor Price Source]**，選擇價格來源屬性。
+1. 对象 **[!UICONTROL Floor Price Source]**&#x200B;中，选择价格来源属性。
 
-   選擇 [!DNL Commerce] [產品屬性](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"} 表示您的相對樓層限制。 例如，如果您不想讓Amazon的清單價格低於專案的成本，您可以選擇 *成本* 屬性。
+   选择 [!DNL Commerce] [产品属性](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"} 表示你的相对下限。 例如，如果您不希望自己的Amazon挂牌价低于商品成本，则可以选择 *成本* 属性。
 
-1. 對象 **[!UICONTROL Floor Price Action]**，選擇一個選項。
+1. 对象 **[!UICONTROL Floor Price Action]**，选择一个选项。
 
-   - `Decrease By`  — 選擇您想要定義何時 _[!UICONTROL Floor Price Source]_值會向下調整，為規則建立較低的底價，然後再列為Amazon。
+   - `Decrease By`  — 选择何时需要定义的 _[!UICONTROL Floor Price Source]_价值进行向下调整，从而降低规则的最低价格，然后才可挂牌到Amazon。
 
-   - `Increase By`  — 選擇您想要定義何時 _[!UICONTROL Floor Price Source]_值進行調整，為規則建立較高的底價，然後再列為Amazon。
+   - `Increase By`  — 选择何时需要定义的 _[!UICONTROL Floor Price Source]_价值调整，从而为规则创造更高的底价，然后再将价格挂牌到Amazon。
 
-   - `Match`  — 選擇您不想讓清單價格波動到低於所定義價格的時間 _[!UICONTROL Floor Price Source]_值。 當設定為 `Match`，則_[!UICONTROL Apply]_ 和 _[!UICONTROL Floor Adjustment Amount]_欄位已停用。
+   - `Match`  — 选择您不希望上市价格波动低于所定义价格的时间 _[!UICONTROL Floor Price Source]_值。 当设置为 `Match`，则_[!UICONTROL Apply]_ 和 _[!UICONTROL Floor Adjustment Amount]_字段被禁用。
 
-1. 離開 **[!UICONTROL Apply]** 預設為 `Apply as percentage`.
+1. 保留 **[!UICONTROL Apply]** 默认为 `Apply as percentage`.
 
-1. 對象 **[!UICONTROL Floor Adjustment Price]**，輸入百分比的數值，以調整您的 _[!UICONTROL Floor Price Source]_值。
+1. 对象 **[!UICONTROL Floor Adjustment Price]**，输入百分比的数字值以调整 _[!UICONTROL Floor Price Source]_值。
 
-在此範例中，底價設定為高於料號成本3%。
+在本例中，底价设置为比物料成本高3%。
 
-![智慧型重新訂價規則範例 — 底價](assets/ob-intelligent-pricde-rule-floor-price.png)
+![智能重新定价规则示例 — 最低价格](assets/ob-intelligent-pricde-rule-floor-price.png)
 
-| 欄位 | 說明 |
+| 字段 | 描述 |
 |--- |--- |
-| [!UICONTROL Floor Price Source] | 選擇 [!DNL Commerce] 指出您相對下限（最低價格）限制的屬性。 例如，如果您不想讓Amazon的清單價格低於專案的成本，您可以選擇 `Cost` 屬性。 |
-| [!UICONTROL Floor Price Action] | 選擇訂價調整作業。 選項：<ul><li>**[!UICONTROL Decrease By]**  — 選擇您想要定義何時 _[!UICONTROL Floor Price Source]_值會向下調整，為規則建立較低的底價，然後再列為Amazon。</li><li>**[!UICONTROL Increase By]**  — 選擇您想要定義何時 _[!UICONTROL Floor Price Source]_值進行調整，為規則建立較高的底價，然後再列為Amazon。</li><li>**[!UICONTROL Match]**  — 選擇您不想讓清單價格波動到低於所定義價格的時間 _[!UICONTROL Floor Price Source]_值。 選擇後，_[!UICONTROL Apply]_ 和 _[!UICONTROL Floor Adjustment Amount]_欄位已停用。</li></ul> |
-| [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]**  — 相對於 _[!UICONTROL Floor Price Source]_值。 |
-| [!UICONTROL Floor Adjustment Amount] | 輸入百分比的數值，以調整您的 _[!UICONTROL Floor Price Source]_值。 |
+| [!UICONTROL Floor Price Source] | 选择 [!DNL Commerce] 指示相对下限（最低价格）限制的属性。 例如，如果您不希望自己的Amazon挂牌价低于商品成本，则可以选择 `Cost` 属性。 |
+| [!UICONTROL Floor Price Action] | 选择定价调整活动。 选项：<ul><li>**[!UICONTROL Decrease By]**  — 选择何时需要定义的 _[!UICONTROL Floor Price Source]_价值进行向下调整，从而降低规则的最低价格，然后才可挂牌到Amazon。</li><li>**[!UICONTROL Increase By]**  — 选择何时需要定义的 _[!UICONTROL Floor Price Source]_价值调整，从而为规则创造更高的底价，然后再将价格挂牌到Amazon。</li><li>**[!UICONTROL Match]**  — 选择您不希望上市价格波动低于所定义价格的时间 _[!UICONTROL Floor Price Source]_值。 选择后，_[!UICONTROL Apply]_ 和 _[!UICONTROL Floor Adjustment Amount]_字段被禁用。</li></ul> |
+| [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]**  — 相对于 _[!UICONTROL Floor Price Source]_值。 |
+| [!UICONTROL Floor Adjustment Amount] | 输入百分比的数字值，以调整 _[!UICONTROL Floor Price Source]_值。 |

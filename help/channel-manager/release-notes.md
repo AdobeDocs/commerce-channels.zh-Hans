@@ -1,6 +1,6 @@
 ---
-title: '''[!DNL Channel Manager] 發行說明'
-description: 的最新版本資訊 [!DNL Channel Manager] 來自Adobe Commerce。
+title: ‘[!DNL Channel Manager] 发行说明
+description: 的最新发行信息 [!DNL Channel Manager] 来自Adobe Commerce的。
 exl-id: 8f40ace1-6587-4185-955a-91bc16dee8ce
 source-git-commit: d3acde7aa297ba33dffa7854aa7578985ad12c9b
 workflow-type: tm+mt
@@ -9,38 +9,38 @@ ht-degree: 1%
 
 ---
 
-# [!DNL Channel Manager] 發行說明
+# [!DNL Channel Manager] 发行说明
 
-以下版本說明說明的首次發行 [!DNL Channel Manager] 並包含：
+以下发行说明介绍了 [!DNL Channel Manager] 并包括：
 
-![新增](../assets/new.svg) 新功能
-![已修正的問題](../assets/fix.svg) 修正和改良
-![已知問題](../assets/bug.svg) 已知問題
+![新](../assets/new.svg) 新增功能
+![已修复的问题](../assets/fix.svg) 修复和改进功能
+![已知问题](../assets/bug.svg) 已知问题
 
 
 ## v2.0.0
 
 *2023年3月20日*
 
-[!BADGE 相容性]{type=Informative tooltip="相容性"}
+[!BADGE 兼容性]{type=Informative tooltip="兼容性"}
 
-![新增](../assets/new.svg)<!--CHAN-5893--> 管道管理員現在與Adobe Commerce 2.4.6版相容。
+![新](../assets/new.svg)<!--CHAN-5893--> 渠道管理器现在与Adobe Commerce版本2.4.6兼容。
 
 ## v1.1.0
 
 *2022年11月23日*
 
-[!BADGE 相容性]{type=Informative tooltip="相容性"}
+[!BADGE 兼容性]{type=Informative tooltip="兼容性"}
 
-![新增](../assets/new.svg)<!--CHAN-5204--> **退貨與退款** — 您現在可以針對透過Adobe Commerce和Magento Open Source Channel Manger商店出貨的訂單，處理Walmart Marketplace退貨與退款程式。 有關退貨和退款的資訊和更新會在Walmart和Adobe Commerce之間同步，以便可以在以下兩個頁面中取得目前的資料： [!DNL Commerce] 店面和 [!DNL Walmart Marketplace]. 另請參閱 [退貨與退款訂單](return-refund-orders.md).
+![新](../assets/new.svg)<!--CHAN-5204--> **退货和退款** — 您现在可以处理通过Adobe Commerce和Magento Open Source Channel Manger商店发货的订单的Walmart Marketplace退货和退款流程。 有关退货和退款的信息和更新会在沃尔玛和Adobe Commerce之间同步，以便当前数据可以在沃尔玛和 [!DNL Commerce] 店面和 [!DNL Walmart Marketplace]. 参见 [退货单和退款单](return-refund-orders.md).
 
-![固定](../assets/fix.svg)<!--CHAN-5661--> 已修正 `Class Magento\SalesDataExporter\MOdel\OrdersFeed does not exist` 使用重新同步處理管道管理員訂單資料時發生錯誤 `bin/magento saas:resync --feed orders` 命令。 透過更新銷售資料匯出程式模組的管道管理員套件相依性來解決錯誤，該模組已重新命名為 `magento/module-sales-data-exporter` 至 `magento/module-sales-orders-data-exporter`.
+![固定](../assets/fix.svg)<!--CHAN-5661--> 修复了 `Class Magento\SalesDataExporter\MOdel\OrdersFeed does not exist` 使用重新同步渠道管理器订单数据时出错 `bin/magento saas:resync --feed orders` 命令。 通过更新销售数据导出程序模块的渠道管理器包依赖关系（已从中重命名），解决了该错误。 `magento/module-sales-data-exporter` 到 `magento/module-sales-orders-data-exporter`.
 
 ## v1.0.0
 
 *2022年1月14日*
 
-[!BADGE 相容性]{type=Informative tooltip="相容性"}
+[!BADGE 兼容性]{type=Informative tooltip="兼容性"}
 
-![新增](../assets/new.svg) Channel Manager初次發行正式發行
+![新](../assets/new.svg) Channel Manager的初始版本已正式发布
 

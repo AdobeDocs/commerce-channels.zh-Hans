@@ -1,6 +1,6 @@
 ---
-title: 價格規則範例
-description: 若要協助您為Amazon清單設計定價規則，請根據常見案例檢閱這些範例。
+title: 价格规则示例
+description: 为了帮助您为Amazon列表设计定价规则，请根据常见方案查看这些示例。
 exl-id: 4d9717ba-4ad6-468d-b4ca-99f8620b60b4
 source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
@@ -9,249 +9,249 @@ ht-degree: 2%
 
 ---
 
-# 價格規則範例
+# 价格规则示例
 
-## 標準價格規則範例
+## 标准价格规则示例
 
-### 捨棄後續規則
+### 放弃后续规则
 
-捨棄後續規則的功能是定價規則內的一項絕佳功能，可防止多個定價規則棧疊並提供意想不到的額外折扣。 若要捨棄後續規則，訂價規則必須使用 _[!UICONTROL Priority]_部分 [訂價規則一般設定](./pricing-rule-general-settings.md).
+能够放弃后续规则，是定价规则内的一项强大功能，可防止多个定价规则栈叠在一起并提供意想不到的额外折扣。 要放弃后续规则，定价规则必须使用 _[!UICONTROL Priority]_部分 [定价规则常规设置](./pricing-rule-general-settings.md).
 
-若 **[!UICONTROL Discard Subsequent Rules]** 設為 `Yes`，優先順序較低（數字較高）的規則不適用於合格產品。
+如果 **[!UICONTROL Discard Subsequent Rules]** 设置为 `Yes`，优先级较低（数字较高）的规则不适用于符合条件的产品。
 
-例如，假設有三個定價規則：
+例如，假设有三个定价规则：
 
-| 範例 | 規則名稱 | 優先順序 | 捨棄後續規則 |
+| 示例 | 规则名称 | 优先级 | 放弃后续规则 |
 |----------|----|----|----|
-| 1 | 優惠季產品10%優惠 | 1 | 否 |
-| 2 | 優惠價$2的銷售產品 | 2 | 是 |
-| 3 | 所有產品5%優惠 | 3 | 否 |
+| 1 | 优惠季10%优惠 | 1 | 否 |
+| 2 | 销售产品优惠$2 | 2 | 是 |
+| 3 | 所有产品现享5%优惠 | 3 | 否 |
 
-在此案例中，規則#1和#2適用於合格產品。 規則#3只適用於規則#2中未包含的合格產品，因為其優先順序低於範例#2和 **[!UICONTROL Discard Subsequent Rules]** 設為 `Yes`. 因此，銷售類別中符合資格的產品可享有10%的折扣，以及Amazon掛牌價的$2優惠。
+在此方案中，规则#1和#2适用于符合条件的产品。 规则#3仅适用于规则#2中未包含的合格产品，因为其优先级低于示例#2和 **[!UICONTROL Discard Subsequent Rules]** 设置为 `Yes`. 因此，符合条件的销售类别产品将获得10%的折扣，以及Amazon上市价的2美元折扣。
 
-### 套用兩個標準價格規則
+### 应用两个标准价格规则
 
-| 欄位 | 設定 — 規則1 | 設定 — 規則2 |
+| 字段 | 设置 — 规则1 | 设置 — 规则2 |
 |----------|----|----|
-| [!UICONTROL Rule Name] | 規則–1 | 規則–2 |
+| [!UICONTROL Rule Name] | 规则–1 | 规则–2 |
 | [!UICONTROL Priority] | 1 | 2 |
-| [!UICONTROL Rule Type] | 標準價格規則 | 標準價格規則 |
-| [!UICONTROL Price action] | 減少依據 | 減少依據 |
-| [!UICONTROL Apply] | 以百分比套用 | 套用為固定金額 |
+| [!UICONTROL Rule Type] | 标准价格规则 | 标准价格规则 |
+| [!UICONTROL Price action] | 减少方式 | 减少方式 |
+| [!UICONTROL Apply] | 以百分比应用 | 应用为固定金额 |
 | [!UICONTROL Adjustment Amount] | 10 | 10 |
 
-#### 產品1
+#### 产品1
 
-價格：45.49美元
+价格：45.49美元
 
-套用規則1：$45.49 x (0.9) = $40.94
+适用细则1:45.49美元x(0.9) = 40.94美元
 
-套用規則2：$40.94 - $10.00 = $30.94
+适用规则2:40.94美元 — 10.00美元= 30.94美元
 
-套用規則1和規則2後的最終價格：$30.94
+适用规则1和规则2后的最终价格：30.94美元
 
-#### 產品2
+#### 产品2
 
-價格：47.76美元
+价格：47.76美元
 
-套用規則1：$47.76 x (0.9) = $42.98
+适用规则1:47.76美元x(0.9) = 42.98美元
 
-套用規則2：$42.98 - $10.00 = $32.98
+适用规则2:42.98美元 — 10.00美元= 32.98美元
 
-套用規則1和規則2後的最終價格： $32.98
+应用规则1和规则2后的最终价格：32.98美元
 
-## 智慧型重新訂價規則範例
+## 智能重新定价规则示例
 
-### 具有底價來源的Buy Box價格=價格
+### 具有底价来源的Buy Box价格=价格
 
-| 欄位 | 設定 |
+| 字段 | 设置 |
 |----------|----|
-| [!UICONTROL Rule Name] | 規則–1 |
+| [!UICONTROL Rule Name] | 规则–1 |
 | [!UICONTROL Priority] | 1 |
-| [!UICONTROL Rule Type] | 智慧型重新訂價規則 |
-| [!UICONTROL Competitor Price Source] | 使用「Buy Box」價格 |
-| [!UICONTROL Price Action] | 比對競爭者價格 |
-| [!UICONTROL Floor Price Source] | 價格 |
-| [!UICONTROL Floor Price Action] | 符合 |
+| [!UICONTROL Rule Type] | 智能重新定价规则 |
+| [!UICONTROL Competitor Price Source] | 使用“Buy Box”价格 |
+| [!UICONTROL Price Action] | 匹配竞争对手价格 |
+| [!UICONTROL Floor Price Source] | 价格 |
+| [!UICONTROL Floor Price Action] | 匹配 |
 
-#### 產品1
+#### 产品1
 
-價格：15美元
+价格：15美元
 
-[Buy Box](./buy-box-competitor-pricing.md) Amazon價格： 10美元
+[Buy Box](./buy-box-competitor-pricing.md) Amazon价格：10美元
 
-因為 [Buy Box](./buy-box-competitor-pricing.md) 價格低於原始價格，產品會以原始價格列出。
+因为 [Buy Box](./buy-box-competitor-pricing.md) 价格低于原价，按原价列示。
 
-套用規則後的最終價格： $15
+应用规则后的最终价格：15美元
 
-#### 產品2
+#### 产品2
 
-價格：5美元
+价格：5美元
 
-[Buy Box](./buy-box-competitor-pricing.md) Amazon價格： 10美元
+[Buy Box](./buy-box-competitor-pricing.md) Amazon价格：10美元
 
-因為 [Buy Box](./buy-box-competitor-pricing.md) 價格高於原始價格，產品會列在 [Buy Box](./buy-box-competitor-pricing.md) 價格。
+因为 [Buy Box](./buy-box-competitor-pricing.md) 价格高于原价，则产品将列在 [Buy Box](./buy-box-competitor-pricing.md) 价格。
 
-套用規則後的最終價格： $10
+应用规则后的最终价格：10美元
 
-### 具有底價來源的Buy Box價格=價格與20%的價格下降
+### 具有底价来源的Buy Box价格=价格和20%的价格下降
 
-| 欄位 | 設定 |
+| 字段 | 设置 |
 |----------|----|
-| [!UICONTROL Rule Name] | 規則–1 |
+| [!UICONTROL Rule Name] | 规则–1 |
 | [!UICONTROL Priority] | 1 |
-| [!UICONTROL Rule Type] | 智慧型重新訂價規則 |
-| [!UICONTROL Competitor Price Source] | 使用「Buy Box」價格 |
-| [!UICONTROL Price Action] | 比對競爭者價格 |
-| [!UICONTROL Floor Price Source] | 價格 |
-| [!UICONTROL Floor Price Action] | 減少依據 |
-| [!UICONTROL Apply] | 以百分比套用 |
+| [!UICONTROL Rule Type] | 智能重新定价规则 |
+| [!UICONTROL Competitor Price Source] | 使用“Buy Box”价格 |
+| [!UICONTROL Price Action] | 匹配竞争对手价格 |
+| [!UICONTROL Floor Price Source] | 价格 |
+| [!UICONTROL Floor Price Action] | 减少方式 |
+| [!UICONTROL Apply] | 按百分比应用 |
 | [!UICONTROL Floor Adjustment Amount] | 20 |
 
-#### 產品1
+#### 产品1
 
-價格：$20
+价格：20美元
 
-計算底價：$16
+计算出的底价：$16
 
-[Buy Box](./buy-box-competitor-pricing.md) Amazon價格： 15美元
+[Buy Box](./buy-box-competitor-pricing.md) Amazon价格：15美元
 
-因為 [Buy Box](./buy-box-competitor-pricing.md) 價格小於計算值 [底價](./floor-price.md)，則產品會列在「已計算」 [底價](./floor-price.md).
+因为 [Buy Box](./buy-box-competitor-pricing.md) 价格小于计算得出的值 [底价](./floor-price.md)，则计算得出的值中会列出产品 [底价](./floor-price.md).
 
-套用規則後的最終價格： $16
+应用规则后的最终价格：16美元
 
-#### 產品2
+#### 产品2
 
-價格：15美元
+价格：15美元
 
-已計算 [底價](./floor-price.md)： $12
+已计算 [底价](./floor-price.md)：12美元
 
-[Buy Box](./buy-box-competitor-pricing.md) Amazon價格： 15美元
+[Buy Box](./buy-box-competitor-pricing.md) Amazon价格：15美元
 
-因為 [Buy Box](./buy-box-competitor-pricing.md) 價格大於計算值 [底價](./floor-price.md)，此產品會列於 [Buy Box](./buy-box-competitor-pricing.md) 價格。
+因为 [Buy Box](./buy-box-competitor-pricing.md) 价格大于计算值 [底价](./floor-price.md)，则产品将列在 [Buy Box](./buy-box-competitor-pricing.md) 价格。
 
-套用規則後的最終價格： $15
+应用规则后的最终价格：15美元
 
-#### 產品3
+#### 产品3
 
-價格：17美元
+价格：17美元
 
-計算底價：$13.60
+计算的最低价格：$13.60
 
-[Buy Box](./buy-box-competitor-pricing.md) Amazon價格： 15美元
+[Buy Box](./buy-box-competitor-pricing.md) Amazon价格：15美元
 
-因為 [Buy Box](./buy-box-competitor-pricing.md) 價格大於計算值 [底價](./floor-price.md)，此產品會列於 [Buy Box](./buy-box-competitor-pricing.md) 價格。
+因为 [Buy Box](./buy-box-competitor-pricing.md) 价格大于计算值 [底价](./floor-price.md)，则产品将列在 [Buy Box](./buy-box-competitor-pricing.md) 价格。
 
-套用規則後的最終價格： $15
+应用规则后的最终价格：15美元
 
-### 最低價格（包含所有競爭者的價格）並使用所有競爭者的產品條件
+### 最低价格（包含所有竞争对手的价格并使用所有竞争对手的产品条件）
 
-| 欄位 | 設定 |
+| 字段 | 设置 |
 |----------|-----|
-| [!UICONTROL Rule Name] | 規則–1 |
+| [!UICONTROL Rule Name] | 规则–1 |
 | [!UICONTROL Priority] | 1 |
-| [!UICONTROL Rule Type] | 智慧型重新訂價規則 |
-| [!UICONTROL Competitor Price Source] | 使用最低競爭者價格 |
-| [!UICONTROL Minimum Positive Feedback] | 所有競爭者價格 |
-| [!UICONTROL Conditional Variance] | 使用所有競爭者的產品條件 |
-| [!UICONTROL Price Action] | 比對競爭者價格 |
-| [!UICONTROL Floor Price Source] | 價格 |
-| [!UICONTROL Floor Price Action] | 符合 |
+| [!UICONTROL Rule Type] | 智能重新定价规则 |
+| [!UICONTROL Competitor Price Source] | 使用最低竞争者价格 |
+| [!UICONTROL Minimum Positive Feedback] | 所有竞争对手价格 |
+| [!UICONTROL Conditional Variance] | 使用所有竞争对手的产品条件 |
+| [!UICONTROL Price Action] | 匹配竞争对手价格 |
+| [!UICONTROL Floor Price Source] | 价格 |
+| [!UICONTROL Floor Price Action] | 匹配 |
 
-| 價格 | 條件 |
+| 价格 | 条件 |
 |----------|----|
-| $17 | 新增 |
-| $15 | 新增 |
+| $17 | 新 |
+| $15 | 新 |
 | $14 | 已使用；非常好 |
 | $13 | 已使用；良好 |
 
-#### 產品1
+#### 产品1
 
-價格：$10
+价格：10美元
 
-條件：新增
+条件：新建
 
-因為新條件的最低競爭者價格是$15，所以產品價格為$15。
+由于新条件的最低竞争对手价格是15美元，因此产品上市时为15美元。
 
-套用規則後的最終價格： $15
+应用规则后的最终价格：15美元
 
-#### 產品2
+#### 产品2
 
-價格：$10
+价格：10美元
 
-條件：已使用；可接受
+条件：已使用；可接受
 
-因為 [最低競爭者價格](./lowest-competitor-pricing.md) 若已使用條件為$13，則產品價格為$13。
+因为 [最低竞争对手价格](./lowest-competitor-pricing.md) 对于“已使用”条件为$13，则产品列为$13。
 
-套用規則後的最終價格： $13
+应用规则后的最终价格：13美元
 
-### 結合最高價格、幣別兌換及VAT的智慧型重新訂價規則
+### 结合了最高价格、货币兑换和VAT的智能重新定价规则
 
-| 欄位 | 設定 |
+| 字段 | 设置 |
 |----------|-----|
 | [!UICONTROL VAT] | 10% |
 | [!UICONTROL Ceiling price source] | $10 |
-| [!UICONTROL Currency conversion] | 1.25歐元：1美元 |
+| [!UICONTROL Currency conversion] | 1.25欧元：1美元 |
 
-[最高價格](./optional-ceiling-price.md) 歐洲(VAT)市場：$10 x 1.25 = $12.50
+[最高价格](./optional-ceiling-price.md) 欧洲(VAT)市场：$10 x 1.25 = $12.50
 
-當 [最高價格](./optional-ceiling-price.md) 在歐洲(VAT)市場中，會計算並新增VAT。
+当 [最高价格](./optional-ceiling-price.md) 在欧洲的(VAT)市场受到冲击，增值税被计算并增加。
 
-加值後最終價格：$12.50 x (1.1) = $13.75
+增值税后最终价格：$12.50 x (1.1) = $13.75
 
-### 結合多重訂價規則、最高價格、幣別換算及VAT
+### 组合多个定价规则、最高价格、货币折换和增值税
 
-#### 智慧型定價規則（來自上一個範例）
+#### 智能定价规则（来自上一个示例）
 
-| 欄位 | 設定 |
+| 字段 | 设置 |
 |----------|----|
-| 優先順序 | 1 |
-| VAT | 10% |
-| 最高價格來源 | $10 |
-| 貨幣轉換 | 1.25歐元：1美元 |
+| 优先级 | 1 |
+| 增值税 | 10% |
+| 最高价来源 | $10 |
+| 货币换算 | 1.25欧元：1美元 |
 
-[最高價格](./optional-ceiling-price.md) 歐洲(VAT)市場：$10 x 1.25 = $12.50
+[最高价格](./optional-ceiling-price.md) 欧洲(VAT)市场：$10 x 1.25 = $12.50
 
-加值後最終價格：$12.50 x (1.1) = $13.75
+增值税后最终价格：$12.50 x (1.1) = $13.75
 
-#### 標準訂價規則
+#### 标准定价规则
 
-| 欄位 | 設定 |
+| 字段 | 设置 |
 |----------|-----|
 | [!UICONTROL Priority] | 2 |
 | [!UICONTROL Price Action] | 增加方式 |
-| [!UICONTROL Apply] | 套用為固定金額 |
+| [!UICONTROL Apply] | 应用为固定金额 |
 | [!UICONTROL Adjustment Amount] | $5.00 |
 
-當 [最高價格](./optional-ceiling-price.md) 點選，標準訂價規則會套用至智慧型訂價規則之上。
+当 [最高价格](./optional-ceiling-price.md) 之后，在智能定价规则之上应用标准定价规则。
 
-套用標準訂價規則後的最終價格：$13.75 + $5.00 = $18.75
+应用标准定价规则后的最终价格：$13.75 + $5.00 = $18.75
 
-### 價格調整
+### 价格调整
 
-在此範例中，最具競爭力的價格是透過檢視Amazon來定義 [競爭者的最低價格](./lowest-competitor-pricing.md) 正面意見佔95%，最低數量為1,000個商家評論。
+在本例中，最具竞争力的价格是通过查看Amazon来定义的 [竞争对手的最低价格](./lowest-competitor-pricing.md) 95%的正面反馈，最低反馈数量为1,000个商家评论。
 
-![價格調整範例](assets/amazon-price-adjustment-example.png)
+![价格调整示例](assets/amazon-price-adjustment-example.png)
 
-根據這些引數執行搜尋後，競爭性價格會回到$25。
+运行基于这些参数的搜索后，竞争性价格回升至25美元。
 
-從這裡開始，有三個不同的 [價格規則動作](./pricing-rule-actions.md) 根據此最低價格進行選擇。
+从这里，有三种不同的 [价格规则操作](./pricing-rule-actions.md) 基于此最低价格进行选择。
 
-| 欄位 | 說明 |
+| 字段 | 描述 |
 |--- |--- |
-| [!UICONTROL Price Action] | 選項：<ul><li>**[!UICONTROL Decrease By]**  — 此選項會降低您的上市價格，相對於 [最低競爭者價格](./lowest-competitor-pricing.md).</li><li>**[!UICONTROL Increase By]**  — 此選項會提高您的掛牌價格，相對於 [最低競爭者價格](./lowest-competitor-pricing.md).</li><li>**[!UICONTROL Match Competitor Price]**  — 此選項會根據引數變更您的Amazon上市價格，以符合最低價格。 在範例中，Amazon的掛牌價為$25。</li></ul> |
-| [!UICONTROL Apply] | 選項：以百分比沖銷/以固定金額沖銷 |
-| [!UICONTROL Adjustment Amount] | 用於定義要套用之折扣的百分比或固定金額的數值。 <br>這些選擇會產生最低價格，並將其設定為減少$0.01。 |
+| [!UICONTROL Price Action] | 选项：<ul><li>**[!UICONTROL Decrease By]**  — 此选项会降低您的上市价格相对于 [最低竞争对手价格](./lowest-competitor-pricing.md).</li><li>**[!UICONTROL Increase By]**  — 此选项会提高您的上市价格相对于 [最低竞争对手价格](./lowest-competitor-pricing.md).</li><li>**[!UICONTROL Match Competitor Price]**  — 此选项会根据参数更改您的Amazon上市价格以匹配最低价格。 在示例中，Amazon的挂牌价为25美元。</li></ul> |
+| [!UICONTROL Apply] | 选项：按百分比核销/按固定金额核销 |
+| [!UICONTROL Adjustment Amount] | 用于定义要应用的折扣的百分比或固定金额的数值。 <br>选择这些选项后，定价最低，且可以降低0.01 USD。 |
 
-### 底價
+### 底价
 
-| 欄位 | 設定 |
+| 字段 | 设置 |
 |----------|----|
-| [!UICONTROL Floor Price Source] | 成本= $5 |
+| [!UICONTROL Floor Price Source] | 成本= 5美元 |
 | [!UICONTROL Floor Price Action] | 增加方式 |
-| [!UICONTROL Apply] | 以百分比套用 |
+| [!UICONTROL Apply] | 以百分比应用 |
 | [!UICONTROL Floor Adjustment Amount] | 5 |
 
-[底價](./floor-price.md) 計算=底價來源 `$5` x下限調整金額 `5%` = $5.25
+[底价](./floor-price.md) 计算=最低价格来源 `$5` x下限调整金额 `5%` = 5.25美元
 
-套用智慧型定價規則時，當成本為$5美元時，可允許此特定產品的掛牌價低於$5.25。
+应用智能定价规则后，当成本为5美元时，此特定产品的挂牌价将低于5.25美元。

@@ -1,6 +1,6 @@
 ---
-title: 管理訂單
-description: 您可以在「訂單設定」中啟用訂單匯入，以便更輕鬆地透過商務管理員管理您的Amazon訂單。
+title: 管理订单
+description: 您可以在订单设置中启用订单导入，以便更轻松地从商务管理员那里管理Amazon订单。
 exl-id: 018a8936-2f03-4a2d-b9af-6b72729ca709
 source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
@@ -9,52 +9,52 @@ ht-degree: 0%
 
 ---
 
-# 管理訂單
+# 管理订单
 
-Amazon從Amazon收到的訂單資訊，您可以在 _[!UICONTROL Recent Orders]_部分 [存放區儀表板](./amazon-store-dashboard.md) 或在_[!UICONTROL Amazon orders]_ 頁面(也稱為 _[!UICONTROL All Orders]_檢視)。
+您可以查看从Amazon接收到的Amazon订单信息，这些信息位于 _[!UICONTROL Recent Orders]_部分 [存储仪表板](./amazon-store-dashboard.md) 或位于_[!UICONTROL Amazon orders]_ 页面(也称为 _[!UICONTROL All Orders]_视图)。
 
-您如何管理Amazon訂單取決於您的訂單匯入是啟用還是停用 [訂單設定](./order-settings.md#configure-order-settings).
+如何管理Amazon订单取决于您的订单导入是启用还是禁用 [订单设置](./order-settings.md#configure-order-settings).
 
-## 啟用訂單匯入時
+## 启用了订单导入
 
-晚於 [存放區整合](./store-integration.md)，則 [**[!UICONTROL Import Amazon Orders]**](./order-settings.md#configure-order-settings) 設定為 `Enabled` 依預設。 透過此設定，對應於 [!DNL Commerce] 系統會為您的Amazon訂單建立訂單，並可在以下位置管理： [[!DNL Commerce] 訂購](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"} 工作流程。
+晚于 [存储集成](./store-integration.md)，则 [**[!UICONTROL Import Amazon Orders]**](./order-settings.md#configure-order-settings) 设置是 `Enabled` 默认情况下。 对于此设置，与 [!DNL Commerce] 订单是为您的Amazon订单创建的，并且可以在以下位置进行管理： [[!DNL Commerce] 订单](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"} 工作流。
 
 >[!NOTE]
 >
->無論您的訂單匯入設定為何，您現有的Amazon訂單 [!DNL Amazon Seller Central] 之前的帳戶 [存放區整合](./store-integration.md) 不會匯入。
+>无论您的订单导入设置如何，您现有的Amazon订单 [!DNL Amazon Seller Central] 之前的帐户 [存储集成](./store-integration.md) 未导入。
 
-匯入的Amazon訂單會在以下位置管理： [[!DNL Commerce] 訂購](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"} workflow, just like your other [!DNL Commerce] stores. Click the Amazon order number in the *[!UICONTROL Order Number]* column to open the order in the [[!DNL Commerce] order process](https://docs.magento.com/user-guide/sales/order-processing.html#order-view-descriptions){target="_blank"}. 另請參閱 [檢視Amazon訂單](./amazon-orders-all.md).
+导入的Amazon订单在 [[!DNL Commerce] 订单](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"} workflow, just like your other [!DNL Commerce] stores. Click the Amazon order number in the *[!UICONTROL Order Number]* column to open the order in the [[!DNL Commerce] order process](https://docs.magento.com/user-guide/sales/order-processing.html#order-view-descriptions){target="_blank"}. 参见 [查看Amazon订单](./amazon-orders-all.md).
 
-### 訂單匯入程式
+### 订单导入流程
 
-在Amazon上下達訂單時， [訂單匯入](./order-settings.md) 已啟用，則會開始下列程式。
+在Amazon上下达订单时， [订单导入](./order-settings.md) 启用后，将开始以下进程。
 
-| 變更 | 動作 |
+| 更改 | 操作 |
 |---|---|
-| 訂單已下達Amazon。 | <ul><li>Amazon將訂單狀態設為 `Pending`.</li><li>訂單資訊已傳送至 [!DNL Commerce].</li><li>訂單已新增至 [_Amazon訂單_ 表格](./amazon-orders-all.md) 搭配 `Pending` 狀態。</li></ul> |
-| Amazon會將訂單狀態變更為 `Unshipped`. | <ul><li>狀態變更已傳送至 [!DNL Commerce].</li><li>在 [_Amazon訂單_ 表格](./amazon-orders-all.md)，訂單狀態會變更為 `Unshipped`.</li><li>在 [[!DNL Commerce] 訂單工作流程](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"}，對應 [!DNL Commerce] 訂單是使用 `Processing` 狀態。</li></ul> |
-| 在 [[!DNL Commerce] 訂單工作流程](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"}，則 [!DNL Commerce] 訂單已處理且狀態變更為 `Shipped`. | <ul><li>在 [_Amazon訂單_ 表格](./amazon-orders-all.md)，訂單狀態會變更為 `Shipped`.</li><li>在下一個cron作業中，訂單狀態會變更為 `Complete` 在 [[!DNL Commerce] 訂單工作流程](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"}.</li></ul> |
+| 在Amazon上下达了订单。 | <ul><li>Amazon将订单状态设置为 `Pending`.</li><li>订单信息发送至 [!DNL Commerce].</li><li>订单已添加至 [_Amazon订单_ 表](./amazon-orders-all.md) 带有 `Pending` 状态。</li></ul> |
+| Amazon将订单状态更改为 `Unshipped`. | <ul><li>状态更改将发送至 [!DNL Commerce].</li><li>在 [_Amazon订单_ 表](./amazon-orders-all.md)，订单状态将更改为 `Unshipped`.</li><li>在 [[!DNL Commerce] 订单工作流](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"}，相应 [!DNL Commerce] 订单是使用 `Processing` 状态。</li></ul> |
+| In [[!DNL Commerce] 订单工作流](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"}，则 [!DNL Commerce] 订单已处理，状态将更改为 `Shipped`. | <ul><li>在 [_Amazon订单_ 表](./amazon-orders-all.md)，订单状态将更改为 `Shipped`.</li><li>在下一个cron作业中，订单状态将更改为 `Complete` 在 [[!DNL Commerce] 订单工作流](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"}.</li></ul> |
 
-### 訂單建立封鎖程式
+### 订单创建阻止程序
 
-有一些案例會阻止建立對應的 [!DNL Commerce] 訂購。 [!DNL Commerce] 當發生下列任何問題時，不會為收到的訂單建立訂單。
+有一些场景会阻止创建对应的 [!DNL Commerce] 订购。 [!DNL Commerce] 当出现以下任何问题时，不会为收到的订单创建订单。
 
-| 情境 | 解決方案 |
+| 方案 | 解决方案 |
 |---|---|
-| 此專案不存在於 [!DNL Commerce] 目錄。 | [建立產品](./creating-assigning-catalog-products.md) 在您的 [!DNL Commerce] 目錄和 [手動比對](./creating-assigning-catalog-products.md) 它對應至產品。 |
-| 目錄中的專案已停用。 | 請確定 [產品狀態](https://docs.magento.com/user-guide/catalog/inventory-product-stock-options.html){target="_blank"} 已啟用。 |
-| 訂購料號無庫存。 | 更新或設定 [產品選項](https://docs.magento.com/user-guide/catalog/inventory-product-stock-options.html){target="_blank"} 數量與來源。 |
+| 此项目不存在于 [!DNL Commerce] 目录。 | [创建产品](./creating-assigning-catalog-products.md) 在您的 [!DNL Commerce] 目录和 [手动匹配](./creating-assigning-catalog-products.md) 它对应到产品。 |
+| 目录中的项目已禁用。 | 确保 [产品状态](https://docs.magento.com/user-guide/catalog/inventory-product-stock-options.html){target="_blank"} 已启用。 |
+| 订购的物料缺货。 | 更新或配置 [产品选项](https://docs.magento.com/user-guide/catalog/inventory-product-stock-options.html){target="_blank"} 用于数量和来源。 |
 
-當無法匯入訂單時，熒幕上方會顯示類似下列的系統訊息：
+当无法导入订单时，屏幕顶部会显示类似于以下内容的系统消息：
 
 `Your Amazon store(s) has orders that cannot be imported into [!DNL Commerce]. See Recent Orders in the store dashboard(s): <store name>`
 
-問題解決後， [!DNL Commerce] 訂單會在下次同步時建立。
+问题解决后， [!DNL Commerce] 在下次同步时创建订单。
 
-## 已停用訂單匯入
+## 禁用订单导入
 
-如果您不想要在中匯入及管理您的Amazon訂單 [!DNL Commerce]，您可以變更 [**[!UICONTROL Import Amazon Orders]**](./order-settings.md#configure-order-settings) 設定為 `Disabled`. 此設定表示從Amazon收到新訂單時，會 [!DNL Commerce] 未建立訂單。
+如果您不想在中导入和管理Amazon订单 [!DNL Commerce]，您可以更改 [**[!UICONTROL Import Amazon Orders]**](./order-settings.md#configure-order-settings) 将设置为 `Disabled`. 此设置表示从Amazon收到新订单时，将 [!DNL Commerce] 不创建订单。
 
-停用後，從Amazon收到的訂單資訊會出現在 _[!UICONTROL Recent Orders]_區段和_[!UICONTROL All Orders]_ 檢視。 此訂單資訊僅供檢視，您必須管理下列訂單： [!DNL Amazon Seller Central]. 若要在中開啟訂單詳細資料，請執行下列步驟： [!DNL Amazon Seller Central]，按一下中的Amazon訂單編號 _[!UICONTROL Order Number]_欄。
+禁用后，从Amazon收到的订单信息将显示在 _[!UICONTROL Recent Orders]_区段和_[!UICONTROL All Orders]_ 视图。 此订单信息仅供查看，您必须在以下位置管理这些订单 [!DNL Amazon Seller Central]. 要在中打开订单详细信息，请执行以下操作 [!DNL Amazon Seller Central]中，单击Amazon订单号 _[!UICONTROL Order Number]_列。
 
-另請參閱 [檢視Amazon訂單](./amazon-orders-all.md)， [檢視Amazon訂單詳細資料](./amazon-order-details.md)、和 [常見訂單處理作業](./common-order-processing.md).
+另请参阅 [查看Amazon订单](./amazon-orders-all.md)， [查看Amazon订单详细信息](./amazon-order-details.md)、和 [常见订单处理任务](./common-order-processing.md).

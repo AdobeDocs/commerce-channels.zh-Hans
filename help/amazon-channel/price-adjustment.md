@@ -1,6 +1,6 @@
 ---
-title: 價格調整
-description: 設定價格調整，以便在您識別Amazon競爭者價格來源時定義價格計算。
+title: 价格调整
+description: 配置价格调整，以便在您确定Amazon竞争对手的价格来源时定义价格计算。
 exl-id: 60569b37-2a6d-40ef-bcec-2c3a132a07e0
 source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
@@ -9,50 +9,50 @@ ht-degree: 0%
 
 ---
 
-# 價格調整
+# 价格调整
 
 >[!NOTE]
 >
->「價格調整」區段在「標準」與「智慧」重新訂價規則上稍有不同。 **[!UICONTROL Match Competitor Price]** 僅適用於 _[!UICONTROL Price Action]_時間&#x200B;**[!UICONTROL Rule Type]**設為 `Intelligent repricing rule`.
+>对于“标准”和“智能”重新定价规则，“价格调整”部分略有不同。 **[!UICONTROL Match Competitor Price]** 仅在以下位置提供 _[!UICONTROL Price Action]_时间&#x200B;**[!UICONTROL Rule Type]**设置为 `Intelligent repricing rule`.
 
-智慧型重新訂價規則的區段包括：
+智能重新定价规则的部分包括：
 
-- [選取規則型別](./intelligent-repricing-rules.md)
-- [競爭者條件差異](./competitor-conditional-variances.md)
-- 價格調整
-- [底價](./floor-price.md)
-- [選擇性最高價格](./optional-ceiling-price.md)
+- [选择规则类型](./intelligent-repricing-rules.md)
+- [竞争对手条件差异](./competitor-conditional-variances.md)
+- 价格调整
+- [底价](./floor-price.md)
+- [可选最高价](./optional-ceiling-price.md)
 
-當您識別競爭者的價格來源時，價格調整會定義價格計算。
+当您确定竞争对手的价格来源时，价格调整将定义价格计算。
 
-## 設定價格調整
+## 配置价格调整
 
-在「 」中定義您的訂價調整 _[!UICONTROL Price Adjustment]_區段。
+在中定义定价调整 _[!UICONTROL Price Adjustment]_部分。
 
-1. 對象 **[!UICONTROL Price Action]**，選擇一個選項：
+1. 对象 **[!UICONTROL Price Action]**，选择一个选项：
 
-   - `Decrease By`  — 選擇您要在將定義的價格來源值向下調整的時間，為規則建立較低的價格，然後再列示至Amazon。
+   - `Decrease By`  — 选择何时希望向下调整定义的价格来源值，以便在Amazon中列出之前降低规则的价格。
 
-   - `Increase By`  — 選擇您要在何時調整已定義的價格來源值，以便為規則建立較高的價格，然後再列示至Amazon。
+   - `Increase By`  — 选择何时希望向上调整定义的价格来源值，以便为规则创建更高的价格，然后再将价格发布到Amazon。
 
-   - `Match Competitor Price` - （僅限智慧型重新訂價規則）選擇何時要變更Amazon清單價格以符合 [最低競爭者](./lowest-competitor-pricing.md) 價格，根據競爭者的意見反應和差異引數而定。 當設定為 `Match Competitor Price`，則 _[!UICONTROL Apply]_和_[!UICONTROL Adjustment Amount]_ 欄位會被移除。
+   - `Match Competitor Price`  — （仅限智能重新定价规则）选择何时更改Amazon上市价格以匹配 [最低竞争对手](./lowest-competitor-pricing.md) 价格，基于竞争对手的反馈和差异参数。 当设置为 `Match Competitor Price`，则 _[!UICONTROL Apply]_和_[!UICONTROL Adjustment Amount]_ 字段将被删除。
 
-1. 對象 **[!UICONTROL Apply]**，選擇一個選項：
+1. 对象 **[!UICONTROL Apply]**，选择一个选项：
 
-   - `Apply as percentage`  — 選擇您想要定義何時 **[!UICONTROL Magento Price Source]** 在中定義 [清單價格](./listing-price.md) 以百分比調整。
+   - `Apply as percentage`  — 选择何时需要定义的 **[!UICONTROL Magento Price Source]** 在中定义 [挂牌价](./listing-price.md) 按百分比调整。
 
-   - `Apply as fixed amount`  — 選擇您想要定義何時 **[!UICONTROL Magento Price Source]** 在中定義 [清單價格](./listing-price.md) 依固定金額調整。
+   - `Apply as fixed amount`  — 选择何时需要定义的 **[!UICONTROL Magento Price Source]** 在中定义 [挂牌价](./listing-price.md) 按固定金额调整。
 
-1. 對象 **[!UICONTROL Adjustment Amount]** （必要），輸入價格調整的數值。
+1. 对象 **[!UICONTROL Adjustment Amount]** （必需），输入价格调整的数值。
 
-   - 時間 **[!UICONTROL Apply]** 設為 `Apply as percentage`，輸入百分比值(範例：輸入 `25` 25%的調整)。
+   - 时间 **[!UICONTROL Apply]** 设置为 `Apply as percentage`，输入百分比值(例如：输入 `25` （例如，25%的调整）。
 
-   - 時間 **[!UICONTROL Apply]** 設為 `Apply as fixed amount`，輸入固定金額的數值(範例： enter `25` 25美元的固定調整)。
+   - 时间 **[!UICONTROL Apply]** 设置为 `Apply as fixed amount`，输入固定金额的数值(例如：输入 `25` 25美元的固定调整)。
 
-![智慧型重新訂價規則 — 價格調整](assets/amazon-price-adjustment.png)
+![智能重新定价规则 — 价格调整](assets/amazon-price-adjustment.png)
 
-| 欄位 | 說明 |
+| 字段 | 描述 |
 |---|---|
-| [!UICONTROL Price Action] | 選擇訂價調整作業。 選項：<br>**[!UICONTROL Decrease By]**— 選擇您想要定義何時 _[!UICONTROL Magento Price Source]_在中定義 [清單價格](./listing-price.md) 向下調整，在列為Amazon之前，降低規則的價格。<br>**[!UICONTROL Increase By]**— 選擇您想要定義何時_[!UICONTROL Magento Price Source]_ 在中定義 [清單價格](./listing-price.md) 即將調整，在列為Amazon之前，為規則建立較高的價格。<br>**[!UICONTROL Match Competitor Price]**- （僅限智慧型重新訂價規則）選擇何時要變更Amazon清單價格以符合 [最低競爭者](./lowest-competitor-pricing.md) 價格，根據競爭者的意見反應和差異引數而定。 選擇後， _套用_ 和 _調整金額_ 欄位會被移除。 |
-| [!UICONTROL Apply] | 選項：<br>**[!UICONTROL Apply as percentage]**— 選擇您想要定義何時 _[!UICONTROL Magento Price Source]_在中定義 [清單價格](./listing-price.md) 以百分比調整。<br>**[!UICONTROL Apply as fixed amount]**— 選擇您想要定義何時_[!UICONTROL Magento Price Source]_ 在中定義 [清單價格](./listing-price.md) 依固定金額調整。 |
-| [!UICONTROL Adjustment Amount] | 必填。<br>如果您選擇 `Apply as percentage` 的 **[!UICONTROL Apply]**，輸入百分比值(範例：輸入 `25` 25%的調整)。<br>如果您選擇 `Apply as fixed amount` 的 **[!UICONTROL Apply]**，輸入固定金額的數值(範例： enter `25` 25美元的固定調整)。 |
+| [!UICONTROL Price Action] | 选择定价调整活动。 选项：<br>**[!UICONTROL Decrease By]**— 选择何时需要定义的 _[!UICONTROL Magento Price Source]_在中定义 [挂牌价](./listing-price.md) 上市至Amazon之前，降低规则的价格。<br>**[!UICONTROL Increase By]**— 选择何时需要定义的_[!UICONTROL Magento Price Source]_ 在中定义 [挂牌价](./listing-price.md) 上市至Amazon之前，为规则制定更高的价格。<br>**[!UICONTROL Match Competitor Price]**— （仅限智能重新定价规则）选择何时更改Amazon上市价格以匹配 [最低竞争对手](./lowest-competitor-pricing.md) 价格，基于竞争对手的反馈和差异参数。 选择后， _应用_ 和 _调整金额_ 字段将被删除。 |
+| [!UICONTROL Apply] | 选项：<br>**[!UICONTROL Apply as percentage]**— 选择何时需要定义的 _[!UICONTROL Magento Price Source]_在中定义 [挂牌价](./listing-price.md) 按百分比调整。<br>**[!UICONTROL Apply as fixed amount]**— 选择何时需要定义的_[!UICONTROL Magento Price Source]_ 在中定义 [挂牌价](./listing-price.md) 按固定金额调整。 |
+| [!UICONTROL Adjustment Amount] | 必需。<br>如果您选择 `Apply as percentage` 对象 **[!UICONTROL Apply]**，输入百分比值(例如：输入 `25` （例如，25%的调整）。<br>如果您选择 `Apply as fixed amount` 对象 **[!UICONTROL Apply]**，输入固定金额的数值(例如：输入 `25` 25美元的固定调整)。 |

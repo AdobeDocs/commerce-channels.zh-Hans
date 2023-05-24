@@ -1,6 +1,6 @@
 ---
-title: 通訊錯誤記錄
-description: 通訊錯誤記錄會顯示Amazon與之間的任何通訊錯誤 [!DNL Commerce].
+title: 通信错误日志
+description: 通信错误日志显示Amazon与之间的任何通信错误 [!DNL Commerce].
 exl-id: 0d9f54ba-0fb7-4cd8-a18e-3335f37097a4
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -9,21 +9,21 @@ ht-degree: 0%
 
 ---
 
-# 通訊錯誤記錄
+# 通信错误日志
 
-通訊錯誤記錄會顯示任何回報的與Amazon的通訊錯誤。 資訊包括受影響的Amazon銷售管道商店、錯誤代碼和簡短說明，以及錯誤的日期和時間。
+通信错误日志显示报告的任何与Amazon的通信错误。 此信息包括受影响的Amazon销售渠道商店、错误代码和简要说明，以及错误的日期和时间。
 
-記錄檔沒有可用的動作。 這是僅限稽核的功能。
+日志没有可用的操作。 它是仅用于审阅的功能。
 
-Amazon銷售管道首頁有一些共同之處 [工作區控制項](./workspace-controls.md) 可讓您自訂顯示的資料。
+Amazon sales channel home pages有一些共同之处 [工作区控件](./workspace-controls.md) 允许您自定义显示的数据。
 
-![通訊錯誤記錄](assets/amazon-comm-errors-log.png)
+![通信错误日志](assets/amazon-comm-errors-log.png)
 
-## 預設欄
+## 默认列
 
-| 欄 | 說明 |
+| 列 | 描述 |
 |--- |--- |
-| [!UICONTROL Amazon Store Name] | 設定Amazon存放區時定義的存放區名稱。 請參閱 [存放區整合](./store-integration.md). |
-| [!UICONTROL Error Code] | 從Amazon收到的用於識別錯誤型別的代碼。 |
-| [!UICONTROL Message] | 說明與錯誤碼相關之錯誤的訊息。 |
-| [!UICONTROL Created On] | 發生錯誤的日期和時間。 |
+| [!UICONTROL Amazon Store Name] | 设置Amazon存储区时定义的存储区名称。 请参阅 [存储集成](./store-integration.md). |
+| [!UICONTROL Error Code] | 从Amazon收到的用于标识错误类型的代码。 |
+| [!UICONTROL Message] | 描述与错误代码关联的错误的消息。 |
+| [!UICONTROL Created On] | 发生错误的日期和时间。 |

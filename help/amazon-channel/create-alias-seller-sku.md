@@ -1,6 +1,6 @@
 ---
-title: 建立別名Amazon賣家SKU
-description: 您可以使用別名Amazon賣家SKU，從Commerce目錄產品建立多區域Amazon清單。
+title: 创建别名Amazon销售商SKU
+description: 您可以使用Alias Amazon销售方SKU从Commerce目录产品创建多区域Amazon列表。
 exl-id: df3cafbf-58df-4c93-9e63-20feb6f4e7ed
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -9,74 +9,74 @@ ht-degree: 0%
 
 ---
 
-# 建立別名Amazon賣家SKU
+# 创建别名Amazon销售商SKU
 
-一個 [!DNL Alias Amazon Seller SKU] 會使用從您環境中的相同產品建立Amazon清單 [!DNL Commerce] 目錄。 如果您是有經驗的Amazon銷售商，您可能熟悉 [Amazon全球SKU](https://sellercentral.amazon.com/gp/help/external/help.html?itemID=201394090){target="_blank"} 以及特定於Marketplace的SKU，用於庫存和運送。 依照Amazon銷售管道的類似原則，Amazon賣家SKU可控制多區域層級的產品清單資訊，以及 [!DNL Alias Amazon Seller SKU] 可用於控制區域特定層次的產品清單資訊。
+An [!DNL Alias Amazon Seller SKU] 用于通过中的相同产品创建Amazon列表 [!DNL Commerce] 目录。 如果您是有经验的Amazon销售人员，则可能熟悉 [Amazon全球SKU](https://sellercentral.amazon.com/gp/help/external/help.html?itemID=201394090){target="_blank"} 以及特定于市场的SKU，用于库存和配送。 遵循Amazon销售渠道的类似原则，Amazon销售方SKU控制多区域级别的产品列表信息，并且 [!DNL Alias Amazon Seller SKU] 可用于控制区域特定级别的产品列表信息。
 
-此函式可用於執行兩個函式：
+此函数可用于执行两个函数：
 
-- 建立 [!DNL Alias Amazon Seller SKU] 針對您的其中一個 [!DNL Commerce] 目錄產品，以控制區域特定的清單資訊。
+- 创建 [!DNL Alias Amazon Seller SKU] 对于您的其中一个 [!DNL Commerce] 目录产品，以控制特定于区域的列表信息。
 
-   **範例**：您同時在美國和加拿大地區為賣家。 請記住，在設定期間，您的每個Amazon銷售管道商店只能指派一個Amazon區域。 因此，您有一個已定義美國地區的Amazon銷售管道商店，以及另一個已定義加拿大地區的商店。 兩個商店共用您的 [!DNL Commerce] 用於跨區域列出資訊的目錄，包括Amazon賣家SKU和ASIN產品屬性。 因此，在兩個商店中，目錄產品的清單會相同，共用定價、庫存/數量和其他產品屬性。 但您的加拿大商店存貨來自加拿大地點，而您的美國商店存貨來自美國地點。 因此，您應該分別控制每個商店的清單數量。 若要完成這類地區特定控制，您可以建立Amazon賣家SKU別名。
+   **示例**：您在美国和加拿大都是卖家。 请记住，在设置期间，只能为每个Amazon销售渠道商店分配一个Amazon区域。 因此，您有一家Amazon销售渠道商店，它有一个定义的美国地区，还有一家定义加拿大地区的商店。 两个商店共享您的 [!DNL Commerce] 用于跨区域列出信息(包括Amazon销售方SKU和ASIN产品属性)的目录。 因此，目录产品的清单在两个商店中是相同的，可共享定价、库存/数量和其他产品属性。 但是，您的加拿大商店库存来自加拿大位置，而您的美国商店库存来自美国位置。 因此，您应该单独控制每个商店的清单数量。 要完成此类特定于区域的控制，您可以创建Alias Amazon销售方SKU。
 
-   基本上，您可以建立連結至相同目錄產品的別名Amazon賣家SKU，並可用於在該區域重新發佈相同清單。
+   基本上，您可以创建一个Amazon销售者SKU，该SKU链接到相同的目录产品，并可用于在该区域重新发布相同的列表。
 
-- 建立 [!DNL Alias Amazon Seller SKU] 並比對您的其中一個 [!DNL Commerce] 將產品目錄至兩個Amazon清單。
+- 创建 [!DNL Alias Amazon Seller SKU] 并匹配您的其中一个 [!DNL Commerce] 将产品编录到两个Amazon列表。
 
-   **範例**：您有符合Amazon清單的目錄產品。 由於Amazon經常有多個代表相同產品的清單，因此您會發現相同產品的另一個Amazon清單，但Amazon已指派不同的ASIN給該清單。 若要增加產品的可見度，您要將目錄產品與不同的ASIN進行比對，並為兩個ASIN值建立清單。 若要完成此操作，您可以建立Amazon賣家SKU別名。
+   **示例**：您有一个与Amazon列表匹配的目录产品。 由于Amazon通常有多个代表同一产品的列表，因此您会发现同一产品的另一个Amazon列表，但Amazon已为该列表分配了另一个ASIN。 要增加要包括的产品可见性，您需要将目录产品与不同的ASIN匹配，并为两个ASIN值创建列表。 要完成此操作，您可以创建Amazon销售人员SKU别名。
 
-   基本上，您可以建立 [!DNL Alias Amazon Seller SKU] 可將單一目錄產品與第二個Amazon清單比對，並為新比對的ASIN建立清單。 在此案例中，您會有相同目錄產品的兩個Amazon清單。
+   基本上，您可以创建 [!DNL Alias Amazon Seller SKU] 可将单个目录产品与第二个Amazon列表进行匹配，并为新匹配的ASIN创建列表。 在此方案中，您将拥有同一目录产品的两个Amazon列表。
 
-   建立Amazon賣家SKU別名後，您可以使用清單設定、規則和覆寫來控制該地區的清單資訊。 可依區域為清單定義的產品屬性包括數量/存貨、履行方式、條件、產品資格及處理時間。
+   创建别名Amazon销售商SKU后，您可以使用列表设置、规则和覆盖来控制该区域的列表信息。 可以为列表按区域定义的产品属性包括数量/库存、履行方法、条件、产品资格和处理时间。
 
-## 用於特定區域的用途 {#region-specific}
+## 用于特定于区域的目的 {#region-specific}
 
-檢視以下專案的清單： _[!UICONTROL Product Listings]_頁面(_[!UICONTROL Inactive]_， _作用中_， _不合格_，或 _已結束_ 標籤)。
+查看 _[!UICONTROL Product Listings]_页面(_[!UICONTROL Inactive]_， _活动_， _不合格_，或 _已结束_ 选项卡)。
 
-1. 下 _[!UICONTROL Actions]_，按一下&#x200B;**[!UICONTROL Create Alias Seller SKU]**.
+1. 下 _[!UICONTROL Actions]_，单击&#x200B;**[!UICONTROL Create Alias Seller SKU]**.
 
-1. 對象 **[!UICONTROL Assign New Seller SKU]**，請輸入唯一的英數字元值。
+1. 对象 **[!UICONTROL Assign New Seller SKU]**，请输入一个唯一的字母数字值。
 
-   此值必須是唯一的（不適用於目錄中的任何其他產品或別名）。
+   此值必须是唯一的（不适用于目录中的任何其他产品或别名）。
 
-1. 對象 **[!UICONTROL Assign New ASIN]**，不做變更。
+1. 对象 **[!UICONTROL Assign New ASIN]**，不做更改。
 
-   此值會自動填入與目錄產品相符的產品ASIN。 變更此值會根據ASIN將您的目錄產品與兩個Amazon清單比對。
+   此值将自动填充与您的目录产品匹配的产品ASIN。 更改此值会根据ASIN将您的目录产品与两个Amazon列表相匹配。
 
-1. 切換 **[!UICONTROL Remove Existing Seller SKU]** 選項。
+1. 切换 **[!UICONTROL Remove Existing Seller SKU]** 选项。
 
-   - `Yes`  — 選擇刪除清單，並使用提供的新資訊建立清單。
+   - `Yes`  — 选择删除列表并使用提供的新信息创建列表。
 
-   - `No`  — 選擇建立清單，並保持舊清單不變。
+   - `No`  — 选择创建列表并保持旧列表不变。
 
-1. 按一下 **[!UICONTROL Save Listing Update]**.
+1. 单击 **[!UICONTROL Save Listing Update]**.
 
-## 用於將單一目錄產品與兩個Amazon清單進行比對
+## 用于将一个目录产品与两个Amazon列表进行匹配
 
-1. 檢視以下專案的清單： _[!UICONTROL Product Listings]_頁面(_[!UICONTROL Inactive]_， _[!UICONTROL Active]_，_[!UICONTROL Ineligible]_，或 _[!UICONTROL Ended]_標籤)。
+1. 查看 _[!UICONTROL Product Listings]_页面(_[!UICONTROL Inactive]_， _[!UICONTROL Active]_，_[!UICONTROL Ineligible]_，或 _[!UICONTROL Ended]_选项卡)。
 
-1. 下 _[!UICONTROL Actions]_，按一下&#x200B;**[!UICONTROL Create Alias Seller SKU]**.
+1. 下 _[!UICONTROL Actions]_，单击&#x200B;**[!UICONTROL Create Alias Seller SKU]**.
 
-1. 對象 **[!UICONTROL Assign New Seller SKU]**，請輸入唯一的英數字元值。
+1. 对象 **[!UICONTROL Assign New Seller SKU]**，请输入一个唯一的字母数字值。
 
-   此值必須是唯一的（不適用於目錄中的任何其他產品或別名）。
+   此值必须是唯一的（不适用于目录中的任何其他产品或别名）。
 
-1. 對象 **[!UICONTROL Assign New ASIN]**，請輸入唯一的英數字元值。
+1. 对象 **[!UICONTROL Assign New ASIN]**，请输入一个唯一的字母数字值。
 
-   此值會自動填入與目錄產品相符的產品ASIN。 變更此值會根據ASIN將您的目錄產品與兩個Amazon清單比對。
+   此值将自动填充与您的目录产品匹配的产品ASIN。 更改此值会根据ASIN将您的目录产品与两个Amazon列表相匹配。
 
-1. 切換 **[!UICONTROL Remove Existing Seller SKU]** 選項。
+1. 切换 **[!UICONTROL Remove Existing Seller SKU]** 选项。
 
-   - `Yes`  — 選擇刪除清單，並使用提供的新資訊建立清單。
+   - `Yes`  — 选择删除列表并使用提供的新信息创建列表。
 
-   - `No`  — 選擇建立其他清單，並保持舊清單不變。
+   - `No`  — 选择创建其他列表并保持旧列表不变。
 
-1. 按一下 **[!UICONTROL Save Listing Update]**.
+1. 单击 **[!UICONTROL Save Listing Update]**.
 
-![建立別名Amazon賣家SKU](assets/amazon-alias-sku-create.png)
+![创建别名Amazon销售商SKU](assets/amazon-alias-sku-create.png)
 
-| 欄位 | 說明 |
+| 字段 | 描述 |
 |--- |--- |
-| [!UICONTROL Assign New Seller SKU] | 輸入要連結至原始Amazon賣家SKU的新不重複英數字元值。 此數字僅供Amazon銷售管道用於比對您的目錄產品。 您可以使用任何SKU值，但值在目錄中只能使用一次。 |
-| [!UICONTROL Assign New ASIN] | 輸入清單的ASIN值，您要與目錄產品相符。 只有在將單一目錄產品與ASIN比對時，才能修改此欄位，以取得相同產品的其他清單。 此值必須與Amazon指派的ASIN相符，否則Amazon不會拒絕此清單。 |
-| [!UICONTROL Remove Existing Seller SKU] | 選項：<ul><li>**[!UICONTROL Yes]**  — 選擇刪除清單，並使用提供的新資訊建立清單。 新清單會出現在 _[!UICONTROL Active]_標籤，而舊清單會移至_&#x200B;已結束&#x200B;_標籤。</li><li>**[!UICONTROL No]**  — 選擇建立其他清單，並保持舊清單不變。 建立新清單後，兩個清單都會顯示在「作用中」標籤中。</li></ul> |
+| [!UICONTROL Assign New Seller SKU] | 输入要链接到原始Amazon卖方SKU的新的唯一字母数字值。 此数字仅供Amazon销售渠道用于匹配您的目录产品。 您可以使用任何SKU值，但此值只能在目录中使用一次。 |
+| [!UICONTROL Assign New ASIN] | 为要与目录产品匹配的列表输入ASIN值。 仅当将单个目录产品与ASIN匹配以便同一产品的另一个列表时，才修改此字段。 此值必须与Amazon分配的ASIN匹配，否则Amazon不会拒绝此列表。 |
+| [!UICONTROL Remove Existing Seller SKU] | 选项：<ul><li>**[!UICONTROL Yes]**  — 选择删除列表并使用提供的新信息创建列表。 新列表将显示在 _[!UICONTROL Active]_选项卡，旧列表移至_&#x200B;已结束&#x200B;_选项卡。</li><li>**[!UICONTROL No]**  — 选择创建其他列表并保持旧列表不变。 创建新列表后，两个列表都会显示在“活动”选项卡中。</li></ul> |

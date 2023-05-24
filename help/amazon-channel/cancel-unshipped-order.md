@@ -1,6 +1,6 @@
 ---
-title: 取消未出貨的訂單
-description: 透過您的Amazon取消擱置或部份出貨（未出貨）的訂單 [!DNL Seller Central] 帳戶。
+title: 取消未发运的订单
+description: 通过您的Amazon取消待定或部分发运（未发运）的订单 [!DNL Seller Central] 帐户。
 exl-id: a6df09b7-7f62-47e5-a2d3-1761802255d0
 source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
@@ -9,34 +9,34 @@ ht-degree: 0%
 
 ---
 
-# 取消未出貨的訂單
+# 取消未发运的订单
 
-Amazon訂單位於以下位置時，才能取消： `Unshipped` 狀態。 如果訂單為暫緩或部份出貨（未出貨），則訂單只能透過您的 [!DNL Amazon Seller Central] 帳戶。 若此料號已出貨，您也必須使用下列方式處理退貨與交換： [!DNL Amazon Seller Central] 帳戶。
+Amazon订单处于以下状态时才能取消 `Unshipped` 状态。 如果订单处于待定状态或部分发运（未发运），则只能通过 [!DNL Amazon Seller Central] 帐户。 如果项目已发运，您还必须在 [!DNL Amazon Seller Central] 帐户。
 
 >[!NOTE]
 >
->對於取消訂單以外的工作：
+>对于取消订单以外的任务：
 >
->- 如果您有 [訂單匯入](./order-settings.md) 已啟用，訂單管理於 [[!DNL Commerce] 訂單工作流程](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"}.
->- 若 [訂單匯入](./order-settings.md) 已停用，您必須在以下位置管理訂單： [!DNL Amazon Seller Central].
+>- 如果您拥有 [订单导入](./order-settings.md) 启用，订单管理位于 [[!DNL Commerce] 订单工作流](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"}.
+>- 如果 [订单导入](./order-settings.md) 已禁用，您必须在 [!DNL Amazon Seller Central].
 
 
-## 取消中的訂單 `Unshipped` 狀態
+## 取消中的订单 `Unshipped` 状态
 
-1. 按一下 **[!UICONTROL View Store]** 在商店資訊卡上。
+1. 单击 **[!UICONTROL View Store]** 在商店卡上。
 
-1. 在 _[!UICONTROL Recent Orders]_區段內，按一下訂單編號。
+1. 在 _[!UICONTROL Recent Orders]_区中，单击订单编号。
 
-   此 _[!UICONTROL Amazon Order Details]_頁面便會顯示。
+   此 _[!UICONTROL Amazon Order Details]_页面。
 
-1. 按一下 **[!UICONTROL Cancel Order]** 標題列中的。
+1. 单击 **[!UICONTROL Cancel Order]** 标题栏中。
 
-   此選項僅對中的訂單顯示 `Unshipped` 狀態。
+   此选项仅对中的订单显示 `Unshipped` 状态。
 
-1. 對象 **[!UICONTROL Reason for cancellation]**，選擇一個選項。
+1. 对象 **[!UICONTROL Reason for cancellation]**，选择一个选项。
 
-1. 按一下 **[!UICONTROL Confirm]**.
+1. 单击 **[!UICONTROL Confirm]**.
 
-   訂單已取消，且狀態已更新為 `Canceled` 訂單詳細資料。
+   订单已取消，且状态已更新为 `Canceled` 订单详细信息。
 
-取消通知已傳送至您的 [!DNL Amazon Seller Central] 帳戶以及與訂單相關聯的客戶也會收到通知。 對應專案的狀態 [!DNL Commerce] 訂單（若有）變更至 `Complete`.
+取消通知将发送给您的 [!DNL Amazon Seller Central] 此外，也会通知与订单关联的客户。 对应的状态 [!DNL Commerce] 订单（如果有）更改 `Complete`.

@@ -1,6 +1,6 @@
 ---
-title: 常見訂單處理作業
-description: 使用對應的 [!DNL Commerce] 已為Amazon訂單建立訂單，以管理訂單活動與處理 [!UICONTROL Commerce] 管理員。
+title: 常见订单处理任务
+description: 使用相应的 [!DNL Commerce] 为Amazon订单创建的订单，用于管理订单活动和处理 [!UICONTROL Commerce] 管理员。
 exl-id: a44f36f0-db18-4de5-9c5b-cc68f4793008
 source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
@@ -9,38 +9,38 @@ ht-degree: 0%
 
 ---
 
-# 常見訂單處理作業
+# 常见订单处理任务
 
-[[!DNL Commerce] 訂單處理](https://docs.magento.com/user-guide/sales/order-processing.html){target="_blank"} 可以管理您的Amazon訂單，包括傳送電子郵件給採購員、履行訂單（出貨）、簽發銷退折讓/退款、新增註解等。 若要管理您的Amazon訂單，請 [**匯入Amazon訂單**](./order-settings.md) 設定必須設定為 `Enabled` 因此，相應 [!DNL Commerce] 訂單會在收到Amazon訂單時建立。 Amazon訂單資訊顯示在 *[!UICONTROL Recent Orders]* 區段。
+[[!DNL Commerce] 订单处理](https://docs.magento.com/user-guide/sales/order-processing.html){target="_blank"} 可以管理您的Amazon订单，包括向买方发送电子邮件、履行订单（发运）、发放贷项/退款、添加注释等。 要管理Amazon订单，请 [**导入Amazon订单**](./order-settings.md) 设置必须设置为 `Enabled` 因此相应 [!DNL Commerce] 在收到Amazon订单时创建订单。 Amazon订单信息显示在 *[!UICONTROL Recent Orders]* 区段。
 
-啟用時，對應於 [!DNL Commerce] 系統會為Amazon訂單建立訂單，而Amazon訂單編號會顯示在 _[!UICONTROL Order Number]_欄。 若相應 [!DNL Commerce] 建立訂單後，按一下訂單編號以開啟 [!DNL Commerce] [訂單處理](https://docs.magento.com/user-guide/sales/order-processing.html){target="_blank"} page. You can manage the order as you do your other [[!DNL Commerce] order processing](https://docs.magento.com/user-guide/sales/order-processing.html){target="_blank"}.
+启用时，相应 [!DNL Commerce] 系统会为Amazon订单创建订单，Amazon订单编号将显示在 _[!UICONTROL Order Number]_列。 如果 [!DNL Commerce] 创建订单后，单击订单编号以打开 [!DNL Commerce] [订单处理](https://docs.magento.com/user-guide/sales/order-processing.html){target="_blank"} page. You can manage the order as you do your other [[!DNL Commerce] order processing](https://docs.magento.com/user-guide/sales/order-processing.html){target="_blank"}.
 
-此 [!DNL Commerce] 訂單編號不會與一起顯示 _[!UICONTROL Recent Orders]_資訊。 此 [!DNL Commerce] 只有當您按一下商店控制面板上的訂單編號，並在以下位置開啟訂單時，才會顯示訂單編號： [[!DNL Commerce] 訂單處理](https://docs.magento.com/user-guide/sales/order-processing.html){target="_blank"}. 檢視 [!DNL Commerce] 訂購，Amazon訂購編號會出現在&#x200B;*[!UICONTROL Payment & Shipping Method]*區段。 其中也包含&#x200B;*[!UICONTROL View or Cancel Amazon Order]*和&#x200B;*[!UICONTROL View all Amazon Orders]*，視訂單送貨狀態而定。
+此 [!DNL Commerce] 订单编号不显示 _[!UICONTROL Recent Orders]_信息。 此 [!DNL Commerce] 订单编号仅在您单击商店仪表板上的订单编号并在以下位置打开订单时显示： [[!DNL Commerce] 订单处理](https://docs.magento.com/user-guide/sales/order-processing.html){target="_blank"}. 查看 [!DNL Commerce] 订单编号，Amazon订单编号将显示在&#x200B;*[!UICONTROL Payment & Shipping Method]*部分。 此外，还包含以下选项：*[!UICONTROL View or Cancel Amazon Order]*和&#x200B;*[!UICONTROL View all Amazon Orders]*，具体取决于订单配送状态。
 
-另請參閱 [取消未出貨的訂單](./cancel-unshipped-order.md).
+参见 [取消未发运的订单](./cancel-unshipped-order.md).
 
-![商務訂單中的Amazon訂單資訊](assets/amazon-order-number-payment-info.png)
+![商务订单中的Amazon订单信息](assets/amazon-order-number-payment-info.png)
 
-處理Amazon訂單時，Amazon銷售管道會更新訂單資訊，並將其與您的 [!DNL Amazon Seller Central] 帳戶。 您的cron設定會決定訂單資訊在Amazon和Amazon銷售管道之間同步的頻率。
+在处理Amazon订单时，Amazon销售渠道会更新订单信息，并将其与您的 [!DNL Amazon Seller Central] 帐户。 您的cron设置决定了订单信息在Amazon和Amazon Sales Channel之间同步的频率。
 
-通用 [!DNL Commerce] [訂單處理](https://docs.magento.com/user-guide/sales/order-processing.html){target="_blank"} 工作包括：
+公共 [!DNL Commerce] [订单处理](https://docs.magento.com/user-guide/sales/order-processing.html){target="_blank"} 这些任务包括：
 
-- [訂購動作](https://docs.magento.com/user-guide/sales/order-actions.html){target="_blank"}
-- [訂單搜尋](https://docs.magento.com/user-guide/sales/orders-search.html){target="_blank"}
-- [處理訂單](https://docs.magento.com/user-guide/sales/order-processing.html){target="_blank"}
-   - [檢視訂單](https://docs.magento.com/user-guide/sales/order-processing.html#view-an-order){target="_blank"}
-   - [處理訂單](https://docs.magento.com/user-guide/sales/order-processing.html#process-an-order){target="_blank"}
-   - [訂單與帳戶資訊](https://docs.magento.com/user-guide/sales/order-processing.html#order-and-account-information){target="_blank"}
-   - [地址資訊](https://docs.magento.com/user-guide/sales/order-processing.html#address-information){target="_blank"}
-   - [付款與送貨方式](https://docs.magento.com/user-guide/sales/order-processing.html#payment--shipping-method){target="_blank"}
-   - [檢閱訂購的專案](https://docs.magento.com/user-guide/sales/order-processing.html#review-items-ordered){target="_blank"}
-- [核發銷退折讓/退款](https://docs.magento.com/user-guide/sales/credit-memo-create.html){target="_blank"}
-- [履行/送貨訂單](https://docs.magento.com/user-guide/sales/shipments-create.html){target="_blank"}
-- [建立發票](https://docs.magento.com/user-guide/sales/invoice-create.html){target="_blank"}
-- [取消未出貨的訂單](./cancel-unshipped-order.md)
+- [订购操作](https://docs.magento.com/user-guide/sales/order-actions.html){target="_blank"}
+- [订单搜索](https://docs.magento.com/user-guide/sales/orders-search.html){target="_blank"}
+- [处理订单](https://docs.magento.com/user-guide/sales/order-processing.html){target="_blank"}
+   - [查看订单](https://docs.magento.com/user-guide/sales/order-processing.html#view-an-order){target="_blank"}
+   - [处理订单](https://docs.magento.com/user-guide/sales/order-processing.html#process-an-order){target="_blank"}
+   - [订单和帐户信息](https://docs.magento.com/user-guide/sales/order-processing.html#order-and-account-information){target="_blank"}
+   - [地址信息](https://docs.magento.com/user-guide/sales/order-processing.html#address-information){target="_blank"}
+   - [付款和配送方式](https://docs.magento.com/user-guide/sales/order-processing.html#payment--shipping-method){target="_blank"}
+   - [查看已订购的项目](https://docs.magento.com/user-guide/sales/order-processing.html#review-items-ordered){target="_blank"}
+- [签发贷项/退款](https://docs.magento.com/user-guide/sales/credit-memo-create.html){target="_blank"}
+- [履行/发运订单](https://docs.magento.com/user-guide/sales/shipments-create.html){target="_blank"}
+- [创建发票](https://docs.magento.com/user-guide/sales/invoice-create.html){target="_blank"}
+- [取消未发运的订单](./cancel-unshipped-order.md)
 
 >[!NOTE]
 >
->如果訂單位於 `Unshipped` 狀態，您可以 [取消Amazon訂單](./cancel-unshipped-order.md) 於 [[!UICONTROL Amazon Order Details]](./amazon-order-details.md) 頁面。 如果訂單已出貨，則無法取消。
+>如果订单位于 `Unshipped` 状态，您可以 [取消Amazon订单](./cancel-unshipped-order.md) 在 [[!UICONTROL Amazon Order Details]](./amazon-order-details.md) 页面。 如果订单已发运，则无法取消。
 
-另請參閱 [Commerce訂單管理](https://docs.magento.com/user-guide/sales/order-management.html){target="_blank"}.
+参见 [商务订单管理](https://docs.magento.com/user-guide/sales/order-management.html){target="_blank"}.

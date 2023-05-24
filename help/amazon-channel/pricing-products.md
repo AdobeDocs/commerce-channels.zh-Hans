@@ -1,6 +1,6 @@
 ---
-title: 管理Amazon定價
-description: 您可以使用定價規則，將Amazon清單的定價設定為與商務區不同。
+title: 管理Amazon定价
+description: 您可以使用定价规则将Amazon清单的定价设置为与商务区不同。
 redirect_from: /sales-channels/asc/ob-pricing-rules.html
 exl-id: 5c990206-ac72-4ef5-9ed0-ff8d816096eb
 source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
@@ -10,60 +10,60 @@ ht-degree: 0%
 
 ---
 
-# 管理Amazon定價
+# 管理Amazon定价
 
-Amazon sales channel可讓您設定定價規則，讓您設定Amazon清單價格（與定義的不同） **[!UICONTROL Magento Price Source]** 在您的 [上市價格](./listing-price.md). Amazon您也可以棧疊多個規則，甚至使用智慧型定價，根據競爭者的 [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 價格或 [最低競爭者價格](./lowest-competitor-pricing.md).
+Amazon sales channel允许您设置定价规则，这些规则允许您设置与定义的不同Amazon列表价格 **[!UICONTROL Magento Price Source]** 在您的 [挂牌价](./listing-price.md). 您还可以栈叠多个规则，甚至还可以使用智能定价，根据竞争对手的规则来调整您的Amazon上市价格 [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 价格或 [最低竞争对手价格](./lowest-competitor-pricing.md).
 
-訂價規則有兩種型別：
+有两种定价规则：
 
-- [標準訂價規則](./standard-price-rules.md)
-- [智慧型重新訂價規則](./intelligent-repricing-rules.md)
+- [标准定价规则](./standard-price-rules.md)
+- [智能重新定价规则](./intelligent-repricing-rules.md)
 
    >[!IMPORTANT]
    >
-   >如果Amazon區域設為，智慧型重新定價規則就無法正常運作 `Inactive` 狀態，就像在上線期間一樣。 您的訂價計算取決於您的運費，而且您的地區必須位於 `Active` 要從Amazon同步的運費狀態。
+   >如果Amazon区域设置为，则智能重新定价规则无法正常运行 `Inactive` 状态，就像在载入过程中一样。 您的定价计算取决于您的运费，并且您的地区必须位于 `Active` 要从Amazon同步的运费状态。
    >
-   >若要更新Amazon帳戶中的地區狀態，請前往「設定>帳戶資訊>假期設定」。 請參閱 [Amazon：休假的清單狀態](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620){target="_blank"} （需要使用Seller Central登入）。
+   >要更新Amazon帐户中的地区状态，请转到“设置”>“帐户信息”>“假期设置”。 请参阅 [Amazon：休假的列表状态](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620){target="_blank"} （需要以Seller Central登录）。
 
-Amazon此功能可讓您以類似於 [!DNL Commerce] [目錄價格規則](https://docs.magento.com/user-guide/catalog/pricing.html){target="_blank"}. 您可以建立複雜的規則，讓您變更特定產品、特定類別內的產品，甚至具有特定屬性的價格。
+Amazon此功能允许您以类似于 [!DNL Commerce] [目录价格规则](https://docs.magento.com/user-guide/catalog/pricing.html){target="_blank"}. 您可以创建复杂的规则，以便更改特定产品、特定类别内的产品甚至具有特定属性的价格。
 
-您可以為Amazon清單新增定價規則。 價格規則可用於根據一組已定義的條件自動調整您的上市價格。 價格規則會觸發，並在您的產品在Amazon上上市之前計算調整後的價格。
+您可以为Amazon列表添加定价规则。 价格规则可用于根据一组已定义的条件自动调整您的上市价格。 在产品在Amazon上上市之前，将触发价格规则并计算调整后的价格。
 
 >[!NOTE]
 >
->已針對下列專案定義Amazon清單的價格來源： **[!UICONTROL Magento Price Source]** 在您的 [上市價格](./listing-price.md) 設定。 訂價規則中定義的任何調整計算，都會使用價格來源作為起始值。
+>您为Amazon清单定义的价格来源 **[!UICONTROL Magento Price Source]** 在您的 [挂牌价](./listing-price.md) 设置。 定价规则中定义的任何调整计算都使用价格来源作为起始值。
 
-定價規則可讓您設定Amazon的清單價格，不同於您的 **[!UICONTROL Magento Price Source]** 在您的 [上市價格](./listing-price.md) 設定。 您也可以棧疊多個規則，搭配使用以調整價格。
+定价规则允许您设置与您的Amazon不同的上市价格 **[!UICONTROL Magento Price Source]** 在您的 [挂牌价](./listing-price.md) 设置。 您还可以栈叠多个规则来共同调整价格。
 
-訂價/重新訂價規則在設定期間需要三組資訊：
+定价/重新定价规则在设置过程中需要三组信息：
 
-- [一般設定](./pricing-rule-general-settings.md)：定義規則的名稱、說明、作用中日期、優先順序，並根據後續規則的優先順序設定其行為。
-- [條件](./pricing-rule-conditions.md)：決定哪些產品符合價格規則的條件。
-- [動作](./pricing-rule-actions.md)：定義套用至價格來源的調整計算，以決定掛牌價格。
+- [常规设置](./pricing-rule-general-settings.md)：定义规则的名称、描述、活动日期、优先级，并根据规则的优先级设置设置后续规则的行为。
+- [条件](./pricing-rule-conditions.md)：确定哪些产品符合价格规则的要求。
+- [操作](./pricing-rule-actions.md)：定义应用于价格来源的调整计算，以确定挂牌价格。
 
-您可以建立 [標準訂價規則](./standard-price-rules.md) 會自動調整相對於所選Amazon的上市價格 **[!UICONTROL Magento Price Source]** 在您的 [上市價格](./listing-price.md) 設定。 Amazon此功能可讓您以類似於 [!DNL Commerce] [目錄價格規則](https://docs.magento.com/user-guide/marketing/price-rules-catalog.html){target="_blank"}. 您可以建立複雜規則，自動變更特定產品、特定類別內的產品或具有特定屬性的產品的價格。 您可以完成傳統設定，並重新訂定產品價格，以根據固定金額或百分比增加或減少。
+您可以创建 [标准定价规则](./standard-price-rules.md) 会自动调整相对于选定内容的Amazon挂牌价格 **[!UICONTROL Magento Price Source]** 在您的 [挂牌价](./listing-price.md) 设置。 Amazon此功能允许您以类似于 [!DNL Commerce] [目录价格规则](https://docs.magento.com/user-guide/marketing/price-rules-catalog.html){target="_blank"}. 您可以创建复杂的规则，以自动更改特定产品、特定类别内的产品或具有特定属性的产品的价格。 您可以完成传统设置，并重新定价产品，以根据固定金额或百分比增加或减少价格。
 
-另一個強大的工具是 [智慧型重新定價](./intelligent-repricing-rules.md) 根據競爭者調整Amazon上市價格的功能 [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 價格或 [最低競爭者價格](./lowest-competitor-pricing.md). 類似於 [!DNL Commerce] [目錄價格規則](https://docs.magento.com/user-guide/marketing/price-rules-catalog.html){target="_blank"}，此進階功能可讓您建立複雜的規則，以操控您的Amazon價格。 規則可定義特定產品、特定類別內的產品，或甚至具有特定產品屬性的價格變更範圍。
+另一个强大的工具是 [智能重新定价](./intelligent-repricing-rules.md) 根据竞争对手调整Amazon挂牌价的功能 [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 价格或 [最低竞争对手价格](./lowest-competitor-pricing.md). 与 [!DNL Commerce] [目录价格规则](https://docs.magento.com/user-guide/marketing/price-rules-catalog.html){target="_blank"}，利用此高级功能，您可以通过创建复杂规则来操纵Amazon价格。 规则可以定义特定产品、特定类别中的产品，甚至具有特定产品属性的价格更改范围。
 
-使用智慧型重新定價，根據競爭者的定價調整您的Amazon上市價格。 Amazon sales channel已內建保護機制，可讓您設定來保護利潤或避免與意見反應不佳的商家價格競爭。 使用 [智慧型重新訂價規則](./intelligent-repricing-rules.md)，Amazon清單價格可以自動調整為固定或百分比金額（向上或向下），或甚至與 [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 價格或 [最低競爭者價格](./lowest-competitor-pricing.md) 以每個專案為基礎。 您甚至可以棧疊規則，提供無限制的彈性。
+使用智能重新定价，根据竞争对手的定价调整您的Amazon上市价格。 Amazon sales channel内置了保护机制，可让您配置以保护利润率，或避免与低反馈商家的价格相匹配。 使用 [智能重定价规则](./intelligent-repricing-rules.md)，Amazon列表价格可以自动作为固定金额或百分比金额（向上或向下）进行处理，甚至可以与 [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 价格或 [最低竞争对手价格](./lowest-competitor-pricing.md) 以每个项目为基础。 甚至可以栈叠规则以提供无限的灵活性。
 
-您可以控制規則的重要層面，例如作用中/非作用中狀態、網站適用性、可選日期範圍和可選優先順序層級（用於規則棧疊）。
+您可以控制规则的重要方面，例如活动/不活动状态、网站资格、可选日期范围和可选优先级级别（用于规则栈叠）。
 
-例如，您可以定義並設定價格規則的條件，當條件符合時，就會在傳送至Amazon之前自動調整您的掛牌價格。
+例如，您可以为价格规则定义和设置条件，以便在满足条件时，在将其发送到Amazon之前自动调整您的挂牌价格。
 
-另一個定價選項是 [價格覆寫](./overrides.md)，此專案是在個別清單層級設定。 A [價格覆寫](./overrides.md) 可設定，且覆寫會忽略/優先於所有其他預設值、設定和規則。 一個 [覆寫](./overrides.md) 可設定價格、處理時間、條件和賣家備註（少數例外）。
+另一个定价选项是 [价格覆盖](./overrides.md)，在单个列表级别设置。 A [价格覆盖](./overrides.md) 可以设置，并且覆盖会忽略/优先于所有其他默认值、设置和规则。 An [覆盖](./overrides.md) 可以设置价格、处理时间、条件和卖方注释（少数例外）。
 
-![定價規則](assets/amazon-pricing-rules.png)
+![定价规则](assets/amazon-pricing-rules.png)
 
-## 預設欄
+## 默认列
 
-| 欄 | 說明 |
+| 列 | 描述 |
 |---|---|
-| [!UICONTROL Name] | 訂價規則的名稱，如中所設定 [訂價規則一般設定](./pricing-rule-general-settings.md) |
-| [!UICONTROL Rule Type] | 規則型別，如中所設定 [訂價規則動作](./pricing-rule-actions.md) （標準價格規則或智慧型重新訂價規則） |
-| [!UICONTROL Is Active] | 規則是否啟用（如中所設定） [訂價規則一般設定](./pricing-rule-general-settings.md) |
-| [!UICONTROL Priority] | 優先順序高於其他訂價條件，如中所設定 [訂價規則一般設定](./pricing-rule-general-settings.md) |
-| [!UICONTROL Stop Further Rules Processing] | 顯示是否對符合此規則之產品處理其他價格規則，如中所設定 [定價規則一般設定](./pricing-rule-general-settings.md) |
-| [!UICONTROL From Date] | 規則作用中時間週期的開始 |
-| [!UICONTROL To Date] | 規則作用中的時段結束 |
-| [!UICONTROL Action] | 列出可套用至特定清單的所有動作。 若要套用動作，請按一下 **[!UICONTROL Select]** 在 _[!UICONTROL Action]_欄。 選項： `Edit Price Rule` / `Delete Price Rule` |
+| [!UICONTROL Name] | 定价规则的名称，如中所设置 [定价规则常规设置](./pricing-rule-general-settings.md) |
+| [!UICONTROL Rule Type] | 规则类型，如中所设置 [定价规则操作](./pricing-rule-actions.md) （标准价格规则或智能重新定价规则） |
+| [!UICONTROL Is Active] | 规则是否处于活动状态（如中所设置） [定价规则常规设置](./pricing-rule-general-settings.md) |
+| [!UICONTROL Priority] | 优先于其他定价条件，如 [定价规则常规设置](./pricing-rule-general-settings.md) |
+| [!UICONTROL Stop Further Rules Processing] | 指示是否对符合此规则条件的产品处理任何其他价格规则，如中所设置 [定价规则常规设置](./pricing-rule-general-settings.md) |
+| [!UICONTROL From Date] | 规则处于活动状态的时段的开始 |
+| [!UICONTROL To Date] | 规则处于活动状态的时段的结束 |
+| [!UICONTROL Action] | 列出可应用于特定列表的所有操作。 要应用操作，请单击 **[!UICONTROL Select]** 在 _[!UICONTROL Action]_列。 选项： `Edit Price Rule` / `Delete Price Rule` |

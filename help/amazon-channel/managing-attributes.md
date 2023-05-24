@@ -1,6 +1,6 @@
 ---
-title: 管理屬性
-description: 您可以管理Commerce產品屬性與Amazon屬性的對應，以確保系統之間的產品資訊準確。
+title: 管理属性
+description: 您可以管理Commerce产品属性到Amazon属性的映射，以确保系统之间的产品信息准确无误。
 exl-id: 6f9ded2d-292e-4b7e-8c10-48f478a4383e
 source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
@@ -9,22 +9,22 @@ ht-degree: 0%
 
 ---
 
-# 管理屬性
+# 管理属性
 
-Amazon和 [!DNL Commerce] 兩者都使用用於定義產品的產品屬性系統（稱為屬性）。 屬性可定義產品的說明、內容、影像、價格和各種資料。
+Amazon和 [!DNL Commerce] 两者都使用用于定义产品的产品属性系统（称为属性）。 属性定义了产品的描述、内容、图像、价格和各种数据。
 
-Commerce與Amazon之間的成功通訊需要 [!DNL Commerce] 屬性必須正確對應（或比對）至對應的Amazon屬性。 與Amazon整合時，您可以將這些屬性對應至Amazon屬性。 完成時， [!DNL Commerce] 可以與同步並維護您的Amazon清單， [!DNL Commerce] 產品目錄。
+Commerce和Amazon之间的成功通信需要 [!DNL Commerce] 可以将属性正确映射（或匹配）到相应的Amazon属性。 与Amazon集成时，您可以将这些属性映射到Amazon属性。 完成后， [!DNL Commerce] 可以将您的Amazon列表与您的网站进行同步和维护。 [!DNL Commerce] 产品目录。
 
-例如，假設您的檔案中有相同專案， [!DNL Commerce] 目錄和Amazon清單。 產品的一個屬性可能是料號的清單價格。 中的掛牌價格名稱 [!DNL Commerce] 可命名為 `Price`，而Amazon的掛牌價格可能會命名為 `ListingPrice`. 您必須指示 [!DNL Commerce] 與Amazon通訊時， [!DNL Commerce] 已命名的屬性 `Price` 與命名的Amazon屬性相同 `ListingPrice`. 此程式稱為 _管理屬性_，並包括建立新屬性和編輯現有屬性。 確定屬性正確相符，確保彼此之間能夠正確通訊 [!DNL Commerce] 和Amazon。
+例如，假设您的文件夹中存在相同的项目， [!DNL Commerce] 目录和Amazon列表。 产品的一个属性可能是物料的列表价格。 中的挂牌价名称 [!DNL Commerce] 可能被命名为 `Price`，而Amazon的挂牌价可命名为 `ListingPrice`. 您必须指示 [!DNL Commerce] 在与Amazon通信时， [!DNL Commerce] 已命名的属性 `Price` 与名为的Amazon属性相同 `ListingPrice`. 此过程称为 _管理属性_，包括创建新属性和编辑现有属性。 确保属性正确匹配可确保之间正确通信 [!DNL Commerce] 和Amazon。
 
-設定屬性對應時， [!DNL Commerce] 可與Amazon來回溝通產品資訊。 如果您有Amazon產品清單， [!DNL Commerce] 可將您的Amazon產品和詳細資料匯入 [!DNL Commerce] 目錄，可讓您從單一集中式產品目錄管理您的Amazon清單。
+设置属性映射时， [!DNL Commerce] 可以与Amazon来回传递产品信息。 如果您有Amazon产品列表， [!DNL Commerce] 可以将您的Amazon产品和详细信息导入 [!DNL Commerce] 目录，允许您从单个集中的产品目录管理Amazon列表。
 
-Amazon sales channel可讓您視需要存取、檢閱、建立和管理屬性，於 [_[!UICONTROL Attributes]_檢視](./attributes-view.md) 在Amazon sales channel首頁。 如果您將屬性新增至 [!DNL Commerce] 型錄中，則可能需要更新所有產品的這些值。
+Amazon sales channel允许您根据需要访问、查看、创建和管理属性，这些属性位于 [_[!UICONTROL Attributes]_视图](./attributes-view.md) 在Amazon sales channel主页上。 如果将属性添加到 [!DNL Commerce] 目录中，可能需要更新所有产品中的这些值。
 
-如需有關的詳細資訊 [!DNL Commerce] 和Amazon屬性集及值，請參閱：
+有关详情，请参阅 [!DNL Commerce] 和Amazon属性集和值，请参见：
 
-- [管理屬性基本知識](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"}
-- [建立屬性](./creating-attributes.md#create-an-attribute)
-- [編輯現有屬性](./creating-attributes.md#edit-an-attribute)
-- [檢視屬性對應](./amazon-matching-attributes-values.md)
-- [編輯或建立屬性對應](./amazon-manually-update-incomplete-listing.md)
+- [管理属性基础知识](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"}
+- [创建属性](./creating-attributes.md#create-an-attribute)
+- [编辑现有属性](./creating-attributes.md#edit-an-attribute)
+- [查看属性映射](./amazon-matching-attributes-values.md)
+- [编辑或创建属性映射](./amazon-manually-update-incomplete-listing.md)

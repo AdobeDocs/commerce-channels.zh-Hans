@@ -1,6 +1,6 @@
 ---
-title: 具競爭力的價格分析
-description: Competitive Price Analysis （競爭價格分析）會依個別市場顯示您的Amazon清單，其中包含個別Buy Box價格和最低競爭者價格值。
+title: 有竞争力的价格分析
+description: 竞争价格分析按市场显示您的Amazon列表，其中具有相应的Buy Box价格和最低的竞争对手价格。
 exl-id: 9e1e72f6-6917-4db4-bc32-09569a028b11
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -9,22 +9,22 @@ ht-degree: 0%
 
 ---
 
-# 具競爭力的價格分析
+# 有竞争力的价格分析
 
-競爭價格分析報告會依個別市場顯示您的Amazon清單 [Buy Box](./buy-box-competitor-pricing.md) 價格與 [最低競爭者](./lowest-competitor-pricing.md) 價格值。 記錄檔沒有可用的動作。 這是僅限稽核的功能。
+竞争价格分析报告按市场显示您的Amazon列表，以及相应的 [Buy Box](./buy-box-competitor-pricing.md) 价格和 [最低竞争对手](./lowest-competitor-pricing.md) 价格值。 日志没有可用的操作。 它是仅用于审阅的功能。
 
-![具競爭力的價格分析報告](assets/amazon-competitive-price-analysis.png)
+![竞争性价格分析报告](assets/amazon-competitive-price-analysis.png)
 
-## 預設欄
+## 默认列
 
-| 欄 | 說明 |
+| 列 | 描述 |
 |--- |--- |
-| [!UICONTROL Amazon Seller SKU] | Amazon指派給產品的SKU （庫存單位），用於識別產品、選項、價格和製造商。 |
-| [!UICONTROL ASIN] | 識別專案的10個字母和/或數字的唯一區塊。<br><br>ASIN代表Amazon標準識別碼。 ASIN是識別專案的10個字母和/或數字的唯一區塊。 對於書籍，ASIN與ISBN編號相同，但對於所有其他產品，當專案上傳到其目錄時會建立新的ASIN。 您可以在Amazon的產品詳細資訊頁面上找到專案ASIN，以及與該專案相關的進一步詳細資訊。 |
-| [!UICONTROL Product Listing Name] | 產品的名稱。 |
-| [!UICONTROL Your Landed Price] | 您的產品清單價格加上運費。 |
-| [!UICONTROL Lowest Landed Price] | 來自您Amazon競爭對手的最低起岸價格（上市價格加上其運費）。 |
-| [!UICONTROL Condition (lowest price)] | 以最低價格列出的產品狀況。 |
-| [!UICONTROL Buy Box Landed Price] | 下列專案的起岸價格（定價+出貨價格）： [Buy Box](./buy-box-competitor-pricing.md) 職位清單。 |
-| [!UICONTROL Is Seller (Buy Box)] | 表示您是否已贏得清單的Buy Box位置(NA表示清單沒有Buy Box價格)。 |
-| 條件(Buy Box) | Buy Box職位清單的條件。 |
+| [!UICONTROL Amazon Seller SKU] | Amazon为产品分配的SKU（库存单位），用于标识产品、选件、价格和制造商。 |
+| [!UICONTROL ASIN] | 由10个字母和/或数字组成的用于标识项目的唯一块。<br><br>ASIN表示Amazon标准标识号。 ASIN是一个由10个字母和/或数字组成的唯一块，用于标识项目。 对于图书，ASIN与ISBN编号相同，但对于所有其他产品，当项目上传到它们的目录时，将创建一个新的ASIN。 您可以在Amazon的产品详细信息页面上找到项目ASIN，以及与该项目相关的更多详细信息。 |
+| [!UICONTROL Product Listing Name] | 产品的名称。 |
+| [!UICONTROL Your Landed Price] | 产品的标价加上运费。 |
+| [!UICONTROL Lowest Landed Price] | 来自您的Amazon竞争对手的最低起岸价格（挂牌价及其运费）。 |
+| [!UICONTROL Condition (lowest price)] | 以最低价格列出的产品的条件。 |
+| [!UICONTROL Buy Box Landed Price] | 的到岸价格（上市价格加上其装运价格） [Buy Box](./buy-box-competitor-pricing.md) 职位列表。 |
+| [!UICONTROL Is Seller (Buy Box)] | 指示您是否赢得了列表的Buy Box职位(NA表示没有列表的Buy Box价格)。 |
+| 条件(Buy Box) | Buy Box职位列表的条件。 |

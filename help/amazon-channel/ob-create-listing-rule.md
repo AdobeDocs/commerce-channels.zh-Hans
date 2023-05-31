@@ -1,15 +1,15 @@
 ---
-title: '入门：创建列表规则'
+title: 创建Amazon列表规则
 description: 在完成AmazonAmazon销售渠道入门培训流程时，创建初始列表规则以便为您的 [!DNL Commerce] 产品。
 exl-id: b318823e-a726-4a59-b117-9838562c7d8b
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
 
-# 入门：创建列表规则
+# 创建Amazon列表规则
 
 上市规则可以在用户引导期间定义，也可以随时修改。 新用户引导后，您可以访问 [上市规则](./listing-rules.md) 在商店中 [仪表板](./amazon-store-dashboard.md).
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 1. 在“列表预览”中查看列表：
 
-   ![列表预览](assets/amazon-ob-listing-preview.png)
+   ![列表预览](assets/amazon-ob-listing-preview.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Ineligible Listings]**  — 根据您当前的列表规则设置，此选项卡上列出的产品不符合Amazon列表的条件。
 

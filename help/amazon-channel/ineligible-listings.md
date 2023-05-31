@@ -1,15 +1,15 @@
 ---
-title: 不符合条件的列表
+title: 不符合条件的Amazon列表
 description: Amazon销售渠道提供 [!UICONTROL Ineligible] 选项卡帮助您管理项目，但根据您当前的列表规则，这些项目不符合列表资格。
 exl-id: ae63898d-ff5c-43eb-b759-5bc80829d4d4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
 
-# 不符合条件的列表
+# 不符合条件的Amazon列表
 
 此 _[!UICONTROL Ineligible]_选项卡显示当前在Amazon上发布但根据您当前的上市规则不符合上市资格的所有产品的列表。 如果之前的产品符合条件，并且修改了上市规则使其现在不符合条件，则与产品相关的数量将下降为0，并且该产品将标记为_&#x200B;不合格&#x200B;_. 但是，它仍存在于您的 [!DNL Amazon Seller Account].
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 >[!NOTE]
 >如果您有正在处理的列表，则列表的数量将显示在选项卡上方的消息中。
 
-![不符合条件的Amazon列表](assets/amazon-ineligible-listings.png)
+![不符合条件的Amazon列表](assets/amazon-ineligible-listings.png){width="600" zoomable="yes"}
 
 Amazon sales channel home pages有一些共同之处 [工作区控件](./workspace-controls.md) 允许您自定义显示的数据。
 

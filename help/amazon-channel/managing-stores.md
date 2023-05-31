@@ -1,19 +1,19 @@
 ---
-title: Amazon商店视图
+title: ”[!UICONTROL Amazon Stores] 视图”
 description: 转到Amazon商店视图，快速查看每个Amazon商店的基本统计数据以及访问管理选项。
 exl-id: 1376cd84-da81-4d3b-a5be-218aa802eed6
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
 
-# Amazon商店视图
+# [!UICONTROL Amazon Stores] 视图
 
 在查看Amazon销售渠道主页时， _Amazon商店_ 默认情况下打开视图。
 
-![Amazon商店视图](assets/amazon-sales-channel-home-tabs.png)
+![Amazon商店视图](assets/amazon-sales-channel-home-tabs.png){width="600" zoomable="yes"}
 
 此 _[!UICONTROL Amazon Stores]_视图会显示每个Amazon商店的“商店卡”，以及一些基本统计数据和管理选项。 每张信息卡中显示的汇总信息包括每个商店状态、创建日期、上次更新日期、需要注意的列表（例如：未完成列表）和已分配的列表 [!DNL Commerce] 网站。
 

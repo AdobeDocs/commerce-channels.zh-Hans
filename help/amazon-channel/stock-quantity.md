@@ -1,16 +1,15 @@
 ---
-title: 库存/数量
+title: Amazon销售渠道 —  [!UICONTROL Stock/Quantity]
 description: 要控制Commerce商店中的产品数量详细信息同步到 [!DNL Amazon Seller Central] 帐户，更新“库存/数量”设置。
-redirect_from: /sales-channels/asc/ob-stock-quantity.html
 exl-id: a8b7ab6c-393c-43c6-b5ef-68845177edff
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '768'
 ht-degree: 0%
 
 ---
 
-# 库存/数量
+# [!UICONTROL Stock/Quantity]
 
 *[!UICONTROL Stock/Quantity]* 设置是商店列表设置的一部分。 列表设置可从以下位置访问： [存储仪表板](./amazon-store-dashboard.md).
 
@@ -42,7 +41,7 @@ ht-degree: 0%
 
 1. 完成后，单击 **[!UICONTROL Save listing settings]**.
 
-![库存/数量设置](assets/amazon-stock-quantity.png)
+![库存/数量设置](assets/amazon-stock-quantity.png){width="600" zoomable="yes"}
 
 | 字段 | 描述 |
 |---|---|
@@ -67,10 +66,10 @@ ht-degree: 0%
 
 例如，如果您设置 *[!UICONTROL Maximum Listed Quantity]* 作为 `12`，Amazon列表显示的数量为12，即使产品具有 [!DNL Commerce] 数量80：
 
-![列出的最大数量示例1](assets/amazon-max-listed-quantity.png)
+![列出的最大数量示例1](assets/amazon-max-listed-quantity.png){width="300"}
 
 如果您设置了 *[!UICONTROL Maximum Listed Quantity]* 作为 `1`，则所有符合条件的产品都以一定数量列出 `1`. 售出物品后，系统会查找您的 [!DNL Commerce] 产品，如果存在其他库存，则在Amazon上重新提供该物料的数量 `1`.
 
 此选项对于通常按1数量订购的产品可能很有价值。 此外，它也会增加购物者在查看Amazon列表时的紧迫感。
 
-![列出的最大数量实例2](assets/amazon-max-listed-quantity-1.png)
+![列出的最大数量实例2](assets/amazon-max-listed-quantity-1.png){width="300"}

@@ -1,15 +1,15 @@
 ---
-title: 管理属性
+title: 管理Amazon列表的属性
 description: 您可以管理Commerce产品属性到Amazon属性的映射，以确保系统之间的产品信息准确无误。
 exl-id: 6f9ded2d-292e-4b7e-8c10-48f478a4383e
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
 
-# 管理属性
+# 管理Amazon列表的属性
 
 Amazon和 [!DNL Commerce] 两者都使用用于定义产品的产品属性系统（称为属性）。 属性定义了产品的描述、内容、图像、价格和各种数据。
 
@@ -23,7 +23,7 @@ Amazon sales channel允许您根据需要访问、查看、创建和管理属性
 
 有关详情，请参阅 [!DNL Commerce] 和Amazon属性集和值，请参见：
 
-- [管理属性基础知识](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"}
+- [管理属性基础知识](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html)
 - [创建属性](./creating-attributes.md#create-an-attribute)
 - [编辑现有属性](./creating-attributes.md#edit-an-attribute)
 - [查看属性映射](./amazon-matching-attributes-values.md)

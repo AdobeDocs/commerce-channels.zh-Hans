@@ -1,15 +1,15 @@
 ---
-title: 已结束的列表
+title: 已结束的Amazon列表
 description: AmazonSales Channel提供“已结束”选项卡以审阅已结束的Amazon Marketplace列表，选择后可重新发布这些列表。
 exl-id: 15107f08-4231-44b5-9390-44b5b709e3a5
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
 
-# 已结束的列表
+# 已结束的Amazon列表
 
 此 _[!UICONTROL Ended]_选项卡显示已从手动结束（移除）的所有Amazon产品 [!DNL Amazon Seller Central] 帐户。 这些产品满足所有上市要求，并可随时重新发布，无需其他信息。 如果产品位于_[!UICONTROL Ineligible]_ 选项卡，您可以选择修改 [列表设置](./listing-settings.md) 以使您的产品满足列表资格。
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 要发布列表，请参阅 [手动发布Amazon列表](./publish-listings-manually.md).
 
-![已结束的Amazon列表](assets/amazon-ended-listings.png)
+![已结束的Amazon列表](assets/amazon-ended-listings.png){width="600" zoomable="yes"}
 
 Amazon sales channel home pages有一些共同之处 [工作区控件](./workspace-controls.md) 允许您自定义显示的数据。
 

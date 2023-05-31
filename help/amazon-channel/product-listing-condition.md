@@ -1,11 +1,11 @@
 ---
-title: 产品列表条件
+title: Amazon sales channel — 产品列表条件
 description: 使用产品列表条件设置将您的Commerce产品映射到Amazon产品条件，例如“新增”或“翻新”。
 redirect_from: /sales-channels/asc/ob-product-listing-condition.html
 exl-id: f37ce3cf-7bfc-4dee-931e-a603008a71b8
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Amazon需要产品列表具有定义的条件。 如果所有产品条件相同�
 
 1. 完成后，单击 **[!UICONTROL Save listing settings]**.
 
-![产品列表条件](assets/amazon-product-listing-condition.png)
+![产品列表条件](assets/amazon-product-listing-condition.png){width="600" zoomable="yes"}
 
 | 字段 | 描述 |
 |---|---|

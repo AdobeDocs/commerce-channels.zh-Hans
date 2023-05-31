@@ -1,18 +1,18 @@
 ---
-title: ‘[!DNL Channel Manager] 指南概述
+title: ‘[!DNL Channel Manager] 指南'
 description: '有关以下内容的全面信息 [!DNL Channel Manager] 面向Adobe Commerce和Magento Open Source管理员，包括安装和载入。'
 seo-title: Adobe Commerce Channel Manager Guide
 seo-description: Describes how to use [!DNL Channel Manager] with Adobe Commerce or Magento Open Source.
 exl-id: 0703741b-77e0-47b0-917f-b25d14afa7ae
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
 
 
-# 概述
+# Channel Manager指南
 
 本指南适用于Adobe Commerce和Magento Open Source的管理员。 它包括有关 [!DNL Channel Manager] 安装、载入、配置和管理。 本指南假定您对核心有基本的了解 [!DNL Commerce] 配置和功能。
 
@@ -30,10 +30,14 @@ ht-degree: 0%
 
 ## 其他文档
 
-| 指南 | 描述 |
-|----------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
-| [Adobe Commerce 2.4用户指南](https://docs.magento.com/user-guide) | Adobe Commerce和Magento Open Source的以商家为中心的文档 |
-| [Adobe Commerce 2.4开发人员指南](https://devdocs.magento.com) | 用于构建和自定义Adobe Commerce或Magento Open Source的以开发人员为中心的文档 |
+
+| 文档资源 | 描述 |
+|----------------------- | ----------- |
+| [Adobe Commerce 2.4商家文档](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) | Adobe Commerce和Magento Open Source的以商家为中心的文档 |
+| [Adobe Commerce服务文档](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | 支持服务集合的文档，可帮助商家将其业务的关键组件与商店集成。 |
+| [云基础架构上的Commerce指南](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | 在托管的自动托管云平台上部署Adobe Commerce的分步过程。 |
+| [Adobe Commerce 2.4操作指南](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | 有关概念、流程、工具和最佳实践的系统文档，用于开发、部署和维护在Adobe Commerce和Magento Open Source平台上部署的项目。 |
+| [Adobe Commerce 2.4开发人员文档](https://developer.adobe.com/commerce/docs) | 用于构建和自定义Adobe Commerce或Magento Open Source的以开发人员为中心的文档 |
 
 ## 支持
 

@@ -2,7 +2,7 @@
 title: Amazon订单详细信息
 description: 在Adobe Commerce或Magento Open Source管理员中查看您的Amazon Marketplace订单的详细信息。
 exl-id: a85bb6b3-817d-4859-a815-41777f4b8667
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Amazon订单详细信息
 
-![Amazon订单详细信息](assets/amazon-order-details-header.png)
+![Amazon订单详细信息](assets/amazon-order-details-header.png){width="600" zoomable="yes"}
 
 ## 查看Amazon订单详细信息
 
@@ -55,16 +55,16 @@ ht-degree: 0%
 >
 >不要忘记单击 **保存顺序** 进行编辑之后。
 
-![订单和送货详细信息](assets/amazon-order-details.png)
+![订单和送货详细信息](assets/amazon-order-details.png){width="600" zoomable="yes"}
 
 ### “订单项”选项卡
 
 此 _[!UICONTROL Order Items]_选项卡显示从Amazon收到的与Amazon订单关联的所有项目。
 
-![订单项目详细信息](assets/amazon-order-item-details.png)
+![订单项目详细信息](assets/amazon-order-item-details.png){width="600" zoomable="yes"}
 
 ### “跟踪”选项卡
 
 此 _[!UICONTROL Tracking]_选项卡显示与Amazon订单关联的跟踪信息。
 
-![跟踪详细信息](assets/amazon-order-tracking-details.png)
+![跟踪详细信息](assets/amazon-order-tracking-details.png){width="600" zoomable="yes"}

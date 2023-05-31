@@ -2,7 +2,7 @@
 title: '''连接 [!DNL Channel Manager] 到 [!DNL Walmart Marketplace]‘'
 description: 将Commerce商店视图连接到 [!DNL Walmart Marketplace] 创建销售渠道以管理Commerce产品列表、库存、价格和沃尔玛商城的订单。”
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 1. 在 **[!UICONTROL Marketplaces available to connect]** 部分，选择 **[!UICONTROL Get Started]**.
 
-   ![新连接 [!DNL Walmart] 存储到 [!DNL Channel Manager]](assets/channel-manager-home.png)
+   ![新连接 [!DNL Walmart] 存储到 [!DNL Channel Manager]](assets/channel-manager-home.png){width="700" zoomable="yes"}
 
 1. 如果需要，请设置 [!DNL Walmart Marketplace Seller] 帐户。
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
    - 选择 [!DNL Commerce] 商店视图，用于提供您要在Marketplace上销售的产品。
 
-      ![配置之间的连接 [!DNL Commerce] 和 [!DNL Walmart Marketplace] 起始日期 [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png)
+      ![配置之间的连接 [!DNL Commerce] 和 [!DNL Walmart Marketplace] 起始日期 [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png){width="500" zoomable="yes"}
 
    - 输入唯一值 **[!UICONTROL store name]**.
 
@@ -55,11 +55,11 @@ ht-degree: 0%
 
       在开发人员门户上，选择您所在的地区（美国和加拿大），然后登录。
 
-      ![[!DNL Walmart Marketplace] 帐户登录](assets/walmart-marketplace-login-page.png)
+      ![[!DNL Walmart Marketplace] 帐户登录](assets/walmart-marketplace-login-page.png){width="600"}
 
    - 在API密钥表单上，复制并保存 **[!UICONTROL Client ID]** 和 **[!UICONTROL Client Secret]** 的值 [!UICONTROL Adobe Inc Production API key] 到一个安全的地方。
 
-      ![[!DNL Walmart Marketplace API key] 配置页面](assets/walmart-api-key-management-form.png)
+      ![[!DNL Walmart Marketplace API key] 配置页面](assets/walmart-api-key-management-form.png){width="600" zoomable="yes"}
 
       >[!NOTE]
       >
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 1. 成功连接后， [完成商店设置](complete-sales-channel-store-setup.md) 从 **[!UICONTROL Channel Manager]** 商店页面。
 
-![设置第一个商店](assets/channel-manager-setup-first-store.png)
+![设置第一个商店](assets/channel-manager-setup-first-store.png){width="500" zoomable="yes"}
 
 ### 连接问题疑难解答
 

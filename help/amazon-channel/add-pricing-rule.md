@@ -1,15 +1,15 @@
 ---
-title: 添加定价规则
+title: 添加Amazon定价规则
 description: 使用定价规则管理Commerce产品目录的Amazon Marketplace上的列表价格。
 exl-id: 37ecf25a-7b47-4f6d-a4bb-2f306f7b5997
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
 
-# 添加定价规则
+# 添加Amazon定价规则
 
 在集成存储后，您可以随时配置或修改定价规则。 定价规则是的一部分 [列表设置](./listing-settings.md) 并可从以下位置访问： [存储仪表板](./amazon-store-dashboard.md).
 

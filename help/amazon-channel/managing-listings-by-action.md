@@ -1,15 +1,15 @@
 ---
-title: 按操作管理产品列表
+title: 按操作管理Amazon产品列表
 description: 在管理Amazon列表时，您可以将操作应用于单个或多个列表。
 exl-id: 1cbf16fb-15eb-484b-bea7-28017a0d0c60
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
 
-# 按操作管理产品列表
+# 按操作管理Amazon产品列表
 
 此 _[!UICONTROL Product Listings]_页面包含多个选项卡，您可以从中查看所有列表的状态，并将产品与Amazon列表进行匹配。
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 | 尝试自动匹配 | 尝试自动匹配 [!DNL Commerce] 目录和您的Amazon列表。 要尝试重新匹配，您必须修改 [列表](./listing-settings.md) 和 [目录搜索](./catalog-search.md) 设置，以增加自动匹配的可能性。 | [[!UICONTROL New Third Party]](./new-third-party-listings.md) |
 | [[!UICONTROL Assign Catalog Product]](./creating-assigning-catalog-products.md) | 手动选择中的现有产品 [!DNL Commerce] 并将其分配给Amazon列表。 | [[!UICONTROL New Third Party]](./new-third-party-listings.md) |
 | [[!UICONTROL Create New Catalog Product]](./creating-assigning-catalog-products.md) | 创建 [!DNL Commerce] 使用随Amazon列表导入的信息对产品进行编目。 | [[!UICONTROL New Third Party]](./new-third-party-listings.md) |
-| [[!UICONTROL Publish Product to Amazon]](./publish-listings-manually.md) | （成批活动）用于重新列出已结束的列表，或人工列出符合列表规则资格但符合您的列表规则资格的产品 _[!UICONTROL Product Listing Actions]_未设置为 `Automatically list new products`. | [[!UICONTROL Ready to List]](./ready-to-list.md)<br>[[!UICONTROL Ended]](./ended-listings.md) |
+| [[!UICONTROL Publish Product to Amazon]](./publish-listings-manually.md) | （成批活动）用于重新列出已结束的列表，或人工列出符合列表规则条件，但符合您指定的合格产品。 _[!UICONTROL Product Listing Actions]_未设置为 `Automatically list new products`. | [[!UICONTROL Ready to List]](./ready-to-list.md)<br>[[!UICONTROL Ended]](./ended-listings.md) |
 | [[!UICONTROL Publish On Amazon]](./publish-listings-manually.md) | （单个列表操作）用于重新列出已结束的列表。 在以下情况下，此操作还用于手动列出符合列表规则资格的产品 _[!UICONTROL Product Listing Actions]_未设置为 `Automatically list new products`. | [[!UICONTROL Ready to List]](./ready-to-list.md)<br>[[!UICONTROL Ended]](./ended-listings.md) |
 | [[!UICONTROL End Listing(s) on Amazon]](./end-listings-manually.md) | （成批活动）用于手动结束和删除Amazon上存在的产品的列表。 只要结束的列表符合您的上市规则资格，就可以将其重新列出。 | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |
 | [[!UICONTROL Edit Listing Overrides]](./creating-editing-overrides.md) | （成批活动）人工编辑现有的“改写”，以便为单个列表设置价格、处理时间、条件和卖方附注文本，而忽略其它列表默认值、设置和规则。 | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Overrides]](./overrides.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |

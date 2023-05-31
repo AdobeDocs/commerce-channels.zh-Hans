@@ -1,10 +1,10 @@
 ---
-title: 工作区控件
+title: Amazon sales channel — 工作区控件
 description: AmazonSales Channel提供工作区控件，可帮助您查找列表、查看信息以及轻松应用操作。
 exl-id: 4f76b1d0-ae58-435b-bd6d-50155a023421
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Amazon销售渠道 [主页](./amazon-sales-channel-home.md) 具有一些常见的工作区控件，包括筛选器、默认视图、列和导出。 并非所有页面都具有相同的控制选项。
 
-![AmazonSales Channel工作区控制示例](assets/amazon-workspace-controls.png)
+![AmazonSales Channel工作区控制示例](assets/amazon-workspace-controls.png){width="600" zoomable="yes"}
 
 ## 操作
 
@@ -21,7 +21,7 @@ Amazon销售渠道 [主页](./amazon-sales-channel-home.md) 具有一些常见�
 
 例如，当选择器显示在 _[!UICONTROL Attributes]_页面上，它包含_[!UICONTROL Re-import Product Attribute Values]_ 操作。 选择此操作将试通 [!DNL Amazon Seller Central] 帐户并刷新 [!DNL Commerce] 左侧列中勾选了每个Amazon存储项的数据。
 
-![“操作”菜单示例](assets/amazon-sales-channel-home-actions-option.png)
+![“操作”菜单示例](assets/amazon-sales-channel-home-actions-option.png){width="500"}
 
 ## 筛选器
 
@@ -37,11 +37,11 @@ Amazon销售渠道 [主页](./amazon-sales-channel-home.md) 具有一些常见�
 
 设置好筛选选项后，单击 **[!UICONTROL Apply Filters]** 以筛选列出的数据。 单击“取消”退出“筛选器”控件而不应用。
 
-![过滤器控件示例](assets/workspace-controls-filters.png)
+![过滤器控件示例](assets/workspace-controls-filters.png){width="600" zoomable="yes"}
 
 将过滤器应用于数据后， **[!UICONTROL Active Filters]** 将显示信息。 您可以单击 ![“清除过滤器”图标](assets/x-icon-clear-filters.png) 图标以清除特定的过滤器选项，或单击 **[!UICONTROL Clear All]** 以清除所有应用的筛选器。
 
-![活动过滤器示例](assets/applied-filters-line.png)
+![活动过滤器示例](assets/applied-filters-line.png){width="700"}
 
 ## 视图
 
@@ -72,7 +72,7 @@ Amazon销售渠道 [主页](./amazon-sales-channel-home.md) 具有一些常见�
 - 要向页面中添加数据列，请选中复选框。
 - 要从页面中删除数据列，请不要选中复选框。
 
-![列控件示例](assets/workspace-controls-columns.png)
+![列控件示例](assets/workspace-controls-columns.png){width="400"}
 
 复选框更改会立即显示。 如果进行更改并退出该页面，则该页面将返回到默认列显示。 对于您定期进行的更改，可以将列更改保存为视图控件中的自定义视图。 然后，您可以在视图控件中切换，而无需手动添加或删除列。
 
@@ -89,4 +89,4 @@ Amazon销售渠道 [主页](./amazon-sales-channel-home.md) 具有一些常见�
 
 生成的数据文件会自动保存到您指定的文件夹以供下载。
 
-![导出控制](assets/workspace-controls-export.png)
+![导出控制](assets/workspace-controls-export.png){width="250"}

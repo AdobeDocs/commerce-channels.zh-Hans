@@ -1,15 +1,15 @@
 ---
-title: 价格调整
+title: Amazon销售渠道 —  [!UICONTROL Price Adjustment]
 description: 配置价格调整，以便在您确定Amazon竞争对手的价格来源时定义价格计算。
 exl-id: 60569b37-2a6d-40ef-bcec-2c3a132a07e0
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
 
-# 价格调整
+# [!UICONTROL Price Adjustment]
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ ht-degree: 0%
 
    - 时间 **[!UICONTROL Apply]** 设置为 `Apply as fixed amount`，输入固定金额的数值(例如：输入 `25` 25美元的固定调整)。
 
-![智能重新定价规则 — 价格调整](assets/amazon-price-adjustment.png)
+![智能重新定价规则 — 价格调整](assets/amazon-price-adjustment.png){width="600" zoomable="yes"}
 
 | 字段 | 描述 |
 |---|---|

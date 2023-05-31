@@ -1,17 +1,17 @@
 ---
-title: 存储集成
+title: 存储与的集成 [!DNL Amazon Seller Account]
 description: 在开始载入流程之前，您必须创建（添加）一个AmazonSales Channel商店，并将其连接到您的Amazon卖方帐户。
 exl-id: ea79e91d-7d92-4992-a921-7ac7632a0519
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
 
-# 存储集成
+# 存储与的集成 [!DNL Amazon Seller Account]
 
-要开始使用Amazon销售渠道，您必须创建（添加）一个Amazon销售渠道商店，并将其连接到您的Amazon卖方帐户。 这两个步骤集成了您的 [!DNL Commerce] 和Amazon帐户共享数据、同步产品等。
+要开始使用Amazon sales channel，您必须创建（添加） Amazon sales channel store并将其连接到您的 [!DNL Amazon Seller Account]. 这两个步骤集成了您的 [!DNL Commerce] 和Amazon帐户共享数据、同步产品等。
 
 _您需要的主要登录凭据用于 [!DNL Amazon Seller Central] 帐户（用于创建卖方帐户的电子邮件或电话）以连接您的商店。_
 
@@ -29,7 +29,7 @@ _您需要的主要登录凭据用于 [!DNL Amazon Seller Central] 帐户（用�
 
    此 _[!UICONTROL Add Amazon sales channel]_页面打开。
 
-   ![添加Amazon sales channel store](assets/amazon-store-integration.png)
+   ![添加Amazon sales channel store](assets/amazon-store-integration.png){width="500" zoomable="yes"}
 
 1. 对象 **[!UICONTROL Magento Website to use for Amazon Listing]**，选择您的 [!DNL Commerce] 要为此Amazon sales channel商店连接的网站。
 
@@ -84,7 +84,7 @@ _您需要的主要登录凭据用于 [!DNL Amazon Seller Central] 帐户（用�
 
    要查看商店功能板，请单击 **[!UICONTROL View Store]** 在商店卡上。
 
-![带有新商店卡的Amazon sales channel home](assets/asc-dashboard-after-2fa.png)
+![带有新商店卡的Amazon sales channel home](assets/asc-dashboard-after-2fa.png){width="600" zoomable="yes"}
 
 您的新Amazon销售渠道商店现已连接到您的 [!DNL Amazon Seller Central] 帐户。
 

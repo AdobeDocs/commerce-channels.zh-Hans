@@ -1,15 +1,15 @@
 ---
-title: 列表不完整
+title: Amazon列表不完整
 description: Amazon销售渠道提供 [!UICONTROL Incomplete] 选项卡，以帮助您识别不完整的Amazon列表并满足其资格要求。
 exl-id: f943c9cc-fa1d-4f3e-a3de-3a8d00f87890
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
 
-# 列表不完整
+# Amazon列表不完整
 
 此 _[!UICONTROL Incomplete]_选项卡列出 [!DNL Commerce] 符合Amazon资格要求的目录产品(在贵机构的 [上市规则](./listing-rules.md))，但缺少Amazon所需的信息(例如Amazon ASIN或定义的产品条件)。
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 >
 >如果您有正在处理的列表，则列表的数量会显示在选项卡上方的消息中。
 
-![Amazon列表不完整](assets/amazon-incomplete-listings.png)
+![Amazon列表不完整](assets/amazon-incomplete-listings.png){width="600" zoomable="yes"}
 
 Amazon sales channel home pages有一些共同之处 [工作区控件](./workspace-controls.md) 允许您自定义显示的数据。
 

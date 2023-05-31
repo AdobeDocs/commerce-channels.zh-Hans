@@ -1,19 +1,19 @@
 ---
-title: 安装扩展
+title: '"安装 [!DNL Amazon Sales Channel] 扩展”'
 description: 集成 [!DNL Commerce] 目录 [!DNL Amazon Seller Accounts] 然后通过 [!DNL Amazon Marketplace]，下载并安装AmazonSales Channel扩展。
 exl-id: ebf22e28-b6a2-420b-80ca-2d750839286c
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
 
-# 安装扩展
+# 安装 [!DNL Amazon Sales Channel] 扩展
 
 >[!IMPORTANT]
 >
->仅 [!DNL Amazon Sales Channel] Adobe Commerce和Magento Open Source2.4.x版本支持扩展4.0+版本。 如果您运行的是2.3.x版本，请参阅 [兼容的Amazon sales channel版本](https://docs.magento.com/user-guide/v2.3/sales-channels/amazon/amazon-sales-channel.html){target="_blank"}. For more information about version compatibility, see the [Availability](https://devdocs.magento.com/release/availability.html){target="_blank"} 页面。
+>仅 [!DNL Amazon Sales Channel] Adobe Commerce和Magento Open Source2.4.x版本支持扩展4.0+版本。 如果您运行的是2.3.x版本，请参阅 [兼容的Amazon sales channel版本](https://docs.magento.com/user-guide/v2.3/sales-channels/amazon/amazon-sales-channel.html). 有关版本兼容性的更多信息，请参见 [可用性](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) 页面。
 
 此 [!UICONTROL Amazon Sales Channel] 扩展安装和添加功能，以将您的Commerce目录与 [!DNL Amazon Seller Accounts] 以通过 [!DNL Amazon Marketplace]. 要查看其他信息，请参阅 [AmazonSales Channel](https://marketplace.magento.com/magento-module-amazon.html) 页面位置 [!DNL Commerce Marketplace] 和 [发行说明](release-notes.md).
 
@@ -25,9 +25,9 @@ ht-degree: 0%
 
 ## 安装
 
-有关在此过程中使用Composer的详细信息，请参阅 [扩展安装](https://devdocs.magento.com/extensions/install/){target="_blank"} 开发人员文档中的说明。
+有关在此过程中使用Composer的详细信息，请参阅 [扩展安装](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) 开发人员文档中的说明。
 
-1. 登录到 [Commerce Marketplace](https://marketplace.magento.com/customer/account/){target="_blank"}.
+1. 登录到 [Commerce Marketplace](https://marketplace.magento.com/customer/account/).
 
 1. 单击 **[!UICONTROL Marketplace]** 选项卡，然后单击 **[!UICONTROL My Purchases]**.
 
@@ -47,12 +47,12 @@ ht-degree: 0%
    composer require magento/services-connector:~1.0.3
    ```
 
-   - 输入您的 [身份验证密钥](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target="_blank"}. 您的公钥是您的用户名；您的私钥是您的密码。
+   - 输入您的 [身份验证密钥](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html). 您的公钥是您的用户名；您的私钥是您的密码。
 
    - 等待Composer完成项目依赖项的更新，并确保没有错误。
 
 
-1. [验证扩展](https://devdocs.magento.com/extensions/install/#verify-the-extension){target="_blank"}.
+1. [验证扩展](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
 
 ## 添加Amazon sales channel API密钥
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 ## 更新扩展
 
-1. 登录到 [Commerce Marketplace](https://marketplace.magento.com/customer/account/){target="_blank"}.
+1. 登录到 [Commerce Marketplace](https://marketplace.magento.com/customer/account/).
 
 1. 单击 **[!UICONTROL Marketplace]** 选项卡，然后单击 **[!UICONTROL My Purchases]**.
 
@@ -90,4 +90,4 @@ ht-degree: 0%
 
 1. 对于组件名称和版本，单击 **[!UICONTROL Technical Details]**.
 
-1. 完成 [扩展升级说明](https://devdocs.magento.com/extensions/install/#upgrade-an-extension){target="_blank"} 在开发人员文档中。
+1. 完成 [扩展升级说明](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) 在 _安装指南_.

@@ -1,21 +1,21 @@
 ---
-title: 列表改进
+title: Amazon销售渠道 —  [!UICONTROL Listing Improvements]
 description: AmazonSales Channel提供列表改进报表，以向您提供Amazon列表质量改进建议。
 exl-id: 880f4ede-6e2b-4727-a8cb-3798568980dd
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
 
-# 列表改进
+# [!UICONTROL Listing Improvements]
 
 此 [!UICONTROL Listing Improvements] 报表显示包含Amazon建议以提高列表质量的产品。 您可以查看这些建议，这可能会有助于Amazon列表内产品的性能。 日志没有可用的操作。 它是仅用于审阅的功能。
 
 从Amazon收到的列表改进不会阻止您的产品在Amazon中列出。
 
-![列表改进](assets/amazon-listing-improvements.png)
+![列表改进](assets/amazon-listing-improvements.png){width="600" zoomable="yes"}
 
 ## 默认列
 

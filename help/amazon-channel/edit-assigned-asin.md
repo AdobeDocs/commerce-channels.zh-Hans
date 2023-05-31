@@ -2,7 +2,7 @@
 title: 编辑分配的ASIN
 description: 如果某个Commerce产品与您的某个Amazon列表不匹配，请更改该产品的ASIN值。
 exl-id: 2aaeb700-96ac-4a15-9379-f74728d2dcbe
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 - 为更新的ASIN创建列表
 - 更新Amazon sales channel中的列表信息
 
-要编辑分配的ASIN，请执行以下操作：
+**_要编辑分配的ASIN，请执行以下操作：_**
 
 1. 查看 _[!UICONTROL Product Listings]_页面(_[!UICONTROL Inactive]_， _[!UICONTROL Active]_，或_[!UICONTROL Ineligible]_ 选项卡)。
 
@@ -32,4 +32,4 @@ ht-degree: 0%
 
 1. 要保存更改，请单击 **[!UICONTROL Save Listing Update]**.
 
-![编辑分配的ASIN](assets/amazon-assigned-asin-edit.png)
+![编辑分配的ASIN](assets/amazon-assigned-asin-edit.png){width="600" zoomable="yes"}

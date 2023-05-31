@@ -2,7 +2,7 @@
 title: '智能重新定价规则：选择规则类型'
 description: 通过创建智能重新定价规则，根据竞争对手的定价确定您的Amazon上市价格。
 exl-id: 2690323a-a076-484b-a437-adadb08094f5
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 0%
@@ -55,7 +55,7 @@ ht-degree: 0%
 >
 >您可以使用这些竞争对手的定价和反馈选项，避免将定价基于反馈差且销售质量较低的竞争对手之上。
 
-![智能重新定价规则 — 选择规则类型](assets/ob-intelligent-price-rule-type.png)
+![智能重新定价规则 — 选择规则类型](assets/ob-intelligent-price-rule-type.png){width="600" zoomable="yes"}
 
 | 字段 | 描述 |
 |--- |--- |

@@ -2,9 +2,9 @@
 title: '''安装 [!DNL Channel Manager]‘'
 description: '''安装[!DNL Channel Manager] 扩展。'
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 96016b086a2c6567fab66b497892022f172f4bdd
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -26,15 +26,15 @@ Channel Manager的安装说明取决于Adobe Commerce或Magento Open Source是�
 
 >[!NOTE]
 >
->有关安装的帮助 [!DNL Commerce] 使用CLI的软件，请参见 [常规CLI安装](https://devdocs.magento.com/extensions/install/){target="_blank"}.
+>有关安装的帮助 [!DNL Commerce] 使用CLI的软件，请参见 [安装扩展](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
 
 ### 在内部部署实例上安装
 
 按照以下说明安装 [!DNL Channel Manager] Adobe Commerce和Magento Open Source到内部部署实例时，不会将反向链接计算两次。
 
-1. 登录到 [!DNL Commerce] server as a [具有权限的用户](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/file-system-perms.html){target="_blank"} 以写入 [!DNL Commerce] 文件系统。
+1. 登录到 [!DNL Commerce] server as a [具有权限的用户](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/file-system/configure-permissions.html) 以写入 [!DNL Commerce] 文件系统。
 
-1. 将您的网站放入 [维护模式](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html){target="_blank"}.
+1. 将您的网站放入 [维护模式](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/maintenance-mode.html).
 
    ```bash
    $ bin/magento maintenance:enable
@@ -108,13 +108,13 @@ Channel Manager的安装说明取决于Adobe Commerce或Magento Open Source是�
 
 向云实例添加扩展时，请在开发分支中工作。
 
-有关使用分支的帮助，请参阅 [创建分支入门](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted){target="_blank"} 在Adobe Commerce开发人员文档中。
+有关使用分支的帮助，请参阅 [创建分支入门](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/cli-branches.html) 在 _云基础架构上的Commerce指南_.
 
-在安装过程中，扩展名称(`magento\channel-manager`)自动插入到 [app/etc/config.php](https://devdocs.magento.com/cloud/live/sens-data-over.html#configuration-data){target="_blank"} 文件。 您无需直接编辑文件。
+在安装过程中，扩展名称(`magento\channel-manager`)自动插入到 [app/etc/config.php](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html) 文件。 您无需直接编辑文件。
 
 1. 在本地工作站上，更改为云项目根目录。
 
-1. 创建或签出开发 [分支](https://devdocs-beta.magento.com/cloud/env/environments-start.html#getstarted){target="_blank"}.
+1. 创建或签出开发 [分支](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/cli-branches.html).
 
 1. 使用编辑器名称，将扩展添加到 `require` 部分 `composer.json` 文件。
 
@@ -156,14 +156,14 @@ Channel Manager的安装说明取决于Adobe Commerce或Magento Open Source是�
 Module is enabled
 ```
 
-如果模块被禁用， [在本地环境中启用它](https://devdocs.magento.com/cloud/howtos/install-components.html#manage-extensions) 并部署您的更改。
+如果模块被禁用， [在本地环境中启用它](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html) 并部署您的更改。
 
 
 1. 成功安装扩展后，登录到 [!UICONTROL Admin] 到 [配置Commerce服务连接器](connect.md).
 
    >[!NOTE]
    >
-   >有关将Channel Manager更新到新版本的说明，请参阅 [升级模块和扩展](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html){target="_blank"}.
+   >有关将Channel Manager更新到新版本的说明，请参阅 [升级模块和扩展](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html).
 
 
 ## 疑难解答
@@ -172,7 +172,7 @@ Module is enabled
 
 ### 不正确的编辑器键
 
-如果 [访问密钥](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target="_blank"} 用于对编辑器存储库进行身份验证无效，或未链接到 [!DNL MAGE ID] 用于注册 [!DNL Channel Manager] 服务，显示以下错误。
+如果 [访问密钥](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) 用于对编辑器存储库进行身份验证无效，或未链接到 [!DNL MAGE ID] 用于注册 [!DNL Channel Manager] 服务，显示以下错误。
 
 ```terminal
 Could not find a matching version of package magento/channel-manager. Check the package spelling, your version constraint and that the package is available in a stability which matches your minimum-stability (stable).
@@ -192,7 +192,7 @@ Could not find a matching version of package magento/channel-manager. Check the 
    $ cat /path/to/auth.json
    ```
 
-1. 验证auth.json中的凭据是否匹配 [与图像ID关联的键](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target="_blank"} 用于注册Channel Manager服务。
+1. 验证auth.json中的凭据是否匹配 [与图像ID关联的键](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) 用于注册Channel Manager服务。
 
 ### PHP内存不足
 
@@ -204,7 +204,7 @@ Fatal error: Allowed memory size of 2146435072 bytes exhausted (tried to allocat
 
 使用以下任一方法解决内存问题：
 
-- [增加PHP的内存限制](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html#increase-php-memory-limit){target="_blank"} in the environment `php.ini` file. Also, verify that the Commerce instance has the [recommended values](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/php-settings.html){target="_blank"} 用于其他PHP设置。
+- [增加PHP的内存限制](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/php-settings.html) 在环境中 `php.ini` 文件。 此外，验证商务实例是否具有 [推荐值](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html) 用于其他PHP设置。
 
 - 从命令行指定内存限制。
 
@@ -220,7 +220,7 @@ Fatal error: Allowed memory size of 2146435072 bytes exhausted (tried to allocat
 
 ### 缺少视图
 
-如果您收到有关缺失的错误 `process_catalog_exporter_view` 在安装渠道管理器期间，请尝试 [刷新索引器](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-index.html#config-cli-subcommands-index-reindex){target="_blank"}.
+如果您收到有关缺失的错误 `process_catalog_exporter_view` 在安装渠道管理器期间，请尝试 [刷新索引器](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html).
 
 ```bash
 php bin/magento indexer:refresh
@@ -228,4 +228,4 @@ php bin/magento indexer:refresh
 
 ### 云部署错误
 
-有关将扩展部署到云时出现的问题，请参阅 [扩展部署失败](https://devdocs.magento.com/cloud/trouble/trouble_comp-deploy-fail.html){target="_blank"}.
+有关将扩展部署到云时出现的问题，请参阅 [扩展部署失败](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment.html).

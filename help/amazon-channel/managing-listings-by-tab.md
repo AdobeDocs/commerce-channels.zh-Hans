@@ -1,15 +1,15 @@
 ---
-title: 按状态/选项卡管理产品列表
+title: 按状态/选项卡管理Amazon产品列表
 description: 在管理Amazon列表时，您可以根据状态对列表应用操作。
 exl-id: 33effdd8-baa9-4fc5-8c7e-313175eb7e9c
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
 
-# 按状态/选项卡管理产品列表
+# 按状态/选项卡管理Amazon产品列表
 
 此 _[!UICONTROL Product Listings]_页面包含多个选项卡，您可以从中查看所有列表的状态，并将产品与Amazon列表进行匹配。
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 另请参阅 [按操作管理列表](./managing-listings-by-action.md).
 
-![产品列表选项卡](assets/amazon-product-listings-tabs.png)
+![产品列表选项卡](assets/amazon-product-listings-tabs.png){width="600" zoomable="yes"}
 
 | 选项卡 | 描述 | 操作 |
 |--- |--- |--- |

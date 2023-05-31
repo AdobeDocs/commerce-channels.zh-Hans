@@ -1,15 +1,15 @@
 ---
-title: Buy Box竞争对手定价
+title: ”[!DNL Buy Box] 针对Amazon上市产品的竞争对手定价”
 description: AmazonSales Channel提供 [!UICONTROL Buy Box Competitor Pricing] 选项卡，以帮助您了解竞争对手在Amazon上的价格定位。
 exl-id: 2d03565a-5246-435a-8da8-55b7e67c4ad8
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
 
-# [!DNL Buy Box] 竞争对手定价
+# [!DNL Buy Box] Amazon列表的竞争对手定价
 
 此 [!DNL Buy Box] 由Amazon授予通常以最佳价格列出产品的销售者，以及其他因素，例如提供的FBA/Prime运费、可用性和销售者的表现。
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 [智能重新定价规则](./intelligent-repricing-rules.md) 可配置为根据 [!DNL Amazon Buy Box] 价格。
 
-![Buy Box竞争对手定价详细信息](assets/amazon-listing-details-buy-box.png)
+![Buy Box竞争对手定价详细信息](assets/amazon-listing-details-buy-box.png){width="600" zoomable="yes"}
 
 ## 访问 [!DNL Buy Box] 竞争对手定价详细信息
 

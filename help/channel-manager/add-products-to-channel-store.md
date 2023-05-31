@@ -2,7 +2,7 @@
 title: 将产品添加到渠道管理器
 description: '''创建产品分类 [!DNL Walmart Marketplace] 通过将产品从目录添加到Channel Manager中配置的销售渠道来进行销售。” '
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 0%
@@ -41,13 +41,13 @@ ht-degree: 0%
 
 1. 从连接的销售渠道商店中，选择 **添加产品** 以打开产品目录。
 
-   ![将产品添加到Sales Channel商店](assets/add-initial-products-to-connected-channel.png)
+   ![将产品添加到Sales Channel商店](assets/add-initial-products-to-connected-channel.png){width="600" zoomable="yes"}
 
    目录将在新选项卡中打开。
 
 1. 在目录产品网格中，选择要销售的产品 [!DNL Walmart Marketplace].
 
-   ![将产品发送到销售渠道商店](assets/select-products-from-catalog.png)
+   ![将产品发送到销售渠道商店](assets/select-products-from-catalog.png){width="600" zoomable="yes"}
 
 1. 启用 **[!UICONTROL Connect to Channel Manager]** 选定项目的属性。
 
@@ -61,9 +61,9 @@ ht-degree: 0%
 
       将显示确认消息。
 
-      ![产品从目录导入到销售渠道确认消息](assets/product-import-from-catalog-confirmation.png)
+      ![产品从目录导入到销售渠道确认消息](assets/product-import-from-catalog-confirmation.png){width="400"}
 
-      如果消息指示已计划更新，请使用 [队列:consumers:开始](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-queue.html) [!DNL CLI] 命令立即处理更新。
+      如果消息指示已计划更新，请使用 [队列:consumers:开始](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) [!DNL CLI] 命令立即处理更新。
 
       ```bash
       $ bin/magento queue:consumers:start product_action_attribute.update
@@ -75,6 +75,6 @@ ht-degree: 0%
 
 1. 通过选择“ ”，更新视图以显示添加到渠道管理器的新产品 **[!UICONTROL Draft]** 状态卡。
 
-   ![产品已导入到连接的销售渠道](assets/products-in-marketplace-sales-channel.png)
+   ![产品已导入到连接的销售渠道](assets/products-in-marketplace-sales-channel.png){width="400" zoomable="yes"}
 
 

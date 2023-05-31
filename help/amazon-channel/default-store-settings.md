@@ -1,15 +1,15 @@
 ---
-title: 默认存储设置
+title: Amazon列表的默认商店设置
 description: 修改默认的Commerce设置以自定义商店的AmazonSales Channel。
 exl-id: 368e5e8e-2bf9-4f9c-86c6-6d375f8a8720
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
 
-# 默认存储设置
+# Amazon列表的默认商店设置
 
 在商店连接并设置了第一个列表规则后，即表示Amazon与之间的数据同步 [!DNL Commerce] 开始。 有多种类型的商店设置允许您根据自己的需求自定义商店。 可在存储上访问存储设置 [仪表板](./amazon-store-dashboard.md).
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 | 设置 | 默认 | 描述 | 位置 |
 |--- |--- |--- |--- |
-| [!UICONTROL Import Amazon Orders] | `Enabled` | 创建对应的 [!DNL Commerce] 订单在从Amazon收到新订单时，允许在 [[!DNL Commerce] 订单](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"} 工作流。 时间 `Disabled`，Amazon订单导入订单信息以供审阅，但必须在以下位置管理订单： [!DNL Amazon Seller Central] 帐户。 | [订单设置](./order-settings.md) |
+| [!UICONTROL Import Amazon Orders] | `Enabled` | 创建对应的 [!DNL Commerce] 订单在从Amazon收到新订单时，允许在 [[!DNL Commerce] 订单](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html) 工作流。 时间 `Disabled`，Amazon订单导入订单信息以供审阅，但必须在以下位置管理订单： [!DNL Amazon Seller Central] 帐户。 | [订单设置](./order-settings.md) |
 | [!UICONTROL Customer Creation] | `No Customer Creation (guest)` | 来自Amazon订单的客户数据未导入到您的 [!DNL Commerce] 数据库。 导入的Amazon订单将作为访客结帐处理。 如果您想构建 [!DNL Commerce] 客户数据库，应将此设置更改为 `Build New Customer Account`. | [订单设置](./order-settings.md) |
 | [!UICONTROL Automatic List Action] | `Automatically List Eligible Products` | [!DNL Commerce] 目录产品(符合Amazon的资格要求)以自动发布到Amazon并创建Amazon列表。 如果要手动审阅和发布产品，则应将此设置更改为 `Do Not Automatically List Eligible Products`. 等待手动发布的产品将显示在 [_准备列出_](./ready-to-list.md) 选项卡。 | [产品列表操作](./product-listing-actions.md) |
 | [!UICONTROL Magento Price Source] | `Price` | 定义用作您的Amazon清单基础的价格来源属性。 如果您不想使用 [!DNL Commerce] `Price` 属性作为定价规则所依据的基本价格，您应该将此设置更改为其他属性。 | [挂牌价](./listing-price.md) |

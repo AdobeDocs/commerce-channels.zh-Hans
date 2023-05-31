@@ -2,9 +2,9 @@
 title: 查看Amazon属性映射
 description: 验证链接的Commerce属性的值，以便在Commerce和Amazon之间正确同步。
 exl-id: 11a1fb25-6aa8-43d3-b5d8-772bbe1a5d53
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -23,12 +23,12 @@ ht-degree: 0%
 
 1. 单击 **[!UICONTROL Matching Attribute Values]** 选项卡。
 
-   具有相应 [!DNL Commerce] 目录产品在中显示链接的值 _Magento产品SKU_ 列。 单击链接将打开相应的目录产品详细信息页面。 对产品详细信息页面上的Amazon属性所做的更改不会同步回Amazon销售渠道。
+   具有相应 [!DNL Commerce] 目录产品在中显示链接的值 _[!UICONTROL Magento Product SKU]_列。 单击链接将打开相应的目录产品详细信息页面。 对产品详细信息页面上的Amazon属性所做的更改不会同步回Amazon销售渠道。
 
 >[!TIP]
 >要编辑清单的映射或将其分配给目录产品，请参阅 [更新必需信息](./amazon-manually-update-incomplete-listing.md).
 
-![查看属性值](assets/amazon-managing-attribute-values.png)
+![查看属性值](assets/amazon-managing-attribute-values.png){width="600" zoomable="yes"}
 
 | 字段 | 描述 |
 |--- |--- |

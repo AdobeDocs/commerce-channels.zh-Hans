@@ -2,7 +2,7 @@
 title: 查看Amazon订单
 description: 在Adobe Commerce或Magento Open Source管理员中查看您的Amazon Marketplace订单。
 exl-id: d7811604-8e15-4d1a-a0e7-9fa61c61ef5d
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
@@ -32,7 +32,7 @@ _[!UICONTROL All Orders]_视图为订单搜索添加筛选选项。
 
 您可以在中查看最近的订单 _[!UICONTROL Recent Orders]_部分 [存储仪表板](./amazon-store-dashboard.md).
 
-![最近的订单](assets/amazon-recent-orders-imported.png)
+![最近的订单](assets/amazon-recent-orders-imported.png){width="600" zoomable="yes"}
 
 ### 查看最近的Amazon订单
 
@@ -54,7 +54,7 @@ _[!UICONTROL All Orders]_视图为订单搜索添加筛选选项。
 - [!UICONTROL Total (range)]
 - [!UICONTROL Status]
 
-![Amazon订单](assets/amazon-orders-list-all.png)
+![Amazon订单](assets/amazon-orders-list-all.png){width="600" zoomable="yes"}
 
 ### 查看所有Amazon订单
 
@@ -72,7 +72,7 @@ _[!UICONTROL All Orders]_视图为订单搜索添加筛选选项。
 
 您可以在以下位置将过滤器应用于您的订单列表： _[!UICONTROL Filter by]_部分。 进行选择并单击&#x200B;**[!UICONTROL Apply filters]**. 应用的过滤器将显示在“订单”网格上方。
 
-![用于查看Amazon订单的筛选器](assets/amazon-orders-filter-view.png)
+![用于查看Amazon订单的筛选器](assets/amazon-orders-filter-view.png){width="600" zoomable="yes"}
 
 ### 更改应用的筛选器
 

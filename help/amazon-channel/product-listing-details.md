@@ -1,15 +1,15 @@
 ---
-title: 查看列表详细信息
+title: 查看Amazon列表详细信息
 description: 要了解有关Amazon列表和单个SKU/产品更改的竞争性指标，请查看产品列表详细信息页面。
 exl-id: faece1b1-b4fb-4506-bf77-576ae445ed28
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
 
-# 查看列表详细信息
+# 查看Amazon列表详细信息
 
 此 _[!UICONTROL Product Listing Details]_页面显示有关活动产品清单的其他信息，包括清单活动日志，该日志显示对单个SKU/产品所做的更改。 此信息可帮助您了解关于您的产品和单个SKU/产品更改的竞争性指标。 此页面上的其他信息包括：
 
@@ -28,7 +28,7 @@ Amazon sales channel home pages有一些共同之处 [工作区控件](./workspa
 - _[!UICONTROL Catalog (Magento) SKU]_
 - _[!UICONTROL Amazon Seller SKU]_
 
-![列表详细信息](assets/amazon-product-listing-details.png)
+![列表详细信息](assets/amazon-product-listing-details.png){width="600" zoomable="yes"}
 
 ## 列出活动日志 {#listing-activity-log}
 
@@ -40,7 +40,7 @@ Amazon sales channel home pages有一些共同之处 [工作区控件](./workspa
 - 备注：提供与所发生的列表操作类型相关的附加详细信息。
 - 执行时间：标识执行操作的日期和时间。
 
-![产品列表详细信息 — 列表活动日志](assets/amazon-listing-activity-log.png)
+![产品列表详细信息 — 列表活动日志](assets/amazon-listing-activity-log.png){width="600" zoomable="yes"}
 __
 
 ## Buy Box竞争对手的定价 {#buy-box-competitor-pricing}
@@ -55,7 +55,7 @@ __
 - 到岸价格：标识列出的价格加上发运价格。
 - 上次更新：标识从Amazon更新定价信息的日期和时间。
 
-![产品列表详细信息：Buy Box竞争对手定价](assets/amazon-listing-details-buy-box-2.png)
+![产品列表详细信息：Buy Box竞争对手定价](assets/amazon-listing-details-buy-box-2.png){width="600" zoomable="yes"}
 
 ## 最低竞争对手价格 {#lowest-competitor-pricing}
 
@@ -71,4 +71,4 @@ __
 - 反馈计数：标识最低价格商家的Amazon反馈计数。
 - 上次更新：标识从Amazon更新定价信息的日期和时间。
 
-![产品列表详细信息 — 最低竞争对手定价](assets/amazon-listing-details-lowest-comp.png)
+![产品列表详细信息 — 最低竞争对手定价](assets/amazon-listing-details-lowest-comp.png){width="600" zoomable="yes"}

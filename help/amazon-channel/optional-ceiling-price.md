@@ -2,9 +2,9 @@
 title: '智能重新定价规则：可选最高价格'
 description: 使用可选的最高价格设置来根据管理Amazon清单的智能定价规则保护您的最高产品价格。
 exl-id: edc40e6b-e71f-41a3-8d5f-8bb73ada42a3
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 1. 对象 **[!UICONTROL Ceiling Price Source]**，选择一个属性。
 
-   选择您的 [!DNL Commerce] [产品属性](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"} 表示你的相对上限。 例如，如果您不希望自己的Amazon上市价格高于项目的MSRP，则可以选择 `Manufacturer's Suggested Retail Price` 属性。
+   选择您的 [!DNL Commerce] [产品属性](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) 表示你的相对上限。 例如，如果您不希望自己的Amazon上市价格高于项目的MSRP，则可以选择 `Manufacturer's Suggested Retail Price` 属性。
 
 1. 对象 **[!UICONTROL Ceiling Price Action]**，选择一个选项。
 
@@ -43,11 +43,11 @@ ht-degree: 0%
 
 在此示例中，最高价格设置为比物料的MSRP低2%。
 
-![智能重新定价规则 — 可选最高价格](assets/ob-intelligent-price-rule-ceiling.png)
+![智能重新定价规则 — 可选最高价格](assets/ob-intelligent-price-rule-ceiling.png){width="600" zoomable="yes"}
 
 | 字段 | 描述 |
 |---|---|
-| [!UICONTROL Ceiling Price Source] | 选择 [!DNL Commerce] [产品属性](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"} 表示你的相对上限。 例如，如果您不希望产品清单价格高于项目的MSRP，则可以选择 `Manufacturer's Suggested Retail Price` 属性。 |
+| [!UICONTROL Ceiling Price Source] | 选择 [!DNL Commerce] [产品属性](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) 表示你的相对上限。 例如，如果您不希望产品清单价格高于项目的MSRP，则可以选择 `Manufacturer's Suggested Retail Price` 属性。 |
 | [!UICONTROL Ceiling Price Action] | 选择定价调整活动。 选项：<ul><li>**[!UICONTROL Decrease By]**  — 选择何时需要定义的 _[!UICONTROL Ceiling Price Source]_值后向下调整，从而降低规则的上限，然后再将值发布到Amazon。</li><li>**[!UICONTROL Increase By]**  — 选择何时需要定义的 _[!UICONTROL Ceiling Price Source]_值进行调整，从而为规则创建更高的最高价格，然后再将资产挂牌到Amazon。</li><li>**[!UICONTROL Match]**  — 选择何时不希望挂牌价波动超过定义的价格 _[!UICONTROL Ceiling Price Source]_值。 当设置为 `Match`，则_[!UICONTROL Apply]_ 和 _[!UICONTROL Ceiling Adjustment Amount]_字段被禁用。</li></ul> |
 | [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]**  — 相对于 _[!UICONTROL Ceiling Price Source]_值。 |
 | [!UICONTROL Ceiling Price Adjustment] | 输入百分比的数字值，以调整 _[!UICONTROL Ceiling Price Source]_值。 |

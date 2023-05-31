@@ -1,15 +1,15 @@
 ---
-title: Amazon Store功能板
+title: Amazon store功能板
 description: 使用Amazon商店仪表板从Commerce管理员中查看Amazon商店的活动。
 exl-id: b86220c6-8350-474e-8faa-988a9a575ac4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 0%
 
 ---
 
-# Amazon Store功能板
+# Amazon store功能板
 
 在 _[!UICONTROL Amazon Stores]_在Amazon sales channel home page上查看，您可以单击&#x200B;**[!UICONTROL View Store]**，以打开商店信息板。
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 您还可以访问 [存储设置](./ob-store-review.md)， [管理列表](./managing-product-listings.md)，并查看销售数据和近期订单信息。
 
-![Amazon Store功能板](assets/amazon-store-dashboard.png)
+![Amazon Store功能板](assets/amazon-store-dashboard.png){width="600" zoomable="yes"}
 
 商店仪表板的标题显示与商店卡上显示的相同的基本商店信息：
 

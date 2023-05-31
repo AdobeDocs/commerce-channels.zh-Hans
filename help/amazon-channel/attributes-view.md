@@ -1,19 +1,19 @@
 ---
-title: 属性
+title: Amazon列表的属性
 description: AmazonSales Channel提供 [!UICONTROL Attributes] 选项卡，用于监视Amazon和Commerce属性的列表以及如何映射它们以进行产品匹配。
 exl-id: fc08cd6e-eef9-4e71-82b1-5443e14800ce
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
 
-# 属性
+# Amazon列表的属性
 
 此 _[!UICONTROL Attributes]_视图显示您的Amazon列表和 [!DNL Commerce] 属性。 该列表还指示已为产品匹配映射的属性。 有关更多信息，请参阅 [管理属性](./managing-attributes.md).
 
-![属性视图](assets/amazon-attributes-view.png)
+![属性视图](assets/amazon-attributes-view.png){width="600" zoomable="yes"}
 
 从 _[!UICONTROL Attributes]_查看、您和查看表格中的属性设置和 [创建或编辑](./creating-attributes.md) 属性。
 

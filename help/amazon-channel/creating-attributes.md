@@ -1,10 +1,10 @@
 ---
-title: 创建和编辑属性
+title: 创建和编辑Amazon销售渠道的属性
 description: AmazonSales Channel提供了“属性”视图，可帮助您查看当前Amazon属性和链接的Commerce属性。
 exl-id: 3cd5fb7e-68a3-45fd-8f50-72d3cc0244b5
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1072'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 1. 对象 **[!UICONTROL Comparable on Storefront]**，设置为 `Yes` 属性值能否在Amazon的“比较依据”功能中使用。
 
-1. 选择 [!DNL Commerce] [范围](https://docs.magento.com/user-guide/configuration/scope.html){target="_blank"} ，然后选择一个或多个要将Amazon值导入到的存储视图。
+1. 选择 [!DNL Commerce] [范围](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings) ，然后选择一个或多个要将Amazon值导入到的存储视图。
 
    如果范围设置为 `Global`，则 _[!UICONTROL Store View]_创建属性后无法更改。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 保存后，您可能需要编辑属性以检查设置并匹配Amazon和 [!DNL Commerce] 属性的值。 您还可以指示Amazon值是否应覆盖 [!DNL Commerce] 值。
 
-![创建属性设置](assets/amazon-attribute-settings-create.png)
+![创建属性设置](assets/amazon-attribute-settings-create.png){width="600" zoomable="yes"}
 
 | 字段 | 描述 |
 |--- |--- |
@@ -75,8 +75,8 @@ ht-degree: 0%
 | [!UICONTROL Use for Promo Rule Conditions] | 切换到 `Yes` 以使属性可用于促销条件中的参数。 |
 | [!UICONTROL Used in Search] | 指示属性和值是否可用于产品搜索。 |
 | [!UICONTROL Comparable on Storefront] | 指示属性值是否可以在Amazon的“比较依据”功能中使用。 |
-| [!UICONTROL Magento Product Attribute Scope] | 指示 [范围](https://docs.magento.com/user-guide/configuration/scope.html){target="_blank"} 属性的。 选项：全局/商店视图<br>当设置为 `Global`，创建属性后无法编辑“商店视图” 。 |
-| [!UICONTROL Store Views (to import values into to)] | 仅在范围设置为时显示 `Store View`. 选择 [商店视图](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} Amazon属性值的同步目标。 选择 `All Store Views (Global)` 更新全部的值 [!DNL Commerce] 商店视图。 |
+| [!UICONTROL Magento Product Attribute Scope] | 指示 [范围](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings) 属性的。 选项：全局/商店视图<br>当设置为 `Global`，创建属性后无法编辑“商店视图” 。 |
+| [!UICONTROL Store Views (to import values into to)] | 仅在范围设置为时显示 `Store View`. 选择 [商店视图](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) Amazon属性值的同步目标。 选择 `All Store Views (Global)` 更新全部的值 [!DNL Commerce] 商店视图。 |
 
 ## 编辑属性 {#edit-an-attribute}
 
@@ -106,7 +106,7 @@ ht-degree: 0%
 
 1. 完成后，单击 **[!UICONTROL Save Attribute Settings]**.
 
-![编辑属性设置](assets/amazon-attribute-settings-edit.png)
+![编辑属性设置](assets/amazon-attribute-settings-edit.png){width="600" zoomable="yes"}
 
 | 字段 | 描述 |
 |--- |--- |
@@ -114,5 +114,5 @@ ht-degree: 0%
 | [!UICONTROL Select Magento Product Attribute] | 指示选定项 [!DNL Commerce] 要链接到列出的Amazon属性名称的属性。 如果要更改链接的 [!DNL Commerce] 属性，从下拉列表中选择其他属性。 值根据配置进行同步。 |
 | [!UICONTROL Amazon Attribute Name] | 显示Amazon属性的名称，如中所定义 [!DNL Amazon Seller Central]. 选定的 [!DNL Commerce] 此Amazon属性的属性链接。 不能通过编辑此值 [!DNL Commerce]. |
 | [!UICONTROL Overwrite Existing Value] | 指示Amazon属性值是否覆盖现有 [!DNL Commerce] 值，影响所有具有此功能的产品 [!DNL Commerce] 属性。<ul><li>**不覆盖现有Magento值**  — （默认）保留 [!DNL Commerce] 值，保留不同的值 [!DNL Commerce] 和Amazon商店。</li><li>**覆盖现有Magento值**  — 将Amazon值保存在 [!DNL Commerce] 中的值 [!DNL Commerce] 产品目录。</li></ul> |
-| [!UICONTROL Magento Product Attribute Scope] | 编辑属性时不会显示(如果属性是使用 `Global` 范围。 指示 [!DNL Commerce] [范围](https://docs.magento.com/user-guide/configuration/scope.html){target="_blank"} 创建并设置为 `Store View`. |
-| [!UICONTROL Store Views (to import values into to)] | 选择您的 [!DNL Commerce] [商店视图](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} ，以将Amazon属性值同步到其中。 选择 `All Store Views (Global)` 会更新所有商店视图中的值。 |
+| [!UICONTROL Magento Product Attribute Scope] | 编辑属性时不会显示(如果属性是使用 `Global` 范围。 指示 [!DNL Commerce] [范围](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings) 创建并设置为 `Store View`. |
+| [!UICONTROL Store Views (to import values into to)] | 选择您的 [!DNL Commerce] [商店视图](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) ，以将Amazon属性值同步到其中。 选择 `All Store Views (Global)` 会更新所有商店视图中的值。 |

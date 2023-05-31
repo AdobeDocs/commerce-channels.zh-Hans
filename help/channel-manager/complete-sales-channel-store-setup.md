@@ -2,7 +2,7 @@
 title: 完成渠道设置
 description: '创建连接 [!DNL Commerce] 将视图存储到 [!DNL Walmart Marketplace]，打开渠道并完成渠道配置。 然后，开始添加产品、管理列表、库存、定价和订单的流程 [!DNL Channel Manager].'
 exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 1. 在管理员中，选择**[!UICONTROL Marketing** > **渠道管理器**].
 
-   ![管理渠道管理器存储](assets/channel-manager-setup-first-store.png)
+   ![管理渠道管理器存储](assets/channel-manager-setup-first-store.png){width="500" zoomable="yes"}
 
 1. 通过选择商店的眼睛图标来打开销售渠道商店。
 

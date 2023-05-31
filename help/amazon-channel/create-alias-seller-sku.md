@@ -2,7 +2,7 @@
 title: 创建别名Amazon销售商SKU
 description: 您可以使用Alias Amazon销售方SKU从Commerce目录产品创建多区域Amazon列表。
 exl-id: df3cafbf-58df-4c93-9e63-20feb6f4e7ed
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 0%
@@ -73,7 +73,7 @@ An [!DNL Alias Amazon Seller SKU] 用于通过中的相同产品创建Amazon列�
 
 1. 单击 **[!UICONTROL Save Listing Update]**.
 
-![创建别名Amazon销售商SKU](assets/amazon-alias-sku-create.png)
+![创建别名Amazon销售商SKU](assets/amazon-alias-sku-create.png){width="600" zoomable="yes"}
 
 | 字段 | 描述 |
 |--- |--- |

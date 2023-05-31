@@ -1,16 +1,15 @@
 ---
-title: 上市规则
+title: Amazon销售渠道 —  [!UICONTROL Listing Rules]
 description: 使用列表规则确定作为Amazon Marketplace列表发布的Commerce目录产品。
-redirect_from: /sales-channels/asc/ob-listing-rules.html/sales-channels/asc/ob-listing-preview.html/sales-channels/asc/listing-rule-preview.html
 exl-id: b28a625b-64cf-4119-98bb-f1ea33043c8f
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '954'
 ht-degree: 0%
 
 ---
 
-# 上市规则
+# [!UICONTROL Listing Rules]
 
 您可以在中访问商店的列表规则 [存储仪表板](./amazon-store-dashboard.md).
 
@@ -20,7 +19,7 @@ ht-degree: 0%
 
 - 如果您希望将所有产品发布到Amazon上市，请不要为上市规则定义任何条件。
 
-- 如果要限制发布到Amazon的目录产品，您需要定义列出规则条件。 定义Amazon列表规则的条件时，遵循与定义条件相同的逻辑和过程。 [购物车价格规则](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"}.
+- 如果要限制发布到Amazon的目录产品，您需要定义列出规则条件。 定义Amazon列表规则的条件时，遵循与定义条件相同的逻辑和过程。 [购物车价格规则](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart.html).
 
 - 如果您的列表规则不包括产品，则该产品的资格状态将更改为 `Ineligible`. 不符合条件的产品不会发布到Amazon。
 
@@ -28,7 +27,7 @@ ht-degree: 0%
 
 数量和资格状态的更改会影响为同一地区内的商店销售而存在的市场内共享Amazon卖家SKU的所有列表(定义见 _[!UICONTROL Amazon Marketplace Country]_期间 [存储集成](./store-integration.md))。 但是，对共享的更改 [!DNL Amazon Seller SKU] 不会影响产品在其他国家/地区的Amazon列表。
 
-![上市规则](assets/ob-listing-rules.png)
+![上市规则](assets/ob-listing-rules.png){width="600" zoomable="yes"}
 
 ## 配置列表规则设置
 
@@ -40,7 +39,7 @@ ht-degree: 0%
 
 | 字段 | 描述 |
 |---|---|
-| [!UICONTROL Websites] | 可用选项取决于 [网站](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} 您已在 [!DNL Commerce] 配置。 为Amazon上列出的符合条件的产品选择网站。 只能选择一个网站，因为每个网站都需要在Amazon销售渠道中创建唯一的Amazon商店。 |
+| [!UICONTROL Websites] | 可用选项取决于 [网站](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) 您已在 [!DNL Commerce] 配置。 为Amazon上列出的符合条件的产品选择网站。 只能选择一个网站，因为每个网站都需要在Amazon销售渠道中创建唯一的Amazon商店。 |
 | [!UICONTROL Conditions] | 用于定义 [!DNL Commerce] 适用于您的Amazon地区的产品资格属性。 参见 [示例：定义条件](./ob-define-condition-example.md). |
 
 ## 条件工作区
@@ -50,7 +49,7 @@ ht-degree: 0%
 - 如果所选网站中的所有产品都符合条件，则不添加条件。
 - 要直接与Amazon的系统通信，需要一组复杂的后端流程。 根据您尝试列出的项目数量以及Amazon系统可能有多忙（例如“黑色星期五”），在Amazon上列出项目可能需要一些时间。
 
-有关条件的更多信息，请参阅 [描述条件](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"}.
+有关条件的更多信息，请参阅 [描述条件](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart.html).
 
 ## 列表规则预览
 
@@ -90,7 +89,7 @@ Amazon列表会与您的规则和定义的条件进行比较。 然后，您可�
 
    如果您的列表未按预期显示，请单击 **[!UICONTROL Back]** 并修改您的规则和条件，直到您的清单符合您的期望为止。
 
-![列表规则预览](assets/amazon-listing-rule-preview.png)
+![列表规则预览](assets/amazon-listing-rule-preview.png){width="600" zoomable="yes"}
 
 ### 列出预览记录
 
@@ -98,11 +97,11 @@ Amazon列表会与您的规则和定义的条件进行比较。 然后，您可�
 |--- |--- |
 | [!UICONTROL Product ID] | 分配给的唯一序列号 [!DNL Commerce] 添加时显示的目录产品。 |
 | [!UICONTROL Thumbnail] | 显示主要产品图像的缩略图。 |
-| [!UICONTROL Name] | 产品的名称，在 [!DNL Commerce] [产品网格](https://docs.magento.com/user-guide/catalog/products.html){target="_blank"}. |
+| [!UICONTROL Name] | 产品的名称，在 [!DNL Commerce] [产品网格](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/products-list.html). |
 | [!UICONTROL Type] | 产品的类型，在 [!DNL Commerce] 产品网格。 |
 | [!UICONTROL Attribute Set] | 用作产品模板的属性集名称，在中管理 [!DNL Commerce] 产品网格。 |
 | [!UICONTROL SKU] | 分配给产品的唯一库存单位，在 [!DNL Commerce] 产品网格。 |
 | [!UICONTROL Visibility] | 指示产品的可见位置，在中进行管理 [!DNL Commerce] 产品网格。 选项：<ul><li>`Not visible individually`</li><li>`Catalog`</li><li>`Search`</li><li>`Catalog, Search`</li></ul> |
 | 状态 | 指示产品的状态，在 [!DNL Commerce] 产品网格。 选项： `Enabled` / `Disabled` |
 
-![列表预览工作流](assets/listing-preview-flowchart.png)
+![列表预览工作流](assets/listing-preview-flowchart.png){width="500" zoomable="yes"}

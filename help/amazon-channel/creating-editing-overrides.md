@@ -1,10 +1,10 @@
 ---
-title: 创建和编辑覆盖
+title: 创建和编辑Amazon sales channel覆盖
 description: 使用AmazonSales Channel覆盖可将您的更改应用于单个Amazon列表或多个列表。
 exl-id: 3a254883-b88c-4c94-b4d5-8d7754b9afd2
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 1. 在 _[!UICONTROL Action]_列，单击&#x200B;**[!UICONTROL Select]**>**[!UICONTROL Create Override]**以打开“产品列表改写”页。
 
-   ![创建Amazon列表覆盖](assets/amazon-select-create-override.png)
+   ![创建Amazon列表覆盖](assets/amazon-select-create-override.png){width="220"}
 
 1. 要确保您查看的是正确的列表，请验证 _[!UICONTROL Listing Details]_.
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 以下示例显示了一个覆盖，该覆盖定义了一个新的价格： `$55`，的新处理时间 `1 day`，的新条件 `Used; Like New`和新的卖家备注文本。
 
-![Amazon列表覆盖示例](assets/amazon-overrides-edit.png)
+![Amazon列表覆盖示例](assets/amazon-overrides-edit.png){width="600" zoomable="yes"}
 
 ## 编辑或移除单个列表的覆盖 {#edit-override-single-listing}
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
    此 _[!UICONTROL Product Listing Overrides]_页面打开。
 
-   ![选择Amazon列表覆盖](assets/amazon-select-edit-overrides.png)
+   ![选择Amazon列表覆盖](assets/amazon-select-edit-overrides.png){width="125"}
 
 1. 要确保覆盖正确的列表，请验证 _[!UICONTROL Listing Details]_.
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 正在附带 _创建覆盖_ 示例。 以下示例显示对之前创建的覆盖的编辑，该编辑定义了以下内容的新价格 `$50`，删除处理时间覆盖，并保留以前的条件和卖方票据覆盖。
 
-![编辑或删除覆盖](assets/amazon-overrides-edit-2.png)
+![编辑或删除覆盖](assets/amazon-overrides-edit-2.png){width="600" zoomable="yes"}
 __
 
 ## 编辑或删除多个列表的覆盖 {#edit-override-multiple-listings}
@@ -92,7 +92,7 @@ __
 
    此 _[!UICONTROL Product Listing Overrides]_页面打开。
 
-   ![选择Amazon列表覆盖](assets/amazon-actions-edit-listing-overrides.png)
+   ![选择Amazon列表覆盖](assets/amazon-actions-edit-listing-overrides.png){width="200"}
 
 1. 要编辑您的 _[!UICONTROL Override]_设置，为要更改的类型（价格、处理时间、条件、卖方备注）定义部分。
 

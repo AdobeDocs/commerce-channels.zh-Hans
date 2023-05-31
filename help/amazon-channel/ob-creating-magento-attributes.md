@@ -1,17 +1,17 @@
 ---
-title: 创建 [!DNL Commerce] Amazon的属性
+title: 为Amazon创建Commerce属性
 description: 在完成Amazon sales channel入门培训流程之前，确保您具备所需的 [!UICONTROL Commerce] 产品属性。
 exl-id: eebad794-c171-40a3-aa24-d5509e2b5797
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
 
-# 创建 [!DNL Commerce] Amazon的属性
+# 为Amazon创建Commerce属性
 
-载入之前 [!DNL Amazon Seller Central] 帐户，最佳做法是添加 [!DNL Commerce] [产品属性](https://docs.magento.com/user-guide/stores/attributes-product.html){target="_blank"} 以映射您的产品列表。 完成载入后，您可以通过以下方式管理产品属性 [属性](./managing-attributes.md) 的选项卡 [Amazon sales channel home](./amazon-sales-channel-home.md) 页面。
+载入之前 [!DNL Amazon Seller Central] 帐户，最佳做法是添加 [!DNL Commerce] [产品属性](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) 以映射您的产品列表。 完成载入后，您可以通过以下方式管理产品属性 [属性](./managing-attributes.md) 的选项卡 [Amazon sales channel home](./amazon-sales-channel-home.md) 页面。
 
 以下说明详细介绍了如何创建 [!DNL Commerce] Amazon ASIN和Amazon Condition的属性。 建议创建其他属性，包括Amazon EAN、Amazon ISBN和Amazon UPC。 如果要将Amazon上市价格用作定价规则的价格来源，则可能还希望创建Amazon价格属性。 在新用户引导期间配置您的列表和定价设置时，将使用这些属性。 在创建Amazon列表以及更新和同步时，也可以使用这些属性 [!DNL Commerce] 包含Amazon列表的目录。
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 1. 单击 **[!UICONTROL Save Attribute]**.
 
-![Amazon ASIN属性](assets/creating-asin-attribute.png)
+![Amazon ASIN属性](assets/creating-asin-attribute.png){width="600" zoomable="yes"}
 
 ## 创建Amazon Condition产品属性
 
@@ -116,6 +116,6 @@ ht-degree: 0%
 
 1. 单击 **[!UICONTROL Save Attribute]**.
 
-![Amazon条件属性](assets/creating-amazon-condition-attribute.png)
+![Amazon条件属性](assets/creating-amazon-condition-attribute.png){width="600" zoomable="yes"}
 
 ![“下一步”图标](assets/btn-next.png) [**继续添加或验证API密钥**](./amazon-verify-api-key.md)

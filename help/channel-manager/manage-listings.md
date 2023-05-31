@@ -2,7 +2,7 @@
 title: 管理列表
 description: '''管理销售渠道列表 [!DNL Commerce] 通过Adobe Commerce和Magento Open Source渠道管理器进行存储。'
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 单个清单的状态表示产品在 [!DNL Channel Manager] 工作流，以便您确定后续步骤并解决任何错误。
 
-![连接的销售渠道的列表页面](assets/listings-dashboard-view.png)
+![连接的销售渠道的列表页面](assets/listings-dashboard-view.png){width="500" zoomable="yes"}
 
 您可以从“列表”视图中完成以下任务。
 

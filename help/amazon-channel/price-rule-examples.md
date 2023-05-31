@@ -1,10 +1,10 @@
 ---
-title: 价格规则示例
+title: Amazon销售渠道 — 价格规则示例
 description: 为了帮助您为Amazon列表设计定价规则，请根据常见方案查看这些示例。
 exl-id: 4d9717ba-4ad6-468d-b4ca-99f8620b60b4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '925'
 ht-degree: 2%
 
 ---
@@ -231,7 +231,7 @@ ht-degree: 2%
 
 在本例中，最具竞争力的价格是通过查看Amazon来定义的 [竞争对手的最低价格](./lowest-competitor-pricing.md) 95%的正面反馈，最低反馈数量为1,000个商家评论。
 
-![价格调整示例](assets/amazon-price-adjustment-example.png)
+![价格调整示例](assets/amazon-price-adjustment-example.png){width="600" zoomable="yes"}
 
 运行基于这些参数的搜索后，竞争性价格回升至25美元。
 

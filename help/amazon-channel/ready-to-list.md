@@ -1,8 +1,8 @@
 ---
-title: 准备列出
+title: Amazon销售渠道 —  [!UICONTROL Ready to List]
 description: Amazon Sales Channel提供了Ready to List选项卡，以帮助您查看符合条件但未自动列出的Commerce产品。
 exl-id: f62017fb-964f-43f0-b76b-8f39f447466a
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 >[!NOTE]
 >如果您有正在处理的列表，则列表的数量将显示在选项卡上方的消息中。
 
-![准备列出](assets/amazon-ready-to-list.png)
+![准备列出](assets/amazon-ready-to-list.png){width="600" zoomable="yes"}
 
 ## 默认列
 

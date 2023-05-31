@@ -2,16 +2,16 @@
 title: 处理订单
 description: '''发货和取消说明 [!DNL Walmart Marketplace] Adobe Commerce和Magento Open Source的订单。”'
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
 
 # 处理订单
 
-晚于 [!DNL Walmart Marketplace] 订单已确认并成功发送至 [!DNL Channel Manager]，您使用 [商务订单管理](https://docs.magento.com/user-guide/sales/orders-workspace.html) 以处理订单。
+晚于 [!DNL Walmart Marketplace] 订单已确认并成功发送至 [!DNL Channel Manager]，您使用 [商务订单管理](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html#orders-workspace) 以处理订单。
 
 渠道管理器将更新同步到 [!DNL Walmart Marketplace] 确保订单状态和发运信息来自 [!DNL Commerce] 匹配中跟踪的数据 [!DNL Walmart Marketplace].
 
@@ -37,22 +37,21 @@ ht-degree: 0%
 
 1. 查看 [!DNL Walmart Marketplace] 订单，选择 **[!UICONTROL Orders]**.
 
-1. 在“订单”表格中，通过选择 **商业订单号**.
+1. 在“订单”表格中，通过选择 **[!UICONTROL Commerce Order Number]**.
 
 1. 通过选择，为全部或部分订单创建并提交装运 **[!UICONTROL Ship]**.
 
-   ![的商务订单详细信息视图 [!DNL Walmart Marketplace] 订购](assets/order-detail-with-external-order-id.png)
+   ![的商务订单详细信息视图 [!DNL Walmart Marketplace] 订购](assets/order-detail-with-external-order-id.png){width="600" zoomable="yes"}
 
    * 选择装运承运人，并通过选择添加跟踪编号 **[!UICONTROL Add tracking number]**.
 
-      ![的商务订单详细信息视图 [!DNL Walmart Marketplace] 订购](assets/order-shipment-add-tracking-number.png)
+      ![的商务订单详细信息视图 [!DNL Walmart Marketplace] 订购](assets/order-shipment-add-tracking-number.png){width="600" zoomable="yes"}
 
-
-   * 根据需要完成其余的送货单。 参见 [[!DNL Shipping an Order]](https://docs.magento.com/user-guide/sales/order-ship.html) 以获取详细说明。
+   * 根据需要完成其余的送货单。 参见 [[!DNL Shipping an Order]](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-ship.html) 以获取详细说明。
 
 1. 提交装运后，跟踪 [订单状态](manage-orders.md#about-order-status) 在 [!DNL Channel Manager] 验证更新是否已发送到 [!DNL Walmart Marketplace].
 
-订单发运后，您可以处理全部或部分退款 [!DNL Channel Manager] 根据从收到的退货请求，确定订单中包含的物料 [!DNL Walmart Marketplace]. 参见 [退货和退款单](return-refund-orders.md).
+订单发运后，您可以处理全部或部分退款 [!DNL Channel Manager] 根据从收到的退货请求，确定订单中包含的物料 [!DNL Walmart Marketplace]. 参见 [退货单和退款单](return-refund-orders.md).
 
 ## 取消订单
 
@@ -60,20 +59,20 @@ ht-degree: 0%
 
 1. 通过选择销售渠道商店的眼睛图标来打开商店视图。
 
-1. 查看 [!DNL Walmart Marketplace] 订单，选择*[!UICONTROL *Orders]**。
+1. 查看 [!DNL Walmart Marketplace] 订单，选择*[!UICONTROL Orders]**。
 
-1. 在“订单”表格中，打开 [订单详细信息页面](manage-orders.md#view-order-detail) 通过选择 **商业订单号** ，以取消订单。
+1. 在“订单”表格中，打开 [订单详细信息页面](manage-orders.md#view-order-detail) 通过选择 **[!UICONTROL Commerce Order Number]** ，以取消订单。
 
-   ![的商务订单详细信息视图[!DNL Walmart Marketplace]订购](assets/order-detail-with-external-order-id.png)
+   ![的商务订单详细信息视图[!DNL Walmart Marketplace]订购](assets/order-detail-with-external-order-id.png){width="600" zoomable="yes"}
 
 1. 取消订单。
 
    * 选择 **取消** 从“订单详细信息”菜单中。
 
-   * 在 [!UICONTROL Cancel Order] 表单中，选择 **取消原因**.
-   ![的商务订单详细信息视图 [!DNL Walmart Marketplace] 订购](assets/cancel-order-reason-selector.png)
+   * 在 [!UICONTROL Cancel Order] 表单中，选择 **[!UICONTROL Cancellation reason]**.
+   ![的商务订单详细信息视图 [!DNL Walmart Marketplace] 订购](assets/cancel-order-reason-selector.png){width="600" zoomable="yes"}
 
-   * 选择 **取消订单**.
+   * 选择 **[!UICONTROL Cancel Order]**.
 
 
 1. 提交取消后，跟踪 [订单状态](manage-orders.md#about-order-status) 在 [!DNL Channel Manager] 验证更新是否已发送到 [!DNL Walmart Marketplace].

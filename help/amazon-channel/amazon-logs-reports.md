@@ -1,15 +1,15 @@
 ---
-title: 日志和存储报告
+title: Amazon列表的日志和存储报告
 description: 使用日志和商店报表可查看Adobe Commerce或Magento Open Source商店中的动态以及Amazon Marketplace列表。
 exl-id: 4654f718-d15f-4c3b-b984-ac7b9c29e6c4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '243'
 ht-degree: 0%
 
 ---
 
-# 日志和存储报告
+# Amazon列表的日志和存储报告
 
 Amazon sales channel扩展包括一些有价值的日志和商店报告，利用这些报告，您可以查看影响Amazon清单和订单的更改。 您可以使用这些报表来查看您商店中发生的事件并了解各种列表状态。
 
@@ -29,4 +29,4 @@ Amazon sales channel扩展包括一些有价值的日志和商店报告，利用
 
 >[!TIP]
 >
->在需要进行故障排除时，您还可以查看日志文件以了解其他信息。 参见 [sales channel管理设置](./sales-channel-settings.md). Amazon sales channel synchronization logging将写入 `{Commerce Root}/var/log/channel_amazon.log` 文件并可在中查看 [开发人员模式](https://docs.magento.com/user-guide/magento/installation-modes.html){target="_blank"}.
+>在需要进行故障排除时，您还可以查看日志文件以了解其他信息。 参见 [sales channel管理设置](./sales-channel-settings.md). Amazon sales channel synchronization logging将写入 `{Commerce Root}/var/log/channel_amazon.log` 文件并可在中查看 [开发人员模式](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/developer-tools.html#operation-modes).

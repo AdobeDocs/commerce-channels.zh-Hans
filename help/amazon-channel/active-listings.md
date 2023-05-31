@@ -1,15 +1,15 @@
 ---
-title: 活动列表
+title: 活动的Amazon列表
 description: Amazon Sales Channel提供了“活动”选项卡，用于监视活动的Amazon列表以及与Adobe Commerce目录中的产品匹配的产品。
 exl-id: c9105abc-74d6-442b-8d7a-e5aaea8872e4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
 
-# 活动列表
+# 活动的Amazon列表
 
 此 _[!UICONTROL Active]_选项卡显示您的Amazon列表，这些列表在 [!DNL Amazon Marketplace] 和已匹配到您产品中的产品 [!DNL Commerce] 目录。
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 >
 >如果您有正在处理的列表，则列表的数量将显示在选项卡上方的消息中。
 
-![活动列表](assets/amazon-active-listings.png)
+![活动列表](assets/amazon-active-listings.png){width="700" zoomable="yes"}
 
 Amazon sales channel home pages有一些共同之处 [工作区控件](./workspace-controls.md) 允许您自定义显示的数据。
 

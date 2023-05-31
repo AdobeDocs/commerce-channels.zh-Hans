@@ -1,15 +1,15 @@
 ---
-title: 非活动列表
+title: 不活跃的Amazon列表
 description: Amazon销售渠道提供 [!UICONTROL Inactive] 选项卡以监视当前不活动 [!DNL Amazon Marketplace] 列表。
 exl-id: 1d20e75f-3346-48cb-83f7-a9e7acb26a96
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
 
-# 非活动列表
+# 不活跃的Amazon列表
 
 此 _[!UICONTROL Inactive]_选项卡显示已发布到Amazon但在上未处于活动状态的产品 [!DNL Amazon Marketplace]. 由于其他原因，您的列表可能处于不活动状态。 例如，您可能没有资格列出该特定品牌。 非活动列表由Amazon的列表标准和 [!DNL Amazon Seller Central] 帐户权限。
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 >
 >如果您有正在处理的列表，则标签上方会显示一条消息，指示列表的数量。
 
-![不活跃的Amazon列表](assets/amazon-inactive-listings.png)
+![不活跃的Amazon列表](assets/amazon-inactive-listings.png){width="600" zoomable="yes"}
 
 Amazon sales channel home pages有一些共同之处 [工作区控件](./workspace-controls.md) 允许您自定义显示的数据。
 

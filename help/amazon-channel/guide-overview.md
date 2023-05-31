@@ -1,17 +1,17 @@
 ---
-title: ‘[!DNL Amazon Sales Channel] 指南概述
+title: ‘[!DNL Amazon Sales Channel] 指南'
 description: 有关以下内容的全面信息 [!DNL Amazon sales channel] 适用于Adobe Commerce和Magento Open Source管理员，包括安装和载入
 seo-title: Adobe Commerce Amazon Sales Channel Guide
 seo-description: Describes how to use [!DNL Amazon sales channel] with Adobe Commerce or Magento Open Source.
 exl-id: ad3e2353-313b-4c40-800a-b1ef5f0d8235
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 901d856067cd9d236727edc8bde354820791c411
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
 
-# [!DNL Amazon Sales Channel] 指南概述
+# [!DNL Amazon Sales Channel] 指南
 
 本指南适用于Adobe Commerce和Magento Open Source的管理员。 它包括有关安装和载入的详细信息 [!DNL Amazon sales channel]以及服务的配置和管理。 它假定您对核心Commerce配置和功能有基本的了解。
 
@@ -20,23 +20,38 @@ ht-degree: 0%
 * 管理员：使用此区域可访问配置UI和报表。
 * 命令行界面：使用此工具执行安装和后端配置任务。
 
-本指南涵盖：
+本指南将回顾一些基本的 [!DNL Amazon Seller Central] 信息，以及设置Amazon销售渠道的要求。 此外，它还包含有关入门和集成流程、可用的商店、产品、价格和其他选项，以及如何使用Amazon销售渠道管理您在 [!DNL Amazon Marketplace]. 使用左边栏浏览各种功能，并细化以访问详细信息和过程。
 
-* 全部 [!DNL Amazon sales channel] — 在Admin中完成的特定任务。
-* 全部 [!DNL Amazon sales channel] — 使用Commerce命令行完成的特定任务
+>[!NOTE]
+>
+>本指南不涉及Adobe Commerce和Magento Open Source的核心功能。
 
-本指南不涉及Adobe Commerce和Magento Open Source的核心功能。
+| 面积图 | 描述 |
+|----|----|
+| [Amazon sales channel简介](./overview.md) | 详细了解Amazon销售渠道基础知识、主要功能、最佳实践等。 |
+| [载入Amazon销售渠道](./amazon-onboarding-home.md) | 快速创建Amazon商店并与集成 [!DNL Amazon Seller Central]. 启动并运行Amazon销售渠道以开始销售。 |
+| [Amazon sales channel home](./amazon-sales-channel-home.md) | 详细了解Amazon销售渠道主页以及可用的选项和任务。 查看有关Amazon存储的摘要信息，并访问存储详细信息和设置。 |
+| [管理属性](./attributes-view.md) | Amazon sales channel将产品映射到 [!DNL Commerce] 使用产品属性的catalog和Amazon。 了解有关创建、映射和管理这些属性的更多信息。 |
+| [管理商店设置](./ob-store-review.md) | 查看并修改您的商店设置，包括列表设置、订单设置以及列表和定价规则。 |
+| [管理列表](./managing-product-listings.md) | 当您通过Amazon Marketplace进行销售时，可以更新、添加和管理您的列表（设置、规则和定价）。 了解有关创建和修改商店及列表设置的更多信息。 |
+| [管理订单和履行](./managing-orders.md) | Amazon sales channel支持通过Amazon的订单履行和发运，并且 [!DNL Commerce]. 直接通过Amazon了解关于实现目标的更多信息 [!DNL Commerce]和订单管理选项。 |
+| [查看日志和报告](./amazon-logs-reports.md) | 详细了解Amazon和之间跟踪的错误和交互 [!DNL Commerce]. |
 
 ## 其他文档
 
-| 指南 | 描述 |
-|------ | ----------- |
-| [Adobe Commerce 2.4用户指南](https://docs.magento.com/user-guide/) | Adobe Commerce和Magento Open Source的以商家为中心的文档 |
-| [Adobe Commerce 2.4开发人员指南](https://devdocs.magento.com/) | 用于构建和自定义Adobe Commerce或Magento Open Source的以开发人员为中心的文档 |
+| 文档资源 | 描述 |
+|----------------------- | ----------- |
+| [Adobe Commerce 2.4商家文档](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) | Adobe Commerce和Magento Open Source的以商家为中心的文档 |
+| [Adobe Commerce服务文档](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | 支持服务集合的文档，可帮助商家将其业务的关键组件与商店集成。 |
+| [云基础架构上的Commerce指南](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | 在托管的自动托管云平台上部署Adobe Commerce的分步过程。 |
+| [Adobe Commerce 2.4操作指南](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | 有关概念、流程、工具和最佳实践的系统文档，用于开发、部署和维护在Adobe Commerce和Magento Open Source平台上部署的项目。 |
+| [Adobe Commerce 2.4开发人员文档](https://developer.adobe.com/commerce/docs) | 用于构建和自定义Adobe Commerce或Magento Open Source的以开发人员为中心的文档 |
+
+{style="table-layout:auto"}
 
 ## 支持
 
 如果您需要本指南中未涉及的信息或问题，请使用以下资源：
 
-* [帮助中心](https://support.magento.com/hc/en-us){target="_blank"} — 请参阅 [!DNL Amazon Sales Channel] — 相关疑难解答文章。
-* [支持票证](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket){target="_blank"} — 提交票证以接收其他帮助。
+* [帮助中心](https://support.magento.com/hc/en-us) — 请参阅 [!DNL Amazon Sales Channel] — 相关疑难解答文章。
+* [支持票证](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) — 提交票证以接收其他帮助。

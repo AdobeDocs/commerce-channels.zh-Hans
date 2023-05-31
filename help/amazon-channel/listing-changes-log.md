@@ -1,15 +1,15 @@
 ---
-title: 列出更改日志
+title: Amazon销售渠道 —  [!UICONTROL Listing Changes Log]
 description: AmazonSales Channel提供列表更改日志，以帮助您监控Amazon卖方帐户中受影响的更改。
 exl-id: 9c4db5ac-cbfb-4584-b216-4aead2a28189
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
 
-# 列出更改日志
+# [!UICONTROL Listing Changes Log]
 
 列表更改日志显示中发生的更改 [!DNL Amazon Seller Account] 作为您的Amazon sales channel设置的反映。 此日志指示已在Amazon和Amazon sales channel之间同步的全局更改。 此日志包括列出产品SKU的更改，如操作类型（更改）、更改的简要说明以及更改日期。
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Amazon sales channel home pages有一些共同之处 [工作区控件](./workspace-controls.md) 允许您自定义显示的数据。
 
-![列出更改日志](assets/amazon-listing-changes-log.png)
+![列出更改日志](assets/amazon-listing-changes-log.png){width="600" zoomable="yes"}
 
 ## 默认列
 

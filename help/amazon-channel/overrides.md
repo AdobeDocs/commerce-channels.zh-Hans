@@ -1,15 +1,15 @@
 ---
-title: 覆盖
+title: Amazon销售渠道 —  [!UICONTROL Overrides]
 description: AmazonSales Channel提供了“覆盖”选项卡，以帮助您识别和管理如何在Amazon列表中应用覆盖。
 exl-id: e31bbbf9-b20d-42fd-a419-93d596e40be2
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
 
-# 覆盖
+# [!UICONTROL Overrides]
 
 此 _[!UICONTROL Overrides]_选项卡显示您已应用覆盖的Amazon列表。 覆盖是特定于列表的设置，可用于将定义的值设置为列表。 无论其他已定义的列表设置或列表适用于的规则如何，应用于列表的覆盖都会定义列表的设置。 将覆盖应用于列表后，该列表将显示在_[!UICONTROL Overrides]_ 选项卡。 覆盖中定义的值将显示在列表的相应列中。 有四种类型的覆盖可以应用：价格、处理时间、条件和卖方备注。
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 >
 >如果您有正在处理的列表，则列表的数量将显示在选项卡上方的消息中。
 
-![“覆盖”选项卡](assets/amazon-overrides.png)
+![“覆盖”选项卡](assets/amazon-overrides.png){width="600" zoomable="yes"}
 
 Amazon sales channel home pages有一些共同之处 [工作区控件](./workspace-controls.md) 允许您自定义显示的数据。
 

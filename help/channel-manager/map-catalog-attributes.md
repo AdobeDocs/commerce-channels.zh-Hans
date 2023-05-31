@@ -2,9 +2,9 @@
 title: 映射目录属性
 description: '映射属性以匹配[DNL！ Commerce]产品到现有 [!DNL Walmart Marketplace] 列出并同步数据 [!DNL Channel Manager] 和 [!DNL Walmart].'
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 | ISSN | 国际标准序列号 | 8位数的序列号，用于标识所有媒体印刷和电子媒体上投放的各类杂志、期刊、报纸和期刊 | 8位 |
 | UPC | 通用产品代码 | 标准零售跟踪代码 | 12位 |
 
-如果您的目录没有匹配的属性， [添加或转换现有目录属性](https://docs.magento.com/user-guide/catalog/product-attributes.html).
+如果您的目录没有匹配的属性， [添加或转换现有目录属性](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html).
 
 ## 映射唯一标识符
 
@@ -38,6 +38,6 @@ ht-degree: 0%
 
       以下示例映射 [!UICONTROL Walmart Marketplace UPC] 属性添加到产品目录中的UPC属性。
 
-      ![映射产品匹配条件的属性](assets/products-map-attributes-for-match.png)
+      ![映射产品匹配条件的属性](assets/products-map-attributes-for-match.png){width="600" zoomable="yes"}
 
    - 选择 **[!UICONTROL Save]**.

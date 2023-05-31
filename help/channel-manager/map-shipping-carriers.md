@@ -2,9 +2,9 @@
 title: 映射装运承运人
 description: '映射属性以匹配[DNL！ Commerce]产品到现有 [!DNL Walmart Marketplace] 列出并同步数据 [!DNL Channel Manager] 和 [!DNL Walmart].'
 exl-id: 98c8d3f6-f129-43c6-920c-d9c36b0e4a40
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 1. 查看 [准时交货的承运人方法和运输最佳实践](https://sellerhelp.walmart.com/s/guide?article=000009473) 对象 [!DNL Walmart Marketplace].
 
-1. 验证 [[!UICONTROL Shipping Carrier]](https://docs.magento.com/user-guide/shipping/carriers.html) 和 [[!UICONTROL Shipping Settings]](https://docs.magento.com/user-guide/configuration/sales/shipping-settings.html) 中的配置 [!DNL Commerce] 存储，以确保您已针对以下项优化配置： [!DNL Walmart Marketplace sales].
+1. 验证 [[!UICONTROL Shipping Carrier]](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-carriers/carriers.html) 和 [[!UICONTROL Shipping Settings]](https://experienceleague.adobe.com/docs/commerce-admin/config/sales/shipping-settings.html) 中的配置 [!DNL Commerce] 存储，以确保您已针对以下项优化配置： [!DNL Walmart Marketplace sales].
 
 ## 映射装运承运人
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 1. 日期 **[!UICONTROL Channel Settings]**，选择 **[!UICONTROL Shipping Carriers]**.
 
-   ![映射装运承运人](assets/map-shipping-carriers.png)
+   ![映射装运承运人](assets/map-shipping-carriers.png){width="600" zoomable="yes"}
 
 1. 针对每个 [!DNL Walmart] 已列出首选运营商，请选择 [!DNL Commerce] 运营商名称时（如果该运营商可用）。
 

@@ -1,15 +1,15 @@
 ---
-title: 存储集成设置
+title: Amazon销售渠道 —  [!UICONTROL Store Integration Settings]
 description: 在您完成Amazon销售渠道入门培训流程后，请通过 [!UICONTROL Amazon Store] 仪表板
 exl-id: 58fc8e62-ce66-497f-8f55-f70aafa8d791
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
 
-# 存储集成设置
+# [!UICONTROL Store Integration Settings]
 
 集成您的商店后，请通过 [!UICONTROL Amazon Store] 仪表板。 这些设置显示用于 *不活动* 和 *活动* 商店。 在这里，您可以更改Amazon商店的名称以及在商店集成期间与该商店关联的电子邮件地址。
 
@@ -33,4 +33,4 @@ ht-degree: 0%
 >
 >此 _[!UICONTROL Amazon Marketplace Country]_设置定义于 [存储集成](./store-integration.md) 无法更新。 要编辑国家/地区设置，您必须删除商店(位于_[!UICONTROL Action]_ ，并为不同的国家/地区添加商店。
 
-![存储集成设置](assets/amazon-store-settings.png)
+![存储集成设置](assets/amazon-store-settings.png){width="600" zoomable="yes"}

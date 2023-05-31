@@ -1,10 +1,10 @@
 ---
-title: 标准价格规则操作
+title: Amazon sales channel — 标准价格规则操作
 description: 使用标准价格规则操作增加或减少相对于Commerce目录价格（或价格来源）的Amazon上市价格。
 exl-id: 91df6ef3-852b-478b-8b01-51dd437dd4f9
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
@@ -26,13 +26,13 @@ ht-degree: 0%
 
 1. 展开 _[!UICONTROL Price Adjustment]_部分（如果需要）。
 
-1. 对象 **[!UICONTROL Price Action]**，选择一个选项以确定更改的方式 *[!UICONTROL Magento Price Source]* （在中定义） [挂牌价](./listing-price.md))值。
+1. 对象 **[!UICONTROL Price Action]**，选择一个选项以确定更改更改的方式 *[!UICONTROL Magento Price Source]* （在中定义） [挂牌价](./listing-price.md))值。
 
    - `Decrease By`  — 选择您希望值在列为Amazon之前减少的时间。
 
    - `Increase By`  — 选择您希望值在列为Amazon之前增加的时间。
 
-1. 对象 **[!UICONTROL Apply]**，选择一个选项和一个选项，以确定如何定义 *[!UICONTROL Magento Price Source]* 在中定义 [挂牌价](./listing-price.md) 要调整的值：
+1. 对象 **[!UICONTROL Apply]**，选择一个选项以确定如何定义 *[!UICONTROL Magento Price Source]* 在中定义 [挂牌价](./listing-price.md) 要调整的值：
 
    - `Apply as percentage`  — 选择何时需要定义的 *[!UICONTROL Magento Price Source]* 在中定义 [挂牌价](./listing-price.md) 按百分比调整的值
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 1. 完成后，单击 **[!UICONTROL Save pricing rule]**.
 
-![标准价格规则](assets/ob-price-rule-action-standard-example.png)
+![标准价格规则](assets/ob-price-rule-action-standard-example.png){width="600" zoomable="yes"}
 
 | 字段 | 描述 |
 |---|---|

@@ -1,19 +1,19 @@
 ---
-title: 有竞争力的价格分析
+title: 竞争性价格分析报告
 description: 竞争价格分析按市场显示您的Amazon列表，其中具有相应的Buy Box价格和最低的竞争对手价格。
 exl-id: 9e1e72f6-6917-4db4-bc32-09569a028b11
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
 
-# 有竞争力的价格分析
+# 竞争性价格分析报告
 
 竞争价格分析报告按市场显示您的Amazon列表，以及相应的 [Buy Box](./buy-box-competitor-pricing.md) 价格和 [最低竞争对手](./lowest-competitor-pricing.md) 价格值。 日志没有可用的操作。 它是仅用于审阅的功能。
 
-![竞争性价格分析报告](assets/amazon-competitive-price-analysis.png)
+![竞争性价格分析报告](assets/amazon-competitive-price-analysis.png){width="600" zoomable="yes"}
 
 ## 默认列
 

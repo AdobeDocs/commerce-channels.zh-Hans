@@ -2,9 +2,9 @@
 title: 退货单和退款单
 description: 从以下来源收到的为退货请求签发全部或部分退款的指示 [!DNL Walmart Marketplace] 起始日期 [!DNL Channel Manager] 适用于Adobe Commerce和Magento Open Source。
 exl-id: 45617011-4add-444c-819b-6bb4164d03e4
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1184'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,13 @@ ht-degree: 0%
 
 1. 渠道管理器使用接收状态创建相应的返回请求，并添加返回ID号([!UICONTROL RMA #])到 [!UICONTROL Returns] 仪表板。 在 [!DNL Orders] 仪表板，与退货更新关联的订单的状态详细信息，以包括 [!UICONTROL Return requested] 查看和处理退货的链接。
 
-1. 商户通过以下方式处理与退货关联的退款：创建贷项通知单，然后 [Adobe Commerce退款工作流](https://docs.magento.com/user-guide/sales/credit-memos.html#refund-workflow). 所有退款均使用离线方法处理。
+1. 商户通过以下方式处理与退货关联的退款：创建贷项通知单，然后 [Adobe Commerce退款工作流](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos.html). 所有退款均使用离线方法处理。
 
 1. [!DNL Channel Manager] 向沃尔玛商城发送退款更新，以便更新退货状态以反映已完成的来自Adobe Commerce的退款。
 
 在店面管理员中，您可以通过打开销售渠道商店并选择 **[!UICONTROL Returns]**.
 
-![渠道经理退货控制面板用于处理从收到的退货请求的退款 [!DNL Walmart Marketplace]](assets/returns-dashboard-view.png)
+![渠道经理退货控制面板用于处理从收到的退货请求的退款 [!DNL Walmart Marketplace]](assets/returns-dashboard-view.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -148,7 +148,7 @@ ht-degree: 0%
 
    * 从 [!UICONTROL Status Details] 列，选择 **[!UICONTROL Create credit memo]** 打开“订单详细信息”页面 [!DNL Commerce].
 
-      如果订单尚未开票，则“订单详细信息”页将显示一则错误消息，提示您创建订单。 选择 **[!UICONTROL Create invoice]**. 那么， [创建并保存发票](https://docs.magento.com/user-guide/sales/invoices.html).
+      如果订单尚未开票，则“订单详细信息”页将显示一则错误消息，提示您创建订单。 选择 **[!UICONTROL Create invoice]**. 那么， [创建并保存发票](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/invoices.html).
 
    * 在订单详细信息页面上，选择 **[!UICONTROL Credit Memo]**.
 
@@ -179,7 +179,7 @@ ht-degree: 0%
 
 1. 通过选择查看退货的退款详细信息 **[!UICONTROL View credit memo]**.
 
-   ![用于退款退货的贷项通知单 [!DNL Walmart Marketplace] 订购](assets/refund-credit-memo-for-marketplace-order.png)
+   ![用于退款退货的贷项通知单 [!DNL Walmart Marketplace] 订购](assets/refund-credit-memo-for-marketplace-order.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >

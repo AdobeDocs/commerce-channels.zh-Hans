@@ -1,11 +1,11 @@
 ---
-title: 价格规则操作
+title: Amazon sales channel — 价格规则操作
 description: 使用价格规则活动定义应用于价格来源的调整计算，以确定Amazon的上市价格。
 redirect_from: /sales-channels/asc/ob-pricing-rules-actions.html
 exl-id: c46bd5c2-7994-45b4-ae0c-9e473372c73a
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---

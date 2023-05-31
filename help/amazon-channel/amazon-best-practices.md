@@ -1,15 +1,15 @@
 ---
-title: Amazon销售渠道的最佳实践和限制
+title: 的最佳实践和限制 [!DNL Amazon sales channel]
 description: 查看在使用Amazon sales channel for Adobe Commerce和Magento Open Source时的最佳实践和限制。
 exl-id: 7f7faae1-7aa7-413c-b534-1039e6a35173
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
 
-# AmazonSales Channel的最佳实践和限制
+# 的最佳实践和限制 [!DNL Amazon sales channel]
 
 最佳实践包括：
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 - Amazon sales channel可以设置您的定价规则，以自动调整您的挂牌价格。 自动化定价保护包括 [底价](./floor-price.md) 和 [可选最高价](./optional-ceiling-price.md) 的功能 [智能重新定价规则](./intelligent-repricing-rules.md). 使用这些保障措施有助于确保您的上市价格不会低于您的成本或高于规定的价格。
 
-- Amazon sales channel与Amazon之间的数据同步由您的 [[!DNL Commerce] cron](https://docs.magento.com/user-guide/system/cron.html){target="_blank"} 设置。 内置节流 [!DNL Commerce] Amazon有助于确保流畅高效的数据传输，但在电子商务流量旺盛时期（如黑色星期五），Amazon的系统更新时间可能会比平常长。 设置您的 [!DNL Commerce] cron每五分钟运行一次。
+- Amazon sales channel与Amazon之间的数据同步由您的 [[!DNL Commerce] cron](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html) 设置。 内置节流 [!DNL Commerce] Amazon有助于确保流畅高效的数据传输，但在电子商务流量旺盛时期（如黑色星期五），Amazon的系统更新时间可能会比平常长。 设置您的 [!DNL Commerce] cron每五分钟运行一次。
 
 - Amazon sales channel可导入您的Amazon订单信息。 要在Amazon sales channel中管理Amazon订单，您必须确保 [订单设置](./order-settings.md) 定义来导入和创建相应的 [!DNL Commerce] 每个Amazon订单的订单。 如果未定义，则只能查看Amazon订单信息。 所有通过Amazon缴纳的销售税仍通过贵机构的 [!DNL Amazon Seller Central] 帐户。 在某些州，Amazon需要自动征收和汇出税款。 对于其他州，销售者可以选择手动或自动计算税款。 参见 [Amazon：税收政策](https://sellercentral.amazon.com/gp/help/external/help.html?itemID=200405820&amp;language=en_US/){target="_blank"}. 您可能需要登录 [!DNL Amazon Seller Central] 用于查看Amazon税务政策文档的帐户。
 

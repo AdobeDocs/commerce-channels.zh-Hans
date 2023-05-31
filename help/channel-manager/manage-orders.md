@@ -2,7 +2,7 @@
 title: '''查看和管理订单 [!DNL Channel Manager]‘'
 description: '''查看和管理 [!DNL Walmart Marketplace] 订单 [!DNL Channel Manager] 用于Adobe Commerce和Magento Open Source。”'
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 在店面管理员中，您可以查看以下位置的订单数据 [!DNL Channel Manager] 打开sales channel store并选择 **[!UICONTROL Orders]**.
 
-![要管理的渠道管理器订单视图 [!DNL Walmart Marketplace] 订单](assets/orders-dashboard-view.png)
+![要管理的渠道管理器订单视图 [!DNL Walmart Marketplace] 订单](assets/orders-dashboard-view.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -151,7 +151,7 @@ ht-degree: 0%
 
 起始日期 **[!UICONTROL Orders]**，选择 **[!UICONTROL Commerce Order Number]** 以打开 [!DNL Commerce] 订单详细信息。
 
-![的商务订单详细信息视图 [!DNL Walmart Marketplace] 订购](assets/order-detail-with-external-order-id.png)
+![的商务订单详细信息视图 [!DNL Walmart Marketplace] 订购](assets/order-detail-with-external-order-id.png){width="600" zoomable="yes"}
 
 在Commerce店面中，订单导入自 [!DNL Walmart Marketplace] 订单数据中包含以下附加信息：
 
@@ -172,6 +172,6 @@ ht-degree: 0%
 
 - **已订购项目** — 此部分列出了所有Commerce订单上的订单项。 此 [!UICONTROL Qty] 列提供订单项目的状态历史记录。 例如，如果订单已开票、发运和退款，则可以查看状态转换。
 
-   ![订单详细信息订购物料状态历史记录 [!DNL Walmart Marketplace] 订单](assets/order-detail-status-history.png)
+   ![订单详细信息订购物料状态历史记录 [!DNL Walmart Marketplace] 订单](assets/order-detail-status-history.png){width="600" zoomable="yes"}
 
 通过选择 [!UICONTROL Invoice] 和 [!UICONTROL Credit Memo] 选项。 您还可以直接从以下位置访问贷项通知单： [[!UICONTROL Returns]](return-refund-orders.md) 销售渠道商店中的仪表板。

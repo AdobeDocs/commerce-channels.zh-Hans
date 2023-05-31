@@ -1,15 +1,15 @@
 ---
-title: 存储设置
+title: 查看Amazon销售渠道的商店设置
 description: 在您完成Amazon销售渠道入门培训流程后，请查看并更新 [!DNL Commerce] 存储设置。
 exl-id: 7f1ea19b-f473-4a8e-9a91-b06d6b733664
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
 
-# 存储设置
+# 查看Amazon销售渠道的商店设置
 
 创建并集成Amazon销售渠道商店后，请查看商店默认设置以确保您的产品、列表、定价和其他设置正确无误。
 
@@ -27,4 +27,4 @@ ht-degree: 0%
    - **[!UICONTROL Logs]** - [列表更改](./listing-changes-log.md) 和 [通信错误](./communication-errors-log.md).
    - [**[!UICONTROL Store integration setting]s **](./store-integration-settings.md)— 在中查看电子邮件和Amazon销售渠道商店名称设置 [!DNL Commerce] 管理员。
 
-![存储仪表板](assets/ob-store-review.png)
+![存储仪表板](assets/ob-store-review.png){width="600" zoomable="yes"}

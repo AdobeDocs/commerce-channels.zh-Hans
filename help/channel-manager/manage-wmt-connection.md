@@ -2,7 +2,7 @@
 title: 管理沃尔玛商城连接
 description: '''更新API凭据以授权[DNL！之间的连接 Commerce]商店视图和 [!DNL Walmart Marketplace]. The connection is required to connect [!DNL Commerce] 产品列表，并在以下位置同步库存、价格、订单和装运数据： [!DNL Commerce] 还有沃尔玛。'
 exl-id: 817b1b58-a57e-4c8d-b08f-1ce3bec15bc3
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 1. 要修改凭据，请选择 **[!UICONTROL Change Credentials]**
 
-   ![更新Walmart API凭据以授权连接](assets/update-connection-credentials.png)
+   ![更新Walmart API凭据以授权连接](assets/update-connection-credentials.png){width="700" zoomable="yes"}
 
 1. 输入 **[!UICONTROL Walmart Client ID]** 和 **[!UICONTROL Walmart Client Secret]**.
 

@@ -1,16 +1,16 @@
 ---
-title: 目录搜索
+title: Amazon列表的目录搜索
 description: 要设置有助于将符合条件的Commerce目录产品映射到Amazon列表的属性匹配，请更新“目录搜索”设置。
 redirect_from: /sales-channels/asc/ob-catalog-search.html
 exl-id: 9fcaa924-cba3-498f-8e21-1a1f91b1ad04
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '987'
 ht-degree: 0%
 
 ---
 
-# 目录搜索
+# Amazon列表的目录搜索
 
 _目录搜索_ 设置是商店列表设置的一部分。 列表设置可从以下位置访问： [存储仪表板](./amazon-store-dashboard.md).
 
@@ -60,7 +60,7 @@ _目录搜索_ 设置是商店列表设置的一部分。 列表设置可从以�
 
 1. 完成后，单击 **[!UICONTROL Save listing settings]**.
 
-![目录搜索](assets/amazon-catalog-search.png)
+![目录搜索](assets/amazon-catalog-search.png){width="500" zoomable="yes"}
 
 | 字段 | 描述 |
 |--- |--- |

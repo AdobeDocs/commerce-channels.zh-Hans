@@ -1,15 +1,15 @@
 ---
-title: 新的第三方列表
+title: 新的第三方Amazon列表
 description: 通过将新的Amazon列表与Commerce目录中的产品进行匹配来管理这些列表。
 exl-id: ace9d334-d1d1-4f4b-88c8-60a9e7d1d17c
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
 
-# 新的第三方列表
+# 新的第三方Amazon列表
 
 此 _[!UICONTROL New Third Party]_选项卡显示您现有的尚未与中的产品匹配的Amazon列表 [!DNL Commerce] 目录。 要将列表管理用于数量、定价、处理时间等，您的每个Amazon列表都必须与中的产品进行匹配（分配） [!DNL Commerce] 目录。 要向中的产品分配列表，有几个选项可用 [!DNL Commerce] 目录。
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 >
 >如果您有正在处理的列表，则选项卡上方会显示一条消息，指示列表的数量。
 
-![新的第三方列表](assets/amazon-listings-new-third-party.png)
+![新的第三方列表](assets/amazon-listings-new-third-party.png){width="600" zoomable="yes"}
 
 Amazon sales channel home pages有一些共同之处 [工作区控件](./workspace-controls.md) 允许您自定义显示的数据。
 

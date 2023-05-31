@@ -1,10 +1,10 @@
 ---
-title: 创建和分配产品
+title: 为Amazon销售渠道创建和分配产品
 description: AmazonSales Channel提供 [!UICONTROL New Third Party] 选项卡，以帮助创建和分配包含Amazon列表的匹配Commerce目录产品。
 exl-id: de000e80-7546-44d2-905e-28664b24f028
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1094'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 1. 查看您的产品列表 [_[!UICONTROL New Third Party]_](./new-third-party-listings.md) 选项卡。
 
-1. 在列表中查找要分配的列表，然后单击 **[!UICONTROL Select]** 在 _[!UICONTROL Action]_列，然后单击&#x200B;**[!UICONTROL Assign Catalog Product]**.
+1. 查找要在列表中分配的列表，单击 **[!UICONTROL Select]** 在 _[!UICONTROL Action]_列，然后单击&#x200B;**[!UICONTROL Assign Catalog Product]**.
 
    此操作将打开 _[!UICONTROL Assign Magento Catalog Product]_页面。
 
@@ -59,11 +59,11 @@ ht-degree: 0%
 
    - 对象 **[!UICONTROL Website Ids]**，选择要与产品关联的网站（店面）。
 
-      此列表中的选项取决于 [!DNL Commerce] [存储配置](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} 设置。
+      此列表中的选项取决于 [!DNL Commerce] [存储配置](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) 设置。
 
    - 对象 **[!UICONTROL Attribute Set Id]** （必需），选择一个选项。
 
-      `Default` 是默认选项。 此列表中的选项取决于 [!DNL Commerce] [属性集](https://docs.magento.com/user-guide/stores/attribute-sets.html){target="_blank"} 您已配置。
+      `Default` 是默认选项。 此列表中的选项取决于 [!DNL Commerce] [属性集](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) 您已配置。
 
    - 对象 **[!UICONTROL Visibility]**，为新产品选择一个选项。
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
    - 对象 **[!UICONTROL Assign Tax Class]**，为产品选择一个选项。
 
-      此列表中显示的选项取决于 [税种](https://docs.magento.com/user-guide/tax/tax-class.html){target="_blank"} 您已配置。
+      此列表中显示的选项取决于 [税种](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) 您已配置。
 
    - 完成后，单击 **[!UICONTROL Create Catalog Products]**.
 
@@ -104,11 +104,11 @@ ht-degree: 0%
 
    - 对象 **[!UICONTROL Website Ids]**，选择要与产品关联的网站（店面）。
 
-      此列表中的选项取决于 [!DNL Commerce] [存储配置](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} 设置。
+      此列表中的选项取决于 [!DNL Commerce] [存储配置](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) 设置。
 
    - 对象 **[!UICONTROL Attribute Set Id]** （必需），选择一个选项。
 
-      `Default` 是默认选项。 此列表中的选项取决于 [!DNL Commerce] [属性集](https://docs.magento.com/user-guide/stores/attribute-sets.html){target="_blank"} 您已配置。
+      `Default` 是默认选项。 此列表中的选项取决于 [!DNL Commerce] [属性集](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) 您已配置。
 
    - 对象 **[!UICONTROL Visibility]**，为新产品选择一个选项。
 
@@ -116,19 +116,19 @@ ht-degree: 0%
 
    - 对象 **[!UICONTROL Assign Tax Class]**，为产品选择一个选项。
 
-      此列表中显示的选项取决于 [税种](https://docs.magento.com/user-guide/tax/tax-class.html){target="_blank"} 您已配置。
+      此列表中显示的选项取决于 [税种](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) 您已配置。
 
    - 完成后，单击 **[!UICONTROL Create Catalog Products]**.
 
 目录产品是在以下位置创建的： [!DNL Commerce] 目录并分配到从中创建它的Amazon列表。 由于这些列表现在与它们各自的Amazon列表相匹配，因此这些列表将会从 [_[!UICONTROL New Third Party]_](./new-third-party-listings.md) 选项卡，并出现在 [_[!UICONTROL Active]_](./active-listings.md) 选项卡。
 
-![创建Commerce目录产品](assets/amazon-magento-catalog-product.png)
+![创建Commerce目录产品](assets/amazon-magento-catalog-product.png){width="600" zoomable="yes"}
 
 | 字段 | 描述 |
 |--- |--- |
 | [!UICONTROL Enable Product(s)] | （必需）如果启用，产品将在以下位置中可见： [!DNL Commerce] 店面。 如果禁用，产品将不会显示在您的 [!DNL Commerce] 店面。 |
-| [!UICONTROL Categories] | 您可以输入新产品的类别名称，也可以单击向下箭头显示选项来选择类别。 选项取决于 [类别](https://docs.magento.com/user-guide/catalog/category-create.html){target="_blank"} 配置。 |
-| [!UICONTROL Website Ids] | （必需）选择要与产品关联的网站（店面）。 选项取决于 [!DNL Commerce] [存储配置](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} 设置 |
-| 属性集ID | 选择属性集。 选项取决于您配置的 [!DNL Commerce] [属性集](https://docs.magento.com/user-guide/stores/attribute-sets.html){target="_blank"}. |
+| [!UICONTROL Categories] | 您可以输入新产品的类别名称，也可以单击向下箭头显示选项来选择类别。 选项取决于 [类别](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/category-create.html) 配置。 |
+| [!UICONTROL Website Ids] | （必需）选择要与产品关联的网站（店面）。 选项取决于 [!DNL Commerce] [存储配置](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) 设置 |
+| 属性集ID | 选择属性集。 选项取决于您配置的 [!DNL Commerce] [属性集](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html). |
 | [!UICONTROL Visibility] | 选项：<ul><li>**[!UICONTROL Not Visible Individually]**  — 产品在中不可见 [!DNL Commerce] storefront（最常见于变体产品）。</li><li>**[!UICONTROL Catalog]**  — 允许通过网站中与产品关联的类别访问产品。</li><li>**搜索**  — 仅允许通过搜索工具找到产品。</li><li>**[!UICONTROL Catalog and Search]**  — 允许通过类别结构和使用搜索工具访问产品。</li></ul> |
-| [!UICONTROL Assign Tax Class] | 为新产品分配税分类。 选项取决于您配置的 [税种](https://docs.magento.com/user-guide/tax/tax-class.html){target="_blank"}. |
+| [!UICONTROL Assign Tax Class] | 为新产品分配税分类。 选项取决于您配置的 [税种](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html). |

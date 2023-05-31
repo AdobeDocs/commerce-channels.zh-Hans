@@ -3,16 +3,16 @@ title: 管理Amazon定价
 description: 您可以使用定价规则将Amazon清单的定价设置为与商务区不同。
 redirect_from: /sales-channels/asc/ob-pricing-rules.html
 exl-id: 5c990206-ac72-4ef5-9ed0-ff8d816096eb
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '863'
 ht-degree: 0%
 
 ---
 
 # 管理Amazon定价
 
-Amazon sales channel允许您设置定价规则，这些规则允许您设置与定义的不同Amazon列表价格 **[!UICONTROL Magento Price Source]** 在您的 [挂牌价](./listing-price.md). 您还可以栈叠多个规则，甚至还可以使用智能定价，根据竞争对手的规则来调整您的Amazon上市价格 [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 价格或 [最低竞争对手价格](./lowest-competitor-pricing.md).
+Amazon sales channel允许您设置定价规则，从而允许您设置与定义的不同Amazon列表价格 **[!UICONTROL Magento Price Source]** 在您的 [挂牌价](./listing-price.md). 您还可以栈叠多个规则，甚至还可以使用智能定价，根据竞争对手的规则来调整您的Amazon上市价格 [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 价格或 [最低竞争对手价格](./lowest-competitor-pricing.md).
 
 有两种定价规则：
 
@@ -23,9 +23,9 @@ Amazon sales channel允许您设置定价规则，这些规则允许您设置与
    >
    >如果Amazon区域设置为，则智能重新定价规则无法正常运行 `Inactive` 状态，就像在载入过程中一样。 您的定价计算取决于您的运费，并且您的地区必须位于 `Active` 要从Amazon同步的运费状态。
    >
-   >要更新Amazon帐户中的地区状态，请转到“设置”>“帐户信息”>“假期设置”。 请参阅 [Amazon：休假的列表状态](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620){target="_blank"} （需要以Seller Central登录）。
+   >要更新Amazon帐户中的地区状态，请转到“设置”>“帐户信息”>“假期设置”。 请参阅 [Amazon：休假的列表状态](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620) （需要以Seller Central登录）。
 
-Amazon此功能允许您以类似于 [!DNL Commerce] [目录价格规则](https://docs.magento.com/user-guide/catalog/pricing.html){target="_blank"}. 您可以创建复杂的规则，以便更改特定产品、特定类别内的产品甚至具有特定属性的价格。
+Amazon此功能允许您以类似于 [!DNL Commerce] [目录价格规则](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html). 您可以创建复杂的规则，以便更改特定产品、特定类别内的产品甚至具有特定属性的价格。
 
 您可以为Amazon列表添加定价规则。 价格规则可用于根据一组已定义的条件自动调整您的上市价格。 在产品在Amazon上上市之前，将触发价格规则并计算调整后的价格。
 
@@ -41,9 +41,9 @@ Amazon此功能允许您以类似于 [!DNL Commerce] [目录价格规则](https:
 - [条件](./pricing-rule-conditions.md)：确定哪些产品符合价格规则的要求。
 - [操作](./pricing-rule-actions.md)：定义应用于价格来源的调整计算，以确定挂牌价格。
 
-您可以创建 [标准定价规则](./standard-price-rules.md) 会自动调整相对于选定内容的Amazon挂牌价格 **[!UICONTROL Magento Price Source]** 在您的 [挂牌价](./listing-price.md) 设置。 Amazon此功能允许您以类似于 [!DNL Commerce] [目录价格规则](https://docs.magento.com/user-guide/marketing/price-rules-catalog.html){target="_blank"}. 您可以创建复杂的规则，以自动更改特定产品、特定类别内的产品或具有特定属性的产品的价格。 您可以完成传统设置，并重新定价产品，以根据固定金额或百分比增加或减少价格。
+您可以创建 [标准定价规则](./standard-price-rules.md) 会自动调整相对于选定内容的Amazon挂牌价格 **[!UICONTROL Magento Price Source]** 在您的 [挂牌价](./listing-price.md) 设置。 Amazon此功能允许您以类似于 [!DNL Commerce] [目录价格规则](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog.html). 您可以创建复杂的规则，以自动更改特定产品、特定类别内的产品或具有特定属性的产品的价格。 您可以完成传统设置，并重新定价产品，以根据固定金额或百分比增加或减少价格。
 
-另一个强大的工具是 [智能重新定价](./intelligent-repricing-rules.md) 根据竞争对手调整Amazon挂牌价的功能 [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 价格或 [最低竞争对手价格](./lowest-competitor-pricing.md). 与 [!DNL Commerce] [目录价格规则](https://docs.magento.com/user-guide/marketing/price-rules-catalog.html){target="_blank"}，利用此高级功能，您可以通过创建复杂规则来操纵Amazon价格。 规则可以定义特定产品、特定类别中的产品，甚至具有特定产品属性的价格更改范围。
+另一个强大的工具是 [智能重新定价](./intelligent-repricing-rules.md) 根据竞争对手调整Amazon挂牌价的功能 [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 价格或 [最低竞争对手价格](./lowest-competitor-pricing.md). 与 [!DNL Commerce] [目录价格规则](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog.html)，利用此高级功能，您可以通过创建复杂规则来操纵Amazon价格。 规则可以定义特定产品、特定类别中的产品，甚至具有特定产品属性的价格更改范围。
 
 使用智能重新定价，根据竞争对手的定价调整您的Amazon上市价格。 Amazon sales channel内置了保护机制，可让您配置以保护利润率，或避免与低反馈商家的价格相匹配。 使用 [智能重定价规则](./intelligent-repricing-rules.md)，Amazon列表价格可以自动作为固定金额或百分比金额（向上或向下）进行处理，甚至可以与 [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 价格或 [最低竞争对手价格](./lowest-competitor-pricing.md) 以每个项目为基础。 甚至可以栈叠规则以提供无限的灵活性。
 
@@ -53,7 +53,7 @@ Amazon此功能允许您以类似于 [!DNL Commerce] [目录价格规则](https:
 
 另一个定价选项是 [价格覆盖](./overrides.md)，在单个列表级别设置。 A [价格覆盖](./overrides.md) 可以设置，并且覆盖会忽略/优先于所有其他默认值、设置和规则。 An [覆盖](./overrides.md) 可以设置价格、处理时间、条件和卖方注释（少数例外）。
 
-![定价规则](assets/amazon-pricing-rules.png)
+![定价规则](assets/amazon-pricing-rules.png){width="600" zoomable="yes"}
 
 ## 默认列
 

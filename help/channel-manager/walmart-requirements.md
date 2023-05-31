@@ -2,7 +2,7 @@
 title: ‘[!DNL Walmart] 要求
 description: '''确认您具备所需的 [!DNL Walmart Marketplace]与渠道经理集成的信息和资源。”'
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 * 对于未上线的商店，您的产品选件将被暂存，并且客户不可见。 当 [!DNL Walmart Marketplace] 商店上线，暂存列表会自动推送到live store。
 
-![[!DNL Walmart Seller Central] 暂存产品](assets/walmart-seller-central-staged.png)
+![[!DNL Walmart Seller Central] 暂存产品](assets/walmart-seller-central-staged.png){width="600" zoomable="yes"}
 
 >[!IMPORTANT]
 >

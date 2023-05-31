@@ -2,9 +2,9 @@
 title: 添加或验证Amazon API密钥
 description: 在您的Commerce配置中，通过验证的Amazon API密钥，您可以将商店与Amazon卖方帐户集成。
 exl-id: 2257b64d-309d-4efd-ba79-6e0cdeed63cb
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 0%
 
 每次访问Amazon销售渠道时，都会验证API密钥。
 
-1. 登录 [!DNL Commerce] 管理员。
+1. 登录到 [!DNL Commerce] 管理员。
 
 1. 在 _[!UICONTROL Admin]_侧栏，转到&#x200B;**[!UICONTROL Marketing]**>_[!UICONTROL Channels]_ > **[!UICONTROL Amazon Sales Channel]**.
 
    如果您是第一次访问Amazon销售渠道，或者您的API密钥需要更新，则系统会提示您完成该过程。
 
-   ![获取并添加Amazon API密钥提示](assets/amazon-api-verification-prompt.png)
+   ![获取并添加Amazon API密钥提示](assets/amazon-api-verification-prompt.png){width="500"}
 
 1. 单击 **[!UICONTROL Sign in]** 访问 [!DNL Commerce] Web帐户。
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
    要创建API密钥，请输入如下描述 `Amazon Sales Channel` 并单击 **[!UICONTROL Add New]**. 将生成新密钥，并显示您输入的名称。 单击 **[!UICONTROL Copy]** 以复制新密钥。
 
-   ![生成或复制API密钥](assets/amazon-add-api-key.png)
+   ![生成或复制API密钥](assets/amazon-add-api-key.png){width="500" zoomable="yes"}
 
 1. 生成并复制新密钥后，返回到 _[!UICONTROL Amazon Sales Channel]_选项卡。
 
@@ -53,11 +53,11 @@ ht-degree: 0%
 
 1. 单击 **[!UICONTROL Save Config]**. 您现在可以返回Amazon销售渠道。
 
-   ![在商店配置中添加API密钥](assets/config-magento-services-api-screen.png)
+   ![在商店配置中添加API密钥](assets/config-magento-services-api-screen.png){width="600" zoomable="yes"}
 
 1. 在 _[!UICONTROL Admin]_侧栏，转到&#x200B;**[!UICONTROL Marketing]**>_[!UICONTROL Channels]_ > **[!UICONTROL Amazon Sales Channel]**.
 
-   重新访问Amazon sales channel triggers [!DNL Commerce] 验证和验证API密钥，并允许您继续。
+   重新访问Amazon sales channel触发器 [!DNL Commerce] 验证和验证API密钥，并允许您继续。
 
    如果系统提示您再次验证密钥，请重复此操作 _添加和验证_ 进程。
 

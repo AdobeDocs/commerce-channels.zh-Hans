@@ -1,21 +1,21 @@
 ---
-title: 最低竞争对手价格
+title: Amazon销售渠道 —  [!UICONTROL Lowest Competitor Pricing]
 description: 此 [!UICONTROL Amazon Sales Channel] 提供 [!UICONTROL Lowest Competitor Pricing] 标签页来帮助您了解竞争对手在Amazon上的价格定位。
 exl-id: 7784d36a-1286-4f92-9f67-b0fef04ad112
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
 
-# 最低竞争对手价格
+# [!UICONTROL Lowest Competitor Pricing]
 
 此 _[!UICONTROL Lowest Competitor Pricing]_选项卡_[!UICONTROL Product Listing Details]_ 页面显示最低的最终起岸价格，但会细分为发运价格和列表价格。 此信息可用于了解您的竞争对手在Amazon上的价格定位。
 
 [智能重新定价规则](./intelligent-repricing-rules.md) 可以配置为根据竞争对手的价格调整您的定价。
 
-![最低竞争对手价格](assets/amazon-listing-details-lowest-comp.png)
+![最低竞争对手价格](assets/amazon-listing-details-lowest-comp.png){width="600" zoomable="yes"}
 
 ## 访问最低竞争对手定价详细信息
 

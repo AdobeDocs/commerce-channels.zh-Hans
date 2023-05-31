@@ -1,11 +1,10 @@
 ---
-title: 定价规则常规设置
+title: Amazon sales channel — 定价规则常规设置
 description: 使用价格规则常规设置来定义上市价格规则的主要特性。
-redirect_from: /sales-channels/asc/ob-pricing-rules-general-settings.html
 exl-id: 915b3eed-997e-4f94-a23f-0553a9dfe30c
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -48,7 +47,7 @@ ht-degree: 0%
 >
 >要放弃后续规则，定价规则必须具有define **优先级** 值。
 
-![定价规则常规设置](assets/amazon-pricing-rule-general.png)
+![定价规则常规设置](assets/amazon-pricing-rule-general.png){width="600" zoomable="yes"}
 
 | 字段 | 描述 |
 |---|---|

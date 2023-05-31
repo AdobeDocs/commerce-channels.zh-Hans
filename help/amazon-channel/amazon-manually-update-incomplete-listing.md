@@ -1,10 +1,10 @@
 ---
-title: 更新必需信息（列表不完整）
+title: 更新Amazon必需信息
 description: Amazon sales channel提供了“不完整”选项卡，用于监视缺少Amazon所需信息的Commerce目录产品。
 exl-id: f278cd50-8f04-452e-b9c2-c87820f9faf2
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 该列表现在与您的目录匹配，然后会根据您的cron和列表设置更新列表并发布到Amazon。 它也会从 _[!UICONTROL Incomplete]_选项卡。
 
-![手动分配ASIN以使列表不匹配](assets/amazon-listing-update-assign-asin.png)
+![手动分配ASIN以使列表不匹配](assets/amazon-listing-update-assign-asin.png){width="600" zoomable="yes"}
 
 ## 更新所需信息（找到多个匹配项） {#update-required-info-multiple-matches-found}
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 1. 要保存产品匹配项，请单击 **[!UICONTROL Save Listing Update]**.
 
-![从多个可能的匹配项中手动选择ASIN](assets/amazon-listing-update-multiple-matches.png)
+![从多个可能的匹配项中手动选择ASIN](assets/amazon-listing-update-multiple-matches.png){width="600" zoomable="yes"}
 
 ## 更新所需信息（具有变体） {#update-required-info-has-variants}
 
@@ -63,8 +63,6 @@ ht-degree: 0%
 
 1. 要保存产品匹配项，请单击 **[!UICONTROL Save Listing Update]**.
 
-![从可能的变体匹配中手动选择ASIN](assets/amazon-listing-update-multiple-matches.png)
-
 ## 更新所需信息（缺少条件） {#update-required-info-missing-condition}
 
 1. 查看列表 _[!UICONTROL Incomplete]_按Tab键进入 [管理列表](./managing-product-listings.md).
@@ -79,4 +77,4 @@ ht-degree: 0%
 
 1. 要保存产品匹配项，请单击 **[!UICONTROL Save Listing Update]** .
 
-![手动更新缺少的条件](assets/amazon-update-listing-missing-condition.png)
+![手动更新缺少的条件](assets/amazon-update-listing-missing-condition.png){width="600" zoomable="yes"}

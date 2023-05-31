@@ -1,16 +1,16 @@
 ---
-title: 载入AmazonSales Channel
+title: 板载 [!DNL Amazon Sales Channel]”
 description: 了解Adobe Commerce和Magento Open Source中的预设置任务、载入步骤以及Amazon如何与AmazonSales Channel配合使用。
 redirect_from: /sales-channels/amazon/amazon-onboarding-home.html
 exl-id: 99b64083-36e6-442e-9d20-4676e78ec3ae
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
 
-# 载入AmazonSales Channel
+# 载入 [!DNL Amazon Sales Channel]
 
 此部分介绍了如何在Adobe Commerce和Magento Open Source中使用Amazon与Amazon销售渠道的预设置任务、入门步骤以及一些关键概念。
 

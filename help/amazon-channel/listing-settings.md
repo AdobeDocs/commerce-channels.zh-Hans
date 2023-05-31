@@ -1,11 +1,11 @@
 ---
-title: 查看列表设置
+title: 查看Amazon列表设置
 description: 使用列表设置来定义 [!DNL Commerce] 目录产品列在 [!DNL Amazon Marketplace].
 redirect_from: /sales-channels/asc/ob-listing-settings.html
 exl-id: 939babd0-8e6d-40b8-a42a-fc5c7dc3f98b
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
@@ -41,4 +41,4 @@ ht-degree: 0%
 
 1. 单击 **[!UICONTROL Save]**.
 
-![列表设置](assets/amazon-listing-settings.png)
+![列表设置](assets/amazon-listing-settings.png){width="600" zoomable="yes"}

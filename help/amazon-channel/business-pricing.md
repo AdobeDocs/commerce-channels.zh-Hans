@@ -1,18 +1,18 @@
 ---
-title: (B2B)业务价格
+title: ”[!DNL (B2B) Business Price] 用于Amazon列表”
 description: 您可以列出您的 [!DNL Commerce] 通过在Amazon中启用业务来在Amazon Business (B2B)网站上存储产品 [!DNL Seller Central] 帐户。
 redirect_from: /sales-channels/asc/ob-business-pricing.html
 exl-id: 12a6cb2d-7a22-4b6d-9e94-ce91d564f42f
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
 
-# (B2B)业务价格
+# [!DNL (B2B) Business Price] 对于Amazon列表
 
-(B2B)业务价格设置是商店列表设置的一部分。 列表设置可从以下位置访问： [存储仪表板](./amazon-store-dashboard.md).
+(B2B)业务价格设置是商店列表设置的一部分。 列表设置可从以下位置访问： [Amazon store功能板](./amazon-store-dashboard.md).
 
 [!DNL Amazon Business] 是一个专属于Amazon注册商业帐户的市场，仅在美国、法国、德国和英国可用。 如果市场允许B2B业务定价，则可在列表设置中对其进行编辑。
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 您的产品将列在 [!DNL Amazon Business (B2B)] 网站中，您必须首先在 [!DNL Amazon Seller Central] 帐户。 有关B2B功能的更多信息，请参阅 [Amazon：B2B Central](https://sellercentral.amazon.com/gp/help/G202161480/){target="_blank"} （需要Seller Central登录）。
 
-## 配置(B2B)业务价格设置
+## 配置 [!DNL (B2B) Business Price] 设置
 
 1. 单击 **[!UICONTROL Listing Settings]** 在商店仪表板上。
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 1. 完成后，单击 **[!UICONTROL Save listing settings]**.
 
-![Amazon Business Pricing (B2B)](assets/amazon-business-pricing.png)
+![Amazon Business Pricing (B2B)](assets/amazon-business-pricing.png){width="500" zoomable="yes"}
 
 | 字段 | 描述 |
 |--- |--- |

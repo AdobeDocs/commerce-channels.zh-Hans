@@ -1,16 +1,16 @@
 ---
-title: 履行者
+title: Amazon列表的履行者设置
 description: 使用“履行者”设置确定如何履行（发运）Amazon清单中的订单。
 redirect_from: /sales-channels/asc/ob-fulfilled-by.html
 exl-id: 240c2198-e23d-40e7-be39-b9a4f78565d2
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
 
-# 履行者
+# Amazon列表的履行者设置
 
 _[!UICONTROL Fulfilled By]_设置是商店列表设置的一部分。 列表设置可从以下位置访问： [存储仪表板](./amazon-store-dashboard.md).
 
@@ -46,12 +46,12 @@ _[!UICONTROL Fulfilled By]_设置是商店列表设置的一部分。 列表设�
 
 1. 完成后，单击 **[!UICONTROL Save listing settings]**.
 
-![履行者设置](assets/amazon-fulfilled-by.png)
+![履行者设置](assets/amazon-fulfilled-by.png){width="500" zoomable="yes"}
 
 | 字段 | 描述 |
 |--- |--- |
 | [!UICONTROL Product Fulfilled By] | 选项：<ul><li>**[!UICONTROL Fulfilled by Merchant]** - (FBM)选择是否履行订单。 下订单后，库存将从您的帐户中扣除 [!DNL Commerce] 目录。 创建新产品时，将分配“已履行商家”的履行方法。</li><li>**[!UICONTROL Fulfilled by Amazon]** - (FBA)选择Amazon是否履行订单。 使用此履行方法，产品库存不会从您的产品清单中扣除 [!DNL Commerce] 目录。 创建产品时，创建产品时使用了 _[!UICONTROL Fulfilled by Amazon (FBA)]_作为履行类型。 确保您的产品符合贵机构内满足FBA要求的条件 [!DNL Amazon Seller Central] 帐户。 FBA库存也直接通过 [!DNL Amazon Seller Central] 帐户。 使用此履行方法，不会推出相对于您的产品的数量更新 [!DNL Commerce] 目录，因此无法使用中介绍的某些营销工具 [库存/数量设置](./stock-quantity.md).</li><li>**[!UICONTROL Assign Fulfilled By Using Magento Product Attribute]**  — 选择您是否拥有 [!DNL Commerce] 确定它是由商家履行还是由Amazon履行的属性。 选择后， **[!UICONTROL Fulfilled by Attribute]** 启用。</li></ul> |
-| [!UICONTROL Fulfilled By Attribute] | 选择 [!DNL Commerce] 用于确定履行方法的属性。<br><br>例如，如果属性为 _履行者_ 并且您选择属性值为 _[!UICONTROL Fulfilled By Merchant]_或_[!UICONTROL Fulfilled By Amazon (FBA)]_，系统将该值用作新产品的履行类型。 作为商家，您应该确保您的产品有资格在您的 [!DNL Amazon Seller Central] 帐户。 FBA库存也可通过您的Amazon卖方帐户直接管理。<br><br>选项取决于您为Amazon产品设置的属性。 |
+| [!UICONTROL Fulfilled By Attribute] | 选择 [!DNL Commerce] 用于确定履行方法的属性。<br><br>例如，如果属性为 _履行者_ 并且您选择属性值为 `Fulfilled By Merchant` 或 `Fulfilled By Amazon (FBA)`，系统将该值用作新产品的履行类型。 作为商家，您应该确保您的产品有资格在您的 [!DNL Amazon Seller Central] 帐户。 FBA库存也可通过您的Amazon卖方帐户直接管理。<br><br>选项取决于您为Amazon产品设置的属性。 |
 
 **快速访问** - [!UICONTROL Listing Settings] 区域
 

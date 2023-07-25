@@ -1,10 +1,11 @@
 ---
 title: 载入 [!DNL Channel Manager]
 description: '''将您的实例连接到 [!DNL Channel Manager] 完成几个入门培训步骤即可完成此服务。”'
-role: User
 level: Intermediate
+role: Leader, Admin, Developer
+feature: Sales Channels, Install
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
@@ -28,22 +29,21 @@ ht-degree: 0%
 
    - **图像ID**-[登录](https://account.magento.com/customer/account/login/) 到 [!DNL Commerce] 要从中获取ID的帐户 **[!UICONTROL My Account - Magento settings]**.
 
-      ![[!DNL MAGEID] 日期 [!DNL Commerce] 帐户设置](assets/mageid-my-commerce-account.png){width="250"}
+     ![[!DNL MAGEID] 日期 [!DNL Commerce] 帐户设置](assets/mageid-my-commerce-account.png){width="250"}
 
    - **访问密钥 —** 获取要下载的身份验证密钥 [!DNL Commerce] 扩展来自 [!DNL Commerce] Composer存储库 `([!DNL repo.magento.com]`)。
 
-      ![[!UICONTROL Commerce Marketplace access keys]](assets/commerce-marketplace-access-keys.png){width="400"}
+     ![[!UICONTROL Commerce Marketplace access keys]](assets/commerce-marketplace-access-keys.png){width="400"}
 
-      在Adobe Commerce和Magento Open Source项目中，所有者可以设置 [共享访问](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-share.html) 允许受信任的员工和服务提供商使用所有者或许可证持有人帐户的凭据下载扩展。
+     在Adobe Commerce和Magento Open Source项目中，所有者可以设置 [共享访问](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-share.html) 允许受信任的员工和服务提供商使用所有者或许可证持有人帐户的凭据下载扩展。
 
-      对象 [!DNL Adobe Commerce] 在云基础架构项目上，软件安装程序必须拥有对 [!DNL Commerce] 实例：
+     对象 [!DNL Adobe Commerce] 在云基础架构项目上，软件安装程序必须拥有对 [!DNL Commerce] 实例：
 
       - 超级用户对云项目的访问权限
       - 管理员对特定环境的访问权限
       - 一个 [!DNL Adobe Commerce] 有权访问Composer存储库的帐户
 
-      参见 [管理用户访问权限](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) 在 *云基础架构上的Commerce指南*.
-
+     参见 [管理用户访问权限](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) 在 *云基础架构上的Commerce指南*.
 
 - **使用Composer和[!DNL Commerce CLI]** — 请参阅 [安装扩展](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) 在 *安装指南* 有关使用这些工具安装和管理扩展的信息 [!DNL Adobe Commerce] 或 [!DNL Magento Open Source] 平台。
 
@@ -51,9 +51,9 @@ ht-degree: 0%
 
 - **[!DNL Inventory Management]Adobe Commerce和Magento Open Source的扩展**
 
-   如果您计划使用渠道管理器进行库存和订单管理，则必须在Adobe Commerce和Magento Open Source实例上安装并启用Inventory management扩展。 通常，此扩展已安装并默认在Adobe Commerce上启用，并且 [!DNL Magento Open Source] 2.3.x及更高版本。
+  如果您计划使用渠道管理器进行库存和订单管理，则必须在Adobe Commerce和Magento Open Source实例上安装并启用Inventory management扩展。 通常，此扩展已安装并默认在Adobe Commerce上启用，并且 [!DNL Magento Open Source] 2.3.x及更高版本。
 
-   如果从2.2.x升级Commerce，或者已禁用Inventory management，请更新安装以包含所需的模块。 参见 [安装Inventory management](https://experienceleague.adobe.com/docs/commerce-admin/inventory/get-started/install-update.html) 在 *Inventory management指南*.
+  如果从2.2.x升级Commerce，或者已禁用Inventory management，请更新安装以包含所需的模块。 参见 [安装Inventory management](https://experienceleague.adobe.com/docs/commerce-admin/inventory/get-started/install-update.html) 在 *Inventory management指南*.
 
 ### 系统要求
 

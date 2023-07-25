@@ -2,7 +2,10 @@
 user-guide-title: ‘[!DNL Channel Manager] 指南'
 user-guide-description: '''通过将Adobe Commerce或Magento Open Source与您的集成，提高销售额并扩大您的客户群 [!DNL Walmart Marketplace] 卖方中心账户。”'
 breadcrumb-title: '[!DNL Channel Manager Guide]'
-source-git-commit: d43c4760246f38caa5f944025e8d701c79a15ee4
+role: Admin, User
+feature: Sales Channels
+recommendations: noDisplay
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 0%

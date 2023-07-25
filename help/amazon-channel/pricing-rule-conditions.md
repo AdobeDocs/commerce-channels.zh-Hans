@@ -1,9 +1,9 @@
 ---
 title: Amazon销售渠道 — 价格规则条件
 description: 使用价格规则条件确定哪些产品符合上市价格规则的条件。
-redirect_from: /sales-channels/asc/ob-pricing-rules-conditions.html
+feature: Sales Channels, Price Rules
 exl-id: 39b03a2e-15c6-4c56-b0e0-7c6823e95fa8
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 0%
@@ -54,27 +54,27 @@ ht-degree: 0%
 
    - 对象 **[!UICONTROL Product Attribute]**，选择要定义为条件的基的属性。 对于此示例，选定的条件为 `Category`.
 
-      ![价格规则条件 — 第2行，第2部分](assets/ob-price-rule-condition-2.png){width="500"}
+     ![价格规则条件 — 第2行，第2部分](assets/ob-price-rule-condition-2.png){width="500"}
 
-      选定的条件将显示在语句中，后面还有两个粗体链接。 选项因您选择的产品属性而异。
+     选定的条件将显示在语句中，后面还有两个粗体链接。 选项因您选择的产品属性而异。
 
-      设置属性后，无法对其进行编辑。 要更改属性，必须删除该行并添加新属性。 您可以通过单击删除(![“删除”图标](assets/btn-del-red.png) 图标。
+     设置属性后，无法对其进行编辑。 要更改属性，必须删除该行并添加新属性。 您可以通过单击删除(![“删除”图标](assets/btn-del-red.png) 图标。
 
    - 单击 **[!UICONTROL is]** 并选择描述要满足的产品条件的比较运算符。
 
-      对于此示例，比较运算符为 `is`. 可用选项取决于上一步骤中选择的属性，可能包括不同的比较选项。 选项可以包括匹配值，不包括或包括值中的至少一个，以及大于、等于和小于数字量。 在此示例中，选项包括 `is` 和 `is not`.
+     对于此示例，比较运算符为 `is`. 可用选项取决于上一步骤中选择的属性，可能包括不同的比较选项。 选项可以包括匹配值，不包括或包括值中的至少一个，以及大于、等于和小于数字量。 在此示例中，选项包括 `is` 和 `is not`.
 
    - 单击 **[!UICONTROL ...]** 并选择条件所依据的属性值。 选项取决于属性的设置。
 
-      系统可能会提示您选择一个选项或输入条件的值。 对于此示例，字段显示为空白。 要为规则选择类别，请单击选择器图标(![“选择器”图标](assets/btn-chooser.png))以显示您的选择选项。 此规则用于 _书籍_，选择 **[!UICONTROL Books]** 复选框。 将填充类别编号。 要接受类别选择，请单击绿色复选标记图标(![复选标记图标](assets/btn-check-mark-green.png))。
+     系统可能会提示您选择一个选项或输入条件的值。 对于此示例，字段显示为空白。 要为规则选择类别，请单击选择器图标(![“选择器”图标](assets/btn-chooser.png))以显示您的选择选项。 此规则用于 _书籍_，选择 **[!UICONTROL Books]** 复选框。 将填充类别编号。 要接受类别选择，请单击绿色复选标记图标(![复选标记图标](assets/btn-check-mark-green.png))。
 
-      ![价格规则条件 — 第2行，第3部分](assets/ob-price-rule-condition-3.png){width="500"}
+     ![价格规则条件 — 第2行，第3部分](assets/ob-price-rule-condition-3.png){width="500"}
 
-      选定的项目会显示在语句中，以完成条件。
+     选定的项目会显示在语句中，以完成条件。
 
-      ![价格规则条件 — 第2行，第4部分](assets/ob-price-rule-condition-4.png){width="500"}
+     ![价格规则条件 — 第2行，第4部分](assets/ob-price-rule-condition-4.png){width="500"}
 
-      此示例条件已完成。 如上所述，此条件表示贵机构中 [!DNL Commerce] 已定义帐簿类别的目录(`4`)符合此定价规则的条件。 您可以添加更多条件行，以进一步缩小合格产品的范围。
+     此示例条件已完成。 如上所述，此条件表示贵机构中 [!DNL Commerce] 已定义帐簿类别的目录(`4`)符合此定价规则的条件。 您可以添加更多条件行，以进一步缩小合格产品的范围。
 
 1. 要向语句中添加其他条件行，请返回到步骤1并重复该过程，直到所有所需条件都完成。
 

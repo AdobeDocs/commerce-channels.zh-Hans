@@ -1,8 +1,9 @@
 ---
 title: 映射目录属性
 description: '映射属性以匹配[DNL！ Commerce]产品到现有 [!DNL Walmart Marketplace] 列出并同步数据 [!DNL Channel Manager] 和 [!DNL Walmart].'
+feature: Sales Channels, Merchandising, Products
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 0%
@@ -36,8 +37,8 @@ ht-degree: 0%
 
    - 从中选择对应的属性 [!DNL Commerce] 存储目录。
 
-      以下示例映射 [!UICONTROL Walmart Marketplace UPC] 属性添加到产品目录中的UPC属性。
+     以下示例映射 [!UICONTROL Walmart Marketplace UPC] 属性添加到产品目录中的UPC属性。
 
-      ![映射产品匹配条件的属性](assets/products-map-attributes-for-match.png){width="600" zoomable="yes"}
+     ![映射产品匹配条件的属性](assets/products-map-attributes-for-match.png){width="600" zoomable="yes"}
 
    - 选择 **[!UICONTROL Save]**.

@@ -1,8 +1,9 @@
 ---
 title: 管理Amazon订单
 description: 您可以在订单设置中启用订单导入，以便更轻松地从商务管理员那里管理Amazon订单。
+feature: Sales Channels, Orders
 exl-id: 018a8936-2f03-4a2d-b9af-6b72729ca709
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 0%
@@ -30,7 +31,7 @@ ht-degree: 0%
 在Amazon上下达订单时， [订单导入](./order-settings.md) 启用后，将开始以下进程。
 
 | 更改 | 操作 |
-|---|---|
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 在Amazon上下达了订单。 | <ul><li>Amazon将订单状态设置为 `Pending`.</li><li>订单信息发送至 [!DNL Commerce].</li><li>订单已添加至 [_Amazon订单_ 表](./amazon-orders-all.md) 带有 `Pending` 状态。</li></ul> |
 | Amazon将订单状态更改为 `Unshipped`. | <ul><li>状态更改将发送至 [!DNL Commerce].</li><li>在 [_Amazon订单_ 表](./amazon-orders-all.md)，订单状态将更改为 `Unshipped`.</li><li>在 [[!DNL Commerce] 订单工作流](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html)，相应 [!DNL Commerce] 订单是使用 `Processing` 状态。</li></ul> |
 | In [[!DNL Commerce] 订单工作流](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html)，则 [!DNL Commerce] 订单已处理，状态将更改为 `Shipped`. | <ul><li>在 [_Amazon订单_ 表](./amazon-orders-all.md)，订单状态将更改为 `Shipped`.</li><li>在下一个cron作业中，订单状态将更改为 `Complete` 在 [[!DNL Commerce] 订单工作流](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html).</li></ul> |
@@ -40,7 +41,7 @@ ht-degree: 0%
 有一些场景会阻止创建对应的 [!DNL Commerce] 订购。 [!DNL Commerce] 当出现以下任何问题时，不会为收到的订单创建订单。
 
 | 方案 | 解决方案 |
-|---|---|
+|---------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 此项目不存在于 [!DNL Commerce] 目录。 | [创建产品](./creating-assigning-catalog-products.md) 在您的 [!DNL Commerce] 目录和 [手动匹配](./creating-assigning-catalog-products.md) 它对应到产品。 |
 | 目录中的项目已禁用。 | 确保 [产品状态](https://experienceleague.adobe.com/docs/commerce-admin/inventory/configuration/product-options.html) 已启用。 |
 | 订购的物料缺货。 | 更新或配置 [产品选项](https://experienceleague.adobe.com/docs/commerce-admin/inventory/configuration/product-options.html) 用于数量和来源。 |

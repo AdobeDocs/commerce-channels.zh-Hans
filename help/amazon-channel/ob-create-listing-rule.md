@@ -1,8 +1,10 @@
 ---
 title: 创建Amazon列表规则
 description: 在完成AmazonAmazon销售渠道入门培训流程时，创建初始列表规则以便为您的 [!DNL Commerce] 产品。
+role: Admin
+feature: Sales Channels, Products, Merchandising, Configuration
 exl-id: b318823e-a726-4a59-b117-9838562c7d8b
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 0%
@@ -33,9 +35,9 @@ ht-degree: 0%
 
    - **[!UICONTROL Ineligible Listings]**  — 根据您当前的列表规则设置，此选项卡上列出的产品不符合Amazon列表的条件。
 
-      不符合条件的产品不会发布到Amazon。 如果Amazon上已列出不合格产品，并且您将Amazon列表与您的 [!DNL Commerce] 目录产品，Amazon列表的数量更改为 `0` 以防止产品销售。 要手动从Amazon中删除列表，请参阅 [结束Amazon列表](./end-listings-manually.md). 此处不列出不符合Amazon要求的产品。 这些产品在 [[!UICONTROL Inactive Listings] 选项卡](./inactive-listings.md).
+     不符合条件的产品不会发布到Amazon。 如果Amazon上已列出不合格产品，并且您将Amazon列表与您的 [!DNL Commerce] 目录产品，Amazon列表的数量更改为 `0` 以防止产品销售。 要手动从Amazon中删除列表，请参阅 [结束Amazon列表](./end-listings-manually.md). 此处不列出不符合Amazon要求的产品。 这些产品在 [[!UICONTROL Inactive Listings] 选项卡](./inactive-listings.md).
 
-      要更改 `Ineligible` 列为 `Eligible` 列出，重复此过程并修改您的列出规则。
+     要更改 `Ineligible` 列为 `Eligible` 列出，重复此过程并修改您的列出规则。
 
    - **[!UICONTROL Eligible Listings]**  — 根据您当前的列表规则设置，此选项卡上列出的产品有资格加入Amazon列表，并且有资格符合Amazon要求。 此选项卡包括已导入的现有Amazon列表(如果您具有 **[!UICONTROL Import Third Party Listings]** 设置为 `Import Listing` 在您的 [列表设置](./listing-settings.md))。
 

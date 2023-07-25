@@ -1,8 +1,9 @@
 ---
 title: '''查看和管理订单 [!DNL Channel Manager]‘'
 description: '''查看和管理 [!DNL Walmart Marketplace] 订单 [!DNL Channel Manager] 用于Adobe Commerce和Magento Open Source。”'
+feature: Sales Channels, Orders
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 0%
@@ -123,7 +124,7 @@ ht-degree: 0%
 
 - **[!UICONTROL Canceled]** — 已从以下订单中取消的订单： [!DNL Commerce] 商店。
 
-   订单取消完成后， [!DNL Commerce] 库存数量更新以反映退回的物料。 那么， [!DNL Channel Manager] 将更新同步到 [!DNL Walmart Marketplace].
+  订单取消完成后， [!DNL Commerce] 库存数量更新以反映退回的物料。 那么， [!DNL Channel Manager] 将更新同步到 [!DNL Walmart Marketplace].
 
 - **[!UICONTROL Return requested]** — 如果沃尔玛商场要求退回已发运的订单项目，则 `Return requested` 链接显示在 [!UICONTROL Status details] 列。 选择链接将打开 [!UICONTROL Returns] 仪表板以查看退货并管理退款流程。
 
@@ -172,6 +173,6 @@ ht-degree: 0%
 
 - **已订购项目** — 此部分列出了所有Commerce订单上的订单项。 此 [!UICONTROL Qty] 列提供订单项目的状态历史记录。 例如，如果订单已开票、发运和退款，则可以查看状态转换。
 
-   ![订单详细信息订购物料状态历史记录 [!DNL Walmart Marketplace] 订单](assets/order-detail-status-history.png){width="600" zoomable="yes"}
+  ![订单详细信息订购物料状态历史记录 [!DNL Walmart Marketplace] 订单](assets/order-detail-status-history.png){width="600" zoomable="yes"}
 
 通过选择 [!UICONTROL Invoice] 和 [!UICONTROL Credit Memo] 选项。 您还可以直接从以下位置访问贷项通知单： [[!UICONTROL Returns]](return-refund-orders.md) 销售渠道商店中的仪表板。

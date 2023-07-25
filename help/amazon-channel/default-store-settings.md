@@ -1,8 +1,10 @@
 ---
 title: Amazon列表的默认商店设置
 description: 修改默认的Commerce设置以自定义商店的AmazonSales Channel。
+role: Admin
+feature: Sales Channels, Integration, Configuration
 exl-id: 368e5e8e-2bf9-4f9c-86c6-6d375f8a8720
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -32,7 +34,7 @@ ht-degree: 0%
 ## 一些重要的默认设置
 
 | 设置 | 默认 | 描述 | 位置 |
-|--- |--- |--- |--- |
+|----------------------------------------|----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
 | [!UICONTROL Import Amazon Orders] | `Enabled` | 创建对应的 [!DNL Commerce] 订单在从Amazon收到新订单时，允许在 [[!DNL Commerce] 订单](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html) 工作流。 时间 `Disabled`，Amazon订单导入订单信息以供审阅，但必须在以下位置管理订单： [!DNL Amazon Seller Central] 帐户。 | [订单设置](./order-settings.md) |
 | [!UICONTROL Customer Creation] | `No Customer Creation (guest)` | 来自Amazon订单的客户数据未导入到您的 [!DNL Commerce] 数据库。 导入的Amazon订单将作为访客结帐处理。 如果您想构建 [!DNL Commerce] 客户数据库，应将此设置更改为 `Build New Customer Account`. | [订单设置](./order-settings.md) |
 | [!UICONTROL Automatic List Action] | `Automatically List Eligible Products` | [!DNL Commerce] 目录产品(符合Amazon的资格要求)以自动发布到Amazon并创建Amazon列表。 如果要手动审阅和发布产品，则应将此设置更改为 `Do Not Automatically List Eligible Products`. 等待手动发布的产品将显示在 [_准备列出_](./ready-to-list.md) 选项卡。 | [产品列表操作](./product-listing-actions.md) |

@@ -1,8 +1,9 @@
 ---
 title: Amazon销售渠道 —  [!UICONTROL Listing Changes Log]
 description: AmazonSales Channel提供列表更改日志，以帮助您监控Amazon卖方帐户中受影响的更改。
+feature: Sales Channels, Logs
 exl-id: 9c4db5ac-cbfb-4584-b216-4aead2a28189
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 0%
@@ -22,7 +23,7 @@ Amazon sales channel home pages有一些共同之处 [工作区控件](./workspa
 ## 默认列
 
 | 列 | 描述 |
-|--- |--- |
+|--------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Store Name] | 设置Amazon存储区时定义的存储区名称。 请参阅 [存储集成](./store-integration.md). |
 | [!UICONTROL Seller SKU] | Amazon为产品分配的SKU（库存单位），用于标识产品、选件、价格和制造商。 |
 | [!UICONTROL Listing Action] | 对列表所做的更改类型。 |

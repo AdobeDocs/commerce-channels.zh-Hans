@@ -1,8 +1,9 @@
 ---
 title: '"安装 [!DNL Amazon Sales Channel] 扩展”'
 description: 集成 [!DNL Commerce] 目录 [!DNL Amazon Seller Accounts] 然后通过 [!DNL Amazon Marketplace]，下载并安装AmazonSales Channel扩展。
-exl-id: ebf22e28-b6a2-420b-80ca-2d750839286c
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+role: Admin, Developer
+feature: Sales Channels, Install, Integration, Tools and External Services
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -39,7 +40,7 @@ ht-degree: 0%
 
 1. 使用名称和版本信息更新中的服务连接器条目 `composer.json` 文件。
 
-   - 将扩展的名称和版本添加到 `composer.json` 文件。
+   - 将扩展名称和版本添加到 `composer.json` 文件。
 
    - 导航到 [!DNL Commerce] 项目目录并更新 `composer.json` 文件。
 
@@ -50,7 +51,6 @@ ht-degree: 0%
    - 输入您的 [身份验证密钥](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html). 您的公钥是您的用户名；您的私钥是您的密码。
 
    - 等待Composer完成项目依赖项的更新，并确保没有错误。
-
 
 1. [验证扩展](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
 

@@ -1,9 +1,9 @@
 ---
-title: Amazon销售渠道 —  [!UICONTROL Third-party Listings]
+title: AmazonSales Channel- [!UICONTROL Third-party Listings]
 description: 更新第三方列表设置可确定您的Commerce目录是否从现有Amazon销售商中心列表导入产品。
-redirect_from: /sales-channels/asc/ob-third-party-listings.html
+feature: Sales Channels, Products
 exl-id: bc82775a-6f29-49b5-a80b-20e171eaf8f4
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 0%
@@ -33,6 +33,7 @@ ht-degree: 0%
    - `Import Listing`  — （默认）选择您希望将Amazon列表中的产品信息导入到中的时间 [!DNL Commerce] 产品目录。 此选项是默认选项，建议使用。
 
    - `Do Not Import Listing`  — 选择手动操作的时机 [创建和分配新产品](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/products-list.html) 敬您的 [!DNL Commerce] Amazon列表的目录。
+
    >[!NOTE]
    >以下选项字段仅在设置为时处于活动状态 `Import Listing`.
 
@@ -48,7 +49,7 @@ ht-degree: 0%
 ![第三方列表](assets/amazon-third-party-listings.png){width="600" zoomable="yes"}
 
 | 字段 | 描述 |
-|---|---|
+|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Import Third Party Listings] | 必需。 选项：<ul><li>**[!UICONTROL Import Listing]**  — （默认）选择您希望将Amazon列表中的产品信息导入到中的时间 [!DNL Commerce] 产品目录。 </li><li>**[!UICONTROL Do Not Import Listing]**  — 选择手动操作的时机 [创建和分配新产品](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/products-list.html) 敬您的 [!DNL Commerce] Amazon列表的目录。</li></ul> |
 | [!UICONTROL Attribute That Contains Amazon Seller SKU] | 仅在设置为时有效 `Import Listing`.<br>选择 [!DNL Commerce] 属性匹配于Amazon销售方SKU的Amazon属性。 如果此属性不存在，请参阅 [创建用于Amazon匹配的Amazon产品属性](./ob-creating-magento-attributes.md). 如有需要，请查看您的 [!DNL Commerce] [属性](./managing-attributes.md) 和创建或编辑属性以匹配此Amazon数据。 |
 | [!UICONTROL Attribute That Contains Amazon ASIN] | 仅在设置为时有效 `Import Listing`.<br>选择 [!DNL Commerce] 与Amazon ASIN的Amazon属性匹配的属性。 如果此属性不存在，请参阅 [创建用于Amazon匹配的Amazon产品属性](./ob-creating-magento-attributes.md). 如有需要，请查看您的 [!DNL Commerce] [属性](./managing-attributes.md) 和创建或编辑属性以匹配此Amazon数据。 |

@@ -1,17 +1,18 @@
 ---
 title: 活动的Amazon列表
 description: Amazon Sales Channel提供了“活动”选项卡，用于监视活动的Amazon列表以及与Adobe Commerce目录中的产品匹配的产品。
+feature: Sales Channels, Products, Merchandising, Catalogs
 exl-id: c9105abc-74d6-442b-8d7a-e5aaea8872e4
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
 
 # 活动的Amazon列表
 
-此 _[!UICONTROL Active]_选项卡显示您的Amazon列表，这些列表在 [!DNL Amazon Marketplace] 和已匹配到您产品中的产品 [!DNL Commerce] 目录。
+此 _[!UICONTROL Active]_选项卡显示 [!DNL Amazon Marketplace] 与中的产品匹配的产品 [!DNL Commerce] 目录。
 
 上的可用操作 _[!UICONTROL Active]_选项卡包括：
 
@@ -44,7 +45,7 @@ ht-degree: 0%
 Amazon sales channel home pages有一些共同之处 [工作区控件](./workspace-controls.md) 允许您自定义显示的数据。
 
 | 列 | 描述 |
-|--- |--- |
+|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Seller SKU] | Amazon为产品分配的SKU（库存单位），用于标识产品、选件、价格和制造商。 |
 | [!UICONTROL ASIN] | 由10个字母和/或数字组成的用于标识项目的唯一块。 <br><br>ASIN表示 [!DNL Amazon Standard Identification Number]. ASIN是一个由10个字母和/或数字组成的唯一块，用于标识项目。 对于图书，ASIN与ISBN编号相同，但对于所有其他产品，当项目上传到它们的目录时，将创建一个新的ASIN。 您可以在Amazon的产品详细信息页面上找到项目ASIN，以及与该项目相关的更多详细信息。 |
 | [!UICONTROL Product Listing Name] | 产品的名称。 |

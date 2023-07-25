@@ -1,8 +1,11 @@
 ---
 title: ”[!DNL Buy Box] 针对Amazon上市产品的竞争对手定价”
 description: AmazonSales Channel提供 [!UICONTROL Buy Box Competitor Pricing] 选项卡，以帮助您了解竞争对手在Amazon上的价格定位。
+role: Admin
+level: Intermediate
+feature: Sales Channels, B2B, Tools and External Services, Merchandising, Integration
 exl-id: 2d03565a-5246-435a-8da8-55b7e67c4ad8
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 0%
@@ -34,7 +37,7 @@ ht-degree: 0%
    显示其列表包含 [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 在Amazon上。
 
 | 列 | 描述 |
-|--- |--- |
+|-----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL ASIN] | 由10个字母和/或数字组成的用于标识项目的唯一块。<br><br>对于图书，ASIN与ISBN编号相同，但对于所有其他产品，则会在将项目上传到目录时创建新的ASIN。 您可以在产品详细信息页面上找到项目的ASIN以及与项目相关的其他详细信息（如大小、页数或磁盘数）。 |
 | [!UICONTROL Is Seller] | 指示卖方是否已赢得此列表的Buy Box职位。 |
 | [!UICONTROL Condition] | 此 [条件](./product-listing-condition.md) 产品的。 |

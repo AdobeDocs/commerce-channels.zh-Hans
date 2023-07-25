@@ -3,8 +3,11 @@ title: ‘[!DNL Amazon Sales Channel] 指南'
 description: 有关以下内容的全面信息 [!DNL Amazon sales channel] 适用于Adobe Commerce和Magento Open Source管理员，包括安装和载入
 seo-title: Adobe Commerce Amazon Sales Channel Guide
 seo-description: Describes how to use [!DNL Amazon sales channel] with Adobe Commerce or Magento Open Source.
+role: Leader, Admin, User
+level: Intermediate
+recommendations: noCatalog
 exl-id: ad3e2353-313b-4c40-800a-b1ef5f0d8235
-source-git-commit: 901d856067cd9d236727edc8bde354820791c411
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 0%
@@ -27,7 +30,7 @@ ht-degree: 0%
 >本指南不涉及Adobe Commerce和Magento Open Source的核心功能。
 
 | 面积图 | 描述 |
-|----|----|
+|-------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Amazon sales channel简介](./overview.md) | 详细了解Amazon销售渠道基础知识、主要功能、最佳实践等。 |
 | [载入Amazon销售渠道](./amazon-onboarding-home.md) | 快速创建Amazon商店并与集成 [!DNL Amazon Seller Central]. 启动并运行Amazon销售渠道以开始销售。 |
 | [Amazon sales channel home](./amazon-sales-channel-home.md) | 详细了解Amazon销售渠道主页以及可用的选项和任务。 查看有关Amazon存储的摘要信息，并访问存储详细信息和设置。 |
@@ -40,7 +43,7 @@ ht-degree: 0%
 ## 其他文档
 
 | 文档资源 | 描述 |
-|----------------------- | ----------- |
+|---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Adobe Commerce 2.4商家文档](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) | Adobe Commerce和Magento Open Source的以商家为中心的文档 |
 | [Adobe Commerce服务文档](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | 支持服务集合的文档，可帮助商家将其业务的关键组件与商店集成。 |
 | [云基础架构上的Commerce指南](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | 在托管的自动托管云平台上部署Adobe Commerce的分步过程。 |

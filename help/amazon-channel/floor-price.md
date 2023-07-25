@@ -1,8 +1,9 @@
 ---
 title: '智能重新定价规则：最低价格'
 description: 使用最低价格设置确定用于管理Amazon清单的智能定价规则的最低价格。
+feature: Sales Channels, Price Rules
 exl-id: e00cac95-eef8-4d4d-b578-287a91f54bdf
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -50,7 +51,7 @@ ht-degree: 0%
 ![智能重新定价规则示例 — 最低价格](assets/ob-intelligent-pricde-rule-floor-price.png){width="600" zoomable="yes"}
 
 | 字段 | 描述 |
-|--- |--- |
+|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Floor Price Source] | 选择 [!DNL Commerce] 指示相对下限（最低价格）限制的属性。 例如，如果您不希望自己的Amazon挂牌价低于商品成本，则可以选择 `Cost` 属性。 |
 | [!UICONTROL Floor Price Action] | 选择定价调整活动。 选项：<ul><li>**[!UICONTROL Decrease By]**  — 选择何时需要定义的 _[!UICONTROL Floor Price Source]_价值进行向下调整，从而降低规则的最低价格，然后才可挂牌到Amazon。</li><li>**[!UICONTROL Increase By]**  — 选择何时需要定义的 _[!UICONTROL Floor Price Source]_价值调整，从而为规则创造更高的底价，然后再将价格挂牌到Amazon。</li><li>**[!UICONTROL Match]**  — 选择您不希望上市价格波动低于所定义价格的时间 _[!UICONTROL Floor Price Source]_值。 选择后，_[!UICONTROL Apply]_ 和 _[!UICONTROL Floor Adjustment Amount]_字段被禁用。</li></ul> |
 | [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]**  — 相对于 _[!UICONTROL Floor Price Source]_值。 |

@@ -1,9 +1,10 @@
 ---
 title: 板载 [!DNL Amazon Sales Channel]”
 description: 了解Adobe Commerce和Magento Open Source中的预设置任务、载入步骤以及Amazon如何与AmazonSales Channel配合使用。
-redirect_from: /sales-channels/amazon/amazon-onboarding-home.html
+role: Leader, Admin, User
+feature: Sales Channels, Integration, Tools and External Services
 exl-id: 99b64083-36e6-442e-9d20-4676e78ec3ae
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 6321f17c0e6f9e86bb3f5755dc7710fa68d68b0d
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
@@ -24,7 +25,7 @@ ht-degree: 0%
 >您的Amazon销售渠道设置会影响您的Amazon列表。 您的初始列表、定价和产品设置均默认为您设置。 您可以修改您的 [存储设置](./ob-store-review.md) （列表、定价、订单和报告）。 [!DNL Amazon Seller Central] 帐户。
 
 | 步骤 | 发生什么情况 |
-|--- |--- |
+|---------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [预设置任务](./amazon-pre-setup-tasks.md) | 在加入之前，您必须确保已激活并批准 [!DNL Amazon Seller Central] 帐户。 还有一些 [!DNL Commerce] 载入前完成的要求和建议。 |
 | [验证Amazon API密钥](./amazon-verify-api-key.md) | 访问Amazon销售渠道时， [!DNL Commerce] 自动检查并验证您在商店配置中添加的Amazon API密钥。 如果您的API密钥尚未添加或无效，系统会提示您 [添加或更新您的Amazon API密钥](./amazon-verify-api-key.md). |
 | [存储集成](./store-integration.md) | 此步骤包括创建一个Amazon sales channel store ，然后将其连接到您的 [!DNL Amazon Seller Central] 帐户。 您需要的主要登录凭据用于 [!DNL Amazon Seller Central] 此步骤的帐户（用于创建卖方帐户的电子邮件或电话）。 |

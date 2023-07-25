@@ -1,8 +1,9 @@
 ---
 title: 处理订单
 description: '''发货和取消说明 [!DNL Walmart Marketplace] Adobe Commerce和Magento Open Source的订单。”'
+feature: Sales Channels, Orders, Shipping/Delivery, Customer Service
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 0%
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 * **订单取消** — 当您取消 [!DNL Walmart Marketplace] 订单取消通知中包含了取消订单的原因。 取消原因也显示在 [!DNL Commerce] 订单付款信息。 在您提交取消后，库存更新将同步到 [!DNL Walmart Marketplace]. 然后，沃尔玛会通知客户订单状态和发货详情。
 
-   在店面，您必须取消整个订单。 [!DNL Commerce] 不允许部分取消。
+  在店面，您必须取消整个订单。 [!DNL Commerce] 不允许部分取消。
 
 * **退款请求** — 如果要求沃尔玛商场退回已发运的订单，则 [!UICONTROL Status details] 包含指向返回的链接。 退货及退款由本公司的 [返回](return-refund-orders.md) 仪表板。
 
@@ -45,7 +46,7 @@ ht-degree: 0%
 
    * 选择装运承运人，并通过选择添加跟踪编号 **[!UICONTROL Add tracking number]**.
 
-      ![的商务订单详细信息视图 [!DNL Walmart Marketplace] 订购](assets/order-shipment-add-tracking-number.png){width="600" zoomable="yes"}
+     ![的商务订单详细信息视图 [!DNL Walmart Marketplace] 订购](assets/order-shipment-add-tracking-number.png){width="600" zoomable="yes"}
 
    * 根据需要完成其余的送货单。 参见 [[!DNL Shipping an Order]](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-ship.html) 以获取详细说明。
 
@@ -70,10 +71,10 @@ ht-degree: 0%
    * 选择 **取消** 从“订单详细信息”菜单中。
 
    * 在 [!UICONTROL Cancel Order] 表单中，选择 **[!UICONTROL Cancellation reason]**.
+
    ![的商务订单详细信息视图 [!DNL Walmart Marketplace] 订购](assets/cancel-order-reason-selector.png){width="600" zoomable="yes"}
 
    * 选择 **[!UICONTROL Cancel Order]**.
-
 
 1. 提交取消后，跟踪 [订单状态](manage-orders.md#about-order-status) 在 [!DNL Channel Manager] 验证更新是否已发送到 [!DNL Walmart Marketplace].
 

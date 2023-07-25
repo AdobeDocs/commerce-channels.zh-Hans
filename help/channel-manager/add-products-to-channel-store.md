@@ -1,8 +1,9 @@
 ---
 title: 将产品添加到渠道管理器
-description: '''创建产品分类 [!DNL Walmart Marketplace] 通过将产品从目录添加到Channel Manager中配置的销售渠道来进行销售。” '
+description: '''创建产品分类 [!DNL Walmart Marketplace] 通过将产品从目录添加到Channel Manager中配置的销售渠道来进行销售。”'
+feature: Sales Channels, Merchandising, Products
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 0%
@@ -59,15 +60,15 @@ ht-degree: 0%
 
    - 选择 **[!UICONTROL Save]**.
 
-      将显示确认消息。
+     将显示确认消息。
 
-      ![产品从目录导入到销售渠道确认消息](assets/product-import-from-catalog-confirmation.png){width="400"}
+     ![产品从目录导入到销售渠道确认消息](assets/product-import-from-catalog-confirmation.png){width="400"}
 
-      如果消息指示已计划更新，请使用 [队列:consumers:开始](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) [!DNL CLI] 命令立即处理更新。
+     如果消息指示已计划更新，请使用 [队列:consumers:开始](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) [!DNL CLI] 命令立即处理更新。
 
-      ```bash
-      $ bin/magento queue:consumers:start product_action_attribute.update
-      ```
+     ```bash
+     $ bin/magento queue:consumers:start product_action_attribute.update
+     ```
 
 1. 导入操作完成后，通过返回到，验证您添加的产品 [!DNL Channel Manager] 和选择 **[!UICONTROL Listings]**.
 

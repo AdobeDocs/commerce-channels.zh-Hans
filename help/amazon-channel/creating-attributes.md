@@ -1,8 +1,9 @@
 ---
 title: 创建和编辑Amazon销售渠道的属性
 description: AmazonSales Channel提供了“属性”视图，可帮助您查看当前Amazon属性和链接的Commerce属性。
+feature: Sales Channels, Products, Configuration
 exl-id: 3cd5fb7e-68a3-45fd-8f50-72d3cc0244b5
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: b2e608a633b760672044653a22be757ecffc9540
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 0%
@@ -64,7 +65,7 @@ ht-degree: 0%
 ![创建属性设置](assets/amazon-attribute-settings-create.png){width="600" zoomable="yes"}
 
 | 字段 | 描述 |
-|--- |--- |
+|-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Is Active] | 指示此属性是否在Amazon和之间处于活动同步状态 [!DNL Commerce]. 设置为 `Yes` 确保Amazon中的属性值和 [!DNL Commerce] 保持所选属性的同步。 |
 | 选择Magento产品属性 | 指示要链接到所列Amazon属性名称的选定属性。 创建属性时，选择 `Create New Magento Attribute`. |
 | [!UICONTROL Amazon Attribute Name] | 显示您选择的Amazon属性的名称。 选定的属性链接到此Amazon属性。 不能通过编辑此值 [!DNL Commerce]. |
@@ -109,7 +110,7 @@ ht-degree: 0%
 ![编辑属性设置](assets/amazon-attribute-settings-edit.png){width="600" zoomable="yes"}
 
 | 字段 | 描述 |
-|--- |--- |
+|-----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Is Active] | 指示此属性是否在Amazon和之间处于活动同步状态 [!DNL Commerce]. 设置为 `Yes` 确保Amazon中的属性值和 [!DNL Commerce] 保持所选属性的同步。 |
 | [!UICONTROL Select Magento Product Attribute] | 指示选定项 [!DNL Commerce] 要链接到列出的Amazon属性名称的属性。 如果要更改链接的 [!DNL Commerce] 属性，从下拉列表中选择其他属性。 值根据配置进行同步。 |
 | [!UICONTROL Amazon Attribute Name] | 显示Amazon属性的名称，如中所定义 [!DNL Amazon Seller Central]. 选定的 [!DNL Commerce] 此Amazon属性的属性链接。 不能通过编辑此值 [!DNL Commerce]. |

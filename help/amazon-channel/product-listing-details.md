@@ -1,8 +1,9 @@
 ---
 title: 查看Amazon列表详细信息
 description: 要了解有关Amazon列表和单个SKU/产品更改的竞争性指标，请查看产品列表详细信息页面。
+feature: Sales Channels, Products, Merchandising
 exl-id: faece1b1-b4fb-4506-bf77-576ae445ed28
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 0%

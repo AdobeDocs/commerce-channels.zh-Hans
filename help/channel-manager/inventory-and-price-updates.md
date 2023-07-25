@@ -1,8 +1,10 @@
 ---
 title: 库存和价格更新
 description: ‘[!DNL Channel Manager] 同步库存和价格更新 [!DNL Commerce] 存储和 [!DNL Walmart Marketplace] 这样您就可以从以下位置管理您的销售渠道运营 [!DNL Commerce] 管理员'
+feature: Sales Channels, Merchandising, Inventory, Tools and External Services
+role: Leader, Admin, User
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 0%

@@ -4,7 +4,8 @@ description: '有关以下内容的全面信息 [!DNL Channel Manager] 面向Ado
 seo-title: Adobe Commerce Channel Manager Guide
 seo-description: Describes how to use [!DNL Channel Manager] with Adobe Commerce or Magento Open Source.
 exl-id: 0703741b-77e0-47b0-917f-b25d14afa7ae
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+recommendations: noCatalog
+source-git-commit: 850aece134084e108b324a964d7d834042c7ddfd
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -32,7 +33,7 @@ ht-degree: 0%
 
 
 | 文档资源 | 描述 |
-|----------------------- | ----------- |
+|---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Adobe Commerce 2.4商家文档](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) | Adobe Commerce和Magento Open Source的以商家为中心的文档 |
 | [Adobe Commerce服务文档](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | 支持服务集合的文档，可帮助商家将其业务的关键组件与商店集成。 |
 | [云基础架构上的Commerce指南](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | 在托管的自动托管云平台上部署Adobe Commerce的分步过程。 |

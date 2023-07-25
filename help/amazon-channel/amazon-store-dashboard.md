@@ -1,8 +1,9 @@
 ---
 title: Amazon store功能板
 description: 使用Amazon商店仪表板从Commerce管理员中查看Amazon商店的活动。
+feature: Sales Channels, Orders, Storefront
 exl-id: b86220c6-8350-474e-8faa-988a9a575ac4
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 0%
@@ -47,10 +48,10 @@ ht-degree: 0%
 
 - **[!UICONTROL Store Listings]**  — 显示过去7天或30天的商店销售额的图形表示以及存留期销售数据。
 
-   此部分还显示您的报表的列表计数 [活动列表](./active-listings.md)， [非活动列表](./inactive-listings.md)、和进行中的列表，以及指向其相应列表的链接 _[!UICONTROL Product Listings]_页面。 您还可以单击&#x200B;**[!UICONTROL Manage Listings]**以打开_[!UICONTROL Product Listings]_ 页面。 参见 [管理Amazon列表](./managing-product-listings.md).
+  此部分还显示您的报表的列表计数 [活动列表](./active-listings.md)， [非活动列表](./inactive-listings.md)、和进行中的列表，以及指向其相应列表的链接 _[!UICONTROL Product Listings]_页面。 您还可以单击&#x200B;**[!UICONTROL Manage Listings]**以打开_[!UICONTROL Product Listings]_ 页面。 参见 [管理Amazon列表](./managing-product-listings.md).
 
 - **[!UICONTROL Recent Orders]**  — 显示您最近Amazon订单的信息。 列出的信息基于从Amazon收到的信息。 此表未更新为 [!DNL Commerce] 订单信息，即使 [订单导入](./order-settings.md) 已启用。 要查看您的所有Amazon订单，请单击 **所有订单**.
 
-   参见 [查看Amazon订单](./amazon-orders-all.md) 有关列说明，请参见 [管理订单](./managing-orders.md) 了解更多信息。
+  参见 [查看Amazon订单](./amazon-orders-all.md) 有关列说明，请参见 [管理订单](./managing-orders.md) 了解更多信息。
 
 - **[!UICONTROL Seller Central links]**  — 提供指向重要内容的链接 [!DNL Amazon Seller Central] 信息。

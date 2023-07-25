@@ -1,8 +1,9 @@
 ---
 title: 按状态/选项卡管理Amazon产品列表
 description: 在管理Amazon列表时，您可以根据状态对列表应用操作。
+feature: Sales Channels, Products
 exl-id: 33effdd8-baa9-4fc5-8c7e-313175eb7e9c
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
@@ -22,7 +23,7 @@ ht-degree: 0%
 ![产品列表选项卡](assets/amazon-product-listings-tabs.png){width="600" zoomable="yes"}
 
 | 选项卡 | 描述 | 操作 |
-|--- |--- |--- |
+|---------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [[!UICONTROL Incomplete]](./incomplete-listings.md) | 显示您的 [!DNL Commerce] 目录产品符合您定义的列表设置，但缺少Amazon列表所需的信息。<br><br>如果 _[!UICONTROL Automatic List Action]_设置为 `Automatically List Eligible Products` 在您的 [_[!UICONTROL Product Listing Actions]_](./product-listing-actions.md) 设置，这些项目是您的&#x200B;**[!UICONTROL In Progress Listings]**. | [!UICONTROL Reattempt auto match to Amazon Listing]<br>[[!UICONTROL Update Required Info]](./amazon-manually-update-incomplete-listing.md)<br>[[!UICONTROL View Details]](./product-listing-details.md) |
 | [[!UICONTROL New Third Party]](./new-third-party-listings.md) | 显示与您的产品不匹配的现有Amazon列表(基于从Amazon收到的信息) [!DNL Commerce] 目录。 | [[!UICONTROL Create New Catalog Product(s)]](./creating-assigning-catalog-products.md)<br>尝试自动匹配<br>[[!UICONTROL Assign Catalog Product]](./creating-assigning-catalog-products.md)<br>[[!UICONTROL Create New Catalog Product]](./creating-assigning-catalog-products.md)<br>[[!UICONTROL View Details]](./product-listing-details.md) |
 | [[!UICONTROL Ready to List]](./ready-to-list.md) | 显示已准备好创建Amazon清单的目录产品，但您的应用商店未设置为自动发布新清单。 此选项卡用于手动发布新列表。<br><br>如果 _[!UICONTROL Automatic List Action]_设置为 `Do Not Automatically List Eligible Products` 在您的 [_[!UICONTROL Product Listing Actions]_](./product-listing-actions.md) 设置，这些项目是您的&#x200B;**[!UICONTROL In Progress Listings]**. | [[!UICONTROL Publish Product to Amazon]](./publish-listings-manually.md)<br>[[!UICONTROL Publish On Amazon]](./publish-listings-manually.md)<br>[[!UICONTROL View Details]](./product-listing-details.md) |

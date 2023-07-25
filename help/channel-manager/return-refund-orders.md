@@ -1,8 +1,9 @@
 ---
 title: 退货单和退款单
 description: 从以下来源收到的为退货请求签发全部或部分退款的指示 [!DNL Walmart Marketplace] 起始日期 [!DNL Channel Manager] 适用于Adobe Commerce和Magento Open Source。
+feature: Sales Channels, Orders, Shipping/Delivery, Customer Service
 exl-id: 45617011-4add-444c-819b-6bb4164d03e4
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 0%
@@ -138,7 +139,7 @@ ht-degree: 0%
 
    * 您可以通过选择 **[!UICONTROL Returns]** 选项卡。
 
-      您还可以从以下位置访问返回信息： [!UICONTROL Orders] 页面。 查找 [!UICONTROL Shipped] 有退货请求的订单。 然后，选择 `Return requested` 中的链接 [!UICONTROL Status Details] 列以查看和处理请求。
+     您还可以从以下位置访问返回信息： [!UICONTROL Orders] 页面。 查找 [!UICONTROL Shipped] 有退货请求的订单。 然后，选择 `Return requested` 中的链接 [!UICONTROL Status Details] 列以查看和处理请求。
 
 1. 在Returns表中，查找包含 *[!UICONTROL Received]* 状态。
 
@@ -148,13 +149,13 @@ ht-degree: 0%
 
    * 从 [!UICONTROL Status Details] 列，选择 **[!UICONTROL Create credit memo]** 打开“订单详细信息”页面 [!DNL Commerce].
 
-      如果订单尚未开票，则“订单详细信息”页将显示一则错误消息，提示您创建订单。 选择 **[!UICONTROL Create invoice]**. 那么， [创建并保存发票](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/invoices.html).
+     如果订单尚未开票，则“订单详细信息”页将显示一则错误消息，提示您创建订单。 选择 **[!UICONTROL Create invoice]**. 那么， [创建并保存发票](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/invoices.html).
 
    * 在订单详细信息页面上，选择 **[!UICONTROL Credit Memo]**.
 
    * In [!UICONTROL Items to Refund] 部分 [!UICONTROL Credit Memo]，更新 **[!UICONTROL Qty to refund]** 和 **[!UICONTROL Return to Stock]** 退货请求中包含的物料的信息。
 
-      确保仅返回返回返回请求中列出的项目。
+     确保仅返回返回返回请求中列出的项目。
 
    * 要添加评论，请在 **[!UICONTROL Credit Memo Comments]**
 

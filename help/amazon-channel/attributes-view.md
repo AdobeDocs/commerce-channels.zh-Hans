@@ -1,8 +1,9 @@
 ---
 title: Amazon列表的属性
 description: AmazonSales Channel提供 [!UICONTROL Attributes] 选项卡，用于监视Amazon和Commerce属性的列表以及如何映射它们以进行产品匹配。
+feature: Sales Channels, Products, Configuration
 exl-id: fc08cd6e-eef9-4e71-82b1-5443e14800ce
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
@@ -29,10 +30,10 @@ ht-degree: 0%
 
    - 要取消激活或 [编辑设置](./creating-attributes.md#edit-an-attribute) 或属性的“匹配属性值”，请单击 **[!UICONTROL Edit]**.
 
-      编辑属性包括更改用于产品匹配的属性映射。
+     编辑属性包括更改用于产品匹配的属性映射。
 
 | 字段 | 描述 |
-|--- |--- |
+|---------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Country] | 中定义的销售活动的国家/地区  **[!DNL Amazon Marketplace]国家/地区** 期间 [存储集成](./store-integration.md). |
 | [!UICONTROL ID] | 生成的通用属性值 [!DNL Commerce] 创建属性时。 |
 | [!UICONTROL Amazon Attribute Name] | 从Amazon导入的属性的名称。 |

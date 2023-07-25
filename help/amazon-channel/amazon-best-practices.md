@@ -1,8 +1,10 @@
 ---
 title: 的最佳实践和限制 [!DNL Amazon sales channel]
 description: 查看在使用Amazon sales channel for Adobe Commerce和Magento Open Source时的最佳实践和限制。
+role: Leader, Admin, User
+feature: Sales Channels, Best Practices
 exl-id: 7f7faae1-7aa7-413c-b534-1039e6a35173
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 0%
@@ -23,10 +25,9 @@ ht-degree: 0%
 
 - 对于英国各地区而言，最佳做法是注册 [Amazon增值税计算服务](https://sell.amazon.co.uk/learn/vat-resources/){target="_blank"} 载入Amazon sales channel之前。
 
-
-   >[!NOTE]
-   >
-   >Amazon可能需要10-14天才能验证并激活您的增值税计算服务帐户。
+  >[!NOTE]
+  >
+  >Amazon可能需要10-14天才能验证并激活您的增值税计算服务帐户。
 
 限制包括：
 

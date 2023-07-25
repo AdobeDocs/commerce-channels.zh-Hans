@@ -1,8 +1,9 @@
 ---
 title: 将列表连接到沃尔玛
 description: '''连接以下项的列表 [!DNL Commerce] 产品目标 [!DNL Walmart Marketplace]开始销售。”'
+feature: Sales Channels, Integration, Products, Tools and External Services
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 0%
@@ -125,11 +126,11 @@ ht-degree: 0%
 
    - 从产品目录项页面中，选择 **[!UICONTROL Add Items]**. 然后，选择 **[!UICONTROL Add items in bulk]**.
 
-      ![在Walmart Marketplace项目配置中的批量选项中添加项目](assets/walmart-seller-account-add-items-bulk.png){width="600" zoomable="yes"}
+     ![在Walmart Marketplace项目配置中的批量选项中添加项目](assets/walmart-seller-account-add-items-bulk.png){width="600" zoomable="yes"}
 
    - 在下载页面上，选择 **[!UICONTROL Full Setup]**. 然后，选择物料类别并下载类别模板。
 
-      ![Walmart Marketplace项目配置中的下载类别模板选项](assets/walmart-seller-account-full-setup-download.png){width="600" zoomable="yes"}
+     ![Walmart Marketplace项目配置中的下载类别模板选项](assets/walmart-seller-account-full-setup-download.png){width="600" zoomable="yes"}
 
    - 验证模板是否包含产品列表所需的和建议的属性。
 
@@ -141,9 +142,9 @@ ht-degree: 0%
 
    - 在 [!UICONTROL Entity Attributes] 表格中，配置用于产品数据导出的选择标准。
 
-      使用过滤器选择和配置适用于您销售的产品类别的属性值。 确保包括沃尔玛的必需属性和建议属性。 (请参阅 [导出数据](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-export.html) 在Adobe中 [!DNL Commerce] 用户指南，以了解详细说明。)
+     使用过滤器选择和配置适用于您销售的产品类别的属性值。 确保包括沃尔玛的必需属性和建议属性。 (请参阅 [导出数据](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-export.html) 在Adobe中 [!DNL Commerce] 用户指南，以了解详细说明。)
 
-      要从导出中省略属性，请选择 [!UICONTROL **排除**] 复选框。
+     要从导出中省略属性，请选择 [!UICONTROL **排除**] 复选框。
 
 1. 滚动到属性表的末尾，然后选择 [!UICONTROL **继续**] 以开始数据导出。
 

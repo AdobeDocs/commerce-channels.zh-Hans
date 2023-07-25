@@ -1,9 +1,9 @@
 ---
 title: 管理Amazon定价
 description: 您可以使用定价规则将Amazon清单的定价设置为与商务区不同。
-redirect_from: /sales-channels/asc/ob-pricing-rules.html
+feature: Sales Channels, Price Rules
 exl-id: 5c990206-ac72-4ef5-9ed0-ff8d816096eb
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '863'
 ht-degree: 0%
@@ -19,11 +19,11 @@ Amazon sales channel允许您设置定价规则，从而允许您设置与定义
 - [标准定价规则](./standard-price-rules.md)
 - [智能重新定价规则](./intelligent-repricing-rules.md)
 
-   >[!IMPORTANT]
-   >
-   >如果Amazon区域设置为，则智能重新定价规则无法正常运行 `Inactive` 状态，就像在载入过程中一样。 您的定价计算取决于您的运费，并且您的地区必须位于 `Active` 要从Amazon同步的运费状态。
-   >
-   >要更新Amazon帐户中的地区状态，请转到“设置”>“帐户信息”>“假期设置”。 请参阅 [Amazon：休假的列表状态](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620) （需要以Seller Central登录）。
+  >[!IMPORTANT]
+  >
+  >如果Amazon区域设置为，则智能重新定价规则无法正常运行 `Inactive` 状态，就像在载入过程中一样。 您的定价计算取决于您的运费，并且您的地区必须位于 `Active` 要从Amazon同步的运费状态。
+  >
+  >要更新Amazon帐户中的地区状态，请转到“设置”>“帐户信息”>“假期设置”。 请参阅 [Amazon：休假的列表状态](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620) （需要以Seller Central登录）。
 
 Amazon此功能允许您以类似于 [!DNL Commerce] [目录价格规则](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html). 您可以创建复杂的规则，以便更改特定产品、特定类别内的产品甚至具有特定属性的价格。
 
@@ -58,7 +58,7 @@ Amazon此功能允许您以类似于 [!DNL Commerce] [目录价格规则](https:
 ## 默认列
 
 | 列 | 描述 |
-|---|---|
+|--------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Name] | 定价规则的名称，如中所设置 [定价规则常规设置](./pricing-rule-general-settings.md) |
 | [!UICONTROL Rule Type] | 规则类型，如中所设置 [定价规则操作](./pricing-rule-actions.md) （标准价格规则或智能重新定价规则） |
 | [!UICONTROL Is Active] | 规则是否处于活动状态（如中所设置） [定价规则常规设置](./pricing-rule-general-settings.md) |

@@ -1,8 +1,9 @@
 ---
 title: '示例：定义Amazon列表规则的条件'
 description: 在创建列表规则时，定义条件以标识要在Amazon Marketplace上列出的Commerce目录产品。
+feature: Sales Channels, Products, Configuration
 exl-id: 8a48acfc-d31b-4919-bef7-8c300f0f9d94
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 0%
@@ -51,17 +52,17 @@ Amazon此示例中的规则定义了一个规则，该规则用于为具有 _AMA
 
    - **[!UICONTROL Conditions Combination]**  — 选择以允许创建另一组 `All/Any` 和 `True/False` 现有集内的条件。
 
-      ![条件组合](assets/ob-conditions-combinations.png){width="500"}
+     ![条件组合](assets/ob-conditions-combinations.png){width="500"}
 
    - **[!UICONTROL Product Attribute]**  — 产品属性取决于属性的设置。 要使属性显示在列表中，必须将其配置为在促销规则条件中使用。 请参阅 _用于促销规则条件_ 在 [产品属性](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html).
 
-      在下面的列表中 **[!UICONTROL Product Attribute]**，选择要用作条件基础的属性。 对于此示例，选定的条件为 `Amazon FBA`.
+     在下面的列表中 **[!UICONTROL Product Attribute]**，选择要用作条件基础的属性。 对于此示例，选定的条件为 `Amazon FBA`.
 
-      ![条件行2，第2部分](assets/ob-condition-attribute-dropdown.png){width="350"}
+     ![条件行2，第2部分](assets/ob-condition-attribute-dropdown.png){width="350"}
 
-      选定的条件将显示在语句中，后面还有两个粗体链接。 选项因您选择的产品属性而异。
+     选定的条件将显示在语句中，后面还有两个粗体链接。 选项因您选择的产品属性而异。
 
-      设置属性后，无法对其进行更改。 要更改属性，必须删除该行并添加新属性。 您可以通过单击删除(![“删除”图标](assets/btn-del-red.png))图标。
+     设置属性后，无法对其进行更改。 要更改属性，必须删除该行并添加新属性。 您可以通过单击删除(![“删除”图标](assets/btn-del-red.png))图标。
 
       1. 单击 **[!UICONTROL is]** 并选择描述要满足的产品条件的比较运算符。
 
@@ -74,6 +75,7 @@ Amazon此示例中的规则定义了一个规则，该规则用于为具有 _AMA
          选定的项目会显示在语句中，以完成条件。
 
          ![条件行2，第3部分](assets/ob-listing-rule-condition-is.png){width="500"}
+
    此条件已完成。 如上所述，此条件表示贵机构中 [!DNL Commerce] 将Amazon FBA属性设置为值的目录 `Yes` 有资格在该地区和商店中列为Amazon。 您可以添加更多条件行，以进一步缩小合格产品的范围。
 
 1，要向语句中添加其他条件行，请返回到步骤1并重复该过程，直到所有所需条件都完成。

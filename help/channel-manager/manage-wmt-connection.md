@@ -1,8 +1,10 @@
 ---
 title: 管理沃尔玛商城连接
 description: '''更新API凭据以授权[DNL！之间的连接 Commerce]商店视图和 [!DNL Walmart Marketplace]. The connection is required to connect [!DNL Commerce] 产品列表，并在以下位置同步库存、价格、订单和装运数据： [!DNL Commerce] 还有沃尔玛。'
+role: Admin, Developer
+feature: Sales Channels, Configuration, Shipping/Delivery, Integration
 exl-id: 817b1b58-a57e-4c8d-b08f-1ce3bec15bc3
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 0%

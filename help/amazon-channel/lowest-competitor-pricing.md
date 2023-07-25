@@ -1,8 +1,9 @@
 ---
 title: Amazon销售渠道 —  [!UICONTROL Lowest Competitor Pricing]
 description: 此 [!UICONTROL Amazon Sales Channel] 提供 [!UICONTROL Lowest Competitor Pricing] 标签页来帮助您了解竞争对手在Amazon上的价格定位。
+feature: Sales Channels, Price Rules
 exl-id: 7784d36a-1286-4f92-9f67-b0fef04ad112
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 0%
@@ -32,7 +33,7 @@ ht-degree: 0%
    显示Amazon上竞争商户的列表及其各自的定价。
 
 | 列 | 描述 |
-|---|---|
+|----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL ASIN] | 由10个字母和/或数字组成的用于标识项目的唯一块。<br><br>对于图书，ASIN与ISBN编号相同，但对于所有其他产品，则会在将项目上传到目录时创建新的ASIN。 您可以在产品详细信息页面上找到项目的ASIN以及与项目相关的其他详细信息（如大小、页数或磁盘数）。 |
 | [!UICONTROL Condition] | 此 [条件](./product-listing-condition.md) 产品的。 |
 | [!UICONTROL Fulfillment Channel] | 履行方式。 |

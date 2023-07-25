@@ -1,8 +1,9 @@
 ---
 title: Amazon销售渠道 —  [!UICONTROL Listing Rules]
 description: 使用列表规则确定作为Amazon Marketplace列表发布的Commerce目录产品。
+feature: Sales Channels, Products
 exl-id: b28a625b-64cf-4119-98bb-f1ea33043c8f
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '954'
 ht-degree: 0%
@@ -38,7 +39,7 @@ ht-degree: 0%
 参见 [示例：定义条件](./ob-define-condition-example.md).
 
 | 字段 | 描述 |
-|---|---|
+|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Websites] | 可用选项取决于 [网站](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) 您已在 [!DNL Commerce] 配置。 为Amazon上列出的符合条件的产品选择网站。 只能选择一个网站，因为每个网站都需要在Amazon销售渠道中创建唯一的Amazon商店。 |
 | [!UICONTROL Conditions] | 用于定义 [!DNL Commerce] 适用于您的Amazon地区的产品资格属性。 参见 [示例：定义条件](./ob-define-condition-example.md). |
 
@@ -67,7 +68,7 @@ Amazon列表会与您的规则和定义的条件进行比较。 然后，您可�
 
 - **[!UICONTROL Ineligible Listings]**  — 根据您当前的上市规则和条件，列出的产品不符合Amazon的上市条件。
 
-   不符合条件的产品不会发布到Amazon。 如果Amazon上已列出不合格产品，并且您将Amazon列表与您的 [!DNL Commerce] 目录产品，Amazon列表的数量更改为 `0` 以防止产品销售。 要手动删除列表，请参阅 [结束Amazon列表](./end-listings-manually.md). 此处不列出不符合Amazon要求的产品。 这些产品在 [“非活动列表”标签](./inactive-listings.md).
+  不符合条件的产品不会发布到Amazon。 如果Amazon上已列出不合格产品，并且您将Amazon列表与您的 [!DNL Commerce] 目录产品，Amazon列表的数量更改为 `0` 以防止产品销售。 要手动删除列表，请参阅 [结束Amazon列表](./end-listings-manually.md). 此处不列出不符合Amazon要求的产品。 这些产品在 [“非活动列表”标签](./inactive-listings.md).
 
 - **[!UICONTROL Eligible Listings]**  — 根据您当前的上市规则和条件，列出的产品均符合Amazon上市资格并符合Amazon要求。 此列表包括导入的现有Amazon列表(如果您具有 **导入第三方列表** 设置为 `Import Listing` 在 [列表设置](./third-party-listing-settings.md))。
 
@@ -94,7 +95,7 @@ Amazon列表会与您的规则和定义的条件进行比较。 然后，您可�
 ### 列出预览记录
 
 | 字段 | 描述 |
-|--- |--- |
+|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Product ID] | 分配给的唯一序列号 [!DNL Commerce] 添加时显示的目录产品。 |
 | [!UICONTROL Thumbnail] | 显示主要产品图像的缩略图。 |
 | [!UICONTROL Name] | 产品的名称，在 [!DNL Commerce] [产品网格](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/products-list.html). |

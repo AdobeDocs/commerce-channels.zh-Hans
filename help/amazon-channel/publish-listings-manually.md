@@ -1,8 +1,9 @@
 ---
 title: 手动发布Amazon列表
 description: 如果需要，您可以从Commerce管理员手动发布已结束的Amazon列表。
+feature: Sales Channels, Products, Merchandising
 exl-id: ca3f674e-d93a-44a6-8c06-b417694a0f1e
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%

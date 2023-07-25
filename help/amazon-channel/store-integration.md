@@ -1,8 +1,10 @@
 ---
 title: 存储与的集成 [!DNL Amazon Seller Account]
 description: 在开始载入流程之前，您必须创建（添加）一个AmazonSales Channel商店，并将其连接到您的Amazon卖方帐户。
+role: Admin, Developer
+feature: Sales Channels, Configuration, Integration, Tools and External Services
 exl-id: ea79e91d-7d92-4992-a921-7ac7632a0519
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 0%
@@ -54,11 +56,11 @@ _您需要的主要登录凭据用于 [!DNL Amazon Seller Central] 帐户（用�
 
    - 对象 **[!UICONTROL Product ID on the Amazon market]**&#x200B;中，选择要映射到的Amazon属性 [!DNL Commerce] 属性处于选中状态。
 
-      此ID有助于正确匹配中的相应产品 [!DNL Commerce] 目录。
+     此ID有助于正确匹配中的相应产品 [!DNL Commerce] 目录。
 
    - 对象 **[!UICONTROL Map a Magento attribute]**，选择 [!DNL Commerce] 产品属性，以映射到上面选择的Amazon属性。
 
-      [映射属性](./ob-creating-magento-attributes.md) 有助于确保列出的Amazon与中的相应产品正确匹配。 [!DNL Commerce] 目录。
+     [映射属性](./ob-creating-magento-attributes.md) 有助于确保列出的Amazon与中的相应产品正确匹配。 [!DNL Commerce] 目录。
 
 1. 单击 **[!UICONTROL Connect]**.
 

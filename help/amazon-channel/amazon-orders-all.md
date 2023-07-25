@@ -1,8 +1,9 @@
 ---
 title: 查看Amazon订单
 description: 在Adobe Commerce或Magento Open Source管理员中查看您的Amazon Marketplace订单。
+feature: Sales Channels, Orders
 exl-id: d7811604-8e15-4d1a-a0e7-9fa61c61ef5d
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
@@ -91,11 +92,10 @@ _[!UICONTROL All Orders]_视图为订单搜索添加筛选选项。
 >- 根据视图窗口的宽度，您可能会看到列中重叠的文本。 要展开要换行的文本列，请加宽窗口视图。
 >- 筛选条件为 _[!UICONTROL Total]_，按整数过滤。 输入小数可能会造成结果错误。
 
-
 ### 默认列
 
 | 列 | 描述 |
-|---|---|
+|----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Filter by] | 仅在 _[!UICONTROL All Orders]_视图。<br>根据以下条件缩小订单列表：<ul><li>`Purchase Date (range)`</li><li>`Order Number`</li><li>`Buyer's Name`</li><li>`Total (range)`</li><li>`Status`</li></ul> |
 | [!UICONTROL Purchase Date] | 从Amazon收到的购买日期。 |
 | [!UICONTROL Order Number] | 由Amazon生成并从接收的订单编号。 要查看“Amazon订单详细信息”屏幕，请单击链接。 |

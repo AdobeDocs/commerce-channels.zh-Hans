@@ -1,8 +1,9 @@
 ---
 title: 按操作管理Amazon产品列表
 description: 在管理Amazon列表时，您可以将操作应用于单个或多个列表。
+feature: Sales Channels, Products
 exl-id: 1cbf16fb-15eb-484b-bea7-28017a0d0c60
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 0%
@@ -20,7 +21,7 @@ ht-degree: 0%
 另请参阅 [按状态管理列表/选项卡](./managing-listings-by-tab.md).
 
 | 操作 | 描述 | 选项卡 |
-|--- |--- |--- |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [[!UICONTROL Re-attempt auto match to Amazon Listing]](./amazon-manually-update-incomplete-listing.md#update-required-info-unable-to-assign-to-amazon-listing) | 用于通过匹配过程将不完整产品移回。 要尝试重新匹配，您必须修改 [列表](./listing-settings.md) 和 [目录搜索](./catalog-search.md) 设置，以增加自动匹配的可能性。 | [[!UICONTROL Incomplete]](./incomplete-listings.md) |
 | [[!UICONTROL Update Required Info]](./amazon-manually-update-incomplete-listing.md) | 通过选择要匹配的列表、输入要匹配的ASIN或分配缺少的条件，手动将目录产品与Amazon列表匹配。 | [[!UICONTROL Incomplete]](./incomplete-listings.md) |
 | [[!UICONTROL View Details]](./product-listing-details.md) | 查看有关活动产品的其他信息，包括列表活动日志，该日志显示了对单个SKU/产品所做的更改。 | [[!UICONTROL Incomplete]](./incomplete-listings.md)<br>[[!UICONTROL New Third Party]](./new-third-party-listings.md)<br>[[!UICONTROL Ready to List]](./ready-to-list.md)<br>[[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Overrides]](./overrides.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md)<br>[[!UICONTROL Ended]](./ended-listings.md) |

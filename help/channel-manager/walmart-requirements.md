@@ -1,8 +1,10 @@
 ---
 title: ‘[!DNL Walmart] 要求
 description: '''确认您具备所需的 [!DNL Walmart Marketplace]与渠道经理集成的信息和资源。”'
+role: Leader, Admin, Developer
+feature: Sales Channels, Install, User Account, Tools and External Services
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -17,7 +19,7 @@ ht-degree: 0%
 
 * 用于将Adobe Commerce或Magento Open Source连接到的API密钥 [!DNL Walmart Marketplace]
 
-   此 [!DNL Walmart Marketplace] 通过API密钥，可以集成 [!DNL Channel Manager] 用于Adobe [!DNL Commerce] 或者Magento Open Source和沃尔玛商场。 在销售中心中设置API密钥，然后再开始渠道经理新用户引导流程。
+  此 [!DNL Walmart Marketplace] 通过API密钥，可以集成 [!DNL Channel Manager] 用于Adobe [!DNL Commerce] 或者Magento Open Source和沃尔玛商场。 在销售中心中设置API密钥，然后再开始渠道经理新用户引导流程。
 
 ## 设置 [!DNL Walmart Seller] 帐户
 

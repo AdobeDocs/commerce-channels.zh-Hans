@@ -1,8 +1,10 @@
 ---
 title: 设置概述
 description: '了解 [!DNL Channel Manager settings] 配置身份验证并映射产品目录属性和装运承运人，在两者之间协调销售操作时需要这些属性 [!DNL Commerce] 和 [!DNL Walmart Marketplace].'
+role: Admin
+feature: Sales Channels, Configuration, Merchandising, Shipping/Delivery
 exl-id: 305b3580-bfe2-4fc2-9dc8-fb41f5eaf959
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 0%

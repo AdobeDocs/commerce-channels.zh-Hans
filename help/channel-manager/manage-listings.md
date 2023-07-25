@@ -1,8 +1,9 @@
 ---
 title: 管理列表
 description: '''管理销售渠道列表 [!DNL Commerce] 通过Adobe Commerce和Magento Open Source渠道管理器进行存储。'
+feature: Sales Channels, Merchandising, Products
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -92,9 +93,9 @@ ht-degree: 0%
 
 * **[!UICONTROL Match]** — 标识匹配成功的产品 [!DNL Walmart].
 
-   当产品属性值（例如UPC代码）与现有中的UPC值匹配时，就会发生匹配 [!DNL Walmart Marketplace] 列表。 当产品匹配时，Commerce产品选件会添加到现有列表。
+  当产品属性值（例如UPC代码）与现有中的UPC值匹配时，就会发生匹配 [!DNL Walmart Marketplace] 列表。 当产品匹配时，Commerce产品选件会添加到现有列表。
 
-   查看 [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) 用于查看更新的产品列表和验证产品详细信息、价格和库存数量的仪表板。
+  查看 [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) 用于查看更新的产品列表和验证产品详细信息、价格和库存数量的仪表板。
 
 * **[!UICONTROL Match - Match in Stage]** — 标识匹配的产品 [!DNL Walmart] 在2008年12月31日之前 [!DNL Walmart Marketplace] 商店已上线。 当满足以下条件时，具有此状态的产品将自动连接： [!DNL Walmart Marketplace] 商店上线。
 
@@ -102,4 +103,4 @@ ht-degree: 0%
 
 * **[!UICONTROL Error description]** — 提供有关列表错误的详细信息。
 
-   解决此错误后，请重新提交产品以进行匹配。 参见 [产品匹配错误故障诊断](connect-listings-to-marketplace.md#troubleshoot-product-match-errors).
+  解决此错误后，请重新提交产品以进行匹配。 参见 [产品匹配错误故障诊断](connect-listings-to-marketplace.md#troubleshoot-product-match-errors).

@@ -1,8 +1,9 @@
 ---
 title: 取消未发运的Amazon订单
 description: 通过您的Amazon取消待定或部分发运（未发运）的订单 [!DNL Seller Central] 帐户。
+feature: Sales Channels, Orders, Shipping/Delivery
 exl-id: a6df09b7-7f62-47e5-a2d3-1761802255d0
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%
@@ -19,7 +20,6 @@ Amazon订单处于以下状态时才能取消 `Unshipped` 状态。 如果订单
 >
 >- 如果您拥有 [订单导入](./order-settings.md) 启用，订单管理位于 [[!DNL Commerce] 订单工作流](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html).
 >- 如果 [订单导入](./order-settings.md) 已禁用，您必须在 [!DNL Amazon Seller Central].
-
 
 ## 取消中的订单 `Unshipped` 状态
 

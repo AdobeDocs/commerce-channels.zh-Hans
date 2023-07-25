@@ -1,8 +1,9 @@
 ---
 title: Amazon通信错误日志
 description: 通信错误日志显示Amazon与之间的任何通信错误 [!DNL Commerce].
+feature: Sales Channels, Logs
 exl-id: 0d9f54ba-0fb7-4cd8-a18e-3335f37097a4
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 0%
@@ -22,7 +23,7 @@ Amazon sales channel home pages有一些共同之处 [工作区控件](./workspa
 ## 默认列
 
 | 列 | 描述 |
-|--- |--- |
+|--------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Store Name] | 设置Amazon存储区时定义的存储区名称。 请参阅 [存储集成](./store-integration.md). |
 | [!UICONTROL Error Code] | 从Amazon收到的用于标识错误类型的代码。 |
 | [!UICONTROL Message] | 描述与错误代码关联的错误的消息。 |

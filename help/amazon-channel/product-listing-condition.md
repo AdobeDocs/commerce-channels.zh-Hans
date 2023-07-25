@@ -1,9 +1,9 @@
 ---
 title: Amazon sales channel — 产品列表条件
 description: 使用产品列表条件设置将您的Commerce产品映射到Amazon产品条件，例如“新增”或“翻新”。
-redirect_from: /sales-channels/asc/ob-product-listing-condition.html
+feature: Sales Channels, Products, Merchandising
 exl-id: f37ce3cf-7bfc-4dee-931e-a603008a71b8
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Amazon需要产品列表具有定义的条件。 如果所有产品条件相同�
 ![产品列表条件](assets/amazon-product-listing-condition.png){width="600" zoomable="yes"}
 
 | 字段 | 描述 |
-|---|---|
+|------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Listing Product Condition] | 产品清单的条件。 选项： `New` / `Refurbished` / `Used: Like New` / `Used: Very Good` / `Used: Good` / `Used: Acceptable` / `Collectible: Like New` / `Collectible: Very Good` / `Collectible: Good` / `Collectible: Acceptable` / `Assign Condition Using Product Attribute`<br><br>如果您销售单个产品条件，请选择其中一个标准Amazon条件。 如果您的 [!DNL Commerce] 目录包含各种状态下的产品，请选择 `Assign Condition Using Product Attribute`. |
 | [!UICONTROL Condition Attribute] | 此 [!DNL Commerce] 定义产品条件的属性。 选择您创建的要映射到Amazon条件属性的Magneto属性。 在 [预设置任务示例](./ob-creating-magento-attributes.md) 建议将其命名为 `Amazon Condition`. 选中后，将显示用于映射标准Amazon条件的其他字段。 |
 | [!UICONTROL Additional Condition fields] | 对于每个标准Amazon条件，选择相应的条件。 选项是在以下情况下添加的条件标签： [已创建Amazon条件属性](./ob-creating-magento-attributes.md).<br><br>如果您在中拥有产品 `Used` 或 `Collectible` 条件，但无法进一步区分，您可以映射到单个 `Used` 或 `Collectible` Amazon条件，并将其他条件留空。 此方法映射所有 `Used` 或 `Collectible` “已使用”或“可收集”单一Amazon条件的条件。 |

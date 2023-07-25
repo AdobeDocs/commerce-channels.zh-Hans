@@ -2,7 +2,10 @@
 user-guide-title: AmazonSales Channel用户指南
 user-guide-description: 通过将Amazon或Magento Open Source与您的集成，通过Adobe Commerce生成销售额 [!DNL Amazon Seller Central] 帐户。
 breadcrumb-title: Amazon sales channel
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+role: Admin, User
+feature: Sales Channels
+recommendations: noDisplay
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 0%

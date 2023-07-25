@@ -1,8 +1,9 @@
 ---
 title: 查看Amazon属性映射
 description: 验证链接的Commerce属性的值，以便在Commerce和Amazon之间正确同步。
+feature: Sales Channels, Products, Configuration
 exl-id: 11a1fb25-6aa8-43d3-b5d8-772bbe1a5d53
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -31,7 +32,7 @@ ht-degree: 0%
 ![查看属性值](assets/amazon-managing-attribute-values.png){width="600" zoomable="yes"}
 
 | 字段 | 描述 |
-|--- |--- |
+|----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Region] | 中定义的销售活动的区域 **[!DNL Amazon Marketplace]国家/地区** 存储集成期间。 |
 | [!UICONTROL Magento Product SKU] | 指示 [!DNL Commerce] 产品与Amazon商店同步。 值是由分配的产品ID [!DNL Commerce] 并链接到目录中的产品。 在中打开产品 [!DNL Commerce]中，单击链接。 |
 | [!UICONTROL ASIN] | 指示Amazon为产品标识而分配给产品的Amazon标准标识号(ASIN) 10个字符的字母数字唯一标识符。 |

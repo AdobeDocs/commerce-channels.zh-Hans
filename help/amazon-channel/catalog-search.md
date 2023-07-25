@@ -1,9 +1,9 @@
 ---
 title: Amazon列表的目录搜索
 description: 要设置有助于将符合条件的Commerce目录产品映射到Amazon列表的属性匹配，请更新“目录搜索”设置。
-redirect_from: /sales-channels/asc/ob-catalog-search.html
+feature: Sales Channels, Search, Catalogs, Products, Configuration
 exl-id: 9fcaa924-cba3-498f-8e21-1a1f91b1ad04
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 0%
@@ -63,7 +63,7 @@ _目录搜索_ 设置是商店列表设置的一部分。 列表设置可从以�
 ![目录搜索](assets/amazon-catalog-search.png){width="500" zoomable="yes"}
 
 | 字段 | 描述 |
-|--- |--- |
+|--------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL ASIN] | 由10个字母和/或数字组成的用于标识项目的唯一块。<br><br>ASIN表示 [!DNL Amazon Standard Identification Number]. ASIN是一个由10个字母和/或数字组成的唯一块，用于标识项目。 对于图书，ASIN与ISBN编号相同，但对于所有其他产品，当项目上传到它们的目录时，将创建一个新的ASIN。 您可以在Amazon的产品详细信息页面上找到项目ASIN，以及与该项目相关的更多详细信息。 |
 | [!UICONTROL EAN (European Article Number)] | 12位或13位数的产品标识代码。 欧洲文章编号(EAN)是一种条形码标准，由12位或13位产品标识代码组成。 每个EAN都唯一地标识产品、制造商及其属性；通常，EAN会打印在产品标签上或作为条形码的包装上。 Amazon需要EAN代码来提高搜索结果的质量和目录的质量。 您可以从制造商处获取EAN。 |
 | [!UICONTROL GCID (Global Catalog Identifier)] | 全局目录标识符(GCID)是没有UPC代码或ISBN的产品的ID。 Amazon的Brand Registry允许您注册为品牌所有者，并为可能没有UPC或ISBN的产品创建唯一ID。 |

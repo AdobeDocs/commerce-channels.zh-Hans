@@ -1,5 +1,5 @@
 ---
-title: '"安装 [!DNL Amazon Sales Channel] 扩展”'
+title: “安装 [!DNL Amazon Sales Channel] 扩展”
 description: 集成 [!DNL Commerce] 目录 [!DNL Amazon Seller Accounts] 然后通过 [!DNL Amazon Marketplace]，下载并安装AmazonSales Channel扩展。
 role: Admin, Developer
 feature: Sales Channels, Install, Integration, Tools and External Services
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->仅 [!DNL Amazon Sales Channel] Adobe Commerce和Magento Open Source2.4.x版本支持扩展4.0+版本。 如果您运行的是2.3.x版本，请参阅 [兼容的Amazon sales channel版本](https://docs.magento.com/user-guide/v2.3/sales-channels/amazon/amazon-sales-channel.html). 有关版本兼容性的更多信息，请参见 [可用性](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) 页面。
+>仅 [!DNL Amazon Sales Channel] Adobe Commerce和Magento Open Source 2.4.x版本支持扩展4.0+版本。 如果您运行的是2.3.x版本，请参阅 [兼容的Amazon sales channel版本](https://docs.magento.com/user-guide/v2.3/sales-channels/amazon/amazon-sales-channel.html). 有关版本兼容性的更多信息，请参见 [可用性](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) 页面。
 
-此 [!UICONTROL Amazon Sales Channel] 扩展安装和添加功能，以将您的Commerce目录与 [!DNL Amazon Seller Accounts] 以通过 [!DNL Amazon Marketplace]. 要查看其他信息，请参阅 [AmazonSales Channel](https://marketplace.magento.com/magento-module-amazon.html) 页面位置 [!DNL Commerce Marketplace] 和 [发行说明](release-notes.md).
+此 [!UICONTROL Amazon Sales Channel] 扩展安装和添加用于将您的Commerce目录与集成的功能 [!DNL Amazon Seller Accounts] 以通过 [!DNL Amazon Marketplace]. 要查看其他信息，请参见 [AmazonSales Channel](https://marketplace.magento.com/magento-module-amazon.html) 页面位置 [!DNL Commerce Marketplace] 和 [发行说明](release-notes.md).
 
 ## 要求
 
-- **商业实例**：此 [!DNL Amazon Sales Channel] 扩展可以安装在云基础架构版本2.3.x或更高版本上具有Magento Open Source、Adobe Commerce和Adobe Commerce的实例上。 2.1、2.2或1.x版本不再支持此功能。
+- **商业实例**：和 [!DNL Amazon Sales Channel] 扩展可以安装在云基础架构版本2.3.x或更高版本上具有Magento Open Source、Adobe Commerce和Adobe Commerce的实例上。 2.1、2.2或1.x版本不再支持此功能。
 - **Commerce Web帐户**：您应该有一个Commerce Web帐户，用于创建和跟踪API密钥。
 - **API密钥**：通过Commerce Web帐户创建Amazon销售渠道API密钥。 以下说明包括这些步骤。
 
 ## 安装
 
-有关在此过程中使用Composer的详细信息，请参阅 [扩展安装](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) 开发人员文档中的说明。
+有关在此流程中使用编辑器的更多详细信息，请参阅 [扩展安装](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) 开发人员文档中的说明。
 
 1. 登录到 [Commerce Marketplace](https://marketplace.magento.com/customer/account/).
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
    - 输入您的 [身份验证密钥](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html). 您的公钥是您的用户名；您的私钥是您的密码。
 
-   - 等待Composer完成项目依赖项的更新，并确保没有错误。
+   - 等待Composer完成项目依赖项的更新并确保没有错误。
 
 1. [验证扩展](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 您可以使用以下选项配置Amazon销售渠道。 您无需修改这些设置，即可开始在Amazon上进行载入和销售。 建议高级管理员考虑这些选项。
 
-1. 登录到管理员。
+1. 登录管理员。
 
 1. 在 _管理员_ 侧栏，转到 **商店** > _设置_ > **配置**.
 

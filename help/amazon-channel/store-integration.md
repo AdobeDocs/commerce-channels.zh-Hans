@@ -13,58 +13,58 @@ ht-degree: 0%
 
 # 存储与的集成 [!DNL Amazon Seller Account]
 
-要开始使用Amazon sales channel，您必须创建（添加） Amazon sales channel store并将其连接到您的 [!DNL Amazon Seller Account]. 这两个步骤集成了您的 [!DNL Commerce] 和Amazon帐户共享数据、同步产品等。
+要开始使用Amazon sales channel，您必须创建（添加）一个Amazon sales channel商店，并将其连接到您的 [!DNL Amazon Seller Account]. 这两个步骤将 [!DNL Commerce] 和Amazon帐户共享数据、同步产品等。
 
 _您需要的主要登录凭据用于 [!DNL Amazon Seller Central] 帐户（用于创建卖方帐户的电子邮件或电话）以连接您的商店。_
 
 >[!NOTE]
 >
->在首次进行商店集成后，系统每年会提示您通过再次授予访问权限来续订Amazon销售渠道与Amazon的连接。 您可以在以下位置续订或撤消此授权： _当前授权_ 中的表 _Amazon MWS开发人员权限_ 部分 **设置** > **用户权限** “销售中心”帐户的页面。
+>在首次整合商店后，您将每年通过再次授予访问权限来提示您续订与Amazon的Amazon销售渠道连接。 您可以在以下位置续订或撤消此授权： _当前授权_ 中的表 _Amazon MWS开发人员权限_ 的部分 **设置** > **用户权限** ，此页面为您的Seller Central帐户页面。
 
-## 添加Amazon商店
+## 添加Amazon store
 
 1. 在 _管理员_ 侧栏，转到 **营销** > _渠道_ > **AmazonSales Channel**.
 
-   添加您的第一个Amazon sales channel商店时， _预设置任务_ 此时将显示模式窗口。 添加第一个商店后，可在 [Amazon sales channel home](./amazon-sales-channel-home.md) 页面位于 _学习和准备_ 左侧菜单中的。
+   添加您的第一个Amazon sales channel商店时， _预设置任务_ 此时将显示模式窗口。 添加第一个商店后，可在 [Amazon sales channel主页](./amazon-sales-channel-home.md) 页面位于 _学习和准备_ 左侧菜单中的。
 
 1. 单击 **[!UICONTROL Add Amazon Store]**.
 
-   此 _[!UICONTROL Add Amazon sales channel]_页面打开。
+   此 _[!UICONTROL Add Amazon sales channel]_页面将打开。
 
    ![添加Amazon sales channel store](assets/amazon-store-integration.png){width="500" zoomable="yes"}
 
-1. 对象 **[!UICONTROL Magento Website to use for Amazon Listing]**，选择您的 [!DNL Commerce] 要为此Amazon sales channel商店连接的网站。
+1. 对象 **[!UICONTROL Magento Website to use for Amazon Listing]**，选择您的 [!DNL Commerce] 要为此Amazon sales channel store进行连接的网站。
 
-   此设置还定义默认值 [!DNL Commerce] 存储对象 [导入Amazon订单](./order-settings.md).
+   此设置还会定义默认值 [!DNL Commerce] 存储对象 [导入Amazon订单](./order-settings.md).
 
-1. 对象 **[!UICONTROL Email Address]**，输入首选联系人的电子邮件地址。
+1. 对象 **[!UICONTROL Email Address]**，输入首选联系人电子邮件地址。
 
 1. 对象 **[!UICONTROL New Store Name]**，为您的新Amazon sales channel store输入一个描述性名称。
 
    >[!NOTE]
    >
-   >此名称用作 [!DNL Commerce] 仅引用并标识上的商店 [Amazon sales channel home](./amazon-sales-channel-home.md) 页面。 您希望让您的团队能够轻松识别它。 例如，您在美国地区销售的Amazon商店可能会被命名为 `Amazon Store USA`.
+   >此名称用作 [!DNL Commerce] 仅引用并在上标识存储 [Amazon sales channel主页](./amazon-sales-channel-home.md) 页面。 您希望让您的团队能够轻松识别它。 例如，您在美国地区销售的Amazon商店可能会被命名为 `Amazon Store USA`.
 
-1. 对象 **[!UICONTROL Amazon Marketplace Country]**，选择此Amazon销售渠道商店销售产品的区域/国家/地区。 选项：
+1. 对象 **[!UICONTROL Amazon Marketplace Country]**，选择此Amazon销售渠道商店销售产品的国家/地区。 选项：
 
    - 美国
    - 加拿大
    - 墨西哥
    - 英国
 
-1. 在 _[!UICONTROL Map your Magento attributes to Amazon]_部分，请执行以下操作：
+1. 在 _[!UICONTROL Map your Magento attributes to Amazon]_部分，执行以下操作：
 
-   - 对象 **[!UICONTROL Product ID on the Amazon market]**&#x200B;中，选择要映射到的Amazon属性 [!DNL Commerce] 属性处于选中状态。
+   - 对象 **[!UICONTROL Product ID on the Amazon market]**&#x200B;中，选择要映射到的Amazon属性 [!DNL Commerce] 属性选定如下。
 
-     此ID有助于正确匹配中的相应产品 [!DNL Commerce] 目录。
+     此ID有助于正确匹配您产品中的相应产品。 [!DNL Commerce] 目录。
 
-   - 对象 **[!UICONTROL Map a Magento attribute]**，选择 [!DNL Commerce] 产品属性，以映射到上面选择的Amazon属性。
+   - 对象 **[!UICONTROL Map a Magento attribute]**，选择 [!DNL Commerce] 映射到上面选定的Amazon属性的产品属性。
 
-     [映射属性](./ob-creating-magento-attributes.md) 有助于确保列出的Amazon与中的相应产品正确匹配。 [!DNL Commerce] 目录。
+     [映射属性](./ob-creating-magento-attributes.md) 有助于确保您的Amazon列表与 [!DNL Commerce] 目录。
 
 1. 单击 **[!UICONTROL Connect]**.
 
-   对话框关闭，新存储出现在 [Amazon sales channel home](./amazon-sales-channel-home.md) 页包含确认消息。
+   对话框关闭，新存储出现在 [Amazon sales channel主页](./amazon-sales-channel-home.md) 页包含确认消息。
 
 ## 将商店连接到 [!DNL Amazon Seller Central]
 
@@ -76,18 +76,18 @@ _您需要的主要登录凭据用于 [!DNL Amazon Seller Central] 帐户（用�
 
 1. 如果出现提示，请输入您从Amazon收到的代码并单击，以完成Amazon双重授权(2FA) **[!UICONTROL Sign in]**.
 
-1. 在 _[!UICONTROL Amazon Marketplace Web Service]_确认页面，选择“[!UICONTROL I understand...]”复选框，然后单击&#x200B;**[!UICONTROL Next]**.
+1. 在 _[!UICONTROL Amazon Marketplace Web Service]_确认页面，选择&quot;[!UICONTROL I understand...]”复选框，然后单击&#x200B;**[!UICONTROL Next]**.
 
 1. 在 _[!UICONTROL You are almost done]_消息，请单击&#x200B;**[!UICONTROL Continue]**.
 
    您已授予Amazon销售渠道访问数据并与您共享数据的权限 [!DNL Amazon Seller Central] 帐户。 Amazon页面将关闭，并显示一条确认消息。
 
-   此 [Amazon sales channel home](./amazon-sales-channel-home.md) 页面打开，其中显示您的Amazon商店信息卡。
+   此 [Amazon sales channel主页](./amazon-sales-channel-home.md) 页面打开，其中显示您的Amazon商店信息卡。
 
    要查看商店功能板，请单击 **[!UICONTROL View Store]** 在商店卡上。
 
 ![带有新商店卡的Amazon sales channel home](assets/asc-dashboard-after-2fa.png){width="600" zoomable="yes"}
 
-您的新Amazon销售渠道商店现已连接到您的 [!DNL Amazon Seller Central] 帐户。
+您新的Amazon sales channel store现已连接到 [!DNL Amazon Seller Central] 帐户。
 
 ![“下一步”图标](assets/btn-next.png) [**继续创建列表规则**](./ob-create-listing-rule.md)

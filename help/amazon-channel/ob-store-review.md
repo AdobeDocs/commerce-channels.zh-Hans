@@ -1,6 +1,6 @@
 ---
-title: 查看Amazon销售渠道的商店设置
-description: 在您完成Amazon销售渠道入门培训流程后，请查看并更新 [!DNL Commerce] 存储设置。
+title: 查看Amazon sales channel商店设置
+description: 在您完成Amazon sales channel入门培训流程后，请查看并更新 [!DNL Commerce] 存储设置。
 feature: Sales Channels, Configuration
 exl-id: 7f1ea19b-f473-4a8e-9a91-b06d6b733664
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
@@ -10,9 +10,9 @@ ht-degree: 0%
 
 ---
 
-# 查看Amazon销售渠道的商店设置
+# 查看Amazon sales channel商店设置
 
-创建并集成Amazon销售渠道商店后，请查看商店默认设置以确保您的产品、列表、定价和其他设置正确无误。
+创建并集成Amazon sales channel store后，请查看商店默认设置以确保您的产品、列表、定价和其他设置正确无误。
 
 1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Marketing]** > _[!UICONTROL Channels]_>**[!UICONTROL Amazon Sales Channel]**.
 

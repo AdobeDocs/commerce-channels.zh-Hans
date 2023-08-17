@@ -1,6 +1,6 @@
 ---
-title: '''安装 [!DNL Channel Manager]‘'
-description: '''安装[!DNL Channel Manager] 扩展。'
+title: '''安装 [!DNL Channel Manager]’'
+description: '安装[!DNL Channel Manager] 扩展。'
 role: Admin, Developer
 feature: Sales Channels, Install
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
@@ -32,7 +32,7 @@ Channel Manager的安装说明取决于Adobe Commerce或Magento Open Source是�
 
 ### 在内部部署实例上安装
 
-按照以下说明安装 [!DNL Channel Manager] Adobe Commerce和Magento Open Source到内部部署实例时，不会将反向链接计算两次。
+按照以下说明安装 [!DNL Channel Manager] Adobe Commerce和Magento Open Source到内部部署实例时，不会将反向链接计算在内。
 
 1. 登录到 [!DNL Commerce] server as a [具有权限的用户](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/file-system/configure-permissions.html) 以写入 [!DNL Commerce] 文件系统。
 
@@ -58,7 +58,7 @@ Channel Manager的安装说明取决于Adobe Commerce或Magento Open Source是�
    composer update magento/channel-manager
    ```
 
-   此 `composer update` 命令仅更新以下项所需的依赖项： [!DNL Channel Manager]. 要更新所有依赖项，请改用此命令： `composer update`.
+   此 `composer update` 命令仅更新所需的依赖项 [!DNL Channel Manager]. 要更新所有依赖项，请改用此命令： `composer update`.
 
 1. 等待Composer完成项目依赖关系更新并解决所有错误。
 
@@ -106,19 +106,19 @@ Channel Manager的安装说明取决于Adobe Commerce或Magento Open Source是�
    bin/magento maintenance:disable
    ```
 
-### 在Adobe Commerce on Cloud Infrastructure实例上安装
+### 在云基础架构实例上的Adobe Commerce上安装
 
 向云实例添加扩展时，请在开发分支中工作。
 
 有关使用分支的帮助，请参阅 [创建分支入门](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/cli-branches.html) 在 _云基础架构上的Commerce指南_.
 
-在安装过程中，扩展名称(`magento\channel-manager`)自动插入到 [app/etc/config.php](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html) 文件。 您无需直接编辑文件。
+在安装期间，扩展名称(`magento\channel-manager`)自动插入到 [app/etc/config.php](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html) 文件。 您无需直接编辑文件。
 
 1. 在本地工作站上，更改为云项目根目录。
 
 1. 创建或签出开发 [分支](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/cli-branches.html).
 
-1. 使用编辑器名称，将扩展添加到 `require` 部分 `composer.json` 文件。
+1. 使用编辑器名称，将扩展添加到 `require` 的部分 `composer.json` 文件。
 
    ```bash
    composer require magento/module-sales-channels-extension --no-update
@@ -130,7 +130,7 @@ Channel Manager的安装说明取决于Adobe Commerce或Magento Open Source是�
    composer update magento/module-sales-channels-extension
    ```
 
-   此 `composer update` 命令仅更新以下项所需的依赖项： [!DNL Channel Manager]. 要更新所有依赖项，请改用此命令： `composer update`.
+   此 `composer update` 命令仅更新所需的依赖项 [!DNL Channel Manager]. 要更新所有依赖项，请改用此命令： `composer update`.
 
 1. 添加、提交和推送代码更改 — 包含对两者的更改 `composer.lock` 和 `composer.json` 文件。
 
@@ -168,13 +168,13 @@ Module is enabled
    >有关将Channel Manager更新到新版本的说明，请参阅 [升级模块和扩展](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html).
 
 
-## 疑难解答
+## 故障排除
 
 使用以下信息可解决Channel Manager安装过程中发生的错误。
 
 ### 不正确的编辑器键
 
-如果 [访问密钥](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) 用于对编辑器存储库进行身份验证无效，或未链接到 [!DNL MAGE ID] 用于注册 [!DNL Channel Manager] 服务，显示以下错误。
+如果 [访问密钥](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) 用于对编辑器存储库进行身份验证无效，或未链接到 [!DNL MAGE ID] 用于注册 [!DNL Channel Manager] 服务，将显示以下错误。
 
 ```terminal
 Could not find a matching version of package magento/channel-manager. Check the package spelling, your version constraint and that the package is available in a stability which matches your minimum-stability (stable).
@@ -194,11 +194,11 @@ Could not find a matching version of package magento/channel-manager. Check the 
    $ cat /path/to/auth.json
    ```
 
-1. 验证auth.json中的凭据是否匹配 [与图像ID关联的键](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) 用于注册Channel Manager服务。
+1. 验证auth.json中的凭据是否匹配 [与图像ID关联的键](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) 用于注册渠道管理器服务。
 
 ### PHP内存不足
 
-如果系统没有为PHP分配足够的内存，则会显示以下错误。
+如果系统没有为PHP分配足够的内存，则显示以下错误。
 
 ```terminal
 Fatal error: Allowed memory size of 2146435072 bytes exhausted (tried to allocate 4096 bytes) in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php on line 52

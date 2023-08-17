@@ -1,6 +1,6 @@
 ---
 title: '''连接到 [!DNL Commerce] 服务'
-description: '''将渠道管理器连接到 [!DNL Commerce] 服务以启用数据同步和 [!DNL Commerce] 实例、渠道经理和其他支持服务。”'
+description: '''将渠道管理器连接到 [!DNL Commerce] 服务来启用数据同步和 [!DNL Commerce] 实例、渠道经理和其他支持服务。”'
 role: Admin, Developer
 level: Intermediate
 feature: Sales Channels, Install, Integration
@@ -15,21 +15,21 @@ ht-degree: 0%
 
 # 连接到 [!DNL Commerce] 服务
 
-此 [!DNL Commerce Services Connector] 将Channel Manager服务与Adobe Commerce和Magento Open Source实例集成。 该连接器实现了数据同步和以下对象之间的通信： [!DNL Commerce] 实例， [!DNL Channel Manager]和其他支持服务。
+此 [!DNL Commerce Services Connector] 将Channel Manager服务与Adobe Commerce和Magento Open Source实例集成。 该连接器实现了数据同步以及 [!DNL Commerce] 实例， [!DNL Channel Manager]和其他支持服务。
 
 [!DNL Commerce Services Connector] 设置需要一次性使用 [Adobe Commerce SaaS服务](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) 例如 [!DNL Channel Manager]， [!DNL Live Search]、和 [!DNL Product Recommendations]. 如果已为其他服务配置了连接器，请跳过此步骤。
 
 ## 要求
 
-- **Commerce帐户** — 安装软件 [!DNL Commerce] 实例中，您必须拥有对具有访问权限的所有者或管理员的帐户 [!DNL Commerce] 平台。
+- **Commerce帐户** — 在上安装软件 [!DNL Commerce] 实例中，您必须拥有对拥有者或管理员访问权限的帐户 [!DNL Commerce] 平台。
 
   帐户所有者和超级用户可以从中创建管理员帐户 [!DNL Commerce] 实例或从命令行中使用 [!DNL Commerce] CLI命令 `admin:user:create`.
 
-- **Adobe Commerce生产API密钥**-This [键](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html#genapikey) 允许通过API访问渠道管理器所需的服务。 您需要此密钥的公共和专用凭据。
+- **Adobe Commerce生产API密钥** — 此 [键](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html#genapikey) 允许通过API访问渠道管理器所需的服务。 您需要此密钥的公共和私有凭据。
 
 >[!TIP]
 >
->要提供凭据，请 [!DNL Commerce] 许可证持有人或帐户所有者可以选择 [共享访问](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-share.html)，或给出 [API密钥](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html) 凭据发送给受信任的开发人员。
+>要提供凭据，请 [!DNL Commerce] 许可证持有人或帐户所有者有选项可以 [共享访问](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-share.html)，或给出 [API密钥](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html) 凭据发送给受信任的开发人员。
 
 ## 配置 [!DNL Commerce Services Connector]
 

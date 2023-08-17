@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # 编辑分配的ASIN
 
-您可以编辑在中分配给产品的Amazon ASIN值 [!DNL Commerce] 目录。 如果目录产品与您的某个Amazon清单不正确匹配，则此功能非常有用。 更改为列表分配的ASIN不会更改Amazon分配给产品的ASIN。 它只会更改您的目录产品所匹配的Amazon列表。
+您可以在以下位置编辑分配给产品的Amazon ASIN值： [!DNL Commerce] 目录。 如果目录产品与您的某个Amazon列表不正确匹配，则此功能会很有帮助。 更改为列表分配的ASIN不会更改Amazon分配给产品的ASIN。 它只会更改您的目录产品所匹配的Amazon列表。
 
-当分配的ASIN发生更改时：
+更改分配的ASIN时：
 
 - [!DNL Commerce] 结束附加到旧ASIN的Amazon列表
 - 通过Amazon验证ASIN

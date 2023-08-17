@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. 在 _[!UICONTROL Recent Orders]_部分，单击订单编号。
 
-   此 _[!UICONTROL Amazon Order Details]_页面打开。
+   此 _[!UICONTROL Amazon Order Details]_页面将打开。
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Amazon接受无法导入到Amazon sales channel中的非标准地址信息，从而阻止某些订单的州/国家/地区代码正确更新。 要更正地址错误，订单详细信息中的以下字段可编辑：
+>Amazon接受无法导入Amazon sales channel的非标准地址信息，因此导致某些订单的州/国家/地区代码无法正确更新。 要更正地址错误，订单详细信息中的以下字段可编辑：
 >
 >- `Shipping address 1`
 >- `Shipping address 2`
@@ -57,9 +57,9 @@ ht-degree: 0%
 
 ![订单和送货详细信息](assets/amazon-order-details.png){width="600" zoomable="yes"}
 
-### “订单项”选项卡
+### “订单项目”选项卡
 
-此 _[!UICONTROL Order Items]_选项卡显示从Amazon收到的与Amazon订单关联的所有项目。
+此 _[!UICONTROL Order Items]_选项卡显示从Amazon接收的、与Amazon订单关联的所有项目。
 
 ![订单项目详细信息](assets/amazon-order-item-details.png){width="600" zoomable="yes"}
 

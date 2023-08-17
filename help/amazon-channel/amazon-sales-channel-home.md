@@ -1,6 +1,6 @@
 ---
 title: Amazon sales channel主页
-description: 使用Amazon sales channel主页中的 [!DNL Commerce] 管理员访问 [!DNL Amazon Marketplace] 列表和活动。
+description: 使用您网站上的Amazon sales channel主页 [!DNL Commerce] 管理员访问 [!DNL Amazon Marketplace] 列表和活动。
 exl-id: 00ce8253-aa91-4824-847d-24b74ed6a8bf
 source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Amazon sales channel主页
 
-访问Amazon销售渠道时， Amazon销售渠道主页就是您的登录页。
+Amazon销售渠道主页是访问Amazon销售渠道时的登陆页面。
 
 ![Amazon sales channel主页](assets/amazon-sales-channel-home-tabs.png)
 

@@ -2,9 +2,9 @@
 title: Amazon和Commerce目录
 description: Amazon Sales Channel可将您的Amazon列表导入您的Commerce后端，并不断与产品和销售同步。
 role: Leader, Admin, User
-feature: Sales Channels, Integration, Tools and External Services, Merchandising, Catalogs
+feature: Sales Channels, Integration, Tools and External Services, Merchandising, Catalog Management
 exl-id: 659c9830-0a1d-4a0d-bb9c-afb609c0fbba
-source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
+source-git-commit: 8c72b7db5472a573bd8c26acafdf7a3400875477
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 0%

@@ -3,9 +3,9 @@ title: ’[!DNL Amazon Sales Channel] 发行说明
 description: 查看发行说明，了解所有 [!DNL Amazon Sales Channel] 版本发布。
 feature: Sales Channels, Release Notes
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
-source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
+source-git-commit: fd9423ba7030ce15f47fdead6854487bc0c29f11
 workflow-type: tm+mt
-source-wordcount: '1933'
+source-wordcount: '2006'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,21 @@ ht-degree: 0%
 ![已知问题](../assets/bug.svg) 已知问题
 
 请参阅 [即将发布的版本](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) 版本控制、支持和兼容性。
+
+## v4.5.0
+
+*2023年8月30日*
+
+[!BADGE 兼容性]{type=Informative tooltip="兼容性"}
+
+![新建](../assets/new.svg) 添加了Adobe.IO API网关（从MAGI更改），以提高身份验证安全性。 `ServicesId` 提供了一个新的UI来管理您的Adobe.IO凭据，类似于其他 [Adobe Commerce服务](https://experienceleague.adobe.com/docs/commerce-admin/config/services/saas.html).
+
+>[!NOTE]
+>
+>商家必须确保 [专用和公共API密钥](https://experienceleague.adobe.com/docs/commerce-admin/config/services/saas.html) 会针对生产环境更新。
+
+
+![修复的问题](../assets/fix.svg) 发现了一个配置设置问题并修复了订单创建流程。
 
 ## v4.4.4
 

@@ -3,9 +3,9 @@ title: ’[!DNL Amazon Sales Channel] 发行说明
 description: 查看发行说明，了解所有 [!DNL Amazon Sales Channel] 版本发布。
 feature: Sales Channels, Release Notes
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
-source-git-commit: fd9423ba7030ce15f47fdead6854487bc0c29f11
+source-git-commit: df8bbec23d34b53a0e694c924aca5b1ed41e4d08
 workflow-type: tm+mt
-source-wordcount: '2006'
+source-wordcount: '2024'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,13 @@ ht-degree: 0%
 
 请参阅 [即将发布的版本](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) 版本控制、支持和兼容性。
 
+请参阅 [产品可用性](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) 以了解哪些Adobe Commerce版本支持此扩展。
+
 ## v4.5.0
 
 *2023年8月30日*
 
-[!BADGE 兼容性]{type=Informative tooltip="兼容性"}
+[!BADGE 支持]{type=Informative tooltip="支持"}
 
 ![新建](../assets/new.svg) 添加了Adobe.IO API网关（从MAGI更改），以提高身份验证安全性。 `ServicesId` 提供了一个新的UI来管理您的Adobe.IO凭据，类似于其他 [Adobe Commerce服务](https://experienceleague.adobe.com/docs/commerce-admin/config/services/saas.html).
 
@@ -46,7 +48,7 @@ ht-degree: 0%
 
 *2023年3月7日*
 
-[!BADGE 兼容性]{type=Informative tooltip="兼容性"}
+[!BADGE 支持]{type=Informative tooltip="支持"}
 
 ![修复的问题](../assets/fix.svg) 添加了对Adobe Commerce 2.4.6和PHP 8.2的支持。
 
@@ -70,7 +72,7 @@ ht-degree: 0%
 
 *2023年3月7日*
 
-[!BADGE 兼容性]{type=Informative tooltip="兼容性"}
+[!BADGE 支持]{type=Informative tooltip="支持"}
 
 ![修复](../assets/fix.svg) 添加了对Adobe Commerce 2.4.4的支持。
 
@@ -78,7 +80,7 @@ ht-degree: 0%
 
 *2021年11月11日*
 
-[!BADGE 兼容性]{type=Informative tooltip="兼容性"}
+[!BADGE 支持]{type=Informative tooltip="支持"}
 
 ![修复](../assets/fix.svg) 更新了依赖关系以支持其他更新的扩展。
 ![修复](../assets/fix.svg) 添加了对PHP 8.1的支持。
@@ -87,7 +89,7 @@ ht-degree: 0%
 
 *2021年11月11日*
 
-[!BADGE 兼容性]{type=Informative tooltip="兼容性"}
+[!BADGE 支持]{type=Informative tooltip="支持"}
 
 ![修复](../assets/fix.svg) 更改了Adobe Commerce接收 _用户名_ Amazon中的字段。 以前，在订单创建过程中出现以下错误： _用户名_ 字段包含特殊字符。 Adobe Commerce现在收到 _用户名_ 过滤掉特殊字符，以便成功创建订单。
 
@@ -95,7 +97,7 @@ ht-degree: 0%
 
 *2021年4月9日*
 
-[!BADGE 兼容性]{type=Informative tooltip="兼容性"}
+[!BADGE 支持]{type=Informative tooltip="支持"}
 
 ![新建](../assets/new.svg) 为配置添加了对只读模式的支持。 请参阅 [sales channel设置](sales-channel-settings.md).
 
@@ -113,7 +115,7 @@ ht-degree: 0%
 
 *2021年3月3日*
 
-[!BADGE 兼容性]{type=Informative tooltip="兼容性"}
+[!BADGE 支持]{type=Informative tooltip="支持"}
 
 ![修复](../assets/fix.svg) <!--CHAN-xxxx-->此 _订单详细信息_ 功能已重新设计，不再依赖 _导入订单_ 设置。 现在，所有订单的订单详细信息均显示在AmazonSales Channel界面中。
 
@@ -129,7 +131,7 @@ ht-degree: 0%
 
 *2021年3月3日*
 
-[!BADGE 兼容性]{type=Informative tooltip="兼容性"}
+[!BADGE 支持]{type=Informative tooltip="支持"}
 
 如果您拥有以前的 [!DNL Amazon sales channel] 版本)并尝试将Adobe Commerce更新到版本2.4.0，系统会提示您更新扩展，然后才能完成Adobe Commerce更新。
 
@@ -159,7 +161,7 @@ ht-degree: 0%
 
 *2020年5月7日*
 
-[!BADGE 兼容性]{type=Informative tooltip="兼容性"}
+[!BADGE 支持]{type=Informative tooltip="支持"}
 
 ![新建](../assets/new.svg) <!--4247, 4230-->更改了订单导入流程以符合Commerce订单要求。 这些更改纠正了阻止Commerce为导入的订单创建相应订单的问题。 请参阅 [管理订单](managing-orders.md) ，以了解有关订单拦截器和解决方案的信息。
 
@@ -189,7 +191,7 @@ ht-degree: 0%
 
 *2020年3月25日*
 
-[!BADGE 兼容性]{type=Informative tooltip="兼容性"}
+[!BADGE 支持]{type=Informative tooltip="支持"}
 
 >[!IMPORTANT]
 >
@@ -207,7 +209,7 @@ ht-degree: 0%
 
 *2019年11月11*
 
-[!BADGE 兼容性]{type=Informative tooltip="兼容性"}
+[!BADGE 支持]{type=Informative tooltip="支持"}
 
 ![修复](../assets/fix.svg) **数字字段设置**： <!--CHAN-3779-->需要基于数字的值的字段已更新为仅接受数字字符。 实例：定价规则设置>调整金额字段
 
@@ -219,7 +221,7 @@ ht-degree: 0%
 
 *2019年10月7*
 
-[!BADGE 兼容性]{type=Informative tooltip="兼容性"}
+[!BADGE 支持]{type=Informative tooltip="支持"}
 
 ![新建](../assets/new.svg) **Amazon英国市场现已推出**：用户在创建和集成Commerce商店时可以选择英国的市场。 此英国升级包括对以下各项的额外支持：
 
@@ -237,7 +239,7 @@ ht-degree: 0%
 
 ## v2.0.0
 
-[!BADGE 兼容性]{type=Informative tooltip="兼容性"}
+[!BADGE 支持]{type=Informative tooltip="支持"}
 
 >[!NOTE]
 >

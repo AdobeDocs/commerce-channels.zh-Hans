@@ -3,9 +3,9 @@ title: '[!DNL Channel Manager] 发行说明'
 description: 的最新发行信息 [!DNL Channel Manager] 来自Adobe Commerce的。
 feature: Sales Channels, Release Notes
 exl-id: 8f40ace1-6587-4185-955a-91bc16dee8ce
-source-git-commit: df8bbec23d34b53a0e694c924aca5b1ed41e4d08
+source-git-commit: 003efd3c1044284a7d2c86db5d3eb1abfb3898ea
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '218'
 ht-degree: 3%
 
 ---
@@ -21,6 +21,14 @@ ht-degree: 3%
 请参阅 [即将发布的版本](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) 了解发布计划和支持。
 
 请参阅 [产品可用性](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) 以了解哪些Adobe Commerce版本支持此扩展。
+
+## v2.1.0
+
+*2023年10月3日*
+
+[!BADGE 支持]{type=Informative tooltip="支持"}
+
+![新建](../assets/new.svg) 渠道管理器现在与兼容 [Adobe Commerce版本2.4.7（测试版）](https://experienceleague.adobe.com/docs/commerce-operations/release/beta.html) 版本发布。
 
 ## v2.0.0
 

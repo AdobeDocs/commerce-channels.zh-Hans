@@ -3,9 +3,9 @@ title: 将产品添加到渠道管理器
 description: '''创建产品分类 [!DNL Walmart Marketplace] 通过将产品从目录添加到在Channel Manager中配置的销售渠道来进行销售。'
 feature: Sales Channels, Merchandising, Products
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
+source-git-commit: 0087d60791cf00e4ed2bffe992447ee8e592fd9b
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 0%
 
      ![产品从目录导入到销售渠道确认消息](assets/product-import-from-catalog-confirmation.png){width="400"}
 
-     如果消息指示已计划更新，请使用 [队列:consumers:开始](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) [!DNL CLI] 命令立即处理更新。
+     如果消息指示已计划更新，请使用 [`queue:consumers:start`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) [!DNL CLI] 命令立即处理更新。
 
      ```bash
      $ bin/magento queue:consumers:start product_action_attribute.update

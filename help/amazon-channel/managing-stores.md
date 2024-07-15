@@ -1,44 +1,44 @@
 ---
-title: '"[!UICONTROL Amazon Stores] 视图”'
+title: '[!UICONTROL Amazon Stores]视图'
 description: 转到Amazon商店视图，快速查看每个Amazon商店的基本统计数据以及访问管理选项。
 feature: Sales Channels, Storefront
 exl-id: 1376cd84-da81-4d3b-a5be-218aa802eed6
 source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Amazon Stores] 视图
+# [!UICONTROL Amazon Stores]视图
 
-在查看Amazon sales channel主页时， _Amazon商店_ 默认情况下将打开视图。
+在查看Amazon销售渠道主页时，_Amazon Stores_&#x200B;视图默认打开。
 
 ![Amazon商店视图](assets/amazon-sales-channel-home-tabs.png){width="600" zoomable="yes"}
 
-此 _[!UICONTROL Amazon Stores]_视图会显示每个Amazon商店的“商店卡”，以及一些基本的统计和管理选项。 每张信息卡中显示的汇总信息包括每个商店状态、创建日期、上次更新日期、需要注意的列表（例如：未完成列表）和已分配的列表 [!DNL Commerce] 网站。
+_[!UICONTROL Amazon Stores]_视图显示每个Amazon商店的“商店卡”，以及一些基本统计数据和管理选项。 每张信息卡中显示的摘要信息包括每个商店状态、创建日期、上次更新日期、需要注意的列表（例如：未完成的列表）以及分配的[!DNL Commerce]网站。
 
-查看 _[!UICONTROL Amazon Store]_视图，每个商店卡允许您：
+在查看&#x200B;_[!UICONTROL Amazon Store]_视图时，每个商店卡允许您：
 
-- 打开商店 [仪表板](./amazon-store-dashboard.md)，单击 **[!UICONTROL View Store]**.
+- 若要打开商店[仪表板](./amazon-store-dashboard.md)，请单击&#x200B;**[!UICONTROL View Store]**。
 
-- 要更改商店状态或删除商店，请单击 **[!UICONTROL Action]** 并选择：
+- 要更改商店状态或删除商店，请单击&#x200B;**[!UICONTROL Action]**&#x200B;并选择：
 
-   - **[!UICONTROL Activate]** / **[!UICONTROL Deactivate]**  — 选择将存储状态更改为 `Active` 或 `Inactive`、ID名称和ID名称等。
+   - **[!UICONTROL Activate]** / **[!UICONTROL Deactivate]** — 选择将存储状态分别更改为`Active`或`Inactive`。
 
-     更改 `Inactive` 存储到 `Active` status使用商店当前商店设置（如清单设置、价格规则和覆盖）激活商店的清单和订单活动。
+     将`Inactive`商店更改为`Active`状态将使用商店当前商店设置（如清单设置、价格规则和覆盖）激活该商店的清单和订单活动。
 
-     更改存储状态 `Active` 到 `Inactive` 状态将暂停商店的列表和订单活动。 非活动存储会保留所有存储设置和列表，但会暂时停止定价、数量和订单管理的同步，直到存储重新更改为为止 `Active` 状态。 此功能允许您在区域级别控制商店活动，而无需重新创建或重新集成Amazon商店，或丢失历史订单和销售数据。
+     将商店状态从`Active`更改为`Inactive`将暂停商店的列表和订单活动。 非活动存储将保留所有存储设置和列表，但会暂时停止定价、数量和订单管理的同步，直到存储重新更改为`Active`状态。 此功能允许您在区域级别控制商店活动，而无需重新创建或重新集成Amazon商店，或丢失历史订单和销售数据。
 
-   - **[!UICONTROL Delete]**  — 选择删除不再需要的存储。
+   - **[!UICONTROL Delete]** — 选择删除不再需要的存储。
 
-     选择您希望何时删除现有Amazon商店及其与的集成设置 [!DNL Amazon Seller Central] 帐户。 删除帐户会从Amazon销售渠道中删除该商店，以及所有帐户设置、列表、日志和与此商店相关的其他信息。 删除后无法检索存储，必须创建新存储。
+     选择您希望何时删除现有Amazon存储区及其与[!DNL Amazon Seller Central]帐户的集成设置。 删除帐户会从Amazon销售渠道中删除该商店，以及所有帐户设置、列表、日志和与此商店相关的其他信息。 删除后无法检索存储，必须创建新存储。
 
 >[!NOTE]
 >要更改集成期间分配给商店的网站，您必须删除商店，然后使用商店集成期间定义的其他网站重新添加商店。
 
 | 商店卡 | 描述 |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 顶部区域 | 包括： <br>存储的区域图标，在期间定义 [存储集成](./store-integration.md).<br> 已分配的 _[!UICONTROL Magento Website]_，在存储集成期间定义。<br>此_[!UICONTROL Status]_ 你店里的。 选项： **[!UICONTROL Active]**  — 商店集成已完成，并已通过Amazon验证，可用于“销售”活动。 **[!UICONTROL Inactive]**  — 商店集成已完成，但未使用或不可用于销售活动。 时间 `Inactive`，则您的Amazon销售额会暂停。 时间 `Active`、销售收入和其他设置保存以在激活之前更新。<br>此 *[!UICONTROL Last Updated]* 最近更改Amazon商店设置的日期。<br>此 *[!UICONTROL Created]* 在Amazon sales channel中创建Amazon商店的日期。 |
+| 顶部区域 | 包括： <br>存储区域图标，在[存储集成](./store-integration.md)期间定义。<br>在存储集成期间定义的分配的&#x200B;_[!UICONTROL Magento Website]_。<br>您的存储区的_[!UICONTROL Status]_。 选项： **[!UICONTROL Active]** — 商店集成已完成，并已通过Amazon验证，可用于Sales活动。 **[!UICONTROL Inactive]** — 商店集成已完成，但未使用或可用于销售活动。 当`Inactive`时，将暂停您的Amazon销售额。 当`Active`时，在激活之前保存销售收入和其他设置以进行更新。<br>最近更改Amazon商店设置的&#x200B;*[!UICONTROL Last Updated]*&#x200B;日期。<br>在Amazon sales channel中创建Amazon商店的&#x200B;*[!UICONTROL Created]*&#x200B;日期。 |
 | 中段 | 包括最近30天的商店活动摘要图表，并包含需要注意的任何列表和警报。 |
-| 底部部分 | 包括“查看存储”和“操作”选项。<br>打开商店 [仪表板](./amazon-store-dashboard.md)，单击 **[!UICONTROL View Store]**.<br>要激活、停用或删除存储，请单击 **[!UICONTROL Actions]**. |
+| 底部部分 | 包括“查看存储”和“操作”选项。<br>若要打开商店[仪表板](./amazon-store-dashboard.md)，请单击&#x200B;**[!UICONTROL View Store]**。<br>要激活、停用或删除存储，请单击&#x200B;**[!UICONTROL Actions]**。 |

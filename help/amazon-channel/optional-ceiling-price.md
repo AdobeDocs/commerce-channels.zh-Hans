@@ -5,7 +5,7 @@ feature: Sales Channels, Price Rules
 exl-id: edc40e6b-e71f-41a3-8d5f-8bb73ada42a3
 source-git-commit: b2e608a633b760672044653a22be757ecffc9540
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -24,23 +24,23 @@ ht-degree: 0%
 
 ## 配置可选的上限价格
 
-在中定义您的可选最高价格设置 _[!UICONTROL Optional Ceiling Price]_部分。
+在&#x200B;_[!UICONTROL Optional Ceiling Price]_部分中定义您的可选最高价格设置。
 
-1. 对象 **[!UICONTROL Ceiling Price Source]**，选择一个属性。
+1. 为&#x200B;**[!UICONTROL Ceiling Price Source]**&#x200B;选择一个属性。
 
-   选择您的 [!DNL Commerce] [产品属性](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) 这表示你的相对上限限制。 例如，如果您不希望Amazon的标价高于项目的MSRP，则可以选择 `Manufacturer's Suggested Retail Price` 属性。
+   选择指示相对上限的[!DNL Commerce] [产品属性](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html)。 例如，如果不希望您的Amazon列表价格高于项目的MSRP，则可以选择`Manufacturer's Suggested Retail Price`属性。
 
-1. 对象 **[!UICONTROL Ceiling Price Action]**，选择一个选项。
+1. 为&#x200B;**[!UICONTROL Ceiling Price Action]**&#x200B;选择一个选项。
 
-   - `Decrease By`  — 选择您何时需要 _[!UICONTROL Ceiling Price Source]_价值进行向下调整，从而降低规则的上限，然后才可挂牌到Amazon。
+   - `Decrease By` — 选择何时希望向下调整定义的&#x200B;_[!UICONTROL Ceiling Price Source]_值，以便降低规则的最高价格，然后再将其列出到Amazon。
 
-   - `Increase By`  — 选择您何时需要 _[!UICONTROL Ceiling Price Source]_值进行调整，从而为规则创造更高的最高价格，然后才可向Amazon上市。
+   - `Increase By` — 选择您希望何时向上调整定义的&#x200B;_[!UICONTROL Ceiling Price Source]_值，以便为规则创建更高的最高价格，然后再将其列出到Amazon。
 
-   - `Match`  — 在不希望挂牌价波动超过所定义的范围时选择 _[!UICONTROL Ceiling Price Source]_值。 当设置为 `Match`，_[!UICONTROL Apply]_ 和 _[!UICONTROL Ceiling Adjustment Amount]_字段被禁用。
+   - `Match` — 选择何时不希望清单价格波动超过定义的&#x200B;_[!UICONTROL Ceiling Price Source]_值。 当设置为`Match`时，_[!UICONTROL Apply]_&#x200B;和&#x200B;_[!UICONTROL Ceiling Adjustment Amount]_字段被禁用。
 
-1. 离开 **[!UICONTROL Apply]** 默认为 `Apply as percentage`.
+1. 将&#x200B;**[!UICONTROL Apply]**&#x200B;默认值保留为`Apply as percentage`。
 
-1. 对象 **[!UICONTROL Ceiling Adjustment Price]**，输入百分比的数字值以调整 _[!UICONTROL Ceiling Price Source]_值。
+1. 对于&#x200B;**[!UICONTROL Ceiling Adjustment Price]**，输入百分比的数字值以调整您的&#x200B;_[!UICONTROL Ceiling Price Source]_值。
 
 在此示例中，最高价格设置为比项目的管理系统更新项目低2%。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 | 字段 | 描述 |
 |---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Ceiling Price Source] | 选择 [!DNL Commerce] [产品属性](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) 这表示你的相对上限限制。 例如，如果您不希望产品清单价格高于项目的MSRP，则可以选择 `Manufacturer's Suggested Retail Price` 属性。 |
-| [!UICONTROL Ceiling Price Action] | 选择定价调整活动。 选项：<ul><li>**[!UICONTROL Decrease By]**  — 选择您何时需要 _[!UICONTROL Ceiling Price Source]_价值进行向下调整，从而降低规则的上限，然后才可挂牌到Amazon。</li><li>**[!UICONTROL Increase By]**  — 选择您何时需要 _[!UICONTROL Ceiling Price Source]_值进行调整，从而为规则创造更高的最高价格，然后才可向Amazon上市。</li><li>**[!UICONTROL Match]**  — 在不希望挂牌价波动超过所定义的范围时选择 _[!UICONTROL Ceiling Price Source]_值。 当设置为 `Match`，_[!UICONTROL Apply]_ 和 _[!UICONTROL Ceiling Adjustment Amount]_字段被禁用。</li></ul> |
-| [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]**  — 相对于 _[!UICONTROL Ceiling Price Source]_值。 |
-| [!UICONTROL Ceiling Price Adjustment] | 输入百分比的数字值以调整您的 _[!UICONTROL Ceiling Price Source]_值。 |
+| [!UICONTROL Ceiling Price Source] | 选择指示相对上限的[!DNL Commerce] [产品属性](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html)。 例如，如果您不希望产品清单价格高于项目的MSRP，则可以选择`Manufacturer's Suggested Retail Price`属性。 |
+| [!UICONTROL Ceiling Price Action] | 选择定价调整活动。 选项：<ul><li>**[!UICONTROL Decrease By]** — 选择何时希望向下调整定义的&#x200B;_[!UICONTROL Ceiling Price Source]_值，以便降低规则的最高价格，然后再将其列出到Amazon。</li><li>**[!UICONTROL Increase By]** — 选择您希望何时向上调整定义的&#x200B;_[!UICONTROL Ceiling Price Source]_值，以便为规则创建更高的最高价格，然后再将其列出到Amazon。</li><li>**[!UICONTROL Match]** — 选择何时不希望清单价格波动超过定义的&#x200B;_[!UICONTROL Ceiling Price Source]_值。 当设置为`Match`时，_[!UICONTROL Apply]_&#x200B;和&#x200B;_[!UICONTROL Ceiling Adjustment Amount]_字段被禁用。</li></ul> |
+| [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]** — 相对于&#x200B;_[!UICONTROL Ceiling Price Source]_值的百分比调整。 |
+| [!UICONTROL Ceiling Price Adjustment] | 输入百分比的数字值以调整您的&#x200B;_[!UICONTROL Ceiling Price Source]_值。 |

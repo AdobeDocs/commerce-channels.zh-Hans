@@ -16,15 +16,15 @@ ht-degree: 0%
 
 ## 查看Amazon订单详细信息
 
-1. 单击 **[!UICONTROL View Store]** 在商店卡上。
+1. 单击商店信息卡上的&#x200B;**[!UICONTROL View Store]**。
 
-1. 在 _[!UICONTROL Recent Orders]_部分，单击订单编号。
+1. 在&#x200B;_[!UICONTROL Recent Orders]_部分中，单击订单编号。
 
-   此 _[!UICONTROL Amazon Order Details]_页面将打开。
+   将打开&#x200B;_[!UICONTROL Amazon Order Details]_页面。
 
 >[!NOTE]
 >
->如果您在中启用了订单导入，则 [订单设置](./order-settings.md) 顺序是 [由Amazon(FBA)履行](./fulfilled-by.md)，您可能会在订单详细信息中看到某些字段的虚数据。 Amazon不会为FBA订单发送以下数据。
+>如果您在[订单设置](./order-settings.md)中启用了订单导入，并且订单已由Amazon (FBA)](./fulfilled-by.md)履行，则您可能会在订单详细信息中看到某些字段的虚数据。 [Amazon不会为FBA订单发送以下数据。
 >
 > - `AddressType`
 > - `AddressLine1`
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ### “订单和发运详细信息”标签
 
-此 _[!UICONTROL Order and Shipping Details]_选项卡显示从Amazon收到的详细订单信息。
+_[!UICONTROL Order and Shipping Details]_选项卡显示从Amazon收到的详细订单信息。
 
 >[!IMPORTANT]
 >
@@ -53,18 +53,18 @@ ht-degree: 0%
 >- `Shipping postal code`
 >- `Shipping country`
 >
->不要忘记单击 **保存顺序** 进行编辑之后。
+>进行编辑后，不要忘记单击&#x200B;**保存订单**。
 
 ![订单和送货详细信息](assets/amazon-order-details.png){width="600" zoomable="yes"}
 
 ### “订单项目”选项卡
 
-此 _[!UICONTROL Order Items]_选项卡显示从Amazon接收的、与Amazon订单关联的所有项目。
+_[!UICONTROL Order Items]_选项卡显示从Amazon接收的、与Amazon订单关联的所有项目。
 
-![订单项目详细信息](assets/amazon-order-item-details.png){width="600" zoomable="yes"}
+![订单项详细信息](assets/amazon-order-item-details.png){width="600" zoomable="yes"}
 
 ### “跟踪”选项卡
 
-此 _[!UICONTROL Tracking]_选项卡显示与Amazon订单关联的跟踪信息。
+_[!UICONTROL Tracking]_选项卡显示与Amazon订单关联的跟踪信息。
 
 ![跟踪详细信息](assets/amazon-order-tracking-details.png){width="600" zoomable="yes"}

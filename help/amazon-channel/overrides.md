@@ -1,55 +1,55 @@
 ---
-title: Amazon Sales Channel - [!UICONTROL Overrides]
+title: Amazon销售渠道 — [!UICONTROL Overrides]
 description: AmazonSales Channel提供了“覆盖”选项卡，以帮助您识别和管理如何在Amazon列表中应用覆盖。
 feature: Sales Channels, Price Rules
 exl-id: e31bbbf9-b20d-42fd-a419-93d596e40be2
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '903'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Overrides]
 
-此 _[!UICONTROL Overrides]_选项卡显示您已应用覆盖的Amazon列表。 覆盖是特定于列表的设置，可用于将定义的值设置为列表。 应用于列表的覆盖定义了列表的设置，而不管该列表符合条件的其他已定义的列表设置或规则。 将覆盖应用于列表后，该列表将显示在_[!UICONTROL Overrides]_ 选项卡。 覆盖中定义的值会显示在列表的相应列中。 有四种类型的覆盖可以应用：价格、处理时间、条件和卖方备注。
+_[!UICONTROL Overrides]_选项卡显示您已应用覆盖的Amazon列表。 覆盖是特定于列表的设置，可用于将定义的值设置为列表。 应用于列表的覆盖定义了列表的设置，而不管该列表符合条件的其他已定义的列表设置或规则。 将覆盖应用于列表后，该列表将出现在_[!UICONTROL Overrides]_&#x200B;选项卡上。 覆盖中定义的值会显示在列表的相应列中。 有四种类型的覆盖可以应用：价格、处理时间、条件和卖方备注。
 
 ## 覆盖的类型
 
 | 类型 | 描述 |
 |---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 价格 | 设置列表价格的覆盖，忽略列表的所有其他价格设置。 <br><br>**示例**：您已定义一个20%折扣价格规则，该规则适用于您目录的特定类别中的所有产品。 您有一个产品是新市场产品，而且需求量很大，因此即使产品属于该类别，您也不希望将折扣价应用于列表。 您可以选择列表， [创建价格覆盖](./creating-editing-overrides.md#edit-override-single-listing)，并在价格覆盖中定义上市价格。 |
-| 处理时间 | 设置列表的处理时间的覆盖，忽略在列表设置中设置的默认处理时间。<br><br>**示例**：列表的默认处理时间设置为2天。 您有一个脆弱的产品，需要额外的一天来确保它的特殊包装可供运输。 您可以查看列表， [创建处理时间覆盖](./creating-editing-overrides.md#edit-override-single-listing)，并将处理时间定义为三天。<br><br>**注意：** 不可用于设置为的产品 `Fulfilled by Amazon`. |
-| 条件 | 一种覆盖，它设置清单的条件值，而不考虑分配给清单的条件属性。<br><br>**示例**：目录中的大多数产品都处于新状态，但您的产品却处于翻新状态。 您可以查看列表， [创建条件覆盖](./creating-editing-overrides.md#edit-override-single-listing)，并定义清单的翻新条件。<br><br>**注意：** 不可用于设置为的产品 `Fulfilled by Amazon`. |
-| 卖方备注 | 定义 _卖方备注_ 部分。 此字段可用于添加与所应用产品或覆盖相关的其他信息，通常用于描述“非新”产品的条件。 此字段中的文本随购物者的列表一起显示。 无法为条件值为“ ”的列表添加卖方注释 `New`. <br><br>**示例**：您有一个产品正在使用 `Refurbished` 条件。 通常情况下，此状态下的产品不包含任何手册或文档，但您有此产品的其他供应商，其中包括手册。 您可以查看列表， [创建卖方备注覆盖](./creating-editing-overrides.md#edit-override-single-listing)，并添加您手册中特定于此列表的文本注释，以便购物者知道手册中包含该内容。<br><br>**注意**：如果产品的定义条件为 `New`，您可以输入“卖方笔记”覆盖，但Amazon不显示卖方笔记 `New` 产品。 |
+| 价格 | 设置列表价格的覆盖，忽略列表的所有其他价格设置。 <br><br>**示例**：您已定义一个20%折扣价格规则，该规则适用于您目录的特定类别中的所有产品。 您有一个产品是新市场产品，而且需求量很大，因此即使产品属于该类别，您也不希望将折扣价应用于列表。 您可以选择列表，[创建价格覆盖](./creating-editing-overrides.md#edit-override-single-listing)，并在价格覆盖中定义列表价格。 |
+| 处理时间 | 设置列表的处理时间的覆盖，忽略在列表设置中设置的默认处理时间。<br><br>**示例**：您的清单的默认处理时间设置为2天。 您有一个脆弱的产品，需要额外的一天来确保它的特殊包装可供运输。 您可以查看列表，[创建处理时间覆盖](./creating-editing-overrides.md#edit-override-single-listing)，并在三天后定义处理时间。<br><br>**注意：**&#x200B;对于设置为`Fulfilled by Amazon`的产品不可用。 |
+| 条件 | 一种覆盖，它设置清单的条件值，而不考虑分配给清单的条件属性。<br><br>**示例**：目录中的产品大部分是新条件，但您的产品处于翻新状态。 您可以查看该清单，[创建条件覆盖](./creating-editing-overrides.md#edit-override-single-listing)，并为该清单定义翻新条件。<br><br>**注意：**&#x200B;对于设置为`Fulfilled by Amazon`的产品不可用。 |
+| 卖方备注 | 定义列表的&#x200B;_卖方备注_&#x200B;部分的覆盖。 此字段可用于添加与所应用产品或覆盖相关的其他信息，通常用于描述“非新”产品的条件。 此字段中的文本随购物者的列表一起显示。 无法为条件值为`New`的列表添加卖方注释。 <br><br>**示例**：您的产品处于`Refurbished`状态。 通常情况下，此状态下的产品不包含任何手册或文档，但您有此产品的其他供应商，其中包括手册。 您可以查看此列表，[创建销售者备注覆盖](./creating-editing-overrides.md#edit-override-single-listing)，并添加此列表独有的与手册相关的文本备注，以便购物者知道该备注已包含在内。<br><br>**备注**：如果产品的定义条件为`New`，则可以输入销售方备注覆盖，但Amazon不显示`New`产品的销售方备注。 |
 
-您可以创建、编辑或移除的覆盖 [单一列表](./creating-editing-overrides.md#edit-override-single-listing). 在 _[!UICONTROL Inactive]_，_[!UICONTROL Active]_、和 _[!UICONTROL Ineligible]_选项卡，您可以单击&#x200B;**[!UICONTROL Select]**在_[!UICONTROL Action]_ 列并选择 **[!UICONTROL Create Override]**. 此 _[!UICONTROL Edit Overrides]_仅当列表应用了覆盖并在以下位置查看时，操作才可用_[!UICONTROL Overrides]_ 选项卡。
+您可以为[单个列表](./creating-editing-overrides.md#edit-override-single-listing)创建、编辑或移除覆盖。 在&#x200B;_[!UICONTROL Inactive]_、_[!UICONTROL Active]_&#x200B;和&#x200B;_[!UICONTROL Ineligible]_选项卡上，您可以单击_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Select]**&#x200B;并选择&#x200B;**[!UICONTROL Create Override]**。 仅当列表应用了覆盖并在&#x200B;_[!UICONTROL Overrides]_选项卡上查看时，_[!UICONTROL Edit Overrides]_&#x200B;操作才可用。
 
-您还可以创建、编辑或删除覆盖 [多个列表](./creating-editing-overrides.md#edit-override-multiple-listings). 在 _[!UICONTROL Inactive]_，_[!UICONTROL Active]_、和 _[!UICONTROL Ineligible]_选项卡，您可以单击&#x200B;**[!UICONTROL Select]**在_[!UICONTROL Action]_ 列并选择 **[!UICONTROL Edit Listing Overrides]**.
+您还可以创建、编辑或删除[多个列表](./creating-editing-overrides.md#edit-override-multiple-listings)的覆盖。 在&#x200B;_[!UICONTROL Inactive]_、_[!UICONTROL Active]_&#x200B;和&#x200B;_[!UICONTROL Ineligible]_选项卡上，您可以单击_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Select]**&#x200B;并选择&#x200B;**[!UICONTROL Edit Listing Overrides]**。
 
 删除覆盖将告知列表使用由列表设置和规则定义的值。
 
 在定义改写时，您还可以选择输入单个改写类型或类型的任意组合。
 
-请参阅 [创建和编辑覆盖](./creating-editing-overrides.md).
+请参阅[创建和编辑覆盖](./creating-editing-overrides.md)。
 
 >[!NOTE]
 >
 >如果您正在处理列表，则列表数将显示在选项卡上方的消息中。
 
-![“覆盖”选项卡](assets/amazon-overrides.png){width="600" zoomable="yes"}
+![覆盖选项卡](assets/amazon-overrides.png){width="600" zoomable="yes"}
 
-Amazon sales channel主页共享一些常见的 [工作区控件](./workspace-controls.md) 允许您自定义显示的数据。
+Amazon sales channel主页共享一些常用的[工作区控件](./workspace-controls.md)，这些控件允许您自定义显示的数据。
 
 ## 默认列
 
 | 列 | 描述 |
 |------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Seller SKU] | Amazon为产品分配的SKU（库存单位），用于标识产品、选件、价格和制造商。 |
-| [!UICONTROL ASIN] | 由10个字母和/或数字组成的唯一用于标识项目的块。<br><br>ASIN表示Amazon标准标识号。 ASIN是由10个字母和/或数字组成的唯一块，用于标识项目。 对于书籍，ASIN与ISBN编号相同，但对于所有其他产品，当项目上传到其目录时，会创建一个新的ASIN。 您可以在Amazon的产品详细信息页面上找到项目ASIN，以及与该项目相关的更多详细信息。 |
-| [!UICONTROL Condition Override] | 覆盖中定义的新条件。 如果应用于列表的覆盖不是条件覆盖， `Not Selected` 将显示在此列中。 |
+| [!UICONTROL ASIN] | 由10个字母和/或数字组成的唯一用于标识项目的块。<br><br>ASIN代表Amazon标准标识号。 ASIN是由10个字母和/或数字组成的唯一块，用于标识项目。 对于书籍，ASIN与ISBN编号相同，但对于所有其他产品，当项目上传到其目录时，会创建一个新的ASIN。 您可以在Amazon的产品详细信息页面上找到项目ASIN，以及与该项目相关的更多详细信息。 |
+| [!UICONTROL Condition Override] | 覆盖中定义的新条件。 如果应用于列表的覆盖不是条件覆盖，则此列中会显示`Not Selected`。 |
 | [!UICONTROL Product Listing Name] | 产品的名称。 |
 | [!UICONTROL Seller Notes Override] | 覆盖中定义的新卖方备注。 如果应用于列表的覆盖不是此类型的覆盖，则此列为空。 |
 | [!UICONTROL Handling Override] | 覆盖中定义的新处理时间（以天为单位）。 如果应用于列表的覆盖不是处理时间覆盖，则此列为空。 |
-| [!UICONTROL List Price Override] | 覆盖中定义的新上市价格。 如果应用于列表的改写不是价格改写， `N/A` 将显示在此列中。 |
-| [!UICONTROL Action] | 可应用于特定列表的可用操作的列表。 要应用操作，请在 _[!UICONTROL Action]_列，单击&#x200B;**[!UICONTROL Select]**并选择一个选项：<ul><li>[[!UICONTROL Edit Overrides]](./creating-editing-overrides.md#edit-override-single-listing)</li><li>[[!UICONTROL View Details]](./product-listing-details.md)</li></ul> |
+| [!UICONTROL List Price Override] | 覆盖中定义的新上市价格。 如果应用于列表的覆盖不是价格覆盖，则`N/A`将显示在此列中。 |
+| [!UICONTROL Action] | 可应用于特定列表的可用操作的列表。 要应用操作，请在&#x200B;_[!UICONTROL Action]_列中单击&#x200B;**[!UICONTROL Select]**并选择选项：<ul><li>[[!UICONTROL Edit Overrides]](./creating-editing-overrides.md#edit-override-single-listing)</li><li>[[!UICONTROL View Details]](./product-listing-details.md)</li></ul> |

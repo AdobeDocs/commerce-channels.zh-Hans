@@ -4,7 +4,7 @@ description: '安装[!DNL Channel Manager]扩展。'
 role: Admin, Developer
 feature: Sales Channels, Install
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
+source-git-commit: 1e74150e6ac88dbabb2e4bbb2fa2f243072eb03f
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Channel Manager的安装说明取决于Adobe Commerce或Magento Open Source是�
 
      示例响应：
 
-     ```terminal
+     ```
      Module is enabled
      ```
 
@@ -154,7 +154,7 @@ Channel Manager的安装说明取决于Adobe Commerce或Magento Open Source是�
 
 示例响应：
 
-```terminal
+```
 Module is enabled
 ```
 
@@ -176,7 +176,7 @@ Module is enabled
 
 如果用于对Composer存储库进行身份验证的[访问密钥](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html)无效，或者未链接到用于注册[!DNL Channel Manager]服务的[!DNL MAGE ID]，则显示以下错误。
 
-```terminal
+```
 Could not find a matching version of package magento/channel-manager. Check the package spelling, your version constraint and that the package is available in a stability which matches your minimum-stability (stable).
 ```
 
@@ -200,7 +200,7 @@ Could not find a matching version of package magento/channel-manager. Check the 
 
 如果系统没有为PHP分配足够的内存，则显示以下错误。
 
-```terminal
+```
 Fatal error: Allowed memory size of 2146435072 bytes exhausted (tried to allocate 4096 bytes) in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php on line 52
 ```
 
